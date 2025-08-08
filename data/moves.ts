@@ -22133,4 +22133,63 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+	// MOOD MOVES 
+   braindamage: {
+		accuracy: 80,
+		basePower: 150,
+		category: "Physical",
+		name: "Brain Damage",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	multiprises: {
+		num: 331,
+		accuracy: 100,
+		basePower: 25,
+		category: "Special",
+		name: "Multi-Prises",
+		pp: 30,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		zMove: { basePower: 140 },
+		maxMove: { basePower: 130 },
+		contestType: "Cool",
+	},
+	carniplant: {
+		num: 827,
+		accuracy: 95,
+		basePower: 85,
+		category: "Physical",
+		name: "Carniplant",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, bite: 1, protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 30,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('psn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('tox', source);
+				}
+			}, {
+				chance: 30,
+				volatileStatus: 'flinch',
+			},
+		},
+		target: "normal",
+		type: "Grass",
+	},
 };
