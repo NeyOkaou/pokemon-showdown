@@ -22184,9 +22184,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				} else {
 					target.trySetStatus('tox', source);
 				}
-			}, {
-				chance: 30,
-				volatileStatus: 'flinch',
 			},
 		},
 		target: "normal",
