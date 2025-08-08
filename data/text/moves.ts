@@ -7598,6 +7598,21 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Zing Zap",
 		desc: "Has a 30% chance to make the target flinch.",
 		shortDesc: "30% chance to make the target flinch.",
+	}, 
+   braindamage: {
+		name: "Brain Damage",
+		desc: "Does 50% of damage done to the user.",
+		shortDesc: "Has 1/2 Recoil.",
+	},
+	multiprises: {
+		name: "Multi-Prises",
+		desc: "Hits 2-5 Times.",
+		shortDesc: "Hits 2-5 Times.",
+	},
+	carniplant: {
+		name: "Carniplant",
+		desc: "Has a 30% chance to cause the target to either become badly poisoned, become poisoned, or become paralyzed. Also has a 30% chance to flinch.",
+		shortDesc: "30% chance to poison, badly poison, or paralyze target. 30% Flinch chance.",
 	},
 	zippyzap: {
 		name: "Zippy Zap",
