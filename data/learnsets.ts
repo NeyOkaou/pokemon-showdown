@@ -19,6 +19,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			playrough: ["9L35"],
 			thunderclap: ["9L37"],
 			boltbeak: ["9L40"], 
+			braindamage: ["9L40"], 
 			dualwingbeat: ["9L42"], 
 			featherdance: ["9L45"],   
 			outrage: ["9L52"],
