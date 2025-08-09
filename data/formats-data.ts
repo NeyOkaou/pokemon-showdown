@@ -1,4 +1,15 @@
 export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable = {
+	//START MOODMON
+	zapek: {
+		tier:"LC",
+	},
+	pikorage: {
+		tier:"NFE",
+	},
+	cockalypse: {
+		tier:"OU",
+	},
+	//END MOODMON
 	bulbasaur: {
 		tier: "LC",
 	},
