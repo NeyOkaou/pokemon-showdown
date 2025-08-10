@@ -2,14 +2,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	//STARTMOODMON
 	zapek: {
 		tier:"LC",
+		isNonstandard: "Past",
 		natDexTier: "LC",
 	},
 	pikorage: {
 		tier:"NFE",
+		isNonstandard: "Past",
 		natDexTier: "NFE",
 	},
 	cockalypse: {
 		tier:"OU",
+		isNonstandard: "Future",
 		natDexTier: "OU",
 	},
 	//END MOODMON
