@@ -2,7 +2,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	//STARTMOODMON
 	zapek: {
 		tier:"LC",
-		isNonstandard: "Past",
+		isNonstandard: "Custom",
 		natDexTier: "LC",
 	},
 	pikorage: {
@@ -15,7 +15,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Future",
 		natDexTier: "OU",
 	},
-	//END MOODMON
+	//END MOODMONÙ
 	bulbasaur: {
 		tier: "Illegal",
 	},
