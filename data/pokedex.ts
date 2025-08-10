@@ -19856,6 +19856,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		evos: ["Pikorage"],
 		eggGroups: ["Flying", "Dragon"],
+		gen: 9,
 	},
 	pikorage: {
 		num: -5003,
@@ -19871,6 +19872,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 30,
 		evos: ["Cockalypse"],
 		eggGroups: ["Flying", "Dragon"],
+		gen: 9,
 	},
 	cockalypse: {
 		num: -5004,
@@ -19886,5 +19888,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Shiny Stone",
 		eggGroups: ["Flying", "Dragon"],
+		gen: 9,
 	},
 };
