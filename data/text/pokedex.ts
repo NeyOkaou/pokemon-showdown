@@ -1,4 +1,13 @@
 export const PokedexText: { [id: IDEntry]: PokedexText } = {
+	zapek: {
+		name: "Zapek",
+	},
+	pikorage: {
+		name: "Pikorage",
+	},
+	cockalypse: {
+		name: "Cockalypse",
+	},
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
