@@ -85,25 +85,25 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] UU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] OU', 'Terastal Clause'],
+		ruleset: ['[Gen 9] OU'],
 		banlist: ['OU', 'UUBL'],
 	},
 	{
 		name: "[Gen 9] RU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] UU', 'Terastal Clause'],
+		ruleset: ['[Gen 9] UU'],
 		banlist: ['UU', 'RUBL', 'Light Clay'],
 	},
 	{
 		name: "[Gen 9] NU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] RU', 'Terastal Clause'],
+		ruleset: ['[Gen 9] RU'],
 		banlist: ['RU', 'NUBL', 'Drought', 'Quick Claw'],
 	},
 	{
 		name: "[Gen 9] PU",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] NU', 'Terastal Clause'],
+		ruleset: ['[Gen 9] NU'],
 		banlist: ['NU', 'PUBL', 'Damp Rock'],
 	},
 	{
