@@ -11,6 +11,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	gesticot: {
+		tier:"LC",
+	},
+	terrakami: {
+		tier:"OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMONÙ
 	bulbasaur: {
 		tier: "Illegal",
