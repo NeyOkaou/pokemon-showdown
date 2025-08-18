@@ -5,7 +5,7 @@
  *
  * @type {number}
  */
-exports.port = 8001;
+exports.port = 8000;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
@@ -461,7 +461,6 @@ exports.appealurl = '';
  * replsocketmode - the file mode bits to use for the repl sockets
  */
 exports.repl = false;
-exports.nofswriting = true;
 exports.replsocketprefix = './logs/repl/';
 exports.replsocketmode = 0o600;
 
