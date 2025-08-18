@@ -2698,7 +2698,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	garchompmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "(OU)",
+		natDexTier: "Illegal",
 	},
 	riolu: {
 		tier: "Illegal",
