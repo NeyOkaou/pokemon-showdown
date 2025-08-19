@@ -4,7 +4,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier:"LC",
 	},
 	pikorage: {
-		tier:"NFE"
+		tier:"NFE",
 	},
 	cockalypse: {
 		tier:"OU",

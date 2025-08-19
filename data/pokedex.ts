@@ -19934,7 +19934,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	figgon: {
 		num: -5008,
-		name: "Saladrake",
+		name: "Figgon",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 33, atk: 40, def: 25, spa: 15, spd: 42, spe: 50 },
