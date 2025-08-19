@@ -1660,7 +1660,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePowerCallback(pokemon, target, move) {
 			if (target.newlySwitched || this.queue.willMove(target)) {
 				this.debug('Bolt Beak damage boost');
-				return move.basePower * 1.3;
+				return move.basePower * 1.5;
 			}
 			this.debug('Bolt Beak NOT boosted');
 			return move.basePower;
@@ -3435,12 +3435,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Physical",
 		isNonstandard: "Unobtainable",
 		name: "Cut",
-		pp: 30,
+		pp: 10,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Steel",
 		contestType: "Cool",
 	},
 	darkestlariat: {
@@ -22134,7 +22134,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Beautiful",
 	},
 	// MOOD MOVES 
-   braindamage: {
+	braindamage: {
+		num: -100,
 		accuracy: 80,
 		basePower: 150,
 		category: "Physical",
@@ -22148,12 +22149,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 	},
 	multiprises: {
-		num: 331,
-		accuracy: 100,
-		basePower: 25,
+		num: -101,
+		accuracy: 90,
+		basePower: 20,
 		category: "Special",
 		name: "Multi-Prises",
-		pp: 30,
+		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
 		multihit: [2, 5],
@@ -22165,7 +22166,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	carniplant: {
-		num: 827,
+		num: -102,
 		accuracy: 95,
 		basePower: 85,
 		category: "Physical",
@@ -22188,5 +22189,37 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 		type: "Grass",
+	},
+	dragonblade: {
+		num: -103,
+		accuracy: 80,
+		basePower: 100,
+		category: "Physical",
+		name: "Dragon Blade",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, slicing: 1, contact: 1 },
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Steel') return 1;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		zMove: { basePower: 175 },
+		contestType: "Cool",
+	},
+	quickslice: {
+		num: -104,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Quick Slice",
+		pp: 20,
+		priority: 1,
+		flags: { protect: 1, mirror: 1, metronome: 1, slicing: 1, contact: 1 },
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
 	},
 };
