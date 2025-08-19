@@ -19979,4 +19979,3 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gen: 9,
 	},
 };
-
