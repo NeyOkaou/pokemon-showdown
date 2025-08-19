@@ -19925,7 +19925,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Puyotan",
 		types: ["Dragon"],
 		gender: "N",
-		baseStats: { hp: 84, atk: 40, def: 70, spa: 70, spd: 40, spe: 80 },
+		baseStats: { hp: 84, atk: 80, def: 80, spa: 70, spd: 82, spe: 80 },
 		abilities: { 0: "Marvel Scale", 1: "Berserk", H: "Imposter" },
 		heightm: 1,
 		weightkg: 50,
