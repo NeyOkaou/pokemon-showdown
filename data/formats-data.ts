@@ -24,6 +24,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	figgon: {
+		tier:"LC",
+	},
+	saladrake: {
+		tier:"NFE",
+	},
+	auberjaw: {
+		tier:"OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMONÙ
 	bulbasaur: {
 		tier: "Illegal",
