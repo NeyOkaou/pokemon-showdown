@@ -7598,8 +7598,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Zing Zap",
 		desc: "Has a 30% chance to make the target flinch.",
 		shortDesc: "30% chance to make the target flinch.",
-	}, 
-   braindamage: {
+	},
+	braindamage: {
 		name: "Brain Damage",
 		desc: "Does 50% of damage done to the user.",
 		shortDesc: "Has 1/2 Recoil.",
@@ -7613,6 +7613,16 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Carniplant",
 		desc: "Has a 30% chance to cause the target to either become badly poisoned, become poisoned, or become paralyzed.",
 		shortDesc: "30% chance to poison, badly poison, or paralyze target.",
+	},
+	dragonblade: {
+		name: "Dragon Blade",
+		desc: "This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Steel.",
+	},
+	quickslash: {
+		name: "Quick Slash",
+		desc: "Usually goes first. Has a higher chance for a critical hit.",
+		shortDesc: "Usually goes first. High critical hit ratio.",
 	},
 	zippyzap: {
 		name: "Zippy Zap",
