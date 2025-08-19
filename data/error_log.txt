@@ -1,0 +1,327 @@
+2025-08-19 15:35:54,605 - INFO - SUCCESS: Stopping the showdown service | sudo systemctl stop showdown
+2025-08-19 15:36:01,566 - INFO - SUCCESS: Updating pokemon-showdown | bash -c cd /var/www/pokemon-showdown && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 15:36:01,567 - DEBUG - STDOUT: Already up to date.
+2025-08-19 15:36:02,512 - ERROR - FAIL: Updating pokemon-showdown-client | bash -c cd /var/www/pokemon-showdown-client && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 15:36:02,513 - ERROR - STDOUT: Already up to date.
+Syncing data from Git repository...
+2025-08-19 15:36:02,513 - ERROR - STDERR: From https://github.com/NeyOkaou/pokemon-showdown-client
+ * branch              master     -> FETCH_HEAD
+From https://github.com/NeyOkaou/pokemon-showdown
+   5518211a1..4091633aa  master     -> origin/master
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: git pull
+From https://github.com/NeyOkaou/pokemon-showdown
+   5518211a1..4091633aa  master     -> origin/master
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at Object.execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build-tools/build-indexes:18:15)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(782) [Uint8Array] [
+       70, 114, 111, 109,  32, 104, 116, 116, 112, 115,  58,  47,
+       47, 103, 105, 116, 104, 117,  98,  46,  99, 111, 109,  47,
+       78, 101, 121,  79, 107,  97, 111, 117,  47, 112, 111, 107,
+      101, 109, 111, 110,  45, 115, 104, 111, 119, 100, 111, 119,
+      110,  10,  32,  32,  32,  53,  53,  49,  56,  50,  49,  49,
+       97,  49,  46,  46,  52,  48,  57,  49,  54,  51,  51,  97,
+       97,  32,  32, 109,  97, 115, 116, 101, 114,  32,  32,  32,
+       32,  32,  45,  62,  32, 111, 114, 105, 103, 105, 110,  47,
+      109,  97, 115, 116,
+      ... 682 more items
+    ]
+  ],
+  pid: 14125,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(782) [Uint8Array] [
+     70, 114, 111, 109,  32, 104, 116, 116, 112, 115,  58,  47,
+     47, 103, 105, 116, 104, 117,  98,  46,  99, 111, 109,  47,
+     78, 101, 121,  79, 107,  97, 111, 117,  47, 112, 111, 107,
+    101, 109, 111, 110,  45, 115, 104, 111, 119, 100, 111, 119,
+    110,  10,  32,  32,  32,  53,  53,  49,  56,  50,  49,  49,
+     97,  49,  46,  46,  52,  48,  57,  49,  54,  51,  51,  97,
+     97,  32,  32, 109,  97, 115, 116, 101, 114,  32,  32,  32,
+     32,  32,  45,  62,  32, 111, 114, 105, 103, 105, 110,  47,
+    109,  97, 115, 116,
+    ... 682 more items
+  ]
+}
+
+Node.js v22.18.0
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: node ./build-tools/build-indexes
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build:37:2)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 14117,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v22.18.0
+2025-08-19 15:36:02,513 - WARNING - Updating pokemon-showdown-client failed, retrying in 5s...
+2025-08-19 15:36:08,303 - ERROR - FAIL: Updating pokemon-showdown-client | bash -c cd /var/www/pokemon-showdown-client && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 15:36:08,303 - ERROR - STDOUT: Already up to date.
+Syncing data from Git repository...
+2025-08-19 15:36:08,304 - ERROR - STDERR: From https://github.com/NeyOkaou/pokemon-showdown-client
+ * branch              master     -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: git pull
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at Object.execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build-tools/build-indexes:18:15)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(679) [Uint8Array] [
+      104, 105, 110, 116,  58,  32,  89, 111, 117,  32, 104,  97,
+      118, 101,  32, 100, 105, 118, 101, 114, 103, 101, 110, 116,
+       32,  98, 114,  97, 110,  99, 104, 101, 115,  32,  97, 110,
+      100,  32, 110, 101, 101, 100,  32, 116, 111,  32, 115, 112,
+      101,  99, 105, 102, 121,  32, 104, 111, 119,  32, 116, 111,
+       32, 114, 101,  99, 111, 110,  99, 105, 108, 101,  32, 116,
+      104, 101, 109,  46,  10, 104, 105, 110, 116,  58,  32,  89,
+      111, 117,  32,  99,  97, 110,  32, 100, 111,  32, 115, 111,
+       32,  98, 121,  32,
+      ... 579 more items
+    ]
+  ],
+  pid: 14162,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(679) [Uint8Array] [
+    104, 105, 110, 116,  58,  32,  89, 111, 117,  32, 104,  97,
+    118, 101,  32, 100, 105, 118, 101, 114, 103, 101, 110, 116,
+     32,  98, 114,  97, 110,  99, 104, 101, 115,  32,  97, 110,
+    100,  32, 110, 101, 101, 100,  32, 116, 111,  32, 115, 112,
+    101,  99, 105, 102, 121,  32, 104, 111, 119,  32, 116, 111,
+     32, 114, 101,  99, 111, 110,  99, 105, 108, 101,  32, 116,
+    104, 101, 109,  46,  10, 104, 105, 110, 116,  58,  32,  89,
+    111, 117,  32,  99,  97, 110,  32, 100, 111,  32, 115, 111,
+     32,  98, 121,  32,
+    ... 579 more items
+  ]
+}
+
+Node.js v22.18.0
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: node ./build-tools/build-indexes
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build:37:2)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 14154,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v22.18.0
+2025-08-19 15:36:08,304 - WARNING - Updating pokemon-showdown-client failed, retrying in 5s...
+2025-08-19 15:36:14,054 - ERROR - FAIL: Updating pokemon-showdown-client | bash -c cd /var/www/pokemon-showdown-client && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 15:36:14,054 - ERROR - STDOUT: Already up to date.
+Syncing data from Git repository...
+2025-08-19 15:36:14,054 - ERROR - STDERR: From https://github.com/NeyOkaou/pokemon-showdown-client
+ * branch              master     -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: git pull
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at Object.execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build-tools/build-indexes:18:15)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    Buffer(0) [Uint8Array] [],
+    Buffer(679) [Uint8Array] [
+      104, 105, 110, 116,  58,  32,  89, 111, 117,  32, 104,  97,
+      118, 101,  32, 100, 105, 118, 101, 114, 103, 101, 110, 116,
+       32,  98, 114,  97, 110,  99, 104, 101, 115,  32,  97, 110,
+      100,  32, 110, 101, 101, 100,  32, 116, 111,  32, 115, 112,
+      101,  99, 105, 102, 121,  32, 104, 111, 119,  32, 116, 111,
+       32, 114, 101,  99, 111, 110,  99, 105, 108, 101,  32, 116,
+      104, 101, 109,  46,  10, 104, 105, 110, 116,  58,  32,  89,
+      111, 117,  32,  99,  97, 110,  32, 100, 111,  32, 115, 111,
+       32,  98, 121,  32,
+      ... 579 more items
+    ]
+  ],
+  pid: 14197,
+  stdout: Buffer(0) [Uint8Array] [],
+  stderr: Buffer(679) [Uint8Array] [
+    104, 105, 110, 116,  58,  32,  89, 111, 117,  32, 104,  97,
+    118, 101,  32, 100, 105, 118, 101, 114, 103, 101, 110, 116,
+     32,  98, 114,  97, 110,  99, 104, 101, 115,  32,  97, 110,
+    100,  32, 110, 101, 101, 100,  32, 116, 111,  32, 115, 112,
+    101,  99, 105, 102, 121,  32, 104, 111, 119,  32, 116, 111,
+     32, 114, 101,  99, 111, 110,  99, 105, 108, 101,  32, 116,
+    104, 101, 109,  46,  10, 104, 105, 110, 116,  58,  32,  89,
+    111, 117,  32,  99,  97, 110,  32, 100, 111,  32, 115, 111,
+     32,  98, 121,  32,
+    ... 579 more items
+  ]
+}
+
+Node.js v22.18.0
+node:child_process:990
+    throw err;
+    ^
+
+Error: Command failed: node ./build-tools/build-indexes
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:915:11)
+    at execSync (node:child_process:987:15)
+    at Object.<anonymous> (/var/www/pokemon-showdown-client/build:37:2)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 14189,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v22.18.0
