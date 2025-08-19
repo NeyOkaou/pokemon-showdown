@@ -535,7 +535,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodyslam: ["9M"],
 			doubleteam: ["9M"],
 			facade: ["9M"],
-			//snaptrap: ["9L45"],
 			rest: ["9M"],
 			attract: ["9M"],
 			swagger: ["9M"],
@@ -585,7 +584,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodypress: ["9M"],
 			rocksmash: ["9M"],
 			cut: ["9M"],
-			//snaptrap: ["9L45"],
 			sunnyday: ["9M"],
 			protect: ["9M"],
 			frustration: ["9M"],
@@ -604,8 +602,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	auberjaw: {
 		learnset: {
+			snaptrap: ["9L1"],
 			leafage: ["9L1"],
-			//snaptrap: ["9L45"],
 			eggbomb: ["9L1"],
 			growl: ["9L1"],
 			growth: ["9L8"],
