@@ -19920,5 +19920,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Amorphous", "Dragon"],
 		gen: 9,
 	},
-	
+	puyotan: {
+		num: -5007,
+		name: "Puyotan",
+		types: ["Dragon"],
+		gender: "N",
+		baseStats: { hp: 84, atk: 40, def: 70, spa: 70, spd: 40, spe: 80 },
+		abilities: { 0: "Marvel Scale", 1: "Berserk", H: "Imposter" },
+		heightm: 1,
+		weightkg: 50,
+		color: "Blue",
+		eggGroups: ["Ditto"],
+	},
 };
