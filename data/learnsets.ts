@@ -385,7 +385,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {    
 			reflecttype: ["9M"],
 			bellydrum: ["9M"],
-			copytype: ["9M"],
+			copycat: ["9M"],
 			bubblebeam: ["9M"],
 			bouncybubble: ["9M"],
 			bubble: ["9M"],
