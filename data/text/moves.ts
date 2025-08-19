@@ -7620,8 +7620,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
 		shortDesc: "Super effective on Steel.",
 	},
-	quickslash: {
-		name: "Quick Slash",
+	quickslice: {
+		name: "Quick Slice",
 		desc: "Usually goes first. Has a higher chance for a critical hit.",
 		shortDesc: "Usually goes first. High critical hit ratio.",
 	},
