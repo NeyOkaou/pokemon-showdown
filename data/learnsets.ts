@@ -384,6 +384,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	puyotan: {
 		learnset: {    
 			reflecttype: ["9M"],
+			copytype: ["9M"],
+			bubblebeam: ["9M"],
+			bouncybubble: ["9M"],
+			bubble: ["9M"],
+			superpower: ["9M"],
+			braindamage: ["9M"],
 			pound: ["9M"],
 			amnesia: ["9M"],
 			metronome: ["9M"],
