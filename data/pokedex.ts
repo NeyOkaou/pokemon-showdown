@@ -19978,4 +19978,15 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Grass", "Dragon"],
 		gen: 9,
 	},
+	gyaoon: {
+		num: -5011,
+		name: "Gyaoon",
+		types: ["Normal","Dragon"],
+		gender: { M: 0.5, F: 0.5 },
+		baseStats: { hp:55, atk: 90, def: 100, spa: 75, spd: 110, spe: 65 },
+		abilities: { 0: "Unaware", 1: "Fluffy", H: "Unnerve" },
+		heightm: 1.50,
+		weightkg: 40,
+		color: "Green",
+		eggGroups: ["Monster","Dragon"],
 };
