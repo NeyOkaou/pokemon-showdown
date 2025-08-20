@@ -1,0 +1,23 @@
+2025-08-19 16:00:11,203 - INFO - SUCCESS: Stopping the showdown service | sudo systemctl stop showdown
+2025-08-19 16:00:16,463 - INFO - SUCCESS: Updating pokemon-showdown | bash -c cd /var/www/pokemon-showdown && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 16:00:16,463 - DEBUG - STDOUT: Already up to date.
+2025-08-19 16:00:39,098 - INFO - SUCCESS: Updating pokemon-showdown-client | bash -c cd /var/www/pokemon-showdown-client && sudo -u showdown git pull origin master && sudo -u showdown node build full
+2025-08-19 16:00:39,098 - DEBUG - STDOUT: Already up to date.
+Syncing data from Git repository... DONE
+Loading gen 6 data... DONE
+Building `data/search-index.js`... 
+(WARNING: NO ARTICLES)
+DONE
+Building `data/teambuilder-tables.js`... DONE
+Building `data/pokedex.js`... DONE
+Building `data/moves,items,abilities,typechart,learnsets.js`...DONE
+Updating file `data/learnsets-g6`... DONE
+Updating animated sprite dimensions... SKIPPED
+Updating version... DONE
+Compiling TS files... (9 files in 1.536s) DONE
+Updating cachebuster and URLs... and news... DONE
+Building `data/commands.json` index...
+DONE
+Updating hashes... DONE
+Writing new `wrapper.inc.php` file... DONE
+2025-08-19 16:00:39,124 - INFO - SUCCESS: Starting the showdown service | sudo systemctl start showdown
