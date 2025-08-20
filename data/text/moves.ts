@@ -7625,11 +7625,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Usually goes first. Has a higher chance for a critical hit.",
 		shortDesc: "Usually goes first. High critical hit ratio.",
 	},
-	brainfreeze: {
-		name: "Brain Freeze",
-		desc: "Has 33% recoil. 10% Chance to Freeze",
-		shortDesc: "Has 33% recoil. 10% Chance to Freeze",
-	},
 	zippyzap: {
 		name: "Zippy Zap",
 		desc: "Has a 100% chance to raise the user's evasion by 1 stage.",
