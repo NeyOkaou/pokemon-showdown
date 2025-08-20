@@ -19931,6 +19931,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 50,
 		color: "Blue",
 		eggGroups: ["Ditto"],
+		gen: 9,
 	},
 	figgon: {
 		num: -5008,
@@ -19989,5 +19990,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 40,
 		color: "Green",
 		eggGroups: ["Monster","Dragon"],
+		gen: 9,
 	}
 };
