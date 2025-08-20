@@ -214,6 +214,15 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		endFromItem: "  [POKEMON]'s [ITEM] woke it up!",
 		cant: "[POKEMON] is fast asleep.",
 	},
+	frb: {
+    	start: "  [POKEMON] was frostbitten!",
+    	alreadyStarted: "  [POKEMON] is already frostbitten!",
+ 		end: "  [POKEMON] is cured of its frostbite!",
+    	endFromItem: "  [POKEMON]'s [ITEM] healed its frostbite!",
+    	endFromMove: "  [POKEMON]'s [MOVE] thawed it out!",
+    	damage: "  [POKEMON] is hurt by its frostbite!",
+	},
+
 
 	// misc effects
 	confusion: {
