@@ -7627,8 +7627,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	brainfreeze: {
 		name: "Brain Freeze",
-		desc: "Has 33% recoil. 10% Chance to Freeze",
-		shortDesc: "Has 33% recoil. 10% Chance to Freeze",
+		desc: "Has 33% recoil. 10% Chance to Frostbite",
+		shortDesc: "Has 33% recoil. 10% Chance to Frosbite",
 	},
 	zippyzap: {
 		name: "Zippy Zap",
