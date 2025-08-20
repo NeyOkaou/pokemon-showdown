@@ -310,6 +310,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	terrakami: {
 		learnset: {
 			coil: ["9L1"],
+			dracometeor: ["9L1"],
 			wrap: ["9L1"],
 			sandstorm: ["9L1"],
 			naturalgift: ["9L1"],
@@ -604,6 +605,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	auberjaw: {
 		learnset: {
+			dracometeor: ["9L1"],
 			snaptrap: ["9L1"],
 			leafage: ["9L1"],
 			eggbomb: ["9L1"],
@@ -668,6 +670,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			ancientpower: ["9L1"],
 			aquatail: ["9L1"],
 			attract: ["9L1"],
+			dracometeor: ["9L1"],
 			bite: ["9L1"],
 			blizzard: ["9L1"],
 			block: ["9L1"],
