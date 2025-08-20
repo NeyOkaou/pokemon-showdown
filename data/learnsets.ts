@@ -157,6 +157,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	cockalypse: {
 		learnset: {
+			sing: ["9L1"],
 			hypervoice: ["9L1"],
 			electricterrain: ["9L1"],
 			gust: ["9L1"],
@@ -384,6 +385,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	puyotan: {
 		learnset: {    
+			yawn: ["9L1"],
 			reflecttype: ["9M"],
 			bellydrum: ["9M"],
 			copycat: ["9M"],
