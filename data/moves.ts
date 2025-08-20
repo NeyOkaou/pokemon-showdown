@@ -1660,13 +1660,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePowerCallback(pokemon, target, move) {
 			if (target.newlySwitched || this.queue.willMove(target)) {
 				this.debug('Bolt Beak damage boost');
-				return move.basePower * 1.5;
+				return move.basePower * 1.3;
 			}
 			this.debug('Bolt Beak NOT boosted');
 			return move.basePower;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Bolt Beak",
 		pp: 10,
 		priority: 0,
@@ -6505,7 +6504,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return Math.floor(((255 - pokemon.happiness) * 10) / 25) || 1;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Frustration",
 		pp: 20,
 		priority: 0,
@@ -14899,7 +14897,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return move.basePower;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Pursuit",
 		pp: 20,
 		priority: 0,
@@ -15572,7 +15569,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return Math.floor((pokemon.happiness * 10) / 25) || 1;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Return",
 		pp: 20,
 		priority: 0,
