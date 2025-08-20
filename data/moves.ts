@@ -22222,7 +22222,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Steel",
 		contestType: "Cool",
 	},
-	/**brainfreeze: {
+	brainfreeze: {
 		num: -105,
 		accuracy: 100,
 		basePower: 120,
@@ -22239,5 +22239,5 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ice",
 		contestType: "Cool",
-	},*/
+	},
 };
