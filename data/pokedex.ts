@@ -19989,4 +19989,5 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 40,
 		color: "Green",
 		eggGroups: ["Monster","Dragon"],
+	}
 };

@@ -743,7 +743,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	gengarmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	gengargmax: {
 		isNonstandard: "Past",
@@ -2470,7 +2470,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	rayquazamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	jirachi: {
 		tier: "Illegal",
@@ -4052,7 +4052,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	xerneas: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	xerneasneutral: {
 		isNonstandard: "Custom", // can't be used in battle
@@ -5149,9 +5149,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Illegal",
 	},
 	calyrexshadow: {
-		tier: "AG",
+		tier: "Illegal",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	enamorus: {
 		tier: "Illegal",
@@ -5546,12 +5546,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	koraidon: {
 		tier: "Illegal",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	miraidon: {
-		tier: "AG",
+		tier: "Illegal",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Illegal",
 	},
 	tinkatink: {
 		tier: "Illegal",
