@@ -300,12 +300,12 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			type: "Ice",
 		},
 		onUpdate(pokemon) {
-			if (pokemon.status === 'frb') {
+			if (pokemon.status === 'frz') {
 				pokemon.eatItem();
 			}
 		},
 		onEat(pokemon) {
-			if (pokemon.status === 'frb') {
+			if (pokemon.status === 'frz') {
 				pokemon.cureStatus();
 			}
 		},
