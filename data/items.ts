@@ -2244,8 +2244,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 		num: 560,
-		gen: 5,
-		isNonstandard: "Past",
+		gen: 9,
 	},
 	ghostmemory: {
 		name: "Ghost Memory",
