@@ -2002,7 +2002,7 @@ function runMovesearch(target: string, cmd: string, message: string, isTest: boo
 			case 'poison': target = 'psn'; break;
 			case 'burn': target = 'brn'; break;
 			case 'paralyze': target = 'par'; break;
-			case 'freeze': target = 'frz'; break;
+			case 'frostbite': target = 'frz'; break;
 			case 'sleep': target = 'slp'; break;
 			case 'confuse': target = 'confusion'; break;
 			case 'partiallytrap': target = 'partiallytrapped'; break;

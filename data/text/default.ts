@@ -177,13 +177,14 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		damage: "  [POKEMON] was hurt by its burn!",
 	},
 	frz: {
-		start: "  [POKEMON] was frozen solid!",
-		alreadyStarted: "  [POKEMON] is already frozen solid!",
-		end: "  [POKEMON] thawed out!",
-		endFromItem: "  [POKEMON]'s [ITEM] defrosted it!",
-		endFromMove: "  [POKEMON]'s [MOVE] melted the ice!",
-		cant: "[POKEMON] is frozen solid!",
+		start: "  [POKEMON] was frostbitten!",
+		alreadyStarted: "  [POKEMON] is already frostbitten!",
+		end: "  [POKEMON] is cured of its frostbite!",
+		endFromItem: "  [POKEMON]'s [ITEM] healed its frostbite!",
+		endFromMove: "  [POKEMON]'s [MOVE] thawed it out!",
+		damage: "  [POKEMON] is hurt by its frostbite!",
 	},
+
 	par: {
 		start: "  [POKEMON] is paralyzed! It may be unable to move!",
 		alreadyStarted: "  [POKEMON] is already paralyzed!",
