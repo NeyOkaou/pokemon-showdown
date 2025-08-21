@@ -2007,7 +2007,7 @@ function runMovesearch(target: string, cmd: string, message: string, isTest: boo
 			case 'confuse': target = 'confusion'; break;
 			case 'partiallytrap': target = 'partiallytrapped'; break;
 			case 'flinche': target = 'flinch'; break;
-			case 'frostbite': target = 'frb'; break;
+			case 'freeze': target = 'frb'; break;
 			}
 
 			if (allStatus.includes(target)) {
