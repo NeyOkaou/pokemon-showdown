@@ -159,6 +159,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			sing: ["9L1"],
 			hypervoice: ["9L1"],
+			raindance: ["9L1"],
 			electricterrain: ["9L1"],
 			gust: ["9L1"],
 			nastyplot: ["9L1"],
@@ -286,6 +287,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			protect: ["9M"],
 			aquatail: ["9M"],
 			grassyterrain: ["9M"],
+			raindance: ["9L1"],
 			stealthrock: ["9M"],
 			spikes: ["9M"],
 			fly: ["9M"],
@@ -319,6 +321,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragontail: ["9L1"],
 			flail: ["9L1"],
 			splash: ["9L1"],
+			raindance: ["9L1"],
 			naturesmadness: ["9L1"],
 			sandattack: ["9L9"],
 			dig: ["9L13"],
@@ -542,6 +545,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rest: ["9M"],
 			attract: ["9M"],
 			swagger: ["9M"],
+			raindance: ["9L1"],
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
@@ -567,6 +571,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stompingtantrum: ["9L33"],
 			dragonbreath: ["9L36"],
 			carniplant: ["9L40"],
+			raindance: ["9L1"],
 			leechseed: ["9L44"],
 			powerwhip: ["9L49"],
 			dragonhammer: ["9L52"],
@@ -607,6 +612,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	auberjaw: {
 		learnset: {
+			raindance: ["9L1"],
 			dracometeor: ["9L1"],
 			snaptrap: ["9L1"],
 			leafage: ["9L1"],
@@ -785,6 +791,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	moumoutrop: {
 		learnset: {
+			chillyreception: ["9M"],
+			raindance: ["9M"],
 			bulletseed: ["9M"],
 			bulldoze: ["9M"],
 			rockblast: ["9M"],
@@ -866,6 +874,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	tundragon: {
 		learnset: {
 			bulletseed: ["9M"],
+			chillyreception: ["9M"],
+			raindance: ["9M"],
 			bulldoze: ["9M"],
 			rockblast: ["9M"],
 			spikecannon: ["9M"],
