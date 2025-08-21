@@ -1552,7 +1552,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "allAdjacentFoes",
 		type: "Ice",
@@ -6393,7 +6393,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ice",
@@ -6438,7 +6438,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1 },
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Psychic",
@@ -9659,7 +9659,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ice",
@@ -9705,7 +9705,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		secondaries: [
 			{
 				chance: 10,
-				status: 'frb',
+				status: 'frz',
 			}, {
 				chance: 10,
 				volatileStatus: 'flinch',
@@ -9745,7 +9745,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { contact: 1, protect: 1, mirror: 1, punch: 1, metronome: 1 },
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ice",
@@ -14189,7 +14189,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "allAdjacentFoes",
 		type: "Ice",
@@ -15465,7 +15465,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1, metronome: 1 },
 		onHit(pokemon) {
-			if (['', 'slp', 'frb'].includes(pokemon.status)) return false;
+			if (['', 'slp', 'frz'].includes(pokemon.status)) return false;
 			pokemon.cureStatus();
 		},
 		secondary: null,
@@ -20621,7 +20621,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				} else if (result === 1) {
 					target.trySetStatus('par', source);
 				} else {
-					target.trySetStatus('frb', source);
+					target.trySetStatus('frz', source);
 				}
 			},
 		},
@@ -22112,7 +22112,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, defrost: 1, nosketch: 1 },
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		onHit(target, pokemon, move) {
 			if (pokemon.baseSpecies.baseSpecies === 'Ramnarok' && !pokemon.transformed) {

@@ -1648,7 +1648,7 @@ function runMovesearch(target: string, cmd: string, message: string, isTest: boo
 		'highcrit', 'multihit', 'ohko', 'protection', 'secondary',
 		'zmove', 'maxmove', 'gmaxmove',
 	];
-	const allStatus = ['psn', 'tox', 'brn', 'par', 'frz', 'slp', 'frb'];
+	const allStatus = ['psn', 'tox', 'brn', 'par', 'frz', 'slp'];
 	const allVolatileStatus = ['flinch', 'confusion', 'partiallytrapped', 'trapped'];
 	const allBoosts = ['hp', 'atk', 'def', 'spa', 'spd', 'spe', 'accuracy', 'evasion'];
 	const allTargets: { [k: string]: string } = {
@@ -2007,7 +2007,6 @@ function runMovesearch(target: string, cmd: string, message: string, isTest: boo
 			case 'confuse': target = 'confusion'; break;
 			case 'partiallytrap': target = 'partiallytrapped'; break;
 			case 'flinche': target = 'flinch'; break;
-			case 'freeze': target = 'frb'; break;
 			}
 
 			if (allStatus.includes(target)) {
@@ -2274,7 +2273,7 @@ function runMovesearch(target: string, cmd: string, message: string, isTest: boo
 				if (searchStatus === 'slp') {
 					canStatus = canStatus || moveid === 'yawn';
 				}
-				if (searchStatus === 'brn' || searchStatus === 'frb' || searchStatus === 'par') {
+				if (searchStatus === 'brn' || searchStatus === 'frz' || searchStatus === 'par') {
 					canStatus = canStatus || moveid === 'triattack';
 				}
 				if (canStatus === alts.status[searchStatus]) {
