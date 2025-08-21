@@ -19991,7 +19991,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		eggGroups: ["Monster","Dragon"],
 		gen: 9,
-	}
+	},
 	moumoutrop: {
 		num: -50012,
 		name: "Moumoutrop",
