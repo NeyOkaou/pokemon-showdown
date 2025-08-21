@@ -785,6 +785,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	moumoutrop: {
 		learnset: {
+			bulletseed: ["9M"],
+			bulldoze: ["9M"],
+			rockblast: ["9M"],
+			spikecannon: ["9M"],
 			tripleaxel: ["9M"],
 			scaleshot: ["9M"],
 			iciclespear: ["9M"],
@@ -861,6 +865,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	tundragon: {
 		learnset: {
+			bulletseed: ["9M"],
+			bulldoze: ["9M"],
+			rockblast: ["9M"],
+			spikecannon: ["9M"],
 			tripleaxel: ["9M"],
 			scaleshot: ["9M"],
 			iciclespear: ["9M"],

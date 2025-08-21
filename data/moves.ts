@@ -18161,7 +18161,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		multihit: [2, 5],
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Steel",
 		maxMove: { basePower: 120 },
 		contestType: "Cool",
 	},
