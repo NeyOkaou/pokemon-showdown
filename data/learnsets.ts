@@ -982,7 +982,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				calmmind: ["9M"],
 				agility: ["9M"],
 				extrasensory: ["9M"],
-				instruct: ["9M"]
+				instruct: ["9M"],
 				scaleshot: ["9M"],
 				doubleshock: ["9M"],
 				discharge: ["9M"],
@@ -1080,7 +1080,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				calmmind: ["9M"],
 				agility: ["9M"],
 				extrasensory: ["9M"],
-				instruct: ["9M"]
+				instruct: ["9M"],
 				scaleshot: ["9M"],
 				doubleshock: ["9M"],
 				discharge: ["9M"],
