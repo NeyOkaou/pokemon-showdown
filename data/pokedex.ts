@@ -20027,7 +20027,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Electric", "Dragon"],
 		genderRatio: "N",
 		baseStats: { hp: 60, atk: 35, def: 60, spa: 80, spd: 60, spe: 30 },
-		abilities: { 0: "Download", 1: "Heavy Metal", H: "Skill Link", H: "Simple" },
+		abilities: { 0: "Download", 1: "Heavy Metal", H: "Skill Link", S: "Simple" },
 		heightm: 0.4,
 		weightkg: 50,
 		color: "Blue",
