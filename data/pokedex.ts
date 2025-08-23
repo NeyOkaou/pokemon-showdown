@@ -20050,4 +20050,5 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Ameliorator",
 		eggGroups: ["Monster", "Dragon"],
 		gen: 9,
+	},
 };
