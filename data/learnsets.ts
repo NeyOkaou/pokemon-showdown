@@ -1085,7 +1085,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				doubleshock: ["9M"],
 				discharge: ["9M"],
 				zapcannon: ["9M"],
-				parboliccharge: ["9M"],
+				paraboliccharge: ["9M"],
 				thunderpunch: ["9M"],
 				focusblast: ["9M"],
 				dragonclaw: ["9M"],
