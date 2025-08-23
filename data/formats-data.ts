@@ -49,12 +49,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	scriptile: {
-		tier:"Illegal",
+		tier:"LC",
 	},
 	pythagon: {
-		tier: "Illegal",
+		tier: "OU",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	//END MOODMONÙ
 	bulbasaur: {
