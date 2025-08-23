@@ -1,6 +1,8 @@
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	zapek: {
 		learnset: {
+			quickattack: ["9L1"],
+			agility: ["9L1"],
 			hypervoice: ["9L1"],
 			electricterrain: ["9L1"],
 			gust: ["9L1"],
@@ -79,6 +81,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	pikorage: {
 		learnset: {
+			quickattack: ["9L1"],
+			agility: ["9L1"],
 			hypervoice: ["9L1"],
 			electricterrain: ["9L1"],
 			gust: ["9L1"],
@@ -157,6 +161,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	cockalypse: {
 		learnset: {
+			quickattack: ["9L1"],
+			agility: ["9L1"],
 			sing: ["9L1"],
 			hypervoice: ["9L1"],
 			raindance: ["9L1"],
