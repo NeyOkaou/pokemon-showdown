@@ -1059,6 +1059,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
     			sleeptalk: ["9M"],
     			substitute: ["9M"],
     			confide: ["9M"],
+			engelure: ["9M"],
 		},
 	},
 	pythagon:  {
