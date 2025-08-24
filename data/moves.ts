@@ -22243,7 +22243,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
-		status: 'frz',
+		status: 'frb',
 		secondary: null,
 		target: "normal",
 		type: "Ice",
