@@ -22228,7 +22228,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		recoil: [33, 100],
 		secondary: {
 			chance: 10,
-			status: 'frb',
+			status: 'frz',
 		},
 		target: "normal",
 		type: "Ice",
@@ -22248,6 +22248,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ice",
 		zMove: { boost: { atk: 1 } },
-		contestType: "Beautiful",
+		contestType: "Beautiful",F
 	},
 };
