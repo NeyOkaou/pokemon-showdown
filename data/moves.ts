@@ -22250,4 +22250,5 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { atk: 1 } },
 		contestType: "Beautiful",
 	},
+	//test
 };
