@@ -22145,7 +22145,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	multiprises: {
 		num: -101,
 		accuracy: 90,
-		basePower: 20,
+		basePower: 25,
 		category: "Special",
 		name: "Multi-Prises",
 		pp: 20,
