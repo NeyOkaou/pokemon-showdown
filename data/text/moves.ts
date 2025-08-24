@@ -7638,7 +7638,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
-	}
+	},
 	engelure: {
 		name: "Engelure",
 		desc: "Applies frostbite to the target, dealing 1/16th of the target's max hp as damage per turn and halving its special damage.",
