@@ -7625,8 +7625,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Usually goes first. Has a higher chance for a critical hit.",
 		shortDesc: "Usually goes first. High critical hit ratio.",
 	},
-	brainfrostbite: {
-		name: "Brain frostbite",
+	brainfreeze: {
+		name: "Brain Freeze",
 		desc: "Has 33% recoil. 10% Chance to Frostbite",
 		shortDesc: "Has 33% recoil. 10% Chance to Frosbite",
 	},
