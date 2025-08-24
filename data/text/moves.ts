@@ -7642,6 +7642,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Engelure",
 		desc: "Applies frostbite to the target, dealing 1/16th of the target's max hp as damage per turn and halving its special damage.",
 		shortDesc: "Applies frostbite to the target.",
-		},
+	},
 	},
 };
