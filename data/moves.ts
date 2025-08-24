@@ -22248,6 +22248,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ice",
 		zMove: { boost: { atk: 1 } },
-		contestType: "Beautiful",F
+		contestType: "Beautiful",
 	},
 };
