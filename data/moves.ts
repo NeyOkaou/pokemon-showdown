@@ -838,7 +838,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	aurorabeam: {
 		num: 62,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 75,
 		category: "Special",
 		name: "Aurora Beam",
 		pp: 20,
@@ -5266,7 +5266,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	fairywind: {
 		num: 584,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 65,
 		category: "Special",
 		name: "Fairy Wind",
 		pp: 30,
