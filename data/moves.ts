@@ -843,7 +843,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Aurora Beam",
 		pp: 20,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -2401,7 +2401,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Charge Beam",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		secondary: {
 			chance: 70,
 			self: {
@@ -5894,7 +5894,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Flash Cannon",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -5932,7 +5932,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Fleur Cannon",
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1 },
+		flags: { protect: 1, mirror: 1, pulse : 1 },
 		self: {
 			boosts: {
 				spa: -2,
@@ -6174,7 +6174,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Focus Blast",
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1, pulse: 1 },
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -21064,7 +21064,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Vacuum Wave",
 		pp: 30,
 		priority: 1,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
@@ -22144,7 +22144,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	multiprises: {
 		num: -101,
-		accuracy: 90,
+		accuracy: 95,
 		basePower: 25,
 		category: "Special",
 		name: "Multi-Prises",
