@@ -5640,5 +5640,192 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Persistent",
 		rating: 3,
 		num: -3,
+	// MOOD ABILITIES
+	},
+	fishhook: {
+		onFoeTrapPokemon(pokemon) {
+			if (pokemon.hasType('Water') && pokemon.isAdjacent(this.effectState.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (!source) source = this.effectState.target;
+			if (!source || !pokemon.isAdjacent(source)) return;
+			if (!pokemon.knownType || pokemon.hasType('Water')) {
+				pokemon.maybeTrapped = true;
+			}
+		},
+		flags: {},
+		name: "Fish Hook",
+		rating: 4,
+		num: -42,
+	},
+	cristaline: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			if (move.flags['sound'] && !pokemon.volatiles['dynamax']) { // hardcode
+				move.type = 'Ice';
+			}
+		},
+		flags: {},
+		name: "Cristaline",
+		rating: 1.5,
+		num: -204,
+	},
+	degenerate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && (!noModifyType.includes(move.id) || this.activeMove?.isMax) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Dark';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		flags: {},
+		name: "Degenerate",
+		rating: 4,
+		num: -184,
+	},
+	ballin: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bullet']) {
+				return this.chainModify(1.3);
+			}
+		},
+		flags: {},
+		name: "Ballin",
+		rating: 3,
+		num: -178,
+	},
+	fragmentation: {
+		onDamagingHit(damage, target, source, move) {
+			const side = source.isAlly(target) ? source.side.foe : source.side;
+			const stealthrock = side.sideConditions['stealthrock'];
+			if (move.category === 'Physical' && (!stealthrock)) {
+				this.add('-activate', target, 'ability: Fragmentation');
+				side.addSideCondition('stealthrock', target);
+			}
+		},
+		flags: {},
+		name: "Fragmentation",
+		rating: 3.5,
+		num: -295,
+	},
+	forceaqua: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Force Aqua",
+		rating: 2,
+		num: -68,
+	},
+	migraine: {
+		// This should be applied directly to the stat as opposed to chaining with the others
+		onModifySpAPriority: 5,
+		onModifySpA(atk) {
+			return this.modify(atk, 1.5);
+		},
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy, target, source, move) {
+			if (move.category === 'Special' && typeof accuracy === 'number') {
+				return this.chainModify([3277, 4096]);
+			}
+		},
+		flags: {},
+		name: "Migraine",
+		rating: 3.5,
+		num: -55,
+	},
+	lithophage: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Rock') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Lithophage');
+				}
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Lithophage",
+		rating: 3.5,
+		num: -11,
+	},
+	taurine: {
+		onUpdate(pokemon) {
+			if (pokemon.volatiles['mustrecharge']) {
+				this.add('-activate', pokemon, 'ability: Taurine');
+				pokemon.removeVolatile('mustrecharge');
+			}
+		},
+		onTryAddVolatile(status, pokemon) {
+			if (status.id === 'mustrecharge') return null;
+		},
+		onHit(target, source, move) {
+			if (move?.volatileStatus === 'mustrecharge') {
+				this.add('-immune', target, 'mustrecharge', '[from] ability: Taurine');
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Taurine",
+		rating: 3.5,
+		num: -20
+	},
+	baveux: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Baveux', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ spe: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Baveux",
+		rating: 3.5,
+		num: -22,
+	},
+	venerable: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Venerable', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ def: -1, spd: -1 }, target, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Venerable",
+		rating: 3.5,
+		num: -222,
 	},
 };
