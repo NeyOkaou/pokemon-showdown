@@ -1323,7 +1323,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				raindance: ["9M"],
 				whirlpool: ["9M"],
 				waterfall: ["9M"],
-				strenght: ["9M"],
+				strength: ["9M"],
 				aquatail: ["9M"],
 				thunder: ["9M"],
 				muddywater: ["9M"],
