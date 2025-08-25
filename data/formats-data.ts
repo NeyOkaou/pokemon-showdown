@@ -56,6 +56,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	limacide: {
+		tier:"LC",
+	},
+	glaugoon: {
+		tier: "OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMONÙ
 	bulbasaur: {
 		tier: "Illegal",
