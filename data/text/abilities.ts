@@ -2281,4 +2281,60 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	// MOOD ABILITIES DESC
+	fishhook: {
+		name: "Fish Hook",
+		desc: "Prevents opposing Water-type Pokemon from choosing to switch out, unless they are holding a Shed Shell or are a Ghost type.",
+		shortDesc: "Prevents opposing Water-type Pokemon from choosing to switch out.",
+	},
+	cristaline: {
+		name: "Cristaline",
+		desc: "This Pokemon's sound-based moves become Ice-type moves. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		shortDesc: "This Pokemon's sound-based moves become Ice type.",
+	},
+	degenerate: {
+		name: "Degenerate",
+		desc: "This Pokemon's Normal-type moves become Dark-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		shortDesc: "This Pokemon's Normal-type moves become Dark type and have 1.2x power.",
+	},
+	ballin: {
+		name: "Ballin",
+		desc: "This Pokemon's ball moves have their power multiplied by 1.3.",
+		shortDesc: "This Pokemon's ball moves have 1.3x power.",
+	},
+	fragmentation: {
+		name: "Fragmentation",
+		desc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
+		shortDesc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
+	},
+	forceaqua: {
+		name: "Force Aqua",
+		desc: "This Pokemon's Water type moves have their power multiplied by 1.5.",
+		shortDesc: "This Pokemon's Water type moves have 1.5x power."
+	},
+	migraine: {
+		name: "Migraine",
+		desc: "This Pokemon's Special Attack is multiplied by 1.5 and the accuracy of its special attacks is multiplied by 0.8.",
+		shortDesc: "This Pokemon's Sp.Attack is 1.5x and accuracy of its special attacks is 0.8x.",
+	},
+	lithophage: {
+		name: "Lithophage",
+		desc: "This Pokemon is immune to Rock-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Rock-type move.",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Rock moves; Rock immunity.",
+	},
+	taurine: {
+		name: "Taurine",
+		desc: "This Pokemon's moves that require a recharge turn after being used do not require it anymore.",
+		shortDesc: "No recharge turn for recharge moves.",
+	},
+	baveux: {
+		name: "Baveux",
+		desc: "On switch-in, this Pokemon spreads its saliva everywhere on the field, lowering the Speed of opposing Pokemon by 1 stage.",
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage.",
+	},
+	venerable: {
+		name: "Venerable",
+		desc: "Upon switching in, lowers both defenses of opposing Pokemon by 1 stage.",
+		shortDesc: "Upon switching in, lowers both defenses of opposing Pokemon by 1 stage.",
+	}
 };
