@@ -20080,4 +20080,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 3", "Dragon"],
 		gen: 9,
 	},
+	invocamon: {
+		num: -5018,
+		name: "Invocamon",
+		types: ["Dragon", "Flying"],
+		genderRatio: { M: 0.3, F: 0.7 },
+		baseStats: { hp: 80, atk: 115, def: 75, spa: 95, spd: 75, spe: 115 },
+		abilities: { 0: "Pressure", H: "No Guard" },
+		heightm: 2.50,
+		weightkg: 150,
+		color: "White",
+		eggGroups: ["Monster", "Dragon"],
+		gen: 9,
+	},
 };
