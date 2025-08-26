@@ -5727,7 +5727,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
+		onModifySpA(spa, attacker, defender, move) {
 			if (move.type === 'Water') {
 				return this.chainModify(1.5);
 			}
@@ -5740,8 +5740,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	migraine: {
 		// This should be applied directly to the stat as opposed to chaining with the others
 		onModifySpAPriority: 5,
-		onModifySpA(atk) {
-			return this.modify(atk, 1.5);
+		onModifySpA(spa) {
+			return this.modify(spa, 1.5);
 		},
 		onSourceModifyAccuracyPriority: -1,
 		onSourceModifyAccuracy(accuracy, target, source, move) {

@@ -7676,6 +7676,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	// MOOD ITEMS
 	frostorb: {
 		name: "Frost Orb",
 		spritenum: 7681,
@@ -7689,6 +7690,71 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			pokemon.trySetStatus('frz', pokemon);
 		},
 		num: -423,
+		gen: 9,
+	},
+	hasteorb: {
+		name: "Haste Orb",
+		spritenum: 1476,
+		fling: {
+			basePower: 30,
+		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			this.damage(pokemon.baseMaxhp / 10)},
+		onModifySpe(spe, pokemon) {
+			if (pokemon.volatiles['dynamax']) return;
+			return this.chainModify(1.3)},
+		num: -288,
+		gen: 4,
+	},
+	fragrantsachet: {
+		name: "Fragrant Sachet",
+		spritenum: 2130,
+		fling: {
+			basePower: 40,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		num: -538,
+		gen: 5,
+	},
+	cursedseal: {
+		name: "Cursed Seal",
+		onDamagingHit(damage, target, source, move) {
+			if (source.volatiles['disable']) return;
+			if (!move.isMax && !move.flags['futuremove'] && move.id !== 'struggle')
+				{source.addVolatile('disable', this.effectState.target);
+				} {target.useItem();
+			}
+		},
+		num: -130,
+		gen: 9,
+	},
+	heftyarmor: {
+		name: "Hefty Armor",
+		spritenum: 2581,
+		fling: {
+			basePower: 80,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def) {
+			return this.chainModify(1.5);
+		},
+		onDisableMove(pokemon) {
+			if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
+		},
+		num: -893,
 		gen: 9,
 	},
 };

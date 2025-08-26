@@ -2437,4 +2437,26 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Vile Vial",
 		shortDesc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
+	frostorb: {
+		name: "Frost Orb",
+		shortDesc: "At the end of every turn, this item attempts to apply frostbite to the holder.",
+	},
+	hasteorb: {
+		name: "Haste orb",
+		shortDesc: "Holder's speed is multiplied by 1.3, and it loses 1/10 its max HP per turn.",
+
+		damage: "  [POKEMON] lost some of its HP!",
+	},
+	fragrantsachet: {
+		name: "Fragrant Sachet",
+		shortDesc: "If holder's species can evolve, its Attack and Sp. Atk are 1.5x.",
+	},
+	cursedseal: {
+		name: "Cursed Seal",
+		shortDesc: "Disables the first move that deals direct damage to the holder. Consumed on use.",
+	},
+	heftyarmor: {
+		name: "Hefty Armor",
+		shortDesc: "Holder's defense is 1.5x, but it can't use the same move twice in a row.",
+	},
 };
