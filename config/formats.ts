@@ -74,7 +74,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
 		name: "[Gen 9] Ubers",
@@ -2556,7 +2556,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
 		banlist: [
 			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
-			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects'],
+			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
 		name: "[Gen 8] National Dex",
