@@ -2442,7 +2442,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		shortDesc: "At the end of every turn, this item attempts to apply frostbite to the holder.",
 	},
 	hasteorb: {
-		name: "Haste orb",
+		name: "Haste Orb",
 		shortDesc: "Holder's speed is multiplied by 1.3, and it loses 1/10 its max HP per turn.",
 
 		damage: "  [POKEMON] lost some of its HP!",
