@@ -7644,4 +7644,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Applies frostbite to the target, dealing 1/16th of the target's max hp as damage per turn and halving its special damage.",
 		shortDesc: "Applies frostbite to the target.",
 	},
+	delusionbeam: {
+		name: "Delusion Beam",
+		desc: "Power is equal to 80+(X*10), where X is the user's total stat stage changes that are greater than 0.",
+		shortDesc: " + 10 power for each of the user's stat boosts.",
+	},
 };
