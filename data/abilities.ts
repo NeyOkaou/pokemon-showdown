@@ -5828,4 +5828,24 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -222,
 	},
+	heavenlypride: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes())
+			for (const self of pokemon.alliesAndSelf()){
+				if (!activated) {
+					this.add('-ability', pokemon, 'Heavenly Pride', 'boost');
+					activated = true;
+				} else {
+					const bestStat = target.getBestStat(true, true);
+					this.boost({ [bestStat]: -1 }, target, pokemon, null, true);
+					this.boost({ [bestStat]: 1 }, self, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Heavenly Pride",
+		rating: 4,
+		num: -224,
+	},
 };

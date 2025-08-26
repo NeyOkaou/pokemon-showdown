@@ -22250,5 +22250,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { atk: 1 } },
 		contestType: "Beautiful",
 	},
-	//test
+	delusionbeam: {
+		num: -500,
+		accuracy: 90,
+		basePower: 80,
+		basePowerCallback(pokemon, target, move) {
+			const bp = move.basePower + 10 * pokemon.positiveBoosts();
+			this.debug(`BP: ${bp}`);
+			return bp;
+		},
+		category: "Special",
+		name: "Delusion Beam",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Fairy",
+		zMove: { basePower: 160 },
+		maxMove: { basePower: 130 },
+		contestType: "Clever",
+	},
 };
