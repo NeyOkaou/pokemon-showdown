@@ -5830,22 +5830,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	orgeuilceleste: {
 		onStart(pokemon) {
-			let activated = false;
-			for (const target of pokemon.adjacentFoes()){
-				if (!activated) {
-					this.add('-ability', pokemon, 'Heavenly Pride', 'boost');
-					activated = true;
-				} else {
-					const bestStat = target.getBestStat(true, true);
-					this.boost({ [bestStat]: -1 }, target, pokemon, null, true);
-			for (const self of pokemon.alliesAndSelf())
-					this.boost({ [bestStat]: 1 }, self, pokemon, null, true);
-				}
+			const target = pokemon.adjacentFoes()[0]; // prend le premier ennemi
+			if (!target) return;
+
+			this.add('-ability', pokemon, 'Orgeuil Celeste', 'boost');
+			const bestStat = target.getBestStat(true, true);
+
+			this.boost({ [bestStat]: -1 }, target, pokemon, null, true);
+
+			for (const self of pokemon.alliesAndSelf()) {
+				this.boost({ [bestStat]: 1 }, self, pokemon, null, true);
 			}
 		},
-		flags: {},
-		name: "Orgeuil Celeste",
-		rating: 4,
-		num: -224,
-	},
+	flags: {},
+	name: "Orgeuil Celeste",
+	rating: 4,
+	num: -224,
+},
 };
