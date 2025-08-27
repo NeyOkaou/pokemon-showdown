@@ -22250,7 +22250,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { atk: 1 } },
 		contestType: "Beautiful",
 	},
-	delusionbeam: {
+	laserdelusion: {
 		num: -500,
 		accuracy: 90,
 		basePower: 80,
@@ -22260,7 +22260,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return bp;
 		},
 		category: "Special",
-		name: "Delusion Beam",
+		name: "Laser Delusion",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },

@@ -69,7 +69,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	//END MOODMONÙ
+	apprenpti: {
+		tier: "LC",
+	},
+	reptueur: {
+		tier:"NFE",
+	},
+	gardilisk: {
+		tier:"OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
 	},
