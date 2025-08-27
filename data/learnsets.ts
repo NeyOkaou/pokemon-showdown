@@ -1388,7 +1388,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 		},
 	},
-	apprentpi: {
+	apprenpti: {
 		learnset: {
 			//steel
 			autotomize: ["9M"],
