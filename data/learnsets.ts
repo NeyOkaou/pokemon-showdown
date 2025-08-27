@@ -1416,11 +1416,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaleshot: ["9M"],
 			twister: ["9M"],
 			//fight
-			bodypresscut: ["9M"],
+			bodypress: ["9M"],
 			brickbreak: ["9M"],
 			poweruppunch: ["9M"],
 			rocksmash: ["9M"],
-			sacredswordcut: ["9M"],
+			sacredsword: ["9M"],
 			//normal
 			attract: ["9M"],
 			cometpunch: ["9M"],
@@ -1493,11 +1493,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaleshot: ["9M"],
 			twister: ["9M"],
 			//fight
-			bodypresscut: ["9M"],
+			bodypress: ["9M"],
 			brickbreak: ["9M"],
 			poweruppunch: ["9M"],
 			rocksmash: ["9M"],
-			sacredswordcut: ["9M"],
+			sacredsword: ["9M"],
 			//normal
 			attract: ["9M"],
 			cometpunch: ["9M"],
@@ -1570,11 +1570,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaleshot: ["9M"],
 			twister: ["9M"],
 			//fight
-			bodypresscut: ["9M"],
+			bodypress: ["9M"],
 			brickbreak: ["9M"],
 			poweruppunch: ["9M"],
 			rocksmash: ["9M"],
-			sacredswordcut: ["9M"],
+			sacredsword: ["9M"],
 			//normal
 			attract: ["9M"],
 			cometpunch: ["9M"],
