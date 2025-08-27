@@ -22255,7 +22255,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 90,
 		basePower: 80,
 		basePowerCallback(pokemon, target, move) {
-			const bp = move.basePower + 1000 * pokemon.positiveBoosts();
+			const bp = move.basePower + 20 * pokemon.positiveBoosts();
 			this.debug(`BP: ${bp}`);
 			return bp;
 		},
