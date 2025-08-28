@@ -1676,7 +1676,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			airslash: ["9M"],
 			bleakwindstorm: ["9M"],
 			//ghost 
-			omniouswind: ["9M"],
+			ominouswind: ["9M"],
 			shadowball: ["9M"],
 			//ice
 			blizzard: ["9M"],
@@ -1692,7 +1692,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigaimpact: ["9M"],
 			happyhour: ["9M"],
 			hyperbeam: ["9M"],
-			hellbell: ["9M"],
+			healbell: ["9M"],
 			metronome: ["9M"],
 			defensecurl: ["9M"],
 			razorwind: ["9M"],
