@@ -80,7 +80,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Terastal Clause'],
-		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects'],
+		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
 		name: "[Gen 9] UU",
@@ -2609,7 +2609,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] National Dex Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause'],
-		banlist: ['ND AG', 'Shedinja', 'Assist', 'Baton Pass'],
+		banlist: ['ND AG', 'Shedinja', 'Assist', 'Baton Pass','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
 		name: "[Gen 9] National Dex UU",
