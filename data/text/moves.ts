@@ -7646,7 +7646,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	laserdelusion: {
 		name: "Laser Delusion",
-		desc: "Power is equal to 80+(X*20), where X is the user's total stat stage changes that are greater than 0.",
-		shortDesc: " +20 power for each of the user's stat boosts.",
+		desc: "Power is equal to 80+(X*10), where X is the user's total stat stage changes that are greater than 0.",
+		shortDesc: " +10 power for each of the user's stat boosts.",
 	},
 };
