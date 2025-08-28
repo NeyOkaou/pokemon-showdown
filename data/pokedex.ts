@@ -20148,7 +20148,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 9,
 		weightkg: 300,
 		color: "White",
-		eggGroups: ["Undiscovered"]
+		eggGroups: ["Undiscovered"],
 		gen: 9,
 	},
 };
