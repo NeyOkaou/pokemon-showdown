@@ -20138,4 +20138,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Dragon"],
 		gen: 9,
 	},
+	celestial: {
+		num: -5022,
+		name: "Celestial",
+		types: ["Dragon","Fairy"],
+		gender: "N",
+		baseStats: { hp: 166, atk: 79, def: 96, spa: 166, spd: 96, spe: 99 },
+		abilities: { 0: "Orgeuil Celeste"},
+		heightm: 9,
+		weightkg: 300,
+		color: "White",
+		eggGroups: ["Undiscovered"]
+		gen: 9,
+	},
 };

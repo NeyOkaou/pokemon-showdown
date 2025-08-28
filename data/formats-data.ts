@@ -80,6 +80,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	celestial: {
+		tier:"OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
