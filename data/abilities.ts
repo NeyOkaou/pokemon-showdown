@@ -3197,7 +3197,39 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1,
 		num: 124,
 	},
+	//pickup test
 	pickup: {
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (pokemon.item) return;
+			const pickupTargets = this.getAllActive().filter(target => (
+				target.lastItem && target.usedItemThisTurn && pokemon.isAdjacent(target)
+			));
+			if (!pickupTargets.length) return;
+			const randomTarget = this.sample(pickupTargets);
+			const item = randomTarget.lastItem;
+			randomTarget.lastItem = '';
+			this.add('-item', pokemon, this.dex.items.get(item), '[from] ability: Pickup');
+			pokemon.setItem(item);
+
+			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sides = [pokemon.side, ...pokemon.side.foeSidesWithConditions()];
+			for (const side of sides) {
+				for (const sideCondition of removeAll) {
+					if (side.removeSideCondition(sideCondition)) {
+						this.add('-sideend', side, this.dex.conditions.get(sideCondition).name, '[from] ability: Pickup');
+					}
+				}
+			}
+		},
+		flags: {},
+		name: "Pickup",
+		rating: 0.5,
+		num: 53,
+	},
+
+	/*pickup: {
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,
 		onResidual(pokemon) {
@@ -3216,7 +3248,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Pickup",
 		rating: 0.5,
 		num: 53,
-	},
+	},*/
+
 	pixilate: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
