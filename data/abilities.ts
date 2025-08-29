@@ -3199,20 +3199,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	//pickup test
 	pickup: {
-		onResidualOrder: 28,
-		onResidualSubOrder: 2,
-		onResidual(pokemon) {
-			if (pokemon.item) return;
-			const pickupTargets = this.getAllActive().filter(target => (
-				target.lastItem && target.usedItemThisTurn && pokemon.isAdjacent(target)
-			));
-			if (!pickupTargets.length) return;
-			const randomTarget = this.sample(pickupTargets);
-			const item = randomTarget.lastItem;
-			randomTarget.lastItem = '';
-			this.add('-item', pokemon, this.dex.items.get(item), '[from] ability: Pickup');
-			pokemon.setItem(item);
-
+		onStart(pokemon) {
 			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
 			const sides = [pokemon.side, ...pokemon.side.foeSidesWithConditions()];
 			for (const side of sides) {
@@ -3223,11 +3210,27 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				}
 			}
 		},
+		onResidualOrder: 28,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			if (pokemon.item) return;
+
+			const pickupTargets = this.getAllActive().filter(target => (
+				target.lastItem && target.usedItemThisTurn && pokemon.isAdjacent(target)
+			));
+			if (!pickupTargets.length) return;
+			const randomTarget = this.sample(pickupTargets);
+			const item = randomTarget.lastItem;
+			randomTarget.lastItem = '';
+			this.add('-item', pokemon, this.dex.items.get(item), '[from] ability: Pickup');
+			pokemon.setItem(item);
+		},
+
 		flags: {},
 		name: "Pickup",
 		rating: 0.5,
 		num: 53,
-	},
+},
 
 	/*pickup: {
 		onResidualOrder: 28,
