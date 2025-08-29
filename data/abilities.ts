@@ -3206,6 +3206,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				for (const sideCondition of removeAll) {
 					if (side.removeSideCondition(sideCondition)) {
 						this.add('-sideend', side, this.dex.conditions.get(sideCondition).name, '[from] ability: Pickup');
+						this.add('-message', `${pokemon.name} a ramassé les pièges du terrain !`);
 					}
 				}
 			}
@@ -5866,7 +5867,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	orgeuilceleste: {
 		onStart(pokemon) {
-			const target = pokemon.adjacentFoes()[0]; // prend le premier ennemi
+			const target = pokemon.adjacentFoes()[0]; 
 			if (!target) return;
 
 			this.add('-ability', pokemon, 'Orgeuil Celeste', 'boost');
