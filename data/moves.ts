@@ -20505,7 +20505,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 75,
 		category: "Special",
 		name: "Drache Toxic",
-		pp: 16,
+		pp: 10,
 		priority: 0,
 		flags: { reflectable: 1, nonsky: 1, metronome: 1, mustpressure: 1 },
 		sideCondition: 'toxicspikes',

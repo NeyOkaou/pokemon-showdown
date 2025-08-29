@@ -965,6 +965,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	glaugoon: {
 		learnset: {
 				toxic: ["9M"],
+				drachetoxic: ["9M"],
 				sludge: ["9M"],
 				venoshock: ["9M"],
 				sludgebomb: ["9M"],
