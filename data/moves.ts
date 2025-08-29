@@ -1001,7 +1001,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 95,
 		basePower: 80,
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Baddy Bad",
 		pp: 15,
 		priority: 0,
@@ -2192,7 +2192,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Buzzy Buzz",
 		pp: 20,
 		priority: 0,
@@ -6014,7 +6014,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 95,
 		basePower: 90,
 		category: "Physical",
-		isNonstandard: "LGPE",
+		
 		name: "Floaty Fall",
 		pp: 15,
 		priority: 0,
@@ -6447,7 +6447,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 90,
 		basePower: 100,
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Freezy Frost",
 		pp: 10,
 		priority: 0,
@@ -6939,7 +6939,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 95,
 		basePower: 80,
 		category: "Special",
-		isNonstandard: "LGPE",
 		name: "Glitzy Glow",
 		pp: 15,
 		priority: 0,
@@ -13838,7 +13837,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return bp;
 		},
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Pika Papow",
 		pp: 20,
 		priority: 0,
@@ -16305,7 +16304,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "LGPE",
+		
 		name: "Sappy Seed",
 		pp: 10,
 		priority: 0,
@@ -17147,7 +17146,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
-		isNonstandard: "LGPE",
+		
 		name: "Sizzly Slide",
 		pp: 20,
 		priority: 0,
@@ -18052,7 +18051,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 85,
 		basePower: 120,
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Sparkly Swirl",
 		pp: 5,
 		priority: 0,
@@ -18409,7 +18408,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
-		isNonstandard: "LGPE",
+		
 		name: "Splishy Splash",
 		pp: 15,
 		priority: 0,
@@ -21103,7 +21102,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return bp;
 		},
 		category: "Physical",
-		isNonstandard: "LGPE",
+		
 		name: "Veevee Volley",
 		pp: 20,
 		priority: 0,
@@ -22038,7 +22037,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
-		isNonstandard: "LGPE",
+		
 		name: "Zippy Zap",
 		pp: 10,
 		priority: 2,
