@@ -7649,4 +7649,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Power is equal to 80+(X*10), where X is the user's total stat stage changes that are greater than 0.",
 		shortDesc: " +10 power for each of the user's stat boosts.",
 	},
+	drachetoxic: {
+		name: "Drache Toxic",
+		desc: "Sets up a hazard on the opposing side of the field, poisoning each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to two times before failing. Opposing Pokemon become poisoned with one layer and badly poisoned with two layers. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, is hit by Defog, or a grounded Poison-type Pokemon switches in. Safeguard prevents the opposing party from being poisoned on switch-in, but a substitute does not.",
+		shortDesc: "Poisons grounded foes on switch-in. Max 2 layers.",
+	},
 };
