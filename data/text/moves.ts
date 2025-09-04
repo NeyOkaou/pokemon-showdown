@@ -615,8 +615,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	boltbeak: {
 		name: "Bolt Beak",
-		desc: "deals * 1.3 damages if the user moves before the target.",
-		shortDesc: " deals * 1.3 damages if user moves before the target.",
+		desc: "Deals 1.3x damage if the user moves before the target.",
+		shortDesc: "Deals 1.3x damage if the user moves before the target.",
 	},
 	boltstrike: {
 		name: "Bolt Strike",
