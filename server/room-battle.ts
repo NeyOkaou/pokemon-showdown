@@ -520,6 +520,7 @@ export class RoomBattle extends RoomGame<RoomBattlePlayer> {
 	override readonly timer: RoomBattleTimer;
 	started = false;
 	active = false;
+	password = "";
 	replaySaved: boolean | 'auto' = false;
 	forcedSettings: { modchat?: string | null, privacy?: string | null } = {};
 	p1: RoomBattlePlayer = null!;
@@ -836,17 +837,35 @@ export class RoomBattle extends RoomGame<RoomBattlePlayer> {
 		let p1score = 0.5;
 		const winnerid = toID(winnerName);
 
+		// Bot check
+		const valid = Rooms.global.checkId(this.p1.id) && Rooms.global.checkId(this.p2.id);
+
 		// Check if the battle was rated to update the ladder, return its response, and log the battle.
+		const p1name = this.p1.name;
+		const p2name = this.p2.name;
+
+		const p1Cap = ('' + p1name).replace(/[^a-zA-Z0-9]+/g, '') as ID;
+		const p2Cap = ('' + p2name).replace(/[^a-zA-Z0-9]+/g, '') as ID;
 		if (winnerid === this.p1.id) {
 			p1score = 1;
 		} else if (winnerid === this.p2.id) {
 			p1score = 0;
 		}
+		const id = this.room.getReplayData().id.split("-")[1];
+		let format = this.format;
+		if (format.includes('@')) {
+			format = format.split('@')[0];
+		}
+		const link = "https://play.pokemonmood.com/replays/" + format + "/" + id + "_" + p1Cap + "_vs_" + p2Cap + ".html";
 		Chat.runHandlers('onBattleEnd', this, winnerid, this.players.map(p => p.id));
 		if (this.room.rated && !this.options.isBestOfSubBattle) {
 			void this.updateLadder(p1score, winnerid);
-		} else if (Config.logchallenges) {
+		} else if (Config.logchallenges && !this.room.settings.isPrivate && !this.room.hideReplay && valid) {
 			void this.logBattle(p1score);
+			const uploader = Users.get(winnerid || this.p1.id);
+			if (uploader?.connections[0]) {
+				Chat.parse('Replay autosaved to ' + link, this.room, uploader, uploader.connections[0]);
+			}
 		} else if (!this.options.isBestOfSubBattle) {
 			this.logData = null;
 		}
@@ -877,11 +896,13 @@ export class RoomBattle extends RoomGame<RoomBattlePlayer> {
 		if (winner && !winner.registered) {
 			this.room.sendUser(winner, '|askreg|' + winner.id);
 		}
+		const p1 = this.p1.name;
+		const p2 = this.p2.name;
 		const [score, p1rating, p2rating] = await Ladders(this.ladder).updateRating(
-			this.p1.name, this.p2.name, p1score, this.room
+			p1, p2, p1score, this.room
 		);
 		void this.logBattle(score, p1rating, p2rating);
-		Chat.runHandlers('onBattleRanked', this, winnerid, [p1rating, p2rating], [this.p1.id, this.p2.id]);
+		Chat.runHandlers('onBattleRanked', this, winnerid, [p1rating, p2rating], [p1, p2].map(toID));
 	}
 	async logBattle(
 		p1score: number, p1rating: AnyObject | null = null, p2rating: AnyObject | null = null,
@@ -1402,5 +1423,5 @@ if (!PM.isParentProcess) {
 	// eslint-disable-next-line no-eval
 	Repl.start(`sim-${process.pid}`, cmd => eval(cmd));
 } else {
-	PM.spawn(global.Config ? Config.simulatorprocesses : 1);
+	PM.spawn(global.Config?.subprocessescache?.simulator ?? 1);
 }
