@@ -3038,11 +3038,11 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		spritenum: 475,
 		onModifyCritRatio(critRatio, user) {
-			if (["farfetchd", "sirfetchd"].includes(this.toID(user.baseSpecies.baseSpecies))) {
+			if (["farfetchd", "sirfetchd", "melodrame"].includes(this.toID(user.baseSpecies.baseSpecies))) {
 				return critRatio + 2;
 			}
 		},
-		itemUser: ["Farfetch\u2019d", "Farfetch\u2019d-Galar", "Sirfetch\u2019d"],
+		itemUser: ["Farfetch\u2019d", "Farfetch\u2019d-Galar", "Sirfetch\u2019d", "Melodrame"],
 		num: 259,
 		gen: 8,
 		isNonstandard: "Past",
@@ -7706,7 +7706,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (pokemon.volatiles['dynamax']) return;
 			return this.chainModify(1.3)},
 		num: -288,
-		gen: 4,
+		gen: 9,
 	},
 	fragrantsachet: {
 		name: "Fragrant Sachet",
@@ -7727,10 +7727,11 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			}
 		},
 		num: -538,
-		gen: 5,
+		gen: 9,
 	},
 	cursedseal: {
 		name: "Cursed Seal",
+		spritenum: 3001,
 		onDamagingHit(damage, target, source, move) {
 			if (source.volatiles['disable']) return;
 			if (!move.isMax && !move.flags['futuremove'] && move.id !== 'struggle')
@@ -7755,6 +7756,15 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
 		},
 		num: -893,
+		gen: 9,
+	},
+	mainputride: {
+		name: "Main Putride",
+		spritenum: 2582,
+		fling: {
+			basePower: 30,
+		},
+		num: -484,
 		gen: 9,
 	},
 };

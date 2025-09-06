@@ -5883,5 +5883,17 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	name: "Orgeuil Celeste",
 	rating: 4,
 	num: -224,
-},
+	},
+	vampire: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['heal']) {
+				return this.chainModify(1.3);
+			}
+		},
+		flags: {},
+		name: "Vampire",
+		rating: 3,
+		num: -378,
+	},
 };

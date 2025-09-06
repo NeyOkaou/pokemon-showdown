@@ -1,55 +1,55 @@
 export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable = {
 	//STARTMOODMON
 	zapek: {
-		tier:"LC",
+		tier: "LC",
 	},
 	pikorage: {
-		tier:"NFE",
+		tier: "NFE",
 	},
 	cockalypse: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	gesticot: {
-		tier:"LC",
+		tier: "LC",
 	},
 	terrakami: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	puyotan: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	figgon: {
-		tier:"LC",
+		tier: "LC",
 	},
 	saladrake: {
-		tier:"NFE",
+		tier: "NFE",
 	},
 	auberjaw: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	gyaoon: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	moumoutrop: {
-		tier:"LC",
+		tier: "LC",
 	},
 	tundragon: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	scriptile: {
-		tier:"LC",
+		tier: "LC",
 	},
 	pythagon: {
 		tier: "OU",
@@ -57,7 +57,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	limacide: {
-		tier:"LC",
+		tier: "LC",
 	},
 	glaugoon: {
 		tier: "OU",
@@ -73,17 +73,90 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	reptueur: {
-		tier:"NFE",
+		tier: "NFE",
 	},
 	gardilisk: {
-		tier:"OU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	celestial: {
-		tier:"Uber",
+		tier: "Uber",
 		doublesTier: "DOU",
 		natDexTier: "Uber",
+	},
+	melodie: {
+		tier: "LC",
+	},
+	melodrame: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	verote: {
+		tier: "LC",
+	},
+	rottenia: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	sleepompik: {
+		tier: "LC",
+	},
+	ominousleh: {
+		tier: "NFE",
+	},
+	mandelman: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	poki: {
+		tier: "LC",
+	},
+	pokiki: {
+		tier: "NFE",
+	},
+	pokikiki: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	daemonix: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	achaethena: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	beelzeros: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	phantasm: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	veuvoile: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	lumini: {
+		tier: "Uber",
+		doublesTier: "DUU",
+		natDexTier: "UU",
+	},
+	parademise: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	//END MOODMON
 	bulbasaur: {

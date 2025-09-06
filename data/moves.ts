@@ -22311,4 +22311,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		maxMove: { basePower: 130 },
 		contestType: "Clever",
 	},
+	succubykiss: {
+		num: -577,
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		name: "Succuby-Kiss",
+		pp: 16,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, heal: 1, metronome: 1 },
+		drain: [1, 2],
+		secondary: {
+			chance: 30,
+			volatileStatus: 'attract',
+		},
+		target: "normal",
+		type: "Dark",
+		contestType: "Cute",
+	},
 };

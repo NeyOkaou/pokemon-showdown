@@ -7654,4 +7654,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Sets up a hazard on the opposing side of the field when hit, poisoning each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can set up to two times. Opposing Pokemon become poisoned with one layer and badly poisoned with two layers. Can be removed from the opposing side if any Pokemon uses Tidy Up, or if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, is hit by Defog, or a grounded Poison-type Pokemon switches in. Safeguard prevents the opposing party from being poisoned on switch-in, but a substitute does not.",
 		shortDesc: "Sets a layer of Toxic Spikes on the opposing side.",
 	},
+	succubykiss: {
+		name: "Succuby-Kiss",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. 30% chance of infatuating a pokemon of the opposing gender.",
+		shortDesc: "User recovers 50% of the damage dealt. 30% chance to infatuate a target of the opposing gender.",
+	},
 };

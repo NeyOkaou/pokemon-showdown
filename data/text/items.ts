@@ -941,7 +941,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	leek: {
 		name: "Leek",
-		shortDesc: "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages.",
+		shortDesc: "If held by a Farfetch’d, Sirfetch’d or Melodrame, its critical hit ratio is raised by 2 stages.",
 	},
 	leftovers: {
 		name: "Leftovers",
@@ -2458,5 +2458,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	heftyarmor: {
 		name: "Hefty Armor",
 		shortDesc: "Holder's defense is 1.5x, but it can't use the same move twice in a row.",
+	},
+	mainputride: {
+		name: "Main Putride",
+		shortDesc: "Evolves Verote into Rottenia.",
 	},
 };
