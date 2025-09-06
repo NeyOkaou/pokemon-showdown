@@ -3045,7 +3045,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Farfetch\u2019d", "Farfetch\u2019d-Galar", "Sirfetch\u2019d", "Melodrame"],
 		num: 259,
 		gen: 8,
-		isNonstandard: "Past",
 	},
 	leftovers: {
 		name: "Leftovers",
@@ -5660,7 +5659,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Farfetch\u2019d"],
 		num: 259,
 		gen: 2,
-		isNonstandard: "Past",
 	},
 	stickybarb: {
 		name: "Sticky Barb",
