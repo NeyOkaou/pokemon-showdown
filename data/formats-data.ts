@@ -110,7 +110,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mandelman: {
 		tier: "Illegal",
 		doublesTier: "DOU",
-		natDexTier: "Illegal
+		natDexTier: "Illegal",
 	},
 	poki: {
 		tier: "Illegal",
