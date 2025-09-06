@@ -94,18 +94,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	verote: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	rottenia: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	sleepompik: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	ominousleh: {
-		tier: "Illegal",
+		tier: "NFE",
 	},
 	mandelman: {
 		tier: "Illegal",
@@ -113,35 +113,35 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Illegal",
 	},
 	poki: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	pokiki: {
-		tier: "Illegal",
+		tier: "NFE",
 	},
 	pokikiki: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	daemonix: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	achaethena: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	beelzeros: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	phantasm: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	veuvoile: {
 		tier: "Uber",
@@ -149,14 +149,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	lumini: {
-		tier: "Illegal",
-		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUU",
+		natDexTier: "UU",
 	},
 	parademise: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "Illegal",
+		natDexTier: "OU",
 	},
 	//END MOODMON
 	bulbasaur: {

@@ -20353,7 +20353,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Dark", "Ghost"],
 		gender: "M",
 		baseStats: { hp: 130, atk: 89, def: 118, spa: 35, spd: 69, spe: 58 },
-		abilities: { 0: "Stamina", 1: "Innards Out", H: "Levitate", S: "Laceration" },
+		abilities: { 0: "Stamina", 1: "Innards Out", H: "Reckless", S: "Laceration" },
 		heightm: 1.92,
 		weightkg: 110,
 		color: "Black",
@@ -20376,7 +20376,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	lumini: {
 		num: -5038,
 		name: "Lumini",
-		types: ["Steel", "Fairy"],
+		types: ["Dark", "Fairy"],
 		genderRatio: { M: 0.1, F: 0.9 },
 		baseStats: { hp: 65, atk: 55, def: 75, spa: 105, spd: 75, spe: 40 },
 		abilities: { 0: "Light Metal", 1: "Levitate", H: "Serene Grace"},
@@ -20390,7 +20390,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	parademise: {
 		num: -5039,
 		name: "Parademise",
-		types: ["Steel", "Dark"],
+		types: ["Dark", "Steel"],
 		genderRatio: { M: 0.1, F: 0.9 },
 		baseStats: { hp: 90, atk: 74, def: 84, spa: 135, spd: 80, spe: 64 },
 		abilities: { 0: "Mega Launcher", 1: "Levitate", H: "Paradise Lost"},
