@@ -1464,7 +1464,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 
 			//Psychic
-			calmind: ["9M"],
+			calmmind: ["9M"],
 			healingwish: ["9M"],
 			trick: ["9M"],
 			psychic: ["9M"],
