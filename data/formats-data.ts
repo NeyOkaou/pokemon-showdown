@@ -94,10 +94,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	verote: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	rottenia: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	sleepompik: {
 		tier: "Illegal",
