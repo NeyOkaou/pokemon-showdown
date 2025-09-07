@@ -1548,6 +1548,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Dark
 			bite: ["9M"],
 			crunch: ["9M"],
+			snatch: ["9M"],
+			faintattack: ["9M"],
 			faketears: ["9M"],
 			embargo: ["9M"],
 			foulplay: ["9M"],
@@ -1566,9 +1568,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			curse: ["9M"],
 			shadowsneak: ["9M"],
 			shadowbone: ["9M"],
+			sprite: ["9M"],
 			//Ground
 			spikes: ["9M"],
 			//Normal
+			bind: ["9M"],
 			constrict: ["9M"],
 			defensecurl: ["9M"],
 			wrap: ["9M"],
@@ -1589,8 +1593,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poisonsting: ["9M"],
 			poisonfang: ["9M"],
 			toxic: ["9M"],
+			sludge: ["9M"],
+			sludgebomb: ["9M"],
 			//Steel
 			cut: ["9M"],
+			//grass
+			gigadrain: ["9M"],
 			//general moves
 			protect: ["9M"],
 			frustration: ["9M"],
