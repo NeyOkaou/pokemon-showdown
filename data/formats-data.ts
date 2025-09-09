@@ -40,7 +40,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	moumoutrop: {
+	dracoton: {
 		tier: "LC",
 	},
 	tundragon: {

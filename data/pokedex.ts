@@ -19992,9 +19992,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster","Dragon"],
 		gen: 9,
 	},
-	moumoutrop: {
+	dracoton: {
 		num: -50012,
-		name: "Moumoutrop",
+		name: "Dracoton",
 		types: ["Ice", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 60, atk: 60, def: 70, spa: 40, spd: 30, spe: 60 },
@@ -20016,7 +20016,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.20,
 		weightkg: 60,
 		color: "White",
-		prevo: "Moumoutrop",
+		prevo: "Dracoton",
 		evoLevel: 50,
 		eggGroups: ["Field", "Dragon"],
 		gen: 9,

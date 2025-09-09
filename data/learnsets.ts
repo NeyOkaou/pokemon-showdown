@@ -641,7 +641,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["9L1"],
 		},
 	},
-	moumoutrop: {
+	dracoton: {
 		learnset: {
 			powdersnow: ["9M"],
 			chillyreception: ["9M"],
@@ -1566,7 +1566,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			curse: ["9M"],
 			shadowsneak: ["9M"],
 			shadowbone: ["9M"],
-			sprite: ["9M"],
+			spite: ["9M"],
 			//Ground
 			spikes: ["9M"],
 			//Normal
