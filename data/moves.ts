@@ -22358,4 +22358,27 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	jumpscare: {
+		num: -570,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Jumpscare",
+		pp: 10,
+		priority: 3,
+		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
+		onTry(source) {
+			if (source.activeMoveActions > 1) {
+				this.hint("Jumpscare only works on your first turn out.");
+				return false;
+			}
+		},
+		secondary: {
+			chance: 100,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cute",
+	},
 };
