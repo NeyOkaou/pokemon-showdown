@@ -1971,7 +1971,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headbutt: ["9M"],
 			growl: ["9M"],
 			snore: ["9M"],
-			fakeout: ["9M"],
+			jumpscare: ["9M"],
 			holdback: ["9M"],
 			furyswipes: ["9M"],
 			leer: ["9M"],
