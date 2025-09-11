@@ -5872,4 +5872,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -378,
 	},
+	laceration: {
+		// implemented in statuses
+		flags: {},
+		name: "Laceration",
+		rating: 3,
+		num: -386,
+	},
 };

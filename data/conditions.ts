@@ -205,6 +205,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		onStart(pokemon, source) {
 			this.add('-activate', pokemon, 'move: ' + this.effectState.sourceEffect, `[of] ${source}`);
 			this.effectState.boundDivisor = source.hasItem('bindingband') ? 6 : 8;
+			this.effectState.boundDivisor = source.hasAbility('laceration') ? 6 : 8;
 		},
 		onResidualOrder: 13,
 		onResidual(pokemon) {

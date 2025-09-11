@@ -2346,4 +2346,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Vampire",
 		shortDesc: "Boosts the user's draining moves by 30%.",
 	},
+	laceration: {
+		name: "Laceration",
+		desc: "This pokemon's partial-trapping moves deal 1/6 max HP per turn instead of 1/8.",
+		shortDesc: "Trapping moves deal 1/6 max HP per turn instead of 1/8.",
+	},
 };
