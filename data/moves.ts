@@ -5870,7 +5870,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	flash: {
 		num: 148,
 		accuracy: 100,
-		basePower: 0,
+		basePower: 20,
 		category: "Status",
 		
 		name: "Flash",
@@ -5882,7 +5882,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Elecrtric",
 		zMove: { boost: { evasion: 1 } },
 		contestType: "Beautiful",
 	},
@@ -22332,17 +22332,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	bondage: {
 		num: -578,
 		accuracy: 85,
-		basePower: 15,
+		basePower: 25,
 		category: "Physical",
 		name: "Bondage",
 		pp: 20,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		volatileStatus: 'partiallytrapped',
-		secondary: {
-			chance: 100,
-			volatileStatus: 'flinch',
-		},
 		target: "normal",
 		type: "Dark",
 		contestType: "Tough",
