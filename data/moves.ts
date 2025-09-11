@@ -5871,7 +5871,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		num: 148,
 		accuracy: 100,
 		basePower: 20,
-		category: "Status",
+		category: "Special",
 		
 		name: "Flash",
 		pp: 20,
@@ -5882,7 +5882,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Elecrtric",
+		type: "Electric",
 		zMove: { boost: { evasion: 1 } },
 		contestType: "Beautiful",
 	},
