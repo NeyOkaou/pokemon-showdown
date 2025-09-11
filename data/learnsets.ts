@@ -1764,7 +1764,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	ominousleh:{
+	sleepompik:{
 		learnset:{
 			//Dark
 			darkpulse: ["9M"],
