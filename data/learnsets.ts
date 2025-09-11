@@ -1610,6 +1610,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+	phantasm: {
+		learnset: {
+			bondage: ["3L1"]
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
