@@ -808,6 +808,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
     			frustration: ["9M"],
     			waterpulse: ["9M"],
     			shadowball: ["9M"],
+				flash: ["9M"],
     			triattack: ["9M"],
     			doubleteam: ["9M"],
     			electroball: ["9M"],
@@ -827,6 +828,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				irondefense: ["9M"],
 				magnetbomb: ["9M"],
 				wrap: ["9L1"],
+				flash: ["9M"],
 				metalsound: ["9M"],
 				honeclaws: ["9M"],
 				twister: ["9M"],
@@ -1282,6 +1284,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dracometeor: ["9M"],
 			//electrik
 			thunder: ["9M"],
+			flash: ["9M"],
 			thunderwave: ["9M"],
 			thunderbolt: ["9M"],
 			//fairy
@@ -1393,6 +1396,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Electric
 			overdrive: ["9M"],
+			flash: ["9M"],
 
 			//Dark
 			taunt: ["9M"],
@@ -1452,6 +1456,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			echoedvoice: ["9M"],
 
 			//Electric
+			flash: ["9M"],
 			discharge: ["9M"],
 			overdrive: ["9M"],
 			risingvoltage: ["9M"],
