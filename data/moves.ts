@@ -22334,7 +22334,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 85,
 		basePower: 15,
 		category: "Physical",
-		name: "Bondage v1",
+		name: "Bondage",
 		pp: 32,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
