@@ -102,13 +102,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	sleepompik: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	ominousleh: {
-		tier: "Illegal",
+		tier: "NFE",
 	},
 	mandelman: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	poki: {
 		tier: "Illegal",

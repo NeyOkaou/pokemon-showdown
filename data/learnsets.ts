@@ -1763,6 +1763,251 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		},
 	},
+
+	ominousleh:{
+		learnset:{
+			//Dark
+			darkpulse: ["9M"],
+			nastyplot: ["9M"],
+			pursuit: ["9M"],
+			taunt: ["9M"],
+			assurance: ["9M"],
+			torment: ["9M"],
+
+			//Electrik 
+
+			//Fighting
+			bodypress: ["9M"],
+
+			//Fire
+			//Ghost
+			shadowsneak: ["9M"],
+			nightshade: ["9M"],
+			astonish: ["9M"],
+			confuseray: ["9M"],
+			nightmare: ["9M"],
+
+			//Grass
+			worryseed: ["9M"],
+
+			//Ice
+
+			//Psychic
+			hypnosis: ["9M"],
+
+			//Normal
+			yawn: ["9M"],
+			wrap: ["9M"],
+			bind: ["9M"],
+			headbutt: ["9M"],
+			growl: ["9M"],
+			snore: ["9M"],
+			holdback: ["9M"],
+			leer: ["9M"],
+			feint: ["9M"],
+			meanlook: ["9M"],
+			endeavor: ["9M"],
+			encore: ["9M"],
+			disable: ["9M"],
+			scaryface: ["9M"],
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		}
+	},
+
+	ominousleh:{
+		learnset:{
+			//Dark
+			
+			darkpulse: ["9M"],
+			foulplay: ["9M"],
+			knockoff: ["9M"],
+			nastyplot: ["9M"],
+			pursuit: ["9M"],
+			taunt: ["9M"],
+			assurance: ["9M"],
+			torment: ["9M"],
+
+			//Electrik 
+
+			//Fighting
+			bodypress: ["9M"],
+
+			//Fire
+			//Ghost
+			shadowsneak: ["9M"],
+			nightshade: ["9M"],
+			shadowball: ["9M"],
+			shadowclaw: ["9M"],
+			astonish: ["9M"],
+			confuseray: ["9M"],
+			nightmare: ["9M"],
+			spite: ["9M"],
+			ominouswind: ["9M"],
+
+			//Grass
+			worryseed: ["9M"],
+
+			//Ice
+
+			//Psychic
+			hypnosis: ["9M"],
+			healblock: ["9M"],
+			dreameater: ["9M"],
+
+			//Normal
+			yawn: ["9M"],
+			wrap: ["9M"],
+			bind: ["9M"],
+			headbutt: ["9M"],
+			growl: ["9M"],
+			snore: ["9M"],
+			holdback: ["9M"],
+			leer: ["9M"],
+			feint: ["9M"],
+			hyperbeam: ["9M"],
+			screech: ["9M"],
+			minimize: ["9M"],
+			mindreader: ["9M"],
+			meanlook: ["9M"],
+			endeavor: ["9M"],
+			encore: ["9M"],
+			disable: ["9M"],
+			scaryface: ["9M"],
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		}
+	},
+
+	mandelman:{
+		learnset:{
+			//Dark
+			baddybad: ["9M"],
+			darkpulse: ["9M"],
+			foulplay: ["9M"],
+			knockoff: ["9M"],
+			honeclaws: ["9M"],
+			memento: ["9M"],
+			nastyplot: ["9M"],
+			pursuit: ["9M"],
+			suckerpunch: ["9M"],
+			taunt: ["9M"],
+			throatchop: ["9M"],
+			assurance: ["9M"],
+			embargo: ["9M"],
+			feintattack: ["9M"],
+			thief: ["9M"],
+			snatch: ["9M"],
+			torment: ["9M"],
+
+			//Electrik 
+			thunderpunch: ["9M"],
+
+			//Fighting
+			brickbreak: ["9M"],
+			bodypress: ["9M"],
+			detect: ["9M"],
+			seismictoss: ["9M"],
+
+			//Fire
+			firepunch: ["9M"],
+
+			//Ghost
+			curse: ["9M"],
+			destinybond: ["9M"],
+			shadowpunch: ["9M"],
+			shadowsneak: ["9M"],
+			nightshade: ["9M"],
+			shadowball: ["9M"],
+			shadowclaw: ["9M"],
+			astonish: ["9M"],
+			confuseray: ["9M"],
+			hex: ["9M"],
+			nightmare: ["9M"],
+			spite: ["9M"],
+			ominouswind: ["9M"],
+
+			//Grass
+			worryseed: ["9M"],
+
+			//Ice
+			icepunch: ["9M"],
+
+			//Psychic
+			psywave: ["9M"],
+			psychic: ["9M"],
+			hypnosis: ["9M"],
+			healblock: ["9M"],
+			dreameater: ["9M"],
+
+			//Normal
+			yawn: ["9M"],
+			lovelykiss: ["9M"],
+			wrap: ["9M"],
+			stomp: ["9M"],
+			bind: ["9M"],
+			headbutt: ["9M"],
+			growl: ["9M"],
+			snore: ["9M"],
+			fakeout: ["9M"],
+			holdback: ["9M"],
+			furyswipes: ["9M"],
+			leer: ["9M"],
+			feint: ["9M"],
+			doubleslap: ["9M"],
+			hyperbeam: ["9M"],
+			selfdestruct: ["9M"],
+			explosion: ["9M"],
+			megapunch: ["9M"],
+			megakick: ["9M"],
+			scratch: ["9M"],
+			screech: ["9M"],
+			minimize: ["9M"],
+			mindreader: ["9M"],
+			meanlook: ["9M"],
+			hypervoice: ["9M"],
+			endeavor: ["9M"],
+			encore: ["9M"],
+			disable: ["9M"],
+			scaryface: ["9M"],
+
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		}
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
