@@ -37,6 +37,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			swagger: ["9M"],
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
+			batonpass: ["9M"], 
 			confide: ["9M"],
 		},
 	},
@@ -61,6 +62,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunderbolt: ["9L29"],
 			playrough: ["9L35"],
 			dragondance: ["9L40"],
+			batonpass: ["9M"], 
 			dualwingbeat: ["9L42"], 
 			featherdance: ["9L45"],   
 			thunder: ["9L59"],
@@ -102,6 +104,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			quickattack: ["9L1"],
 			agility: ["9L1"],
 			sing: ["9L1"],
+			batonpass: ["9M"], 
 			hypervoice: ["9L1"],
 			raindance: ["9L1"],
 			electricterrain: ["9L1"],
@@ -958,7 +961,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				constrict: ["9M"],
 				mudshot: ["9M"],
 				bind: ["9M"],
-				batonpass: ["9M"],
 				splash: ["9M"],
 				reflect: ["9M"],
 				lightscreen: ["9M"],
@@ -1421,6 +1423,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
+			batonpass: ["9M"], 
 		},
 	},
 	melodrame: {
@@ -1502,6 +1505,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
+			batonpass: ["9M"], 
 		},
 	},
 	verote:{
@@ -1625,9 +1629,121 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	phantasm: {
 		learnset: {
 			//Dark
-			bondage: ["9M"],
+			bondage: ["9M"], 
+			assurance: ["9M"], 
+			darkpulse: ["9M"], 
+			pursuit: ["9M"], 
+			fling: ["9M"], 
+			taunt: ["9M"], 
+			snatch: ["9M"], 
+			quash: ["9M"], 
+			suckerpunch: ["9M"], 
+			torment: ["9M"], 
+			foulplay: ["9M"], 
+			knockoff: ["9M"], 
+			memento: ["9M"], 
+			punishement: ["9M"], 
+			embargo: ["9M"], 
+			faketears: ["9M"], 
+
 			//Ghost 
 			soulblast: ["9M"],
+			poltergeist: ["9M"], 
+			destinybond: ["9M"], 
+			confusray: ["9M"], 
+			shadowpunch: ["9M"], 
+			grudge: ["9M"], 
+			shadowsneak: ["9M"], 
+			lick: ["9M"], 
+			spite: ["9M"], 
+			shadowbone: ["9M"], 
+			shadowball: ["9M"], 
+			nightshade: ["9M"], 
+			hex: ["9M"], 
+
+			//Steel
+			irontail: ["9M"], 
+			cut: ["9M"], 
+
+			//Fire
+			firelash: ["9M"],
+			firepunch: ["9M"],  
+
+			//Psychic
+			braindamage: ["9M"], 
+
+			//Grass
+			powerwhip: ["9M"],
+			vinewhip: ["9M"],
+
+			//Normal
+			wrap: ["9M"],
+			bodyslam: ["9M"], 
+			captivate: ["9M"], 
+			bide: ["9M"], 
+			bind: ["9M"], 
+			selfdestruct: ["9M"], 
+			encore: ["9M"], 
+			hardern: ["9M"], 
+			headbutt: ["9M"], 
+			leer: ["9M"], 
+			megapunch: ["9M"], 
+			endure: ["9M"], 
+			explosion: ["9M"], 
+			endeavor: ["9M"], 
+			stomp: ["9M"], 
+			tailwhip: ["9M"], 
+			scaryface: ["9M"], 
+			spitup: ["9M"], 
+			swallow: ["9M"], 
+			stockpile: ["9M"], 
+
+			screech: ["9M"], 
+			minimize: ["9M"], 
+
+			splash: ["9M"],
+			defensecurl: ["9M"], 
+			doubleedge: ["9M"], 
+			painsplit: ["9M"],
+
+			slam: ["9M"],
+			hypebeam: ["9M"], 
+			meanlook: ["9M"], 
+			endure: ["9M"], 
+			flail: ["9M"], 
+
+			//Fighting
+			bulkup: ["9M"], 
+			bodypress: ["9M"], 
+			brickbreak: ["9M"], 
+			bulkup: ["9M"], 
+			rocksmash: ["9M"], 
+			counter: ["9M"], 
+
+			//Fairy
+			playrough: ["9M"], 
+
+			//Electrik
+			discharge: ["9M"], 
+			flash: ["9M"], 
+			thunderpunch: ["9M"], 
+
+			//Ice
+			icepunch: ["9M"], 
+
+			//Water
+			watergun: ["9M"], 
+			raindance: ["9M"], 
+			watersport: ["9M"], 
+
+			//Poison
+			poisontail: ["9M"], 
+			poisontail: ["9M"], 
+			gunkshot: ["9M"], 
+
+			//Rock
+			headsmash: ["9M"], 
+
 			//general moves
 			protect: ["9M"],
 			frustration: ["9M"],
