@@ -22361,7 +22361,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	jumpscare: {
 		num: -570,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 40,
 		category: "Special",
 		name: "Jumpscare",
 		pp: 10,
