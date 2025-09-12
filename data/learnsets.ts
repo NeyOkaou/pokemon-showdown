@@ -1577,6 +1577,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thief: ["9M"],
 			taunt: ["9M"],
 			torment: ["9M"],
+			partingshot: ["9M"],
 			darkpulse: ["9M"],
 			//Fairy 
 			charm: ["9M"],
