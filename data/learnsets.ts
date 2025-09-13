@@ -1025,7 +1025,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				fireblast: ["9M"],
 				dracometeor: ["9M"],
 				hydropump: ["9M"],
-				hurricane: ["9M"],
+				aeroblast: ["9M"],
 				roost: ["9M"],
 				fly: ["9M"],
 				workup: ["9M"],
@@ -2046,7 +2046,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			nightslash: ["9M"],
 			snatch: ["9M"],
 			pursuit: ["9M"],
-			succubykiss: ["9M"],
 
 			//Fighting
 			counter: ["9M"],
