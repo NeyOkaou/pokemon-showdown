@@ -2238,7 +2238,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lovelykiss: ["9M"],
 			guillotine: ["9M"], 
 			crushclaw: ["9M"], 
-			furryswipes: ["9M"], 
+			furyswipes: ["9M"], 
 			scratch: ["9M"], 
 
 			//Electric
@@ -2315,7 +2315,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Psychic
 			calmmind: ["9M"],
 			psychocut: ["9M"], 
-			psychicfang: ["9M"], 
+			psychicfangs: ["9M"], 
 			agility: ["9M"],
 
 			//Fairy
@@ -2333,7 +2333,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fellstinger: ["9M"], 
 			furycutter: ["9M"], 
 			pinmissile: ["9M"], 
-			twinniddle: ["9M"], 
+			twinneeddle: ["9M"], 
 
 			//general moves
 			protect: ["9M"],
