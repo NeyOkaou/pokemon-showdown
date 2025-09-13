@@ -2009,6 +2009,197 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		}
 	},
+
+	daemonix:{
+		learnset:{
+			//Normal 
+			covet: ["9M"],
+			painsplit: ["9M"],
+			encore: ["9M"],
+			fakeout: ["9M"],
+			captivate: ["9M"],
+			swift: ["9M"],
+			endeavor: ["9M"], 
+			falseswipe: ["9M"],
+			mefirst: ["9M"],
+			mindreader: ["9M"],
+			psychup: ["9M"],
+			workup: ["9M"],
+			tearfullook: ["9M"],
+			feint: ["9M"],
+			flash: ["9M"],
+			lovelykiss: ["9M"],
+
+			//Dark
+			powertrip: ["9M"],
+			snarl: ["9M"],
+			taunt: ["9M"],
+			darkpulse: ["9M"],
+			partingshot: ["9M"],
+			fling: ["9M"],
+			foulplay: ["9M"],
+			honeclaws: ["9M"],
+			nastyplot: ["9M"],
+			nightslash: ["9M"],
+			throatchop: ["9M"],
+			snatch: ["9M"],
+			pursuit: ["9M"],
+			succubykiss: ["9M"],
+
+			//Fighting
+			counter: ["9M"],
+			revenge: ["9M"],
+			wakeupslap: ["9M"],
+
+			//Ghost
+			shadowball: ["9M"],
+			curse: ["9M"],
+			destinybond: ["9M"],
+			shadowclaw: ["9M"],
+
+			//Psychic
+			calmmind: ["9M"],
+			agility: ["9M"],
+
+			//Fairy
+			alluringvoice: ["9M"],
+			babydolleyes: ["9M"],
+			charm: ["9M"],
+			disarmingvoice: ["9M"],
+			sweetkiss: ["9M"],
+			drainingkiss: ["9M"],
+			playrough: ["9M"],
+			moonlight: ["9M"],
+			spiritbreak: ["9M"],
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+
+		},
+	},
+	achaethena:{
+		learnset:{
+			//Normal 
+			covet: ["9M"],
+			painsplit: ["9M"],
+			encore: ["9M"],
+			cut: ["9M"],
+			fakeout: ["9M"],
+			captivate: ["9M"],
+			swift: ["9M"],
+			endeavor: ["9M"], 
+			quickattack: ["9M"],
+			falseswipe: ["9M"],
+			mefirst: ["9M"],
+			mindreader: ["9M"],
+			psychup: ["9M"],
+			workup: ["9M"],
+			tearfullook: ["9M"],
+			feint: ["9M"],
+			flash: ["9M"],
+			lovelykiss: ["9M"],
+			megakick: ["9M"],
+
+			//Dark
+			powertrip: ["9M"],
+			snarl: ["9M"],
+			taunt: ["9M"],
+			darkpulse: ["9M"],
+			partingshot: ["9M"],
+			fling: ["9M"],
+			foulplay: ["9M"],
+			honeclaws: ["9M"],
+			nastyplot: ["9M"],
+			nightslash: ["9M"],
+			throatchop: ["9M"],
+			snatch: ["9M"],
+			pursuit: ["9M"],
+			succubykiss: ["9M"],
+			knockoff: ["9M"],
+			embargo: ["9M"],
+			feintattack: ["9M"],
+			flatter: ["9M"],
+
+			//Fighting
+			counter: ["9M"],
+			revenge: ["9M"],
+			rocksmash: ["9M"],
+			wakeupslap: ["9M"],
+			closecombat: ["9M"],
+			brickbreak: ["9M"],
+			aurasphere: ["9M"],
+			drainpunch: ["9M"],
+			machpunch: ["9M"],
+			lowkick: ["9M"],
+			superpower: ["9M"],
+			vacuumwave: ["9M"],
+			jumpkick: ["9M"],
+			lowsweep: ["9M"],
+
+			//Ghost
+			shadowball: ["9M"],
+			curse: ["9M"],
+			destinybond: ["9M"],
+			shadowclaw: ["9M"],
+			shadowpunch: ["9M"],
+			soulblast: ["9M"],
+
+			//Psychic
+			calmmind: ["9M"],
+			agility: ["9M"],
+			imprison: ["9M"], 
+
+			//Fairy
+			alluringvoice: ["9M"],
+			babydolleyes: ["9M"],
+			charm: ["9M"],
+			disarmingvoice: ["9M"],
+			sweetkiss: ["9M"],
+			drainingkiss: ["9M"],
+			playrough: ["9M"],
+			moonlight: ["9M"],
+			spiritbreak: ["9M"], 
+
+			//Flying 
+			airslash: ["9M"], 
+			fly: ["9M"],
+
+			//Poison 
+			poisonjab: ["9M"],
+
+			//Electric 
+			thunderpunch: ["9M"], 
+			
+			//Fire 
+			firepunch: ["9M"], 
+			
+			//Ice 
+			icepunch: ["9M"],
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
