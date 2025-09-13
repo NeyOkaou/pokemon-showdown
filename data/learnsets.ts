@@ -2333,7 +2333,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fellstinger: ["9M"], 
 			furycutter: ["9M"], 
 			pinmissile: ["9M"], 
-			twinneeddle: ["9M"], 
+			twineeddle: ["9M"], 
 
 			//general moves
 			protect: ["9M"],
