@@ -122,13 +122,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	daemonix: {
-		tier: "Illegal",
+		tier: "UU",
+		doublesTier: "DOU",
+		natDexTier: "UU",
 	},
 	achaethena: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	beelzeros: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	phantasm: {
 		tier: "Uber",
