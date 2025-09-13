@@ -1638,6 +1638,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			//Dark
 			bondage: ["9M"], 
+			kotowcleave: ["9M"], 
 			assurance: ["9M"], 
 			darkpulse: ["9M"], 
 			pursuit: ["9M"], 
