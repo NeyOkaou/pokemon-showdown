@@ -1100,6 +1100,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	apprenpti: {
 		learnset: {
+			sharpen: ["9M"], 
 			//steel
 			autotomize: ["9M"],
 			flashcannon: ["9M"],
@@ -1135,6 +1136,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	reptueur: {
 		learnset: {
 			//steel
+			sharpen: ["9M"], 
 			autotomize: ["9M"],
 			cut: ["9M"],
 			flashcannon: ["9M"],
@@ -1190,6 +1192,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	gardilisk: {
 		learnset: {
 			//steel
+			sharpen: ["9M"], 
 			autotomize: ["9M"],
 			cut: ["9M"],
 			dragonblade: ["9M"],
@@ -2041,7 +2044,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			honeclaws: ["9M"],
 			nastyplot: ["9M"],
 			nightslash: ["9M"],
-			throatchop: ["9M"],
 			snatch: ["9M"],
 			pursuit: ["9M"],
 			succubykiss: ["9M"],
@@ -2056,6 +2058,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			curse: ["9M"],
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
+			lick: ["9M"], 
 
 			//Psychic
 			calmmind: ["9M"],
@@ -2084,6 +2087,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"], 
+			leechlife: ["9M"], 
 
 		},
 	},
@@ -2121,7 +2125,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			honeclaws: ["9M"],
 			nastyplot: ["9M"],
 			nightslash: ["9M"],
-			throatchop: ["9M"],
+			bite: ["9M"], 
+			crunch: ["9M"], 
 			snatch: ["9M"],
 			pursuit: ["9M"],
 			succubykiss: ["9M"],
@@ -2153,12 +2158,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shadowclaw: ["9M"],
 			shadowpunch: ["9M"],
 			soulblast: ["9M"],
+			lick: ["9M"], 
 
 			//Psychic
 			calmmind: ["9M"],
 			agility: ["9M"],
 			imprison: ["9M"], 
 
+			//Steel
+			cut: ["9M"], 
 			//Fairy
 			alluringvoice: ["9M"],
 			babydolleyes: ["9M"],
@@ -2198,6 +2206,149 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"], 
+			leechlife: ["9M"], 
+		},
+	},
+	beelzeros:{
+		learnset:{
+			//Normal 
+			covet: ["9M"],
+			painsplit: ["9M"],
+			encore: ["9M"],
+			fakeout: ["9M"],
+			captivate: ["9M"],
+			swift: ["9M"],
+			endeavor: ["9M"], 
+			falseswipe: ["9M"],
+			mefirst: ["9M"],
+			mindreader: ["9M"],
+			psychup: ["9M"],
+			workup: ["9M"],
+			tearfullook: ["9M"],
+			swordsdance: ["9M"], 
+			visegrip: ["9M"], 
+			tailwhip: ["9M"], 
+			superfang: ["9M"], 
+			slash: ["9M"], 
+			sharpen: ["9M"], 
+			feint: ["9M"],
+			flash: ["9M"],
+			scaryface: ["9M"], 
+			razorwind: ["9M"], 
+			lovelykiss: ["9M"],
+			guillotine: ["9M"], 
+			crushclaw: ["9M"], 
+			furryswipes: ["9M"], 
+			scratch: ["9M"], 
+
+			//Electric
+			thunderpunch: ["9M"], 
+			//Ice
+			icepunch: ["9M"], 
+			//Fire
+			firepunch: ["9M"],
+			//Ghost 
+
+			//Dark
+			powertrip: ["9M"],
+			snarl: ["9M"],
+			taunt: ["9M"],
+			bite: ["9M"], 
+			crunch: ["9M"], 
+			darkpulse: ["9M"],
+			partingshot: ["9M"],
+			fling: ["9M"],
+			foulplay: ["9M"],
+			honeclaws: ["9M"],
+			knockoff: ["9M"], 
+			payback: ["9M"], 
+			thief: ["9M"], 
+			nastyplot: ["9M"],
+			nightslash: ["9M"],
+			ceaselessedge: ["9M"], 
+			torment: ["9M"], 
+			suckerpunch: ["9M"], 
+			falsesurrender: ["9M"], 
+			feintattack: ["9M"], 
+
+			snatch: ["9M"],
+			pursuit: ["9M"],
+			succubykiss: ["9M"],
+
+			//Poison
+			poisonfang: ["9M"],
+			poisonsting: ["9M"], 
+			poisontail: ["9M"],  
+
+			//Fighting
+			counter: ["9M"],
+			revenge: ["9M"],
+			wakeupslap: ["9M"],
+			bulkup: ["9M"], 
+			seismictoss: ["9M"], 
+			drainpunch: ["9M"], 
+			quickslice: ["9M"], 
+			superpower: ["9M"], 
+			strength: ["9M"], 
+			rocksmash: ["9M"], 
+			karatechop: ["9M"], 
+			brickbreak: ["9M"], 
+			focusblast: ["9M"], 
+			crosschop: ["9M"], 
+
+			//Ghost
+			shadowball: ["9M"],
+			curse: ["9M"],
+			lick: ["9M"], 
+			destinybond: ["9M"],
+			shadowclaw: ["9M"],
+
+			//Grass
+			strengthsap: ["9M"], 
+
+			//Flying
+			fly: ["9M"], 
+			//Steel
+			cut: ["9M"],
+			steelwing: ["9M"],  
+
+			//Psychic
+			calmmind: ["9M"],
+			psychocut: ["9M"], 
+			psychicfang: ["9M"], 
+			agility: ["9M"],
+
+			//Fairy
+			alluringvoice: ["9M"],
+			babydolleyes: ["9M"],
+			charm: ["9M"],
+			disarmingvoice: ["9M"],
+			sweetkiss: ["9M"],
+			drainingkiss: ["9M"],
+			playrough: ["9M"],
+			moonlight: ["9M"],
+			spiritbreak: ["9M"],
+
+			//Bug
+			fellstinger: ["9M"], 
+			furycutter: ["9M"], 
+			pinmissile: ["9M"], 
+			twinniddle: ["9M"], 
+
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+			leechlife: ["9M"], 
+
 		},
 	},
 	missingno: {
