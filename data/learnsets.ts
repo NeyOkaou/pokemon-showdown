@@ -2299,6 +2299,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Ghost
 			shadowball: ["9M"],
 			curse: ["9M"],
+			bitterblade: ["9M"],
 			lick: ["9M"], 
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
