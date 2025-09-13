@@ -20170,7 +20170,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Melodrame",
 		types: ["Normal", "Dark"],
 		gender: "F",
-		baseStats: { hp: 72, atk: 56, def: 65, spa: 101, spd: 96, spe: 100 },
+		baseStats: { hp: 72, atk: 56, def: 65, spa: 96, spd: 96, spe: 100 },
 		abilities: { 0: "Cursed Body", 1: "Soundproof", H: "Punk Rock" },
 		heightm: 1.48,
 		weightkg: 3,
