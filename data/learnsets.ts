@@ -1671,6 +1671,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Steel
 			irontail: ["9M"], 
+			irondefense: ["9M"], 
 			cut: ["9M"], 
 
 			//Fire
@@ -1723,6 +1724,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Fighting
 			bulkup: ["9M"], 
 			bodypress: ["9M"], 
+			superpower: ["9M"], 
 			brickbreak: ["9M"], 
 			bulkup: ["9M"], 
 			rocksmash: ["9M"], 
@@ -2298,7 +2300,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Ghost
 			shadowball: ["9M"],
 			curse: ["9M"],
-			bitterblade: ["9M"],
 			lick: ["9M"], 
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
