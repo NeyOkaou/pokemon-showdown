@@ -20507,7 +20507,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Drache Toxic",
 		pp: 10,
 		priority: 0,
-		flags: { reflectable: 1, nonsky: 1, metronome: 1, mustpressure: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1},
 		sideCondition: 'toxicspikes',
 		condition: {
 			// this is a side condition
