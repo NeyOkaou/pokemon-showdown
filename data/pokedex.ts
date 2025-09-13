@@ -20352,7 +20352,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Dark", "Ghost"],
 		gender: "M",
 		baseStats: { hp: 128, atk: 82, def: 115, spa: 34, spd: 69, spe: 71 },
-		abilities: { 0: "Stamina", 1: "Innards Out", H: "Laceration" },
+		abilities: { 0: "Laceration", 1: "Innards Out", H: "Stamina" },
 		heightm: 1.92,
 		weightkg: 110,
 		color: "Black",
