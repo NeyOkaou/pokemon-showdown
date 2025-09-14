@@ -2275,7 +2275,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			snatch: ["9M"],
 			pursuit: ["9M"],
-			succubykiss: ["9M"],
 
 			//Poison
 			poisonfang: ["9M"],

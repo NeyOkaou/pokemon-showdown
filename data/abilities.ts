@@ -3174,6 +3174,18 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1,
 		num: 253,
 	},
+	paradiselost: {
+		onDamagingHit(damage, target, source, move) {
+			if (!this.checkMoveMakesContact(move, source, target) || source.volatiles['perishsong']) return;
+			this.add('-ability', target, 'Perish Body');
+			source.addVolatile('perishsong');
+			target.addVolatile('perishsong');
+		},
+		flags: {},
+		name: "Paradise Lost",
+		rating: 1,
+		num: 253,
+	},
 	pickpocket: {
 		onAfterMoveSecondary(target, source, move) {
 			if (source && source !== target && move?.flags['contact']) {
