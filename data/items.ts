@@ -715,7 +715,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Genesect-Burn"],
 		num: 118,
 		gen: 5,
-		isNonstandard: "Past",
 	},
 	cameruptite: {
 		name: "Cameruptite",
@@ -903,7 +902,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Genesect-Chill"],
 		num: 119,
 		gen: 5,
-		isNonstandard: "Past",
 	},
 	chippedpot: {
 		name: "Chipped Pot",
@@ -1355,7 +1353,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Genesect-Douse"],
 		num: 116,
 		gen: 5,
-		isNonstandard: "Past",
 	},
 	dracoplate: {
 		name: "Draco Plate",
@@ -5270,7 +5267,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Genesect-Shock"],
 		num: 117,
 		gen: 5,
-		isNonstandard: "Past",
 	},
 	shucaberry: {
 		name: "Shuca Berry",
