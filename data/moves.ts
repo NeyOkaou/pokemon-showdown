@@ -22384,7 +22384,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	pupunch: {
 		num: -571,
 		accuracy: true,
-		basePower: 80,
+		basePower: 90,
 		category: "Physical",
 		name: "Pu-Punch",
 		pp: 20,
