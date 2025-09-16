@@ -2360,7 +2360,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			feintattack: ["9M"],
 			thief: ["9M"],
 			taunt: ["9M"],
-			knock: ["9M"],
+			knockoff: ["9M"],
 			//Electrik
 			thunderpunch: ["9M"],
 			thunder: ["9M"],
