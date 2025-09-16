@@ -2420,7 +2420,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockclimb: ["9M"],
 			retaliate: ["9M"],
 			quickattack: ["9M"],
-			multiattack: ["9M"],
 			minimize: ["9M"],
 			metronome: ["9M"],
 			mefirst: ["9M"],
