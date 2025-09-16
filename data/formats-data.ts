@@ -5812,6 +5812,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	chromon: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	syclar: {
 		isNonstandard: "CAP",
 		tier: "CAP LC",

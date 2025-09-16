@@ -20402,4 +20402,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 9,
 	},
+	chromon: {
+		num: -5040,
+		name: "Chromon",
+		types: ["Normal"],
+		gender: "N",
+		baseStats: { hp: 75, atk: 105, def: 80, spa: 95, spd: 80, spe: 100 },
+		abilities: { 0: "Normalize" }, 
+		heightm: 0.3,
+		weightkg: 4,
+		color: "Gray",
+		eggGroups: ["Ditto"],
+	},
 };
