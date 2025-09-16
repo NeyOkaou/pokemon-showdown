@@ -2437,6 +2437,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dizzypunch: ["9M"],
 			defensecurl: ["9M"],
 			cometpunch: ["9M"],
+			//Water
+			raindance: ["9M"],
 			//general
 			protect: ["9M"],
 			frustration: ["9M"],
