@@ -2363,12 +2363,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knock: ["9M"],
 			//Electrik
 			thunderpunch: ["9M"],
+			thunder: ["9M"],
 			//Ice
 			snowscape: ["9M"],
 			icepunch: ["9M"],
+			blizzard: ["9M"],
 			//Fire
 			firepunch: ["9M"],
 			sunnyday: ["9M"],
+			fireblast: ["9M"],
 			//Fairy
 			playrough: ["9M"],
 			charm: ["9M"],
