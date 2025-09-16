@@ -2397,6 +2397,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			meteormash: ["9M"],
 			//Fighting
 			brickbreak: ["9M"],
+			bulkup: ["9M"],
 			poweruppunch: ["9M"],
 			counter: ["9M"],
 			doublekick: ["9M"],
@@ -2408,7 +2409,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			triattack: ["9M"],
 			takedown: ["9M"],
 			tackle: ["9M"],
-			swordsdance: ["9M"],
 			megapunch: ["9M"],
 			swift: ["9M"],
 			stomp: ["9M"],
