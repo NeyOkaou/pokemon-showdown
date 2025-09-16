@@ -22390,9 +22390,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 20,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		onModifyMove(move, pokemon, target) {
-			move.type = '???';
-			this.add('-activate', pokemon, 'move: Struggle');
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ghost' || type === 'Rock' || type === 'Steel') return 0;
 		},
 		secondary: null,
 		target: "randomNormal",
