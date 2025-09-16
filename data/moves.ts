@@ -22381,4 +22381,21 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Ghost",
 		contestType: "Cute",
 	},
+	pupunch: {
+		num: -571,
+		accuracy: true,
+		basePower: 80,
+		category: "Physical",
+		name: "	Pu-Punch",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onModifyMove(move, pokemon, target) {
+			move.type = '???';
+		},
+		secondary: null,
+		target: "randomNormal",
+		type: "Normal",
+		contestType: "Tough",
+	},
 };

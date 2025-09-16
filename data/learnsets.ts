@@ -1830,7 +1830,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		}
 	},
-
 	ominousleh:{
 		learnset:{
 			//Dark
@@ -2351,6 +2350,24 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 			leechlife: ["9M"], 
 
+		},
+	},
+	chromon:{
+		learnset:{
+			//Normal
+			pupunch: ["9M"],
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
 		},
 	},
 	missingno: {

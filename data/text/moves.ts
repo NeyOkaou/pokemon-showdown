@@ -26,6 +26,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	pupunch: {
+		name: "Pu-Punch",
+		desc: "Always deals neutral damage, ignoring type resistances and immunities.",
+		shortDesc: "Ignores type effectiveness: always deals neutral damage.",
+	},
 	acid: {
 		name: "Acid",
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
