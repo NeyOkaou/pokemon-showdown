@@ -22389,10 +22389,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Pu-Punch",
 		pp: 20,
 		priority: 0,
-		flags: {
-			contact: 1, protect: 1,
-			failencore: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failmimic: 1, failinstruct: 1, nosketch: 1,
-		},
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		onModifyMove(move, pokemon, target) {
 			move.type = '???';
 			this.add('-activate', pokemon, 'move: Struggle');
