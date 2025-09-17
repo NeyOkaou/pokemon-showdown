@@ -145,10 +145,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	lumini: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	parademise: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	//END MOODMON
 	bulbasaur: {
