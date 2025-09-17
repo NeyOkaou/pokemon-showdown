@@ -22399,8 +22399,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			}
 			//clear hazards
 			if (!target.volatiles['substitute'] || move.infiltrates) success = true;
-			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
-			const removeTarget = ['reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', ...removeAll];
+			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge','reflect', 'lightscreen'];
+			const removeTarget = ['auroraveil', 'safeguard', 'mist', ...removeAll];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
 					if (!removeAll.includes(targetCondition)) continue;
