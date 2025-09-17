@@ -2881,6 +2881,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Power is equal to 100 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
 		shortDesc: "More power the more HP the target has left.",
 	},
+	spellcard: {
+		name: "Spell Card",
+		desc: "Removes substitutes from all active Pokemon and ends the effects of Spikes, Stealth Rock, Sticky Web, and Toxic Spikes for both sides and resets the stat stages of all active Pokemon to 0.",
+		shortDesc: "Eliminates all stat changes. Clears all substitutes/hazards.",
+	},
 	haze: {
 		name: "Haze",
 		desc: "Resets the stat stages of all active Pokemon to 0.",

@@ -22381,21 +22381,45 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Ghost",
 		contestType: "Cute",
 	},
-	pupunch: {
+	spellcard: {
 		num: -571,
 		accuracy: true,
-		basePower: 90,
-		category: "Physical",
-		name: "Pu-Punch",
-		pp: 20,
+		basePower: 100,
+		category: "Special",
+		name: "Spell Card",
+		pp: 5,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		onEffectiveness(typeMod, target, type) {
-			if (type === 'Ghost' || type === 'Rock' || type === 'Steel') return 0;
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		onHit(target, source, move) {
+			let success = false;
+			//clear boosts
+				this.add('-clearallboost');
+			for (const pokemon of this.getAllActive()) {
+				pokemon.clearBoosts();
+			}
+			//clear hazards
+			if (!target.volatiles['substitute'] || move.infiltrates) success = true;
+			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const removeTarget = ['reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', ...removeAll];
+			for (const targetCondition of removeTarget) {
+				if (target.side.removeSideCondition(targetCondition)) {
+					if (!removeAll.includes(targetCondition)) continue;
+					this.add('-sideend', target.side, this.dex.conditions.get(targetCondition).name, '[from] move: Spell Card', `[of] ${source}`);
+					success = true;
+				}
+			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: Spell Card', `[of] ${source}`);
+					success = true;
+				}
+			}
+			this.field.clearTerrain();
+			return success;
 		},
 		secondary: null,
-		target: "randomNormal",
+		target: "allAdjacent",
 		type: "Normal",
-		contestType: "Tough",
+		contestType: "Beautiful",
 	},
 };
