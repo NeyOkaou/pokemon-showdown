@@ -22382,7 +22382,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cute",
 	},
 	spellcard: {
-		num: -571,
+		num: -573,
 		accuracy: true,
 		basePower: 100,
 		category: "Special",
