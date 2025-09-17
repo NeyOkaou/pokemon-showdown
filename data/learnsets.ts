@@ -1722,7 +1722,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodypress: ["9M"], 
 			superpower: ["9M"], 
 			brickbreak: ["9M"], 
-			bulkup: ["9M"], 
 			rocksmash: ["9M"], 
 			counter: ["9M"], 
 
