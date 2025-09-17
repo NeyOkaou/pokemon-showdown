@@ -20375,7 +20375,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	lumini: {
 		num: -5038,
 		name: "Lumini",
-		types: ["Dark", "Fairy"],
+		types: ["Steel", "Fairy"],
 		genderRatio: { M: 0.1, F: 0.9 },
 		baseStats: { hp: 65, atk: 55, def: 75, spa: 105, spd: 75, spe: 40 },
 		abilities: { 0: "Light Metal", 1: "Levitate", H: "Serene Grace"},
@@ -20389,7 +20389,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	parademise: {
 		num: -5039,
 		name: "Parademise",
-		types: ["Dark", "Steel"],
+		types: ["Steel", "Dark"],
 		genderRatio: { M: 0.1, F: 0.9 },
 		baseStats: { hp: 90, atk: 74, def: 84, spa: 135, spd: 80, spe: 64 },
 		abilities: { 0: "Mega Launcher", 1: "Levitate", H: "Paradise Lost"},
