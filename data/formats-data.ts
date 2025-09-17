@@ -5905,7 +5905,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	voodoll: {
-		tier: "Illegal,
+		tier: "Illegal,"
 	},
 	voodoom: {
 		isNonstandard: "CAP",

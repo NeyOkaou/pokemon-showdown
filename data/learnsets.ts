@@ -808,7 +808,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
     			frustration: ["9M"],
     			waterpulse: ["9M"],
     			shadowball: ["9M"],
-				flash: ["9M"],
     			triattack: ["9M"],
     			doubleteam: ["9M"],
     			electroball: ["9M"],
@@ -896,7 +895,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
     			chargebeam: ["9M"],
     			dragondance: ["9M"],
     			icefang: ["9M"],
-    			flash: ["9M"],
     			protect: ["9M"],
     			frustration: ["9M"],
     			waterpulse: ["9M"],
@@ -1689,7 +1687,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9M"],
 			bodyslam: ["9M"], 
 			captivate: ["9M"], 
-			bide: ["9M"], 
 			bind: ["9M"], 
 			selfdestruct: ["9M"], 
 			encore: ["9M"], 
@@ -1718,7 +1715,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			slam: ["9M"],
 			hyperbeam: ["9M"], 
 			meanlook: ["9M"], 
-			endure: ["9M"], 
 			flail: ["9M"], 
 
 			//Fighting
@@ -1747,8 +1743,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watersport: ["9M"], 
 
 			//Poison
-			poisontail: ["9M"], 
-			poisontail: ["9M"], 
+			poisontail: ["9M"],  
 			gunkshot: ["9M"], 
 
 			//Rock
@@ -2166,7 +2161,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			imprison: ["9M"], 
 
 			//Steel
-			cut: ["9M"], 
 			//Fairy
 			alluringvoice: ["9M"],
 			babydolleyes: ["9M"],
