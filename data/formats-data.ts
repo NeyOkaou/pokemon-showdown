@@ -5905,16 +5905,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	voodoll: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal,
 	},
 	voodoom: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	scratchet: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	tomohawk: {
 		isNonstandard: "CAP",
@@ -6077,8 +6075,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	chromera: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	venomicon: {
 		isNonstandard: "CAP",
@@ -6125,8 +6122,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	shox: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	ramnarok: {
 		isNonstandard: "CAP",
