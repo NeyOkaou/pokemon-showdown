@@ -22384,10 +22384,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	spellcard: {
 		num: -573,
 		accuracy: true,
-		basePower: 100,
+		basePower: 110,
 		category: "Special",
 		name: "Spell Card",
-		pp: 5,
+		pp: 1,
 		priority: 0,
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
 		onHit(target, source, move) {
