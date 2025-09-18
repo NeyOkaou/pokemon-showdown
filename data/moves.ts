@@ -3669,7 +3669,14 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onHit(pokemon) {
 			pokemon.addVolatile('stall');
 		},
-		secondary: null,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					accuracy: 1,
+				},
+			},
+		},
 		target: "self",
 		type: "Fighting",
 		zMove: { boost: { evasion: 1 } },
@@ -22421,5 +22428,27 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacent",
 		type: "Normal",
 		contestType: "Beautiful",
+	},
+	oilup: {
+		num: 397,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Oil Up",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onHit(pokemon) {
+			if (['', 'slp', 'frz'].includes(pokemon.status)) return false;
+			pokemon.cureStatus();
+		},
+		boosts: {
+			spe: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Steel",
+		zMove: { effect: 'clearnegativeboost' },
+		contestType: "Tough",
 	},
 };

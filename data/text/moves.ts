@@ -1339,8 +1339,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	detect: {
 		name: "Detect",
-		desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-		shortDesc: "Prevents moves from affecting the user this turn.",
+		desc: "If successful raises user's accuracy. The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
+		shortDesc: "If successful raises user's accuracy and prevents moves from affecting the user this turn.",
 		gen8: {
 			desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
 		},
@@ -5369,6 +5369,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Rock Polish",
 		desc: "Raises the user's Speed by 2 stages.",
 		shortDesc: "Raises the user's Speed by 2.",
+	},
+	oilup: {
+		name: "Oil Up",
+		desc: "Raises the user's Speed by 2 stages and clears status conditions.",
+		shortDesc: "Raises the user's Speed by 2 and cure status.",
 	},
 	rockslide: {
 		name: "Rock Slide",
