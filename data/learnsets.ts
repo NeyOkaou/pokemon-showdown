@@ -2027,7 +2027,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			feint: ["9M"],
 			flash: ["9M"],
 			lovelykiss: ["9M"],
-			detect:: ["9M"], 
+			detect: ["9M"], 
 
 			//Dark
 			powertrip: ["9M"],
