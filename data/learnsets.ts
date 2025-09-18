@@ -2420,7 +2420,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Normal
 			covet: ["9M"], 
 			naturalgift: ["9M"], 
-			doubleshit: ["9M"], 
+			doublehit: ["9M"], 
 			headbutt: ["9M"], 
 			triattack: ["9M"], 
 			spellcard: ["9M"],
