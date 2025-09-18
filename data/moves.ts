@@ -3838,7 +3838,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	disarmingvoice: {
 		num: 574,
 		accuracy: true,
-		basePower: 40,
+		basePower: 60,
 		category: "Special",
 		name: "Disarming Voice",
 		pp: 15,
@@ -5273,7 +5273,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	fairywind: {
 		num: 584,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 40,
 		category: "Special",
 		name: "Fairy Wind",
 		pp: 30,
