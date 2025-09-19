@@ -2363,9 +2363,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"], 
 			torment: ["9M"], 
 
-			//Dragon
-			twister: ["9M"], 
-
 			//ElectriC
 			flash: ["9M"], 
 			thunderwave: ["9M"], 
@@ -2403,7 +2400,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healblock: ["9M"], 
 			futuresight: ["9M"], 
 			teleport: ["9M"], 
-			zenheadbutt: ["9M"], 
 			telekinesis: ["9M"], 
 			synchronoise: ["9M"], 
 			trickroom: ["9M"], 
@@ -2418,7 +2414,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			steelwing: ["9M"], 
 
 			//Normal
-			covet: ["9M"], 
 			naturalgift: ["9M"], 
 			doublehit: ["9M"], 
 			headbutt: ["9M"], 
