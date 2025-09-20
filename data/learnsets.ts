@@ -1772,6 +1772,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			assurance: ["9M"],
 			torment: ["9M"],
+			knockoff: ["9M"],
 
 			//Electrik 
 
@@ -1836,6 +1837,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			assurance: ["9M"],
 			torment: ["9M"],
+			knockoff: ["9M"],
 
 			//Electrik 
 

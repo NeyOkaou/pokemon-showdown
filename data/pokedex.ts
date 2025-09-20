@@ -20335,7 +20335,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Beelzeros",
 		types: ["Dark", "Fighting"],
 		gender: "M",
-		baseStats: { hp: 74, atk: 144, def: 95, spa: 53, spd: 93, spe: 76 },
+		baseStats: { hp: 74, atk: 114, def: 95, spa: 53, spd: 93, spe: 76 },
 		abilities: { 0: "Merciless", 1: "Insomnia", H: "Moxie", S: "Vampire" },
 		heightm: 1.50,
 		weightkg: 132,
