@@ -2548,6 +2548,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			naturalgift: ["9M"], 
 			doublehit: ["9M"], 
 			headbutt: ["9M"], 
+			explosion: ["9M"], 
+			selfdestruct: ["9M"], 
 			triattack: ["9M"], 
 			sonicboom: ["9M"], 
 			laserfocus: ["9M"], 
