@@ -2458,6 +2458,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			faketears: ["9M"], 
 			foulplay: ["9M"], 
 			memento: ["9M"], 
+			nightslash: ["9M"], 
 			switcheroo: ["9M"], 
 			meanlook: ["9M"], 
 			thief: ["9M"], 
@@ -2468,6 +2469,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//ElectriC
 			flash: ["9M"], 
 			thunderwave: ["9M"], 
+			thunder: ["9M"], 
+			thunderbolt: ["9M"], 
+			voltswitch: ["9M"], 
+
 
 			//Fairy
 			charm: ["9M"], 
@@ -2488,6 +2493,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Grass 
 			grassknot: ["9M"], 
 			magicalleaf: ["9M"], 
+			solarbeam: ["9M"], 
 
 			//Ghost
 			destinybond: ["9M"], 
@@ -2496,16 +2502,21 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Ice
 			icywind: ["9M"], 
+			snowscape: ["9M"], 
 
 			//Psychic
 			allyswitch: ["9M"], 
 			healblock: ["9M"], 
 			futuresight: ["9M"], 
 			teleport: ["9M"], 
-			telekinesis: ["9M"], 
-			synchronoise: ["9M"], 
-			trickroom: ["9M"], 
+			telekinesis: ["9M"],
+			barrier: ["9M"],
+			reflect: ["9M"],
+			lightscreen: ["9M"],
+			synchronoise: ["9M"],
+			trickroom: ["9M"],
 			wonderroom: ["9M"], 
+			gravity: ["9M"],
 			magicroom: ["9M"],
 
 			//Steel
@@ -2521,13 +2532,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headbutt: ["9M"], 
 			triattack: ["9M"], 
 			spellcard: ["9M"],
+			hyperbeam: ["9M"], 
 			sonicboom: ["9M"], 
 			laserfocus: ["9M"], 
 			mimic: ["9M"], 
 			mindreader: ["9M"], 
 			safeguard: ["9M"], 
 			healbell: ["9M"], 
+			guillotine: ["9M"], 
 			wish: ["9M"], 
+
+			//Fire
+			firespin: ["9M"], 
+			flamethrower: ["9M"], 
+			fireblast: ["9M"], 
 
 			//Water
 			lifedew: ["9M"], 
