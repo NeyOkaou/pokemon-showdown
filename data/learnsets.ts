@@ -2387,6 +2387,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wingattack: ["9M"], 
 			aircutter: ["9M"], 
 			tailwind: ["9M"], 
+			defog: ["9M"],
+			featherdance: ["9M"],
 
 			//Grass 
 			grassknot: ["9M"], 
@@ -2396,6 +2398,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			destinybond: ["9M"], 
 			astonish: ["9M"], 
 			hex: ["9M"], 
+			
 
 			//Ice
 			icywind: ["9M"], 
@@ -2449,17 +2452,25 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 	parademise:{
 		learnset:{
+			//Bug
+			megahorn: ["9M"],
 			//Dark
 			brutalswing: ["9M"],
 			embargo: ["9M"], 
 			faketears: ["9M"], 
 			foulplay: ["9M"], 
+			feintattack: ["9M"],
 			memento: ["9M"], 
 			nightslash: ["9M"], 
 			switcheroo: ["9M"], 
 			meanlook: ["9M"], 
 			thief: ["9M"], 
+			honeclaws: ["9M"],
+			flatter: ["9M"],
+			knockoff: ["9M"],
 			nastyplot: ["9M"], 
+			pursuit: ["9M"],
+			suckerpunch: ["9M"],
 			taunt: ["9M"], 
 			torment: ["9M"], 
 
@@ -2469,6 +2480,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunder: ["9M"], 
 			thunderbolt: ["9M"], 
 			voltswitch: ["9M"], 
+			electroball: ["9M"],
 
 
 			//Fairy
@@ -2485,6 +2497,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gust: ["9M"], 
 			wingattack: ["9M"], 
 			aircutter: ["9M"], 
+			defog: ["9M"],
+			featherdance: ["9M"],
 			tailwind: ["9M"], 
 
 			//Grass 
@@ -2496,6 +2510,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			destinybond: ["9M"], 
 			astonish: ["9M"], 
 			hex: ["9M"], 
+			confuseray: ["9M"], 
+			ominouswind: ["9M"], 
+			shadowclaw: ["9M"], 
+			shadowball: ["9M"], 
 
 			//Ice
 			icywind: ["9M"], 
@@ -2509,6 +2527,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			reflect: ["9M"],
 			lightscreen: ["9M"],
 			trickroom: ["9M"],
+			psychic: ["9M"],
 			wonderroom: ["9M"], 
 			gravity: ["9M"],
 			magicroom: ["9M"],
@@ -2517,13 +2536,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mirrorshot: ["9M"], 
 			irondefense: ["9M"], 
 			steelwing: ["9M"], 
+			metalclaw: ["9M"],
+			doomdesire: ["9M"],
+			gyroball: ["9M"],
+			ironhead: ["9M"],
+			metalsound: ["9M"],
+			spikecannon: ["9M"],
+			autotomize: ["9M"],
+			oilup: ["9M"],
 
 			//Normal
 			naturalgift: ["9M"], 
 			doublehit: ["9M"], 
 			headbutt: ["9M"], 
 			triattack: ["9M"], 
-			spellcard: ["9M"],
 			sonicboom: ["9M"], 
 			laserfocus: ["9M"], 
 			mimic: ["9M"], 
@@ -2554,12 +2580,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"], 
+
 			//Beam/Pulse move
 			aurasphere: ["9M"],
 			darkpulse: ["9M"],
 			flashcannon: ["9M"],
 			focusblast: ["9M"],
+			signalbeam: ["9M"],
 			icebeam: ["9M"],
+			chargebeam: ["9M"],
 			steelbeam: ["9M"],
 			terrainpulse: ["9M"],
 			solarbeam: ["9M"], 
