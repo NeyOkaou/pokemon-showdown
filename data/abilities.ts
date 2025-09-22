@@ -3175,16 +3175,27 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 253,
 	},
 	paradiselost: {
-		onDamagingHit(damage, target, source, move) {
-			if (!this.checkMoveMakesContact(move, source, target) || source.volatiles['perishsong']) return;
-			this.add('-ability', target, 'Perish Body');
-			source.addVolatile('perishsong');
-			target.addVolatile('perishsong');
+		onUpdate(pokemon) {
+			// If already triggered before, stop
+			if (pokemon.volatiles['paradiselost']) return;
+
+			// Check HP condition
+			if (pokemon.hp > 0 && pokemon.hp <= pokemon.maxhp / 2) {
+				pokemon.addVolatile('paradiselost'); // mark it as used
+				this.add('-ability', pokemon, 'Paradise Lost');
+
+				// Apply Perish Song to all opponents
+				for (const foe of pokemon.side.foe.active) {
+					if (foe && foe.isActive && !foe.fainted) {
+						foe.addVolatile('perishsong');
+					}
+				}
+			}
 		},
 		flags: {},
 		name: "Paradise Lost",
 		rating: 1,
-		num: 253,
+		num: -1000000,
 	},
 	pickpocket: {
 		onAfterMoveSecondary(target, source, move) {

@@ -9465,7 +9465,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Hyper Beam",
 		pp: 5,
 		priority: 0,
-		flags: { recharge: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { recharge: 1, protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		self: {
 			volatileStatus: 'mustrecharge',
 		},

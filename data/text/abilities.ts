@@ -803,6 +803,15 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			shortDesc: "On switch-in, this Pokemon's Attack is raised by 1 stage.",
 		},
 	},
+	paradiselost: {
+		name: "Paradise Lost",
+		desc: "Once this Pokemon has 1/2 or less of its max HP it starts the Perish Song effect for the foe. Once per battle.This effect does not happen for this Pokemon if the attacker already has a perish count.",
+		shortDesc: "Once this Pokemon has 1/2 or less of its max HP it starts the Perish Song effect for the foe. Once per battle.",
+	},
+
+	/*Making contact with this Pokemon starts the Perish Song effect for it and the attacker. This effect does not happen for this Pokemon if the attacker already has a perish count.",
+		shortDesc: "Making contact with this Pokemon starts the Perish Song effect for it and the attacker.",*/
+	
 	ironbarbs: {
 		name: "Iron Barbs",
 		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",

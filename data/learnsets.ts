@@ -1394,6 +1394,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hypervoice: ["9M"],
 			sing: ["9M"],
 			echoedvoice: ["9M"],
+			focusenergy: ["9M"],
 
 			//Electric
 			overdrive: ["9M"],
@@ -1455,6 +1456,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hypervoice: ["9M"],
 			sing: ["9M"],
 			echoedvoice: ["9M"],
+			focusenergy: ["9M"],
 
 			//Electric
 			flash: ["9M"],
@@ -1979,8 +1981,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			feint: ["9M"],
 			doubleslap: ["9M"],
 			hyperbeam: ["9M"],
-			selfdestruct: ["9M"],
-			explosion: ["9M"],
 			megapunch: ["9M"],
 			megakick: ["9M"],
 			scratch: ["9M"],
@@ -2085,6 +2085,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			substitute: ["9M"],
 			confide: ["9M"], 
 			leechlife: ["9M"], 
+			strengthsap: ["9M"], 
 
 		},
 	},
@@ -2161,6 +2162,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Psychic
 			calmmind: ["9M"],
 			agility: ["9M"],
+			strengthsap: ["9M"], 
 			imprison: ["9M"], 
 
 			//Steel
