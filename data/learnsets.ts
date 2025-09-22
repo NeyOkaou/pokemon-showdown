@@ -2403,10 +2403,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Psychic
 			allyswitch: ["9M"], 
 			healblock: ["9M"], 
-			futuresight: ["9M"], 
 			teleport: ["9M"], 
-			telekinesis: ["9M"], 
-			synchronoise: ["9M"], 
 			trickroom: ["9M"], 
 			wonderroom: ["9M"], 
 			magicroom: ["9M"],
@@ -2493,7 +2490,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Grass 
 			grassknot: ["9M"], 
 			magicalleaf: ["9M"], 
-			solarbeam: ["9M"], 
+			
 
 			//Ghost
 			destinybond: ["9M"], 
@@ -2507,13 +2504,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Psychic
 			allyswitch: ["9M"], 
 			healblock: ["9M"], 
-			futuresight: ["9M"], 
 			teleport: ["9M"], 
-			telekinesis: ["9M"],
 			barrier: ["9M"],
 			reflect: ["9M"],
 			lightscreen: ["9M"],
-			synchronoise: ["9M"],
 			trickroom: ["9M"],
 			wonderroom: ["9M"], 
 			gravity: ["9M"],
@@ -2521,8 +2515,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Steel
 			mirrorshot: ["9M"], 
-			flashcannon: ["9M"], 
-			steelbeam: ["9M"], 
 			irondefense: ["9M"], 
 			steelwing: ["9M"], 
 
@@ -2532,7 +2524,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headbutt: ["9M"], 
 			triattack: ["9M"], 
 			spellcard: ["9M"],
-			hyperbeam: ["9M"], 
 			sonicboom: ["9M"], 
 			laserfocus: ["9M"], 
 			mimic: ["9M"], 
@@ -2541,7 +2532,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healbell: ["9M"], 
 			guillotine: ["9M"], 
 			wish: ["9M"], 
-
+			//Fighting
+			detect: ["9M"], 
 			//Fire
 			firespin: ["9M"], 
 			flamethrower: ["9M"], 
@@ -2562,6 +2554,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"], 
+			//Beam/Pulse move
+			aurasphere: ["9M"],
+			darkpulse: ["9M"],
+			flashcannon: ["9M"],
+			focusblast: ["9M"],
+			icebeam: ["9M"],
+			steelbeam: ["9M"],
+			terrainpulse: ["9M"],
+			solarbeam: ["9M"], 
+			hyperbeam: ["9M"], 
 		},
 	},
 	chromon:{
