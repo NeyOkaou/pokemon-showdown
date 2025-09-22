@@ -2449,6 +2449,103 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+
+	parademise:{
+		learnset:{
+			//Dark
+			brutalswing: ["9M"],
+			embargo: ["9M"], 
+			faketears: ["9M"], 
+			foulplay: ["9M"], 
+			memento: ["9M"], 
+			switcheroo: ["9M"], 
+			meanlook: ["9M"], 
+			thief: ["9M"], 
+			nastyplot: ["9M"], 
+			taunt: ["9M"], 
+			torment: ["9M"], 
+
+			//ElectriC
+			flash: ["9M"], 
+			thunderwave: ["9M"], 
+
+			//Fairy
+			charm: ["9M"], 
+			babydolleyes: ["9M"], 
+			fairywind: ["9M"], 
+			disarmingvoice: ["9M"], 
+			fairylock: ["9M"], 
+			mistyexplosion: ["9M"], 
+			mistyterrain: ["9M"], 
+			sweetkiss: ["9M"], 
+
+			//Flying
+			gust: ["9M"], 
+			wingattack: ["9M"], 
+			aircutter: ["9M"], 
+			tailwind: ["9M"], 
+
+			//Grass 
+			grassknot: ["9M"], 
+			magicalleaf: ["9M"], 
+
+			//Ghost
+			destinybond: ["9M"], 
+			astonish: ["9M"], 
+			hex: ["9M"], 
+
+			//Ice
+			icywind: ["9M"], 
+
+			//Psychic
+			allyswitch: ["9M"], 
+			healblock: ["9M"], 
+			futuresight: ["9M"], 
+			teleport: ["9M"], 
+			telekinesis: ["9M"], 
+			synchronoise: ["9M"], 
+			trickroom: ["9M"], 
+			wonderroom: ["9M"], 
+			magicroom: ["9M"],
+
+			//Steel
+			mirrorshot: ["9M"], 
+			flashcannon: ["9M"], 
+			steelbeam: ["9M"], 
+			irondefense: ["9M"], 
+			steelwing: ["9M"], 
+
+			//Normal
+			naturalgift: ["9M"], 
+			doublehit: ["9M"], 
+			headbutt: ["9M"], 
+			triattack: ["9M"], 
+			spellcard: ["9M"],
+			sonicboom: ["9M"], 
+			laserfocus: ["9M"], 
+			mimic: ["9M"], 
+			mindreader: ["9M"], 
+			safeguard: ["9M"], 
+			healbell: ["9M"], 
+			wish: ["9M"], 
+
+			//Water
+			lifedew: ["9M"], 
+			
+			//genereal moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		},
+	},
 	chromon:{
 		learnset:{
 			//Bug
