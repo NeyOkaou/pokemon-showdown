@@ -1978,7 +1978,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Bug Bite",
 		pp: 20,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, bite: 1 },
 		onHit(target, source) {
 			const item = target.getItem();
 			if (source.hp && item.isBerry && target.takeItem(source)) {
@@ -5160,7 +5160,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	explosion: {
 		num: 153,
 		accuracy: 100,
-		basePower: 250,
+		basePower: 300,
 		category: "Physical",
 		name: "Explosion",
 		pp: 5,
@@ -16597,7 +16597,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	selfdestruct: {
 		num: 120,
 		accuracy: 100,
-		basePower: 200,
+		basePower: 250,
 		category: "Physical",
 		name: "Self-Destruct",
 		pp: 5,
@@ -17727,13 +17727,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	snaptrap: {
 		num: 779,
 		accuracy: 100,
-		basePower: 35,
+		basePower: 55,
 		category: "Physical",
 		
 		name: "Snap Trap",
 		pp: 15,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, bite: 1 },
 		volatileStatus: 'partiallytrapped',
 		secondary: null,
 		target: "normal",

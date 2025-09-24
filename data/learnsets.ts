@@ -480,6 +480,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	auberjaw: {
 		learnset: {
+			sweetscent: ["9L1"],
 			raindance: ["9L1"],
 			dracometeor: ["9L1"],
 			snaptrap: ["9L1"],
@@ -546,6 +547,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			aquatail: ["9L1"],
 			attract: ["9L1"],
 			dracometeor: ["9L1"],
+			bellydrum:["9L1"],
 			bite: ["9L1"],
 			blizzard: ["9L1"],
 			block: ["9L1"],
