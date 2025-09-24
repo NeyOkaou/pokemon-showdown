@@ -31,14 +31,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	auberjaw: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	gyaoon: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	dracoton: {
 		tier: "LC",
@@ -52,9 +52,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	pythagon: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	limacide: {
 		tier: "LC",
@@ -65,7 +65,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	invocamon: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
@@ -122,9 +122,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	daemonix: {
-		tier: "UU",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "UU",
+		natDexTier: "Uber",
 	},
 	achaethena: {
 		tier: "Uber",

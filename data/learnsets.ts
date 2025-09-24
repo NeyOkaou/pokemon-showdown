@@ -698,6 +698,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			engelure: ["9M"],
 			powdersnow: ["9M"],
+			iceshard: ["9M"],
 			bulletseed: ["9M"],
 			haze: ["9M"],
 			auroraveil: ["9M"],
