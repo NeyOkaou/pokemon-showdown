@@ -1247,7 +1247,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//electrik
 			thunderpunch: ["9M"],
 			//dark
-			ceaselessedge: ["9M"],
 			nightslash: ["9M"],
 			throatchop: ["9M"],
 			//ghost
