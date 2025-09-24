@@ -500,7 +500,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			crunch: ["9L30"],
 			stompingtantrum: ["9L33"],
 			dragonbreath: ["9L36"],
-			carniplant: ["9L40"],
 			leechseed: ["9L44"],
 			powerwhip: ["9L49"],
 			dragonhammer: ["9L52"],
