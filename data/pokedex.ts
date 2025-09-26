@@ -20414,4 +20414,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Ditto"],
 	},
+	hierocculte: {
+		num: -5040,
+		name: "Hierocculte",
+		types: ["Ground", "Dark"],
+		gender: "N",
+		baseStats: { hp: 100, atk: 125, def: 135, spa: 20, spd: 20, spe: 70 },
+		abilities: { 0: "Gravity Falls" },
+		heightm: 1,
+		weightkg: 100,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 };
