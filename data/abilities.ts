@@ -5912,7 +5912,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				}
 				this.boost({ spe: -1 }, target, pokemon, null, true);
 			}
-			this.field.setWeather('gravity');
+			this.field.addPseudoWeather('gravity');
 		},
 		flags: {},
 		name: "Gravity Falls",
