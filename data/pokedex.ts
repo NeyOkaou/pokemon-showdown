@@ -20419,7 +20419,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Hierocculte",
 		types: ["Ground", "Dark"],
 		gender: "N",
-		baseStats: { hp: 100, atk: 125, def: 135, spa: 20, spd: 20, spe: 70 },
+		baseStats: { hp: 76, atk: 40, def: 109, spa: 112, spd: 92, spe: 67 },
 		abilities: { 0: "Gravity Falls" },
 		heightm: 1,
 		weightkg: 100,
