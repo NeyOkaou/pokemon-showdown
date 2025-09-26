@@ -1587,7 +1587,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Ghost 
 			astonish: ["9M"],
 			destinybond: ["9M"],
-			curse: ["9M"],
 			shadowsneak: ["9M"],
 			shadowbone: ["9M"],
 			spite: ["9M"],
@@ -2051,7 +2050,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Ghost
 			shadowball: ["9M"],
-			curse: ["9M"],
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
 			lick: ["9M"], 
@@ -2151,7 +2149,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Ghost
 			shadowball: ["9M"],
-			curse: ["9M"],
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
 			shadowpunch: ["9M"],
@@ -2297,7 +2294,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Ghost
 			shadowball: ["9M"],
-			curse: ["9M"],
 			lick: ["9M"], 
 			destinybond: ["9M"],
 			shadowclaw: ["9M"],
