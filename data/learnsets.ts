@@ -1831,7 +1831,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			
 			darkpulse: ["9M"],
 			foulplay: ["9M"],
-			knockoff: ["9M"],
 			nastyplot: ["9M"],
 			pursuit: ["9M"],
 			taunt: ["9M"],
