@@ -5910,11 +5910,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					this.add('-ability', pokemon, 'Gravity Falls', 'boost');
 					activated = true;
 				}
-				if (target.volatiles['substitute']) {
-					this.add('-immune', target);
-				} else {
-					this.boost({ spe: -1 }, target, pokemon, null, true);
-				}
+				this.boost({ spe: -1 }, target, pokemon, null, true);
 			}
 			this.field.setWeather('gravity');
 		},
