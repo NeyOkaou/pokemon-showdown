@@ -5864,7 +5864,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -222,
 	},
-	orgeuilceleste: {
+	orgueilceleste: {
 		onStart(pokemon) {
 			const target = pokemon.adjacentFoes()[0]; 
 			if (!target) return;
@@ -5879,7 +5879,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 	flags: {},
-	name: "Orgeuil Celeste",
+	name: "Orgueil Celeste",
 	rating: 4,
 	num: -224,
 	},

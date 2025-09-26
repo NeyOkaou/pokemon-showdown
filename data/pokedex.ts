@@ -20144,7 +20144,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Dragon","Fairy"],
 		gender: "N",
 		baseStats: { hp: 166, atk: 79, def: 96, spa: 166, spd: 96, spe: 99 },
-		abilities: { 0: "Orgeuil Celeste"},
+		abilities: { 0: "Orgueil Celeste"},
 		heightm: 9,
 		weightkg: 300,
 		color: "White",

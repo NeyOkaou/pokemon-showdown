@@ -2351,8 +2351,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Upon switching in, lowers both defenses of opposing Pokemon by 1 stage.",
 		shortDesc: "Upon switching in, lowers both defenses of opposing Pokemon by 1 stage.",
 	},
-	orgeuilceleste: {
-		name: "Orgeuil Celeste",
+	orgueilceleste: {
+		name: "Orgueil Celeste",
 		desc: "Upon switching in, lowers the highest(s) stat(s) of all opposing pokemon by 1 stage. This pokemon boosts the same stat(s) for itself and its allies by 1 stage.",
 		shortDesc: "On switch-in, lowers highest(s) stat(s) of all foes; Celestial and its allies boost these same stat(s).",
 	},
