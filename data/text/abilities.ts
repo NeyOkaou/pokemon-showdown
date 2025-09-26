@@ -796,6 +796,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			desc: "On switch-in, this Pokemon lowers the Attack of opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
 		},
 	},
+	gravityfalls: {
+		name: "Gravity Falls",
+		desc: "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage. Set up the Gravity for 5 turns.",
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of opponents by 1 stage and set up the Gravity.",
+	},
 	intrepidsword: {
 		name: "Intrepid Sword",
 		shortDesc: "On switch-in, this Pokemon's Attack is raised by 1 stage. Once per battle.",

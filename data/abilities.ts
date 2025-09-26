@@ -5902,4 +5902,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -386,
 	},
+	gravityfalls: {
+		onStart(pokemon,source) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Gravity Falls', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({ spe: -1 }, target, pokemon, null, true);
+				}
+			}
+			this.field.setWeather('snowscape');
+		},
+		flags: {},
+		name: "Gravity Falls",
+		rating: 3.5,
+		num: -387
+	},
 };
