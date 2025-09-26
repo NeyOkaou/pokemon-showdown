@@ -14521,7 +14521,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Psybeam",
 		pp: 20,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1,pulse: 1 },
 		secondary: {
 			chance: 10,
 			volatileStatus: 'confusion',

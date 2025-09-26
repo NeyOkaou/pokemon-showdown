@@ -2693,6 +2693,116 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+	hierocculte:{
+		learnset:{
+			//Dark
+			fierywrath: ["9M"],
+			darkpulse: ["9M"],
+			embargo: ["9M"],
+			foulplay: ["9M"],
+			nastyplot: ["9M"],
+			snatch: ["9M"],
+			payback: ["9M"],
+			ruination: ["9M"],
+			torment: ["9M"],
+			memento: ["9M"],
+
+			//Fighting
+			detect: ["9M"],
+			
+			//Fire
+			burningjealousy: ["9M"],
+			willowisp: ["9M"],
+
+			//Ghost
+			confuseray: ["9M"],
+			curse: ["9M"],
+			destinybond: ["9M"],
+			grudge: ["9M"],
+			hex: ["9M"],
+			nightshade: ["9M"],
+			shadowball: ["9M"],
+			shadowsneak: ["9M"],
+			spite: ["9M"],
+			soulblast: ["9M"],
+
+			//Ground
+			bulldoze: ["9M"],
+			earthpower: ["9M"],
+			earthquake: ["9M"],
+			fissure: ["9M"],
+			magnitude: ["9M"],
+			mudshot: ["9M"],
+			sandattack: ["9M"],
+			sandtomb: ["9M"],
+			spikes: ["9M"],
+
+			//Psychic
+			barrier: ["9M"],
+			cosmicpower: ["9M"],
+			reflect: ["9M"],
+			lightscreen: ["9M"],
+			psychic: ["9M"],
+			trickroom: ["9M"],
+			trick: ["9M"],
+			gravity: ["9M"],
+			expendingforce: ["9M"],
+			futuresight: ["9M"],
+			healingblock: ["9M"],
+			magiccoat: ["9M"],
+			hypnosis: ["9M"],
+			miracleeye: ["9M"],
+			magicroom: ["9M"],
+			teleport: ["9M"],
+			wonderroom: ["9M"],
+
+			//Rock
+			stealthrock: ["9M"],
+			ancientpower: ["9M"],
+			rockslide: ["9M"],
+			rocktomb: ["9M"],
+			sandstorm: ["9M"],
+			smackdown: ["9M"],
+
+			//Normal
+			barrage: ["9M"],
+			block: ["9M"],
+			camouflage: ["9M"],
+			disable: ["9M"],
+			doubleteam: ["9M"],
+			encore: ["9M"],
+			explosion: ["9M"],
+			selfdestruct: ["9M"],
+			foresight: ["9M"],
+			hyperbeam: ["9M"],
+			laserfocus: ["9M"],
+			lockon: ["9M"],
+			meanlook: ["9M"],
+			mindreader: ["9M"],
+			perishsong: ["9M"],
+			refresh: ["9M"],
+			scaryface: ["9M"],
+			terrainpulse: ["9M"],
+			weatherball: ["9M"],
+
+
+			//Water
+			raindance: ["9M"],
+
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
