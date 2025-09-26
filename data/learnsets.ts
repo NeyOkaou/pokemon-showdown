@@ -162,7 +162,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonrush: ["9M"],
 			supercellslam: ["9M"],
 			bodyslam: ["9M"],
-			volttackle: ["9M"],
 			bulldoze: ["9M"],
 			dragoncheer: ["9M"],
 			dragontail: ["9M"],
@@ -1840,7 +1839,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			assurance: ["9M"],
 			torment: ["9M"],
-			knockoff: ["9M"],
 
 			//Electrik 
 

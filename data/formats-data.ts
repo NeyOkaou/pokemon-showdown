@@ -91,7 +91,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	melodrame: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	verote: {
 		tier: "LC",
@@ -99,7 +99,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	rottenia: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	sleepompik: {
 		tier: "LC",
@@ -110,7 +110,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mandelman: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	poki: {
 		tier: "Illegal",
@@ -134,12 +134,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	beelzeros: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	phantasm: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	veuvoile: {
 		tier: "Illegal",
@@ -150,7 +150,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	parademise: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	//END MOODMON
 	bulbasaur: {
