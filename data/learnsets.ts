@@ -141,7 +141,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			seismictoss: ["9M"],
 			flash: ["9M"],
 			weatherball: ["9M"],
-			focuspunch: ["9M"],
 			steelwing: ["9M"],
 			thunderpunch: ["9M"],
 			firepunch: ["9M"],
