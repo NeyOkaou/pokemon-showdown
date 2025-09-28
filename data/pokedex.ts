@@ -20407,7 +20407,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Chromon",
 		types: ["Normal"],
 		gender: "N",
-		baseStats: { hp: 75, atk: 100, def: 75, spa: 95, spd: 75, spe: 100 },
+		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
 		heightm: 0.3,
 		weightkg: 4,
