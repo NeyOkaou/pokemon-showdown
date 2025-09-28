@@ -19611,7 +19611,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	// NOTE: PokeStar "formes" are not actually formes and thus do not have a formeOrder
 	pokestarsmeargle: {
-		num: -5000,
+		num: -79,
 		name: "Pokestar Smeargle",
 		types: ["Normal"],
 		baseStats: { hp: 55, atk: 20, def: 35, spa: 20, spd: 45, spe: 75 },
