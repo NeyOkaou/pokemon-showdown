@@ -2842,8 +2842,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"], 
-		}
-	}
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
