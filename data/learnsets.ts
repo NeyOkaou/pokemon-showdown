@@ -2177,15 +2177,16 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			//Poison 
 			poisonjab: ["9M"],
+			poisonfang: ["9M"],
 
 			//Electric 
-			thunderpunch: ["9M"], 
+			thunderfang: ["9M"], 
 			
 			//Fire 
-			firepunch: ["9M"], 
+			firefang: ["9M"], 
 			
 			//Ice 
-			icepunch: ["9M"],
+			icefang: ["9M"],
 
 			//general moves
 			protect: ["9M"],
@@ -2270,9 +2271,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			pursuit: ["9M"],
 
 			//Poison
-			poisonfang: ["9M"],
 			poisonsting: ["9M"], 
 			poisontail: ["9M"],  
+			poisonjab: ["9M"],  
 
 			//Fighting
 			counter: ["9M"],
@@ -2802,6 +2803,47 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+	veuvoile:{
+		learnset:{
+			toxic: ["9M"],
+			poisonfang: ["9M"],
+			poisoncross: ["9M"],
+			crunch: ["9M"],
+			poisonsting: ["9M"],
+			uturn: ["9M"],
+			venoshock: ["9M"],
+			sludgebomb: ["9M"],
+			sludgewave: ["9M"],
+			ragepowder: ["9M"],
+			stickyweb: ["9M"],
+			spiderweb: ["9M"],
+			meanlook: ["9M"],
+			screech: ["9M"],
+			rockclimb: ["9M"],
+			slash: ["9M"],
+			cut: ["9M"],
+			pounce: ["9M"],
+			poisonjab: ["9M"],
+		    sweetscent: ["9M"],
+			aromatherapy: ["9M"],
+			knockoff: ["9M"],
+			stringshot: ["9M"],
+			toxicspikes: ["9M"],
+			pursuit: ["9M"],
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+		}
+	}
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],

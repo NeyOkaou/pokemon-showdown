@@ -14035,7 +14035,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	poisontail: {
 		num: 342,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 70,
 		category: "Physical",
 		name: "Poison Tail",
 		pp: 25,

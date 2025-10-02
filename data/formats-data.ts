@@ -142,7 +142,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Uber",
 	},
 	veuvoile: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
 	},
 	lumini: {
 		tier: "LC",
