@@ -1929,7 +1929,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Fighting
 			brickbreak: ["9M"],
 			bodypress: ["9M"],
-			detect: ["9M"],
 			seismictoss: ["9M"],
 
 			//Fire
