@@ -20426,4 +20426,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
+	testmon: {
+		num: -5041,
+		name: "Testmon",
+		types: ["Normal"],
+		gender: "N",
+		baseStats: { hp: 76, atk: 40, def: 109, spa: 112, spd: 92, spe: 67 },
+		abilities: { 0: "Intimidate" },
+		heightm: 1,
+		weightkg: 100,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 };

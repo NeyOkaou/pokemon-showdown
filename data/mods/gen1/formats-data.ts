@@ -1,4 +1,10 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
+	testmon: {
+		tier: "OU",
+	},
+
+	//CAP TEST
+	
 	bulbasaur: {
 		tier: "LC",
 	},

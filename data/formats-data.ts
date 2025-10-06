@@ -159,6 +159,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "Uber",
 	},
+	testmon:{
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

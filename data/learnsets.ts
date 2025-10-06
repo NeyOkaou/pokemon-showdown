@@ -2845,6 +2845,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+	testmon:{
+		learnset:{
+			Hyperbeam: ["9M"],
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],

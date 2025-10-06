@@ -1,4 +1,8 @@
 export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
+	testmon: {
+		inherit: true,
+		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
+	},
 	missingno: {
 		inherit: true,
 		baseStats: { hp: 33, atk: 136, def: 0, spa: 6, spd: 6, spe: 29 },
