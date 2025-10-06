@@ -2849,6 +2849,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset:{
 			Hyperbeam: ["9M"],
 			transform: ["3L1", "8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
+			cut: ["7V", "6M", "5M", "4M", "3M"],
 		},
 	},
 	missingno: {
