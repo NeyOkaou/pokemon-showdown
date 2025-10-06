@@ -2848,7 +2848,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	testmon:{
 		learnset:{
 			Hyperbeam: ["9M"],
-			transform: ["9L1", "8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
+			transform: ["3L1", "8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
 		},
 	},
 	missingno: {
