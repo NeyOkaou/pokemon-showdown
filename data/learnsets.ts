@@ -2830,7 +2830,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			embargo: ["9M"],
 			faketears: ["9M"],
 			taunt: ["9M"],
-			nightslah: ["9M"],
+			nightslash: ["9M"],
 			memento: ["9M"],
 			feintattack: ["9M"],
 			torment: ["9M"],
