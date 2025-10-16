@@ -2026,7 +2026,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			feint: ["9M"],
 			flash: ["9M"],
 			lovelykiss: ["9M"],
-			detect: ["9M"], 
 
 			//Dark
 			powertrip: ["9M"],
@@ -2107,7 +2106,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flash: ["9M"],
 			lovelykiss: ["9M"],
 			megakick: ["9M"],
-			detect: ["9M"], 
 
 			//Dark
 			powertrip: ["9M"],
@@ -2212,7 +2210,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			encore: ["9M"],
 			fakeout: ["9M"],
 			captivate: ["9M"],
-			detect: ["9M"], 
 			swift: ["9M"],
 			endeavor: ["9M"], 
 			falseswipe: ["9M"],
@@ -2694,6 +2691,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
+	
 	hierocculte:{
 		learnset:{
 			//Dark
@@ -2818,7 +2816,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lunge: ["9M"],
 			pinmissile: ["9M"],
 			pinmissile: ["9M"],
-			furycutter
+			furycutter: ["9M"],
 			silktrap: ["9M"],
 			twineedle: ["9M"],
 			xscissor: ["9M"],
