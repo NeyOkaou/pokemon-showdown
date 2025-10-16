@@ -2691,7 +2691,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
-	
+
 	hierocculte:{
 		learnset:{
 			//Dark
@@ -2871,7 +2871,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poisonjab: ["9M"],
 			toxicspikes: ["9M"],
 			//PSYCHIC
-			psychicfang: ["9M"],
+			psychicfangs: ["9M"],
 			heartstamp: ["9M"],
 			//WATER
 			raindance: ["9M"],
