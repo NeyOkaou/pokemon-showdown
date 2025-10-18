@@ -1256,6 +1256,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//ground 
 			bulldoze: ["9M"],
 			earthquake: ["9M"],
+			spikes: ["9M"],
 			//poison 
 			poisonjab: ["9M"],
 		},
