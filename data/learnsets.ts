@@ -2836,14 +2836,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			feintattack: ["9M"],
 			torment: ["9M"],
 			//ELECTRIC
-			thunderfang: ["9M"],
 			electroweb: ["9M"],
 			//FAIRY
 			aromaticmist: ["9M"],
 			charm: ["9M"],
 			decorate: ["9M"],
-			//FIRE
-			firefang: ["9M"],
 			//GHOST
 			astonish: ["9M"],
 			shadowball: ["9M"],
@@ -2855,8 +2852,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassknot: ["9M"],
 			aromatherapy: ["9M"],
 			needlearm: ["9M"],
-			//ICE 
-			icefang: ["9M"],
 			//POISON
 			toxic: ["9M"],
 			poisonfang: ["9M"],
@@ -2872,7 +2867,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poisonjab: ["9M"],
 			toxicspikes: ["9M"],
 			//PSYCHIC
-			psychicfangs: ["9M"],
 			heartstamp: ["9M"],
 			//WATER
 			raindance: ["9M"],
