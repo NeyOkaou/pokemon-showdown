@@ -2144,7 +2144,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			vacuumwave: ["9M"],
 			jumpkick: ["9M"],
 			lowsweep: ["9M"],
-
+			dynamicpunch: ["9M"], 
+			focuspunch: ["9M"],
+			
 			//Ghost
 			shadowball: ["9M"],
 			destinybond: ["9M"],
@@ -2289,6 +2291,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			brickbreak: ["9M"], 
 			focusblast: ["9M"], 
 			crosschop: ["9M"], 
+			dynamicpunch: ["9M"], 
+			focuspunch: ["9M"],
 
 			//Ghost
 			shadowball: ["9M"],
