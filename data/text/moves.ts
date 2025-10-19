@@ -5372,8 +5372,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	oilup: {
 		name: "Oil Up",
-		desc: "Raises the user's Speed by 2 stages and clears status conditions.",
-		shortDesc: "Raises the user's Speed by 2 and cure status.",
+		desc: "Raises the user's Speed by 1 stages and clears status conditions.",
+		shortDesc: "Raises the user's Speed by 1 and cure status.",
 	},
 	rockslide: {
 		name: "Rock Slide",

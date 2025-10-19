@@ -22443,7 +22443,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			pokemon.cureStatus();
 		},
 		boosts: {
-			spe: 2,
+			spe: 1,
 		},
 		secondary: null,
 		target: "self",
