@@ -5740,7 +5740,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -178,
 	},
-	fragmentation: {
+	fragmentate: {
 		onDamagingHit(damage, target, source, move) {
 			const side = source.isAlly(target) ? source.side.foe : source.side;
 			const stealthrock = side.sideConditions['stealthrock'];
@@ -5749,8 +5749,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				side.addSideCondition('stealthrock', target);
 			}
 		},
-		flags: {},
-		name: "Fragmentation",
+		flags: { breakable : 1 },
+		name: "Fragmentate",
 		rating: 3.5,
 		num: -295,
 	},
@@ -5818,7 +5818,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				this.add('-immune', target, 'mustrecharge', '[from] ability: Taurine');
 			}
 		},
-		flags: { breakable: 1 },
+		flags: {},
 		name: "Taurine",
 		rating: 3.5,
 		num: -20
@@ -5917,5 +5917,40 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Gravity Falls",
 		rating: 3.5,
 		num: -387
+	},
+	warhorn: {
+		volatileStatus: 'taunt',
+		condition: {
+			duration: 3,
+			onStart(target) {
+				if (target.activeTurns && !this.queue.willMove(target)) {
+					this.effectState.duration!++;
+				}
+				this.add('-start', target, 'move: Taunt');
+			},
+			onResidualOrder: 15,
+			onEnd(target) {
+				this.add('-end', target, 'move: Taunt');
+			},
+			onDisableMove(pokemon) {
+				for (const moveSlot of pokemon.moveSlots) {
+					const move = this.dex.moves.get(moveSlot.id);
+					if (move.category === 'Status' && move.id !== 'mefirst') {
+						pokemon.disableMove(moveSlot.id);
+					}
+				}
+			},
+			onBeforeMovePriority: 5,
+			onBeforeMove(attacker, defender, move) {
+				if (!move.isZ && !move.isMax && move.category === 'Status' && move.id !== 'mefirst') {
+					this.add('cant', attacker, 'move: Taunt', move);
+					return false;
+				}
+			},
+		},
+		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
+		name: "War Horn",
+		rating: 3.5,
+		num: -388
 	},
 };

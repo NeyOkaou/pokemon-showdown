@@ -164,6 +164,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
+	ostenssy:{
+		tier: "Uber",
+	},
+	rancossor:{
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	mossemeros:{
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

@@ -12187,6 +12187,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			}
 			this.add('-prepare', attacker, move.name);
 			this.boost({ spa: 1 }, attacker, attacker, move);
+			if (['sandstorm'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;}
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
