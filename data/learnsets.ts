@@ -2371,6 +2371,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			encore: ["9M"],
 			cut: ["9M"],
 			fakeout: ["9M"],
+			suckerpunch: ["9M"],
+			swordsdance: ["9M"],
 			captivate: ["9M"],
 			swift: ["9M"],
 			endeavor: ["9M"], 
@@ -2764,6 +2766,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			amnesia: ["9M"],
 			braindamage: ["9M"],
 			//Rock
+			//Ghost
+			shadowball: ["9M"],
+			shadowpunch: ["9M"],
 			rocktomb: ["9M"],
 			//Steel
 			bulletpunch: ["9M"],
@@ -2772,6 +2777,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Fighting
 			brickbreak: ["9M"],
 			bulkup: ["9M"],
+			superpower: ["9M"],
 			poweruppunch: ["9M"],
 			counter: ["9M"],
 			doublekick: ["9M"],
