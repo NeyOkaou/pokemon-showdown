@@ -2790,6 +2790,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			takedown: ["9M"],
 			tackle: ["9M"],
 			megapunch: ["9M"],
+			bodyslam: ["9M"],
 			swift: ["9M"],
 			stomp: ["9M"],
 			snore: ["9M"],
