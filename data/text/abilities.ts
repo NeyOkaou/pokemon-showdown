@@ -1368,11 +1368,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	protean: {
 		name: "Protean",
-		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type. This effect can only happen once per switch-in, and only if this Pokemon is not Terastallized.",
-		shortDesc: "This Pokemon's type changes to the type of the move it is using. Once per switch-in.",
+		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
+		shortDesc: "This Pokemon's type changes to the type of the move it is using.",
 		gen8: {
 			desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
-			shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
+			shortDesc: "This Pokemon's type changes to the type of the move it is using.",
 		},
 	},
 	protosynthesis: {
@@ -2316,8 +2316,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's ball moves have their power multiplied by 1.3.",
 		shortDesc: "This Pokemon's ball moves have 1.3x power.",
 	},
-	fragmentation: {
-		name: "Fragmentation",
+	fragmentate: {
+		name: "Fragmentate",
 		desc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
 		shortDesc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
 	},
