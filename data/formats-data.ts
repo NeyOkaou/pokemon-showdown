@@ -5843,6 +5843,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	demonitrax: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	syclar: {
 		isNonstandard: "CAP",
 		tier: "CAP LC",
@@ -6022,24 +6026,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	pluffle: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	kerfluffle: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	pajantom: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	mumbao: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	jumbao: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	fawnifer: {
 		isNonstandard: "CAP",
@@ -6121,20 +6121,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	ababo: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	scattervein: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	hemogoblin: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	cresceidon: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	chuggon: {
 		isNonstandard: "CAP",
