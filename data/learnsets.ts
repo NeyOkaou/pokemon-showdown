@@ -2836,7 +2836,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"], 
 		},
 	},
-
 	hierocculte:{
 		learnset:{
 			//Dark
