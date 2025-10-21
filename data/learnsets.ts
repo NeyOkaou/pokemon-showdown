@@ -2936,7 +2936,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//general
 			protect: ["9M"],
 			frustration: ["9M"],
-			doubleteam: ["9M"],
 			facade: ["9M"],
 			rest: ["9M"],
 			attract: ["9M"],
