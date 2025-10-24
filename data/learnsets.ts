@@ -3054,7 +3054,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//FIRE
 			willowisp: ["9M"],
 			//GHOST
-			poltergesit: ["9M"],
+			poltergeist: ["9M"],
 			astonish: ["9M"],
 			hex: ["9M"],
 			phantomforce: ["9M"],
@@ -3088,6 +3088,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			scaryface: ["9M"],
 			defensecurl: ["9M"],
 			rockclimb: ["9M"],
+			shellsmash: ["9M"],
 			meanlook: ["9M"],
 			endure: ["9M"],
 			//general
@@ -3120,7 +3121,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//FIRE
 			willowisp: ["9M"],
 			//GHOST
-			poltergesit: ["9M"],
+			poltergeist: ["9M"],
 			astonish: ["9M"],
 			hex: ["9M"],
 			phantomforce: ["9M"],
@@ -3152,6 +3153,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9M"],
 			selfdestruct: ["9M"],
 			explosion: ["9M"],
+			shellsmash: ["9M"],
 			screech: ["9M"],
 			scaryface: ["9M"],
 			defensecurl: ["9M"],
@@ -3180,6 +3182,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			defendorder: ["9M"],
 			attackorder: ["9M"],
 			healorder: ["9M"], 
+			steamroller: ["9M"],
 			//DARK
 			bite: ["9M"],
 			crunch: ["9M"],
@@ -3194,12 +3197,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodypress: ["9M"],
 			strength: ["9M"],
 			hammerarm: ["9M"],
-			quickgard: ["9M"],
+			quickguard: ["9M"],
 			rocksmash: ["9M"],
 			//FIRE
 			willowisp: ["9M"],
 			//GHOST
-			poltergesit: ["9M"],
+			poltergeist: ["9M"],
 			shadowsneak: ["9M"],
 			astonish: ["9M"],
 			hex: ["9M"],
@@ -3246,6 +3249,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tackle: ["9M"],
 			stomp: ["9M"],
 			skullbash: ["9M"],
+			shellsmash: ["9M"],
 			selfdestruct: ["9M"],
 			explosion: ["9M"],
 			screech: ["9M"],
