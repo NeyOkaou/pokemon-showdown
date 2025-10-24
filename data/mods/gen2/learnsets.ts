@@ -27,8 +27,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			toxic: ["1M"],
 			triattack: ["1M"],
 			watergun: ["1M", "1L1"],
-		},
-	},
+		}, 
+	}, /*
 	testmon: {
 		learnset: {
 			blizzard: ["1M"],
@@ -58,7 +58,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			triattack: ["1M"],
 			watergun: ["1M", "1L1"],
 		},
-	},
+	}, */
 	bulbasaur: {
 		learnset: {
 			ancientpower: ["2S0"],
