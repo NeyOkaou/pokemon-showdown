@@ -177,6 +177,30 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "Uber",
 	},
+	galemimi:{
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	galem:{
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	wardelith:{
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	gralibri:{
+		tier: "Illegal",
+	},
+	stalibri:{
+		tier: "Illegal",
+	},
+	zardopium:{
+		tier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
