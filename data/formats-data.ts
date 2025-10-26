@@ -201,6 +201,51 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zardopium:{
 		tier: "Illegal",
 	},
+	cocoquille:{
+		tier: "Illegal",
+	},
+	palmypince:{
+		tier: "Illegal",
+	},
+	emprism:{
+		tier: "Illegal",
+	},
+	prismunter:{
+		tier: "Illegal",
+	},
+	rochiere:{
+		tier: "Illegal",
+	},
+	primitronc:{
+		tier: "Illegal",
+	},
+	filicolith:{
+		tier: "Illegal",
+	},
+	larvambre:{
+		tier: "Illegal",
+	},
+	aggrestik:{
+		tier: "Illegal",
+	},
+	statisorus:{
+		tier: "Illegal",
+	},
+	bisorgue:{
+		tier: "Illegal",
+	},
+	protyra:{
+		tier: "Illegal",
+	},
+	mecarex:{
+		tier: "Illegal",
+	},
+	omecatyra:{
+		tier: "Illegal",
+	},
+	progr3x:{
+		tier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

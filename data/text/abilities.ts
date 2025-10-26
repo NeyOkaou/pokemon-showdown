@@ -2319,7 +2319,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	fragmentate: {
 		name: "Fragmentate",
 		desc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
-		shortDesc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
 	},
 	forceaqua: {
 		name: "Force Aqua",
@@ -2364,5 +2363,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Laceration",
 		desc: "This pokemon's partial-trapping moves deal 1/6 max HP per turn instead of 1/8.",
 		shortDesc: "Trapping moves deal 1/6 max HP per turn instead of 1/8.",
+	},
+	warhorn: {
+		name: "War Horn",
+		desc: "Taunts every other pokemon upon switching in",
 	},
 };

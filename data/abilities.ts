@@ -5913,7 +5913,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 			this.field.addPseudoWeather('gravity');
 		},
-		flags: {},
+		flags: { breakable: 1 },
 		name: "Gravity Falls",
 		rating: 3.5,
 		num: -387
