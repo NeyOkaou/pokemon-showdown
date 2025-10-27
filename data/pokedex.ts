@@ -20509,7 +20509,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Stalibri",
 		types: ["Rock", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 80, atk: 75, def: 70, spa: 40, spd: 40, spe: 120 },
+		baseStats: { hp: 70, atk: 75, def: 70, spa: 40, spd: 40, spe: 120 },
 		abilities: { 0: "Keen Eye", 1: "Overcoat", H: "Inner Focus"},
 		heightm: 1.40,
 		weightkg: 50,
