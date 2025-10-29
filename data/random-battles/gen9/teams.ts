@@ -1641,7 +1641,7 @@ export class RandomTeams {
 		return [pokemonPool, baseSpeciesPool];
 	}
 
-	randomSets: { [species: string]: RandomTeamsTypes.RandomSpeciesData } = require('./sets.json');
+	randomSets: { [species: string]: RandomTeamsTypes.RandomSpeciesData } = require('./factory-sets.json');
 	randomDoublesSets: { [species: string]: RandomTeamsTypes.RandomSpeciesData } = require('./doubles-sets.json');
 
 	randomTeam() {
