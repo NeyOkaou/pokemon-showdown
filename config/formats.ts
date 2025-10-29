@@ -3030,7 +3030,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen9',
 		team: 'randomFactory',
 		bestOfDefault: true,
-		ruleset: ['Standard'],
+		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause'],
 		onBegin() {
 			this.add(`raw|<div class="broadcast-blue"><b>Battle Factory Tier: ${this.teamGenerator.factoryTier}</b></div>`);
 		},
