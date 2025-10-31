@@ -3041,7 +3041,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen9',
 		team: 'randomBSSFactory',
 		bestOfDefault: true,
-		ruleset: ['Flat Rules', 'VGC Timer'],
+		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Draft Factory",
