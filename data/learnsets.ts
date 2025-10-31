@@ -3533,7 +3533,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 
 	},
-	stalibri: {
+	gralibri: {
 		learnset: {
 			//DARK
 			taunt:["9M"],
@@ -3552,7 +3552,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			roost:["9M"],
 			wingattack:["9M"],
 			//GROUND
-			drillrun:["9M"],
 			spikes:["9M"],
 			//PSYCHIC
 			agility:["9M"],
@@ -3565,11 +3564,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockthrow:["9M"],
 			rocktomb:["9M"],
 			rockslide:["9M"],
-			stoneedge:["9M"],
-			smackdown:["9M"],
 			stealthrock:["9M"],
 			//STEEL
-			cut:["9M"],
 			//NORMAL
 			batonpass:["9M"],
 			bide:["9M"],
@@ -3589,7 +3585,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			razorwind:["9M"],
 			growl:["9M"],
 			growth:["9M"],
-			scaryface:["9M"],
 			headbutt:["9M"],
 			supersonic:["9M"],
 			//general
