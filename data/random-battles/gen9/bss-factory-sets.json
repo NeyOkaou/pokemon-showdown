@@ -58,7 +58,7 @@
               ],
               "item": ["Leftovers"],
               "nature": "Calm",
-              "evs": {"hp": 252, "spd": 252, "spa": 84,}
+              "evs": {"hp": 252, "spd": 252, "spa": 84}
               "teraType": ["Normal"],
               "ability": ["Orgueil Celeste"]
           },
@@ -73,7 +73,7 @@
               ],
               "item": ["Leftovers"],
               "nature": "Timid",
-              "evs": {"spa": 252, "spe": 252, "spd": 4,}
+              "evs": {"spa": 252, "spe": 252, "spd": 4}
               "teraType": ["Normal"],
               "ability": ["Orgueil Celeste"]
           },
