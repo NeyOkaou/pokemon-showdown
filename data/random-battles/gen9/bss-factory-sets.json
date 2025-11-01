@@ -79,126 +79,57 @@
           }
       ]
   },
-
-
-  "dragonite": {
-      "weight": 10,
+  "gardilisk": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Dragonite",
-              "weight": 40,
-              "moves": [
-                  ["Extreme Speed"],
-                  ["Earthquake"],
-                  ["Dragon Dance", "Encore"],
-                  ["Roost"]
-              ],
-              "item": ["Heavy-Duty Boots", "Leftovers", "Rocky Helmet"],
-              "nature": "Adamant",
-              "evs": {"hp": 196, "atk": 204, "def": 4, "spd": 4, "spe": 100},
-              "teraType": ["Normal"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
-          },
-          {
-              "species": "Dragonite",
-              "weight": 10,
-              "moves": [
-                  ["Tera Blast"],
-                  ["Earthquake"],
-                  ["Dragon Dance"],
-                  ["Roost"]
-              ],
-              "item": ["Heavy-Duty Boots", "Leftovers", "Lum Berry", "Rocky Helmet"],
-              "nature": "Adamant",
-              "evs": {"hp": 196, "atk": 204, "def": 4, "spd": 4, "spe": 100},
-              "teraType": ["Fairy", "Fire", "Flying"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
-          },
-          {
-              "species": "Dragonite",
-              "weight": 5,
-              "moves": [
-                  ["Outrage"],
-                  ["Extreme Speed"],
-                  ["Earthquake"],
-                  ["Iron Head"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Adamant",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Normal", "Steel"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
-          },
-          {
-              "species": "Dragonite",
+              "species": "Gardilisk",
               "weight": 15,
               "moves": [
-                  ["Outrage"],
-                  ["Extreme Speed"],
-                  ["Earthquake"],
-                  ["Tera Blast"]
+                  ["Dragon Blade"],
+                  ["Outrage","Dragon Claw","Dragon Tail"],
+                  ["Sacred Sword", "Brick Break"],
+                  ["Quick Slice"]
               ],
-              "item": ["Choice Band"],
+              "item": ["Assault Vest","Life Orb","Leftovers","Rocky Helmet","Choice Scarf","Choice Band"],
               "nature": "Adamant",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Flying"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
+              "evs": {"hp": 248, "atk": 252, "spd": 8},
+              "teraType": ["Normal"],
+              "ability": ["Sharpness","Hyper Cutter"]
           },
           {
-              "species": "Dragonite",
-              "weight": 5,
+              "species": "Gardilisk",
+              "weight": 15,
               "moves": [
-                  ["Air Slash"],
-                  ["Encore", "Substitute"],
-                  ["Thunder Wave"],
-                  ["Roost"]
+                  ["Dragon Blade"],
+                  ["Dragon Claw","Outrage"],
+                  ["Sacred Sword", "Brick Break"],
+                  ["Autotomize","Swords Dance","Quick Slice"]
               ],
-              "item": ["Rocky Helmet"],
-              "nature": "Bold",
-              "evs": {"hp": 244, "def": 148, "spe": 116},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Poison", "Water"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
+              "item": ["Life Orb","Leftovers","Rocky Helmet"],
+              "nature": "Adamant",
+              "evs": {"atk": 248, "spe": 252, "def": 8},
+              "teraType": ["Normal"],
+              "ability": ["Sharpness","Hyper Cutter"]
           },
           {
-              "species": "Dragonite",
-              "weight": 20,
+              "species": "Gardilisk",
+              "weight": 15,
               "moves": [
-                  ["Scale Shot"],
-                  ["Iron Head"],
-                  ["Earthquake", "Low Kick"],
-                  ["Dragon Dance"]
+                  ["Dragon Blade"],
+                  ["Substitute"],
+                  ["Sacred Sword"],
+                  ["Swords Dance"]
               ],
-              "item": ["Loaded Dice"],
+              "item": ["Salac Berry"],
               "nature": "Jolly",
-              "evs": {"hp": 4, "atk": 252, "spe": 252},
-              "teraType": ["Steel"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
-          },
-          {
-              "species": "Dragonite",
-              "weight": 5,
-              "moves": [
-                  ["Fire Spin"],
-                  ["Earthquake", "Thunder Wave"],
-                  ["Roost"],
-                  ["Encore"]
-              ],
-              "item": ["Leftovers"],
-              "nature": "Careful",
-              "evs": {"hp": 244, "atk": 12, "spd": 252},
-              "teraType": ["Fairy", "Poison", "Steel"],
-              "wantsTera": true,
-              "ability": ["Multiscale"]
+              "evs": {"atk": 248, "spe": 252, "def": 8},
+              "teraType": ["Normal"],
+              "ability": ["Sharpness","Hyper Cutter"]
           }
       ]
   },
+
   "fluttermane": {
       "weight": 10,
       "sets": [
