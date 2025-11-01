@@ -184,7 +184,7 @@
       "sets": [
           {
               "species": "Puyotan",
-              "weight": 40,
+              "weight": 20,
               "moves": [
                   ["Outrage"],
                   ["Knock Off"],
@@ -199,105 +199,83 @@
           }
       ]
   },
-  "gholdengo": {
-      "weight": 9,
+  "terrakami": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Gholdengo",
-              "weight": 25,
-              "moves": [
-                  ["Make It Rain"],
-                  ["Shadow Ball"],
-                  ["Focus Blast", "Recover", "Thunderbolt"],
-                  ["Trick"]
-              ],
-              "item": ["Choice Specs"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Flying", "Steel", "Water"],
-              "ability": ["Good as Gold"]
-          },
-          {
-              "species": "Gholdengo",
-              "weight": 30,
-              "moves": [
-                  ["Make It Rain"],
-                  ["Shadow Ball"],
-                  ["Focus Blast", "Recover", "Thunderbolt"],
-                  ["Trick"]
-              ],
-              "item": ["Choice Scarf"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Flying", "Normal", "Steel", "Water"],
-              "ability": ["Good as Gold"]
-          },
-          {
-              "species": "Gholdengo",
-              "weight": 15,
-              "moves": [
-                  ["Focus Blast", "Make It Rain"],
-                  ["Hex"],
-                  ["Thunder Wave"],
-                  ["Recover"]
-              ],
-              "item": ["Rocky Helmet"],
-              "nature": "Bold",
-              "evs": {"hp": 252, "def": 252, "spa": 4},
-              "ivs": {"atk": 0},
-              "teraType": ["Flying", "Water"],
-              "ability": ["Good as Gold"]
-          },
-          {
-              "species": "Gholdengo",
+              "species": "Terrakami",
               "weight": 20,
               "moves": [
-                  ["Make It Rain"],
-                  ["Shadow Ball"],
-                  ["Nasty Plot"],
-                  ["Recover"]
+                  ["Stealth Rock"],
+                  ["U-Turn"],
+                  ["Earthquake","Land's Wrath"],
+                  ["Dragon Tail","Rapid Spin"]
               ],
-              "item": ["Covert Cloak"],
-              "nature": "Modest",
-              "evs": {"hp": 164, "def": 156, "spa": 36, "spd": 4, "spe": 148},
-              "ivs": {"atk": 0},
-              "teraType": ["Flying"],
-              "ability": ["Good as Gold"]
+              "item": ["Rocky Helmet","Leftovers"],
+              "nature": "Adamant",
+              "evs": {"hp": 252, "spd": 4, "atk": 252},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
           },
           {
-              "species": "Gholdengo",
-              "weight": 5,
+              "species": "Terrakami",
+              "weight": 20,
               "moves": [
-                  ["Tera Blast"],
-                  ["Shadow Ball"],
-                  ["Nasty Plot"],
-                  ["Recover"]
+                  ["Coil"],
+                  ["Recover"],
+                  ["Earthquake","Land's Wrath"],
+                  ["Rapid Spin"]
               ],
-              "item": ["Covert Cloak"],
-              "nature": "Modest",
-              "evs": {"hp": 164, "def": 156, "spa": 36, "spd": 4, "spe": 148},
-              "ivs": {"atk": 0},
-              "teraType": ["Fighting", "Water"],
-              "wantsTera": true,
-              "ability": ["Good as Gold"]
+              "item": ["Leftovers","Life Orb"],
+              "nature": "Careful",
+              "evs": {"hp": 252, "spd": 252, "atk": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
           },
           {
-              "species": "Gholdengo",
-              "weight": 5,
+              "species": "Terrakami",
+              "weight": 20,
               "moves": [
-                  ["Make It Rain"],
-                  ["Shadow Ball"],
-                  ["Nasty Plot"],
-                  ["Psyshock", "Recover", "Substitute"]
+                  ["Nature's Madness"],
+                  ["U-Turn"],
+                  ["Earthquake","Land's Wrath"],
+                  ["Rapid Spin"]
               ],
-              "item": ["Air Balloon"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Flying"],
-              "ability": ["Good as Gold"]
+              "item": ["Leftovers","Heavy-Duty Boots"],
+              "nature": "Careful",
+              "evs": {"hp": 252, "spd": 252, "atk": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
+          },
+          {
+              "species": "Terrakami",
+              "weight": 20,
+              "moves": [
+                  ["Dragon Tail"],
+                  ["Stealth Rock"],
+                  ["Earthquake","Land's Wrath"],
+                  ["Spikes"]
+              ],
+              "item": ["Rocky Helmet"],
+              "nature": "Adamant",
+              "evs": {"hp": 248, "spd": 252, "def": 8},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
+          },
+          {
+              "species": "Terrakami",
+              "weight": 20,
+              "moves": [
+                  ["Outrage","Dragon Claw"],
+                  ["U-Turn"],
+                  ["Earthquake","Land's Wrath"],
+                  ["Fire Fang"]
+              ],
+              "item": ["Choice Band"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
           }
       ]
   },
