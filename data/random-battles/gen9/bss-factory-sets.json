@@ -1,135 +1,86 @@
 {
-  "chienpao": {
-      "weight": 10,
+  "celestial": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Chien-Pao",
+              "species": "Celestial",
+              "weight": 15,
+              "moves": [
+                  ["Laser Delusion"],
+                  ["Calm Mind","Nasty Plot"],
+                  ["Aura Sphere"],
+                  ["Heal Order","Roost"]
+              ],
+              "item": ["Life Orb","Leftovers"],
+              "nature": "Modest",
+              "evs": {"hp": 248, "spa": 252, "spd": 8},
+              "teraType": ["Normal"],
+              "ability": ["Orgueil Celeste"]
+          },
+          {
+              "species": "Celestial",
+              "weight": 20,
+              "moves": [
+                  ["Laser Delusion"],
+                  ["Calm Mind","Nasty Plot"],
+                  ["Defog"],
+                  ["Heal Order","Roost"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Bold",
+              "evs": {"hp": 248, "spa": 252, "spd": 8},
+              "teraType": ["Normal"],
+              "ability": ["Orgueil Celeste"]
+          },
+          {
+              "species": "Celestial",
               "weight": 35,
               "moves": [
-                  ["Icicle Crash"],
-                  ["Sucker Punch"],
-                  ["Sacred Sword"],
-                  ["Crunch", "Sheer Cold"]
+                  ["Laser Delusion"],
+                  ["Glitzy Glow"],
+                  ["U-Turn"],
+                  ["Heal Order","Roost"]
               ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Ghost"],
-              "ability": ["Sword of Ruin"]
+              "item": ["Light Clay"],
+              "nature": "Bold",
+              "evs": {"hp": 248, "spa": 252, "spd": 8},
+              "teraType": ["Normal"],
+              "ability": ["Orgueil Celeste"]
           },
           {
-              "species": "Chien-Pao",
-              "weight": 15,
+              "species": "Celestial",
+              "weight": 35,
               "moves": [
-                  ["Icicle Crash"],
-                  ["Sucker Punch"],
-                  ["Sacred Sword"],
-                  ["Tera Blast"]
+                  ["Laser Delusion"],
+                  ["Wish"],
+                  ["Protect"],
+                  ["Heal Bell","Thunder Wave"]
               ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Electric"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
+              "item": ["Leftovers"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "spd": 252, "spa": 84,}
+              "teraType": ["Normal"],
+              "ability": ["Orgueil Celeste"]
           },
           {
-              "species": "Chien-Pao",
+              "species": "Celestial",
               "weight": 5,
               "moves": [
-                  ["Tera Blast"],
-                  ["Sacred Sword", "Sheer Cold"],
-                  ["Icicle Crash"],
-                  ["Sucker Punch"]
+                  ["Laser Delusion"],
+                  ["Draco Meteor","Dragon Pulse"],
+                  ["Heat Wave","Aura Sphere"],
+                  ["U-Turn"]
               ],
-              "item": ["Assault Vest"],
-              "nature": "Adamant",
-              "evs": {"hp": 140, "atk": 236, "def": 4, "spd": 12, "spe": 116},
-              "teraType": ["Electric", "Fairy", "Grass"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
+              "item": ["Leftovers"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "spd": 4,}
+              "teraType": ["Normal"],
+              "ability": ["Orgueil Celeste"]
           },
-          {
-              "species": "Chien-Pao",
-              "weight": 5,
-              "moves": [
-                  ["Ice Spinner", "Icicle Crash"],
-                  ["Tera Blast"],
-                  ["Crunch"],
-                  ["Sacred Sword"]
-              ],
-              "item": ["Choice Scarf"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Electric", "Fairy", "Grass"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
-          },
-          {
-              "species": "Chien-Pao",
-              "weight": 10,
-              "moves": [
-                  ["Ice Spinner", "Icicle Crash"],
-                  ["Crunch", "Throat Chop"],
-                  ["Ice Shard", "Sucker Punch"],
-                  ["Sacred Sword"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Dark"],
-              "ability": ["Sword of Ruin"]
-          },
-          {
-              "species": "Chien-Pao",
-              "weight": 10,
-              "moves": [
-                  ["Ice Spinner", "Icicle Crash"],
-                  ["Tera Blast"],
-                  ["Ice Shard", "Sucker Punch"],
-                  ["Sacred Sword"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Electric", "Fairy", "Grass"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
-          },
-          {
-              "species": "Chien-Pao",
-              "weight": 5,
-              "moves": [
-                  ["Icicle Crash"],
-                  ["Recover"],
-                  ["Ice Shard", "Sucker Punch"],
-                  ["Sacred Sword"]
-              ],
-              "item": ["Rocky Helmet"],
-              "nature": "Jolly",
-              "evs": {"hp": 252, "atk": 68, "def": 180, "spd": 4, "spe": 4},
-              "teraType": ["Fairy", "Poison"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
-          },
-          {
-              "species": "Chien-Pao",
-              "weight": 15,
-              "moves": [
-                  ["Swords Dance"],
-                  ["Icicle Crash"],
-                  ["Tera Blast"],
-                  ["Ice Shard", "Sucker Punch"]
-              ],
-              "item": ["Lum Berry"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Electric"],
-              "wantsTera": true,
-              "ability": ["Sword of Ruin"]
-          }
       ]
   },
+
+
   "dragonite": {
       "weight": 10,
       "sets": [
