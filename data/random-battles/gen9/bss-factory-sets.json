@@ -4,7 +4,7 @@
       "sets": [
           {
               "species": "Celestial",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Laser Delusion"],
                   ["Calm Mind","Nasty Plot"],
@@ -34,7 +34,7 @@
           },
           {
               "species": "Celestial",
-              "weight": 35,
+              "weight": 20,
               "moves": [
                   ["Laser Delusion"],
                   ["Glitzy Glow"],
@@ -49,7 +49,7 @@
           },
           {
               "species": "Celestial",
-              "weight": 35,
+              "weight": 20,
               "moves": [
                   ["Laser Delusion"],
                   ["Wish"],
@@ -64,7 +64,7 @@
           },
           {
               "species": "Celestial",
-              "weight": 5,
+              "weight": 20,
               "moves": [
                   ["Laser Delusion"],
                   ["Draco Meteor","Dragon Pulse"],
@@ -84,7 +84,7 @@
       "sets": [
           {
               "species": "Gardilisk",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Dragon Blade"],
                   ["Outrage","Dragon Claw","Dragon Tail"],
@@ -99,7 +99,7 @@
           },
           {
               "species": "Gardilisk",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Dragon Blade"],
                   ["Dragon Claw","Outrage"],
@@ -114,7 +114,7 @@
           },
           {
               "species": "Gardilisk",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Dragon Blade"],
                   ["Substitute"],
@@ -129,585 +129,73 @@
           }
       ]
   },
-
-  "fluttermane": {
-      "weight": 10,
+  "cockalypse": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Flutter Mane",
+              "species": "Cockalypse",
               "weight": 20,
               "moves": [
-                  ["Moonblast"],
-                  ["Calm Mind", "Shadow Ball"],
-                  ["Charm"],
-                  ["Pain Split"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Timid",
-              "evs": {"hp": 252, "def": 252, "spa": 4},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Water"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 5,
-              "moves": [
-                  ["Draining Kiss"],
-                  ["Shadow Ball"],
-                  ["Charm"],
-                  ["Calm Mind"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Timid",
-              "evs": {"hp": 252, "def": 252, "spa": 4},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Water"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 15,
-              "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball"],
-                  ["Mystical Fire", "Pain Split", "Substitute"],
-                  ["Calm Mind"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Timid",
-              "evs": {"hp": 4, "def": 132, "spa": 116, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Water"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 5,
-              "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball", "Substitute"],
-                  ["Tera Blast"],
-                  ["Calm Mind"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Timid",
-              "evs": {"hp": 4, "def": 132, "spa": 116, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Ground", "Water"],
-              "wantsTera": true,
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 10,
-              "moves": [
-                  ["Moonblast"],
-                  ["Hex"],
-                  ["Pain Split", "Taunt"],
-                  ["Thunder Wave"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Bold",
-              "evs": {"hp": 228, "def": 252, "spe": 28},
-              "ivs": {"atk": 0},
-              "teraType": ["Water"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 5,
-              "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball"],
-                  ["Hyper Voice", "Power Gem", "Thunderbolt"],
-                  ["Perish Song"]
+                  ["Bolt Beak"],
+                  ["Outrage", "Dragon Claw"],
+                  ["Earthquake","Superpower"],
+                  ["Volt Switch"]
               ],
               "item": ["Choice Scarf"],
-              "nature": "Modest",
-              "evs": {"hp": 20, "def": 44, "spa": 204, "spd": 4, "spe": 236},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy"],
-              "ability": ["Protosynthesis"]
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "spa": 4},
+              "teraType": ["Fairy", "Water"],
+              "ability": ["Mold Breaker"]
           },
           {
-              "species": "Flutter Mane",
-              "weight": 25,
+              "species": "Cockalypse",
+              "weight": 20,
               "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball"],
-                  ["Hyper Voice", "Mystical Fire", "Power Gem", "Psyshock", "Thunderbolt"],
-                  ["Perish Song"]
+                  ["Thunder","Thunderbolt"],
+                  ["Draco Meteor","Dragon Pulse"],
+                  ["Heat Wave"],
+                  ["Volt Switch"]
               ],
-              "item": ["Choice Specs"],
+              "item": ["Choice Scarf"],
               "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy"],
-              "ability": ["Protosynthesis"]
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Fairy", "Water"],
+              "ability": ["Mold Breaker"]
           },
           {
-              "species": "Flutter Mane",
-              "weight": 10,
+              "species": "Cockalypse",
+              "weight": 20,
               "moves": [
-                  ["Moonblast"],
-                  ["Hex", "Shadow Ball"],
-                  ["Thunder Wave"],
-                  ["Taunt"]
+                  ["Tailwind","Thunderm Wave"],
+                  ["Dragon Tail","Dragon Pulse"],
+                  ["Roost"],
+                  ["Volt Switch"]
               ],
-              "item": ["Focus Sash"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Normal"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 2,
-              "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball"],
-                  ["Psyshock"],
-                  ["Energy Ball"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Modest",
-              "evs": {"hp": 164, "def": 28, "spa": 196, "spd": 4, "spe": 116},
-              "ivs": {"atk": 0},
-              "teraType": ["Grass"],
-              "ability": ["Protosynthesis"]
-          },
-          {
-              "species": "Flutter Mane",
-              "weight": 3,
-              "moves": [
-                  ["Moonblast"],
-                  ["Shadow Ball"],
-                  ["Psyshock"],
-                  ["Mystical Fire"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Modest",
-              "evs": {"hp": 164, "def": 28, "spa": 196, "spd": 4, "spe": 116},
-              "ivs": {"atk": 0},
-              "teraType": ["Fire"],
-              "ability": ["Protosynthesis"]
+              "item": ["Leftovers","Heavy-Duty Boots"],
+              "nature": "Rash",
+              "evs": {"hp": 248, "spa": 252, "spd": 8},
+              "teraType": ["Fairy", "Water"],
+              "ability": ["Mold Breaker"]
           }
       ]
   },
-  "urshifurapidstrike": {
-      "weight": 10,
+  "puyotan": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Urshifu-Rapid-Strike",
+              "species": "Puyotan",
               "weight": 40,
               "moves": [
-                  ["Surging Strikes"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Aqua Jet", "Substitute"],
-                  ["Swords Dance"]
+                  ["Outrage"],
+                  ["Knock Off"],
+                  ["U-Turn"],
+                  ["Dragon Tail"]
               ],
-              "item": ["Punching Glove"],
+              "item": ["Choice Scarf"],
               "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
+              "evs": {"hp": 252, "spd": 4, "spe": 252},
               "teraType": ["Grass", "Poison", "Water"],
-              "wantsTera": true,
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu-Rapid-Strike",
-              "weight": 25,
-              "moves": [
-                  ["Surging Strikes"],
-                  ["Close Combat"],
-                  ["U-turn"],
-                  ["Ice Punch"]
-              ],
-              "item": ["Choice Scarf"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Water"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu-Rapid-Strike",
-              "weight": 15,
-              "moves": [
-                  ["Surging Strikes"],
-                  ["Close Combat"],
-                  ["U-turn"],
-                  ["Aqua Jet"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu-Rapid-Strike",
-              "weight": 20,
-              "moves": [
-                  ["Surging Strikes"],
-                  ["Close Combat"],
-                  ["Aqua Jet"],
-                  ["Counter", "Ice Punch"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spd": 4, "spe": 252},
-              "teraType": ["Ghost", "Water"],
-              "ability": ["Unseen Fist"]
-          }
-      ]
-  },
-  "ogerponhearthflame": {
-      "weight": 10,
-      "sets": [
-          {
-              "species": "Ogerpon-Hearthflame",
-              "weight": 40,
-              "moves": [
-                  ["Ivy Cudgel"],
-                  ["Knock Off", "Play Rough"],
-                  ["Encore", "Swords Dance"],
-                  ["Horn Leech", "Trailblaze"]
-              ],
-              "gender": "F",
-              "item": ["Hearthflame Mask"],
-              "nature": "Jolly",
-              "evs": {"hp": 4, "atk": 252, "spe": 252},
-              "teraType": ["Fire"],
-              "ability": ["Mold Breaker"]
-          },
-          {
-              "species": "Ogerpon-Hearthflame",
-              "weight": 40,
-              "moves": [
-                  ["Ivy Cudgel"],
-                  ["Horn Leech"],
-                  ["Swords Dance"],
-                  ["Play Rough", "Substitute", "Trailblaze"]
-              ],
-              "gender": "F",
-              "item": ["Hearthflame Mask"],
-              "nature": "Jolly",
-              "evs": {"hp": 156, "atk": 36, "def": 4, "spd": 60, "spe": 252},
-              "teraType": ["Fire"],
-              "ability": ["Mold Breaker"]
-          },
-          {
-              "species": "Ogerpon-Hearthflame",
-              "weight": 20,
-              "moves": [
-                  ["Ivy Cudgel"],
-                  ["Substitute"],
-                  ["Leech Seed"],
-                  ["Encore", "Horn Leech", "Play Rough"]
-              ],
-              "item": ["Hearthflame Mask"],
-              "nature": "Jolly",
-              "evs": {"hp": 156, "atk": 36, "def": 4, "spd": 60, "spe": 252},
-              "teraType": ["Fire"],
-              "ability": ["Mold Breaker"]
-          }
-      ]
-  },
-  "ursalunabloodmoon": {
-      "weight": 10,
-      "sets": [
-          {
-              "species": "Ursaluna-Bloodmoon",
-              "weight": 15,
-              "moves": [
-                  ["Blood Moon"],
-                  ["Earth Power"],
-                  ["Vacuum Wave"],
-                  ["Body Press"]
-              ],
-              "item": ["Rocky Helmet"],
-              "nature": "Bold",
-              "evs": {"hp": 116, "def": 236, "spa": 4, "spd": 116, "spe": 36},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Poison"],
-              "ability": ["Mind's Eye"]
-          },
-          {
-              "species": "Ursaluna-Bloodmoon",
-              "weight": 25,
-              "moves": [
-                  ["Blood Moon", "Hyper Voice"],
-                  ["Moonlight"],
-                  ["Calm Mind"],
-                  ["Yawn"]
-              ],
-              "item": ["Covert Cloak", "Leftovers"],
-              "nature": "Modest",
-              "evs": {"hp": 100, "def": 4, "spa": 236, "spd": 12, "spe": 156},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Poison"],
-              "ability": ["Mind's Eye"]
-          },
-          {
-              "species": "Ursaluna-Bloodmoon",
-              "weight": 60,
-              "moves": [
-                  ["Blood Moon"],
-                  ["Vacuum Wave"],
-                  ["Earth Power"],
-                  ["Hyper Voice"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Modest",
-              "evs": {"hp": 4, "spa": 252, "spd": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Normal"],
-              "ability": ["Mind's Eye"]
-          }
-      ]
-  },
-  "ironbundle": {
-      "weight": 9,
-      "sets": [
-          {
-              "species": "Iron Bundle",
-              "weight": 10,
-              "moves": [
-                  ["Flip Turn"],
-                  ["Freeze-Dry"],
-                  ["Hydro Pump"],
-                  ["Encore"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "teraType": ["Ghost"],
-              "ability": ["Quark Drive"]
-          },
-          {
-              "species": "Iron Bundle",
-              "weight": 70,
-              "moves": [
-                  ["Substitute"],
-                  ["Encore"],
-                  ["Hydro Pump"],
-                  ["Freeze-Dry"]
-              ],
-              "item": ["Booster Energy"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Ghost", "Steel", "Water"],
-              "ability": ["Quark Drive"]
-          },
-          {
-              "species": "Iron Bundle",
-              "weight": 10,
-              "moves": [
-                  ["Ice Beam"],
-                  ["Hydro Pump"],
-                  ["Freeze-Dry"],
-                  ["Tera Blast"]
-              ],
-              "item": ["Choice Specs"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy"],
-              "ability": ["Quark Drive"]
-          },
-          {
-              "species": "Iron Bundle",
-              "weight": 10,
-              "moves": [
-                  ["Ice Beam"],
-                  ["Hydro Pump"],
-                  ["Freeze-Dry"],
-                  ["Flip Turn"]
-              ],
-              "item": ["Choice Specs"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "teraType": ["Water"],
-              "ability": ["Quark Drive"]
-          }
-      ]
-  },
-  "urshifu": {
-      "weight": 9,
-      "sets": [
-          {
-              "species": "Urshifu",
-              "weight": 55,
-              "moves": [
-                  ["Swords Dance"],
-                  ["Wicked Blow"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Sucker Punch"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Dark", "Ghost"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu",
-              "weight": 25,
-              "moves": [
-                  ["Swords Dance"],
-                  ["Wicked Blow"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Sucker Punch"]
-              ],
-              "item": ["Black Glasses"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Dark", "Ghost", "Poison"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu",
-              "weight": 5,
-              "moves": [
-                  ["Counter"],
-                  ["Wicked Blow"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Sucker Punch"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Dark", "Ghost"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu",
-              "weight": 5,
-              "moves": [
-                  ["Wicked Blow"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Sucker Punch"],
-                  ["U-turn"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Dark", "Ghost", "Poison"],
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu",
-              "weight": 5,
-              "moves": [
-                  ["Wicked Blow"],
-                  ["Close Combat", "Drain Punch"],
-                  ["Sucker Punch"],
-                  ["Iron Head"]
-              ],
-              "item": ["Choice Band"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Steel"],
-              "wantsTera": true,
-              "ability": ["Unseen Fist"]
-          },
-          {
-              "species": "Urshifu",
-              "weight": 5,
-              "moves": [
-                  ["Wicked Blow"],
-                  ["Close Combat"],
-                  ["Sucker Punch"],
-                  ["U-turn"]
-              ],
-              "item": ["Choice Scarf"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "def": 4, "spe": 252},
-              "teraType": ["Dark"],
-              "ability": ["Unseen Fist"]
-          }
-      ]
-  },
-  "tinglu": {
-      "weight": 9,
-      "sets": [
-          {
-              "species": "Ting-Lu",
-              "weight": 65,
-              "moves": [
-                  ["Stealth Rock"],
-                  ["Ruination"],
-                  ["Earthquake", "Heavy Slam"],
-                  ["Whirlwind"]
-              ],
-              "item": ["Sitrus Berry"],
-              "nature": "Impish",
-              "evs": {"hp": 244, "atk": 20, "def": 116, "spd": 124, "spe": 4},
-              "teraType": ["Fairy", "Poison", "Water"],
-              "ability": ["Vessel of Ruin"]
-          },
-          {
-              "species": "Ting-Lu",
-              "weight": 15,
-              "moves": [
-                  ["Stealth Rock"],
-                  ["Spikes"],
-                  ["Earthquake", "Heavy Slam"],
-                  ["Whirlwind"]
-              ],
-              "item": ["Sitrus Berry"],
-              "nature": "Impish",
-              "evs": {"hp": 244, "atk": 20, "def": 116, "spd": 124, "spe": 4},
-              "teraType": ["Fairy", "Poison", "Water"],
-              "ability": ["Vessel of Ruin"]
-          },
-          {
-              "species": "Ting-Lu",
-              "weight": 5,
-              "moves": [
-                  ["Earthquake"],
-                  ["Heavy Slam"],
-                  ["Fissure", "Stone Edge"],
-                  ["Ruination"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Adamant",
-              "evs": {"hp": 4, "atk": 252, "def": 4, "spd": 108, "spe": 140},
-              "teraType": ["Steel"],
-              "ability": ["Vessel of Ruin"]
-          },
-          {
-              "species": "Ting-Lu",
-              "weight": 5,
-              "moves": [
-                  ["Earthquake"],
-                  ["Heavy Slam"],
-                  ["Tera Blast"],
-                  ["Ruination"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Adamant",
-              "evs": {"hp": 4, "atk": 252, "def": 4, "spd": 108, "spe": 140},
-              "teraType": ["Electric", "Fairy"],
-              "wantsTera": true,
-              "ability": ["Vessel of Ruin"]
-          },
-          {
-              "species": "Ting-Lu",
-              "weight": 10,
-              "moves": [
-                  ["Earthquake"],
-                  ["Heavy Slam"],
-                  ["Rock Tomb"],
-                  ["Ruination"]
-              ],
-              "item": ["Sitrus Berry"],
-              "nature": "Impish",
-              "evs": {"hp": 244, "atk": 76, "def": 116, "spd": 68, "spe": 4},
-              "teraType": ["Steel"],
-              "ability": ["Vessel of Ruin"]
+              "ability": ["Imposter"]
           }
       ]
   },
