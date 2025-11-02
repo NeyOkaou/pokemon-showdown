@@ -279,159 +279,106 @@
           }
       ]
   },
-  "chiyu": {
-      "weight": 9,
+  "glaugoon": {
+      "weight": 100,
       "sets": [
           {
-              "species": "Chi-Yu",
+              "species": "Glaugoon",
               "weight": 20,
               "moves": [
-                  ["Overheat"],
-                  ["Dark Pulse"],
-                  ["Tera Blast"],
-                  ["Flamethrower"]
+                  ["Drache Toxic"],
+                  ["Sludge Wave","Draco Meteor"],
+                  ["Reflects","Light Screen"],
+                  ["Flip Turn"]
               ],
-              "item": ["Choice Scarf"],
-              "nature": "Modest",
-              "evs": {"hp": 116, "def": 84, "spa": 156, "spd": 4, "spe": 148},
-              "ivs": {"atk": 0},
+              "item": ["Light Clay"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Fairy", "Grass"],
-              "wantsTera": true,
-              "ability": ["Beads of Ruin"]
+              "ability": ["Goey"]
           },
           {
-              "species": "Chi-Yu",
-              "weight": 35,
-              "moves": [
-                  ["Overheat"],
-                  ["Lava Plume"],
-                  ["Dark Pulse"],
-                  ["Psychic"]
-              ],
-              "item": ["Choice Scarf"],
-              "nature": "Modest",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fire", "Ghost"],
-              "ability": ["Beads of Ruin"]
-          },
-          {
-              "species": "Chi-Yu",
-              "weight": 10,
-              "moves": [
-                  ["Flame Charge", "Ruination"],
-                  ["Overheat"],
-                  ["Dark Pulse"],
-                  ["Tera Blast"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Calm",
-              "evs": {"hp": 252, "def": 4, "spa": 76, "spd": 156, "spe": 20},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Ghost", "Grass", "Water"],
-              "wantsTera": true,
-              "ability": ["Beads of Ruin"]
-          },
-          {
-              "species": "Chi-Yu",
-              "weight": 5,
-              "moves": [
-                  ["Lava Plume"],
-                  ["Ruination"],
-                  ["Taunt"],
-                  ["Dark Pulse"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Ghost"],
-              "ability": ["Beads of Ruin"]
-          },
-          {
-              "species": "Chi-Yu",
+              "species": "Glaugoon",
               "weight": 20,
               "moves": [
-                  ["Overheat"],
-                  ["Flamethrower"],
-                  ["Dark Pulse"],
-                  ["Psychic"]
+                  ["Drache Toxic"],
+                  ["Sludge Wave","Focus Blast","Ice Beam"],
+                  ["Dragon Pulse","Draco Meteor"],
+                  ["Flip Turn"]
               ],
-              "item": ["Choice Specs"],
+              "item": ["Choice Scarf","Choice Specs"],
               "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fire"],
-              "ability": ["Beads of Ruin"]
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Fairy", "Grass"],
+              "ability": ["Goey","Poison Point"]
           },
           {
-              "species": "Chi-Yu",
-              "weight": 10,
+              "species": "Glaugoon",
+              "weight": 20,
               "moves": [
-                  ["Overheat"],
-                  ["Flamethrower"],
-                  ["Dark Pulse"],
-                  ["Tera Blast"]
+                  ["agility"],
+                  ["Sludge Wave","Sludge Bomb"],
+                  ["Dragon Pulse","Draco Meteor"],
+                  ["Focus Blast"]
               ],
-              "item": ["Choice Specs"],
+              "item": ["Life Orb","Expert Belt"],
               "nature": "Timid",
-              "evs": {"spa": 252, "spd": 4, "spe": 252},
-              "ivs": {"atk": 0},
-              "teraType": ["Fairy", "Ghost", "Water"],
-              "wantsTera": true,
-              "ability": ["Beads of Ruin"]
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Fairy", "Grass"],
+              "ability": ["Goey","Poison Point"]
           }
       ]
   },
-  "archaludon": {
-      "weight": 9,
+
+  "gyaoon": {
+      "weight": 100,
       "sets": [
         {
-            "species": "Archaludon",
-            "weight": 45,
-            "moves": [
-                ["Steel Beam"],
-                ["Draco Meteor", "Dragon Tail"],
-                ["Stealth Rock"],
-                ["Thunder Wave", "Mirror Coat", "Metal Burst"]
-            ],
-            "item": ["Custap Berry", "Red Card"],
-            "nature": "Modest",
-            "evs": {"def": 4, "spa": 252, "spe": 252},
-            "teraType": ["Fairy", "Ghost"],
-            "ability": ["Sturdy"]
-        },
-        {
-            "species": "Archaludon",
-            "weight": 35,
-            "moves": [
-                ["Electro Shot"],
-                ["Draco Meteor"],
-                ["Flash Cannon"],
-                ["Thunderbolt", "Dark Pulse"]
-            ],
-            "item": ["Power Herb"],
-            "nature": "Timid",
-            "evs": {"def": 4, "spa": 252, "spe": 252},
-            "teraType": ["Electric"],
-            "wantsTera": true,
-            "ability": ["Sturdy", "Stamina"]
-        },
-        {
-            "species": "Archaludon",
+            "species": "Gyaoon",
             "weight": 20,
             "moves": [
-                ["Body Press"],
-                ["Flash Cannon"],
-                ["Stealth Rock", "Thunderbolt"],
-                ["Dark Pulse", "Roar", "Dragon Tail"]
+                ["Belly Drum"],
+                ["Body Slam"],
+                ["Earthquake","Dragon Claw"],
+                ["Knock Off"]
             ],
-            "item": ["Leftovers", "Sitrus Berry", "Air Balloon"],
-            "nature": "Modest",
-            "evs": {"def": 180, "spa": 252, "spe": 76},
-            "teraType": ["Fairy", "Flying"],
-            "ability": ["Stamina"]
-          }
+            "item": ["Leftovers","Sitrus Berry"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252, "spd": 4},
+            "teraType": ["Fairy", "Ghost"],
+            "ability": ["Unaware"]
+        },
+        {
+            "species": "Gyaoon",
+            "weight": 20,
+            "moves": [
+                ["Shed Tail"],
+                ["Body Slam"],
+                ["Slack Off","Dragon Claw"],
+                ["Knock Off","Thunder Wave"]
+            ],
+            "item": ["Leftovers","Sitrus Berry"],
+            "nature": "Carfeul",
+            "evs": {"hp": 252, "spd": 252, "atk": 4},
+            "teraType": ["Fairy", "Ghost"],
+            "ability": ["Unaware"]
+        },
+        {
+            "species": "Gyaoon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Dance"],
+                ["Body Slam"],
+                ["Earthquake","Dragon Claw"],
+                ["Knock Off","Thunder Wave","Slack Off"]
+            ],
+            "item": ["Sitrus Berry"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252, "def": 4},
+            "teraType": ["Fairy", "Ghost"],
+            "ability": ["Unaware"]
+        }
+        
       ]
   }
 }
