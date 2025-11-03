@@ -378,7 +378,281 @@
             "teraType": ["Fairy", "Ghost"],
             "ability": ["Unaware"]
         }
-        
       ]
-  }
+  },
+    "invocamon": {
+      "weight": 100,
+      "sets": [
+        {
+            "species": "Invocamon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Rush,","Draco Meteor"],
+                ["Dual Wingbeat","Aeroblast"],
+                ["Blizzard","Thunder"],
+                ["Fire Blast","Earthquake"]
+            ],
+            "item": ["Life Orb","Expert Belt","Choice Scarf"],
+            "nature": "Timid",
+            "evs": {"atk": 4 , "spa": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["No Guard"]
+        },
+        {
+            "species": "Invocamon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Rush"],
+                ["Dual Wingbeat"],
+                ["Iron Head"],
+                ["Earthquake"]
+            ],
+            "item": ["Life Orb","Expert Belt","Choice Scarf","Choice Band"],
+            "nature": "Jolly",
+            "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["No Guard"]
+        },
+        {
+            "species": "Invocamon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Rush","Draco Meteor"],
+                ["Aeroblast"],
+                ["Earthquake"],
+                ["Fire Blast","Iron Head"]
+            ],
+            "item": ["Life Orb","Expert Belt","Lum Berry"],
+            "nature": "Timid",
+            "evs": {"atk": 4 , "spa": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["No Guard"]
+        },
+        {
+            "species": "Invocamon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Rush"],
+                ["Dragon Dance"],
+                ["Iron Head"],
+                ["Earthquake"]
+            ],
+            "item": ["Life Orb","Expert Belt","Heavy-Duty Boots"],
+            "nature": "Jolly",
+            "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["No Guard"]
+        },
+        {
+            "species": "Invocamon",
+            "weight": 20,
+            "moves": [
+                ["Dragon Rush"],
+                ["Dragon Dance"],
+                ["Dragon Rush"],
+                ["Sky Attack"]
+            ],
+            "item": ["Power Herb"],
+            "nature": "Adament",
+            "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["No Guard"]
+        }
+      ]
+    },
+    "melodrame": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Melodrame",
+            "weight": 20,
+            "moves": [
+                ["Boomburst"],
+                ["Dark Pulse", "Alluring Voice"],
+                ["Encore"],
+                ["Destiny Bond","Parting Shot"]
+            ],
+            "item": ["Life Orb","Focus Sash"],
+            "nature": "Timid",
+            "evs": {"spa": 252 , "spe": 252, "spd": 4},
+            "teraType": ["Normal"],
+            "ability": ["Punk Rock"]
+        },
+        {
+            "species": "Melodrame",
+            "weight": 20,
+            "moves": [
+                ["Boomburst"],
+                ["Dark Pulse","Snarl"],
+                ["Focus Energy"],
+                ["Overdrive", "Alluring Voice"]
+            ],
+            "item": ["Leek"],
+            "nature": "Timid",
+            "evs": {"spa": 252 , "spe": 252, "spd": 4},
+            "teraType": ["Normal"],
+            "ability": ["Punk Rock"]
+        },
+        {
+            "species": "Melodrame",
+            "weight": 20,
+            "moves": [
+                ["Boomburst"],
+                ["Dark Pulse", "Alluring Voice"],
+                ["Switcheroo"],
+                ["Healing Wish"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Timid",
+            "evs": {"spa": 252 , "spe": 252, "spd": 4},
+            "teraType": ["Normal"],
+            "ability": ["Punk Rock"]
+        },
+        {
+            "species": "Melodrame",
+            "weight": 20,
+            "moves": [
+                ["Boomburst"],
+                ["Snarl", "Dark Pulse"],
+                ["Alluring"],
+                ["Parting Shot"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Timid",
+            "evs": {"spa": 252 , "spe": 252, "spd": 4},
+            "teraType": ["Normal"],
+            "ability": ["Punk Rock"]
+        }
+      ]
+    }
+    "mandelman": {
+      "weight": 100,
+      "sets": [
+        {
+            "species": "Mandelman",
+            "weight": 20,
+            "moves": [
+                ["Nasty Plot"],
+                ["Destiny Bond"],
+                ["Disable","Parting Shot"],
+                ["Baddy Bad"]
+            ],
+            "item": ["Light Clay"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "spe":252 , "spd": 4},
+            "teraType": ["Fairy"],
+            "ability": ["Intimidate","Shadow Tag"]
+        },
+        {
+            "species": "Mandelman",
+            "weight": 20,
+            "moves": [
+                ["Nasty Plot"],
+                ["Destiny Bond"],
+                ["Disable","Parting Shot"],
+                ["Baddy Bad"]
+            ],
+            "item": ["Light Clay"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def":252 , "spd": 4},
+            "teraType": ["Fairy"],
+            "ability": ["Intimidate","Shadow Tag"]
+        },
+        {
+            "species": "Mandelman",
+            "weight": 20,
+            "moves": [
+                ["Lovely Kiss"],
+                ["Brick Break"],
+                ["Knock Off"],
+                ["Baddy Bad"]
+            ],
+            "item": ["Light Clay","Focus Sash"],
+            "nature": "Bold",
+            "evs": {"spa": 252, "spe":252 , "spd": 4},
+            "teraType": ["Fairy"],
+            "ability": ["Bad Dreams","Shadow Tag"]
+        },
+        {
+            "species": "Mandelman",
+            "weight": 20,
+            "moves": [
+                ["Endeavor"],
+                ["Sucker Punch"],
+                ["Destiny Bond"],
+                ["Taunt"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Timid",
+            "evs": {"hp": 252, "spe":252 , "spd": 4},
+            "teraType": ["Fairy"],
+            "ability": ["Shadow Tag"]
+        }
+      ]
+    },
+    "achaethena": {
+      "weight": 100,
+      "sets": [
+        {
+            "species": "Achaethena",
+            "weight": 20,
+            "moves": [
+                ["Close Combat", "Superpower","Drain Punch"],
+                ["Mach Punch"],
+                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life"],
+                ["Knock Off", "Pursuit", "Succuby Kiss" ]
+            ],
+            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire", "Levitate", "Merciless"]
+        },
+        {
+            "species": "Achaethena",
+            "weight": 20,
+            "moves": [
+                ["Close Combat", "Superpower","Drain Punch"],
+                ["Mach Punch"],
+                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life"],
+                ["Knock Off", "Pursuit", "Succuby Kiss" ]
+            ],
+            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
+            "nature": "Adamant",
+            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire", "Levitate", "Merciless"]
+        },
+        {
+            "species": "Achaethena",
+            "weight": 20,
+            "moves": [
+                ["Calm Mind", "Nasty Plot"],
+                ["Draining Kiss", "Alluring Voice, Shadow Ball", "Air Slash", "Soul Blast"],
+                ["Aura Sphere", "Vacuum Wave"],
+                ["Dark Pulse"]
+            ],
+            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
+            "nature": "Modest, Timid",
+            "evs": { "spa": 252 , "spe": 252, "spd": 4},
+            "teraType": ["Fairy"],
+            "ability": ["Merciless", "Levitate", "Vampire"]
+        },
+        {
+            "species": "Achaethena",
+            "weight": 20,
+            "moves": [
+                ["Close Combat", "Superpower","Drain Punch"],
+                ["Mach Punch"],
+                ["Poison Jab", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life","Parting Shot"],
+                ["Knock Off", "Pursuit", "Succuby Kiss" ]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire", "Levitate", "Merciless"]
+        }
+      ]
+    }
 }
