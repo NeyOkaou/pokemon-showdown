@@ -628,7 +628,7 @@
             "weight": 20,
             "moves": [
                 ["Calm Mind", "Nasty Plot"],
-                ["Draining Kiss", "Alluring Voice, Shadow Ball", "Air Slash", "Soul Blast"],
+                ["Draining Kiss", "Alluring Voice", "Shadow Ball", "Air Slash", "Soul Blast"],
                 ["Aura Sphere", "Vacuum Wave"],
                 ["Dark Pulse"]
             ],
