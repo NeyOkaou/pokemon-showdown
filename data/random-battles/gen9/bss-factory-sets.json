@@ -667,7 +667,7 @@
                 ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
                 ["Teleport" ]
             ],
-            "item": ["Rocky Helmet","Life Orb"]
+            "item": ["Rocky Helmet","Life Orb"],
             "nature": "Calm",
             "evs": {"hp": 252, "def": 252 , "spd": 4 },
             "teraType": ["Fairy"],
