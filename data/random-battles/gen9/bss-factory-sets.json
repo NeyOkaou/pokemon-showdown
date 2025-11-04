@@ -667,24 +667,9 @@
                 ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
                 ["Teleport" ]
             ],
-            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Jolly",
+            "item": ["Rocky Helmet","Life Orb"]
+            "nature": "Calm",
             "evs": {"hp": 252, "def": 252 , "spd": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Gravity Falls"]
-        },
-        {
-            "species": "Hierocculte",
-            "weight": 20,
-            "moves": [
-                ["Earth Power"],
-                ["Stealth Rock","Spikes"],
-                ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
-                ["Teleport" ]
-            ],
-            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Jolly",
-            "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Gravity Falls"]
         }
