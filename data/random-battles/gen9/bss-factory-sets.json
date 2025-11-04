@@ -633,7 +633,7 @@
                 ["Dark Pulse"]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Modest"
+            "nature": "Modest",
             "evs": { "spa": 252 , "spe": 252, "spd": 4},
             "teraType": ["Fairy"],
             "ability": ["Levitate", "Vampire"]
