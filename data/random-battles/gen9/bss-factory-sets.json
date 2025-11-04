@@ -754,5 +754,55 @@
             "ability": ["Fragmentate"]
         }
       ]
+    },
+    "auberjaw": {
+      "weight": 70,
+      "sets": [
+        {
+            "species": "Auberjaw",
+            "weight": 5,
+            "moves": [
+                ["Snap Trap"],
+                ["Leech Seed"],
+                ["Protect"],
+                ["Substitute","Body Press"]
+            ],
+            "item": ["Leftovers","Sitrus Berry","Yache Berry"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Strong Jaw","Harvest"]
+        },
+        {
+            "species": "Auberjaw",
+            "weight": 5,
+            "moves": [
+                ["Snap Trap"],
+                ["Leech Seed"],
+                ["Protect"],
+                ["Substitute"]
+            ],
+            "item": ["Leftovers","Sitrus Berry","Yache Berry"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Strong Jaw","Harvest"]
+        },
+        {
+            "species": "Auberjaw",
+            "weight": 5,
+            "moves": [
+                ["Power Whip"],
+                ["Earthquake"],
+                ["Body Press"],
+                ["Ice Fang"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Strong Jaw","Harvest"]
+        }
+      ]
     }
 }
