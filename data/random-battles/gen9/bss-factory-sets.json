@@ -166,7 +166,7 @@
               "species": "Cockalypse",
               "weight": 20,
               "moves": [
-                  ["Tailwind","Thunderm Wave"],
+                  ["Tailwind","Thunder Wave"],
                   ["Dragon Tail","Dragon Pulse"],
                   ["Roost"],
                   ["Volt Switch"]
