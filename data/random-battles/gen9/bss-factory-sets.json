@@ -295,7 +295,7 @@
               "nature": "Timid",
               "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Fairy", "Grass"],
-              "ability": ["Goey"]
+              "ability": ["Gooey"]
           },
           {
               "species": "Glaugoon",
@@ -310,7 +310,7 @@
               "nature": "Timid",
               "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Fairy", "Grass"],
-              "ability": ["Goey","Poison Point"]
+              "ability": ["Gooey","Poison Point"]
           },
           {
               "species": "Glaugoon",
@@ -325,7 +325,7 @@
               "nature": "Timid",
               "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Fairy", "Grass"],
-              "ability": ["Goey","Poison Point"]
+              "ability": ["Gooey","Poison Point"]
           }
       ]
   },
@@ -480,7 +480,7 @@
         },
         {
             "species": "Melodrame",
-            "weight": 20,
+            "weight": 5,
             "moves": [
                 ["Boomburst"],
                 ["Dark Pulse","Snarl"],
@@ -625,7 +625,7 @@
         },
         {
             "species": "Achaethena",
-            "weight": 20,
+            "weight": 5,
             "moves": [
                 ["Calm Mind", "Nasty Plot"],
                 ["Draining Kiss", "Alluring Voice", "Soul Blast"],
@@ -664,7 +664,7 @@
             "moves": [
                 ["Earth Power"],
                 ["Stealth Rock","Spikes"],
-                ["Light Screen","Reflects","Hypnosis","Will-O-Wisp","Trick Room"],
+                ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
                 ["Teleport" ]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
@@ -679,7 +679,7 @@
             "moves": [
                 ["Earth Power"],
                 ["Stealth Rock","Spikes"],
-                ["Light Screen","Reflects","Hypnosis","Will-O-Wisp","Trick Room"],
+                ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
                 ["Teleport" ]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
@@ -687,6 +687,71 @@
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Gravity Falls"]
+        }
+      ]
+    },
+    "mossemeros": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Mossemeros",
+            "weight": 20,
+            "moves": [
+                ["Spikes"],
+                ["Earthquake","Bonemerang"],
+                ["Rapid Spin"],
+                ["Explosion"]
+            ],
+            "item": ["Rocky Helmet"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fragmentate"]
+        },
+        {
+            "species": "Mossemeros",
+            "weight": 20,
+            "moves": [
+                ["Body Press"],
+                ["Rapid Spin"],
+                ["Poltergeist","Shadowbone"],
+                ["Stone Edge"]
+            ],
+            "item": ["Rocky Helmet"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fragmentate"]
+        },
+        {
+            "species": "Mossemeros",
+            "weight": 20,
+            "moves": [
+                ["Shadow Sneak"],
+                ["Earthquake","Bonemerang"],
+                ["Shell Smash"],
+                ["Stone Edge","Head Smash"]
+            ],
+            "item": ["White Herbe"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fragmentate"]
+        },
+        {
+            "species": "Mossemeros",
+            "weight": 5,
+            "moves": [
+                ["Substitute"],
+                ["Last Respects"],
+                ["Rapid Spin"],
+                ["Stone Edge"]
+            ],
+            "item": ["Rocky Helmet"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fragmentate"]
         }
       ]
     }
