@@ -1,6 +1,6 @@
 {
   "celestial": {
-      "weight": 100,
+      "weight": 5,
       "sets": [
           {
               "species": "Celestial",
@@ -80,7 +80,7 @@
       ]
   },
   "gardilisk": {
-      "weight": 100,
+      "weight": 10,
       "sets": [
           {
               "species": "Gardilisk",
@@ -130,7 +130,7 @@
       ]
   },
   "cockalypse": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
           {
               "species": "Cockalypse",
@@ -180,7 +180,7 @@
       ]
   },
   "puyotan": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
           {
               "species": "Puyotan",
@@ -200,7 +200,7 @@
       ]
   },
   "terrakami": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
           {
               "species": "Terrakami",
@@ -280,7 +280,7 @@
       ]
   },
   "glaugoon": {
-      "weight": 100,
+      "weight": 70,
       "sets": [
           {
               "species": "Glaugoon",
@@ -331,7 +331,7 @@
   },
 
   "gyaoon": {
-      "weight": 100,
+      "weight": 70,
       "sets": [
         {
             "species": "Gyaoon",
@@ -381,7 +381,7 @@
       ]
   },
     "invocamon": {
-      "weight": 100,
+      "weight": 70,
       "sets": [
         {
             "species": "Invocamon",
@@ -526,7 +526,7 @@
       ]
     },
     "mandelman": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
         {
             "species": "Mandelman",
@@ -591,7 +591,7 @@
       ]
     },
     "achaethena": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
         {
             "species": "Achaethena",
@@ -614,7 +614,7 @@
             "moves": [
                 ["Close Combat", "Superpower","Drain Punch"],
                 ["Mach Punch"],
-                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life"],
+                ["Poison Jab", "Taunt"],
                 ["Knock Off", "Pursuit", "Succuby Kiss" ]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
@@ -628,15 +628,15 @@
             "weight": 20,
             "moves": [
                 ["Calm Mind", "Nasty Plot"],
-                ["Draining Kiss", "Alluring Voice", "Shadow Ball", "Air Slash", "Soul Blast"],
+                ["Draining Kiss", "Alluring Voice", "Soul Blast"],
                 ["Aura Sphere", "Vacuum Wave"],
                 ["Dark Pulse"]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Modest, Timid",
+            "nature": "Modest"
             "evs": { "spa": 252 , "spe": 252, "spd": 4},
             "teraType": ["Fairy"],
-            "ability": ["Merciless", "Levitate", "Vampire"]
+            "ability": ["Levitate", "Vampire"]
         },
         {
             "species": "Achaethena",
@@ -644,15 +644,49 @@
             "moves": [
                 ["Close Combat", "Superpower","Drain Punch"],
                 ["Mach Punch"],
-                ["Poison Jab", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life","Parting Shot"],
+                ["Poison Jab","Parting Shot"],
                 ["Knock Off", "Pursuit", "Succuby Kiss" ]
             ],
             "item": ["Choice Scarf"],
             "nature": "Jolly",
             "evs": {"spe": 252, "atk": 252 , "spd": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Vampire", "Levitate", "Merciless"]
+            "ability": ["Vampire", "Levitate"]
         }
       ]
-    }
+    },
+    "hierocculte": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Hierocculte",
+            "weight": 20,
+            "moves": [
+                ["Earth Power"],
+                ["Stealth Rock","Spikes"],
+                ["Light Screen","Reflects","Hypnosis","Will-O-Wisp","Trick Room"],
+                ["Teleport" ]
+            ],
+            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
+            "nature": "Jolly",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Gravity Falls"]
+        },
+        {
+            "species": "Hierocculte",
+            "weight": 20,
+            "moves": [
+                ["Earth Power"],
+                ["Stealth Rock","Spikes"],
+                ["Light Screen","Reflects","Hypnosis","Will-O-Wisp","Trick Room"],
+                ["Teleport" ]
+            ],
+            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
+            "nature": "Jolly",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Gravity Falls"]
+        }
+    ]
 }
