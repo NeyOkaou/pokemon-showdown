@@ -732,7 +732,7 @@
                 ["Shell Smash"],
                 ["Stone Edge","Head Smash"]
             ],
-            "item": ["White Herbe"],
+            "item": ["White Herb"],
             "nature": "Adamant",
             "evs": {"hp": 252, "atk": 252 , "def": 4 },
             "teraType": ["Fairy"],
