@@ -741,7 +741,7 @@
       ]
     },
     "auberjaw": {
-      "weight": 70,
+      "weight": 80,
       "sets": [
         {
             "species": "Auberjaw",
@@ -811,7 +811,7 @@
       ]
     },
     "pythagon": {
-      "weight": 50,
+      "weight": 70,
       "sets": [
         {
             "species": "Pythagon",
