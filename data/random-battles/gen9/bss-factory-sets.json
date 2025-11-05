@@ -530,7 +530,7 @@
       "sets": [
         {
             "species": "Mandelman",
-            "weight": 20,
+            "weight": 5,
             "moves": [
                 ["Nasty Plot"],
                 ["Destiny Bond"],
@@ -599,7 +599,7 @@
             "moves": [
                 ["Close Combat", "Superpower","Drain Punch"],
                 ["Mach Punch"],
-                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Shadow Claw", "Leech Life","Ice Punch"],
+                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Leech Life","Ice Punch"],
                 ["Knock Off", "Pursuit", "Succuby Kiss" ]
             ],
             "item": ["Focus Sash", "Life Orb", "Expert Belt"],
@@ -745,7 +745,7 @@
       "sets": [
         {
             "species": "Auberjaw",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Snap Trap"],
                 ["Leech Seed"],
@@ -760,7 +760,7 @@
         },
         {
             "species": "Auberjaw",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Snap Trap"],
                 ["Leech Seed"],
@@ -787,6 +787,76 @@
             "evs": {"hp": 252, "atk": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Strong Jaw","Harvest"]
+        }
+      ]
+    },
+    "daemonix": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Daemonix",
+            "weight": 20,
+            "moves": [
+                ["Calm Mind"],
+                ["Strength Sap","Moonlight"],
+                ["Draining Kiss"],
+                ["Substitute","Taunt","Charm","Encore"]
+            ],
+            "item": ["Eviolite","Leftovers"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Prankster"]
+        }
+      ]
+    },
+    "pythagon": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Pythagon",
+            "weight": 20,
+            "moves": [
+                ["Fickle Beam"],
+                ["Substitute"],
+                ["Agility"],
+                ["Focus Blast"]
+            ],
+            "item": ["Life Orb","Expert Belt"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Simple"]
+        },
+        {
+            "species": "Pythagon",
+            "weight": 20,
+            "moves": [
+                ["Fickle Beam"],
+                ["Fire Blast","Thunder"],
+                ["Volt Switch"],
+                ["Focus Blast"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Download"]
+        },
+        {
+            "species": "Pythagon",
+            "weight": 20,
+            "moves": [
+                ["Fickle Beam"],
+                ["Agility"],
+                ["Calm Mind"],
+                ["Focus Blast"]
+            ],
+            "item": ["Life Orb","Expert Belt"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Simple"]
         }
       ]
     }
