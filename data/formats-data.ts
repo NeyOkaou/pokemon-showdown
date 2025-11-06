@@ -208,10 +208,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Uber",
 	},
 	cocoquille:{
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
 	},
 	palmypince:{
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
 	},
 	emprism:{
 		tier: "Illegal",

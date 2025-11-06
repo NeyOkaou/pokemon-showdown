@@ -1944,8 +1944,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
 		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
 	},
-	jumpscare: {
-		name: "Jumpscare",
+	peekaboo: {
+		name: "Peek-A-Boo",
 		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
 		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
 	},
