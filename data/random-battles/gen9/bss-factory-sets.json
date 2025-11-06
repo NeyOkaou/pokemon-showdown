@@ -196,6 +196,36 @@
               "evs": {"hp": 252, "spd": 4, "spe": 252},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Imposter"]
+          },
+          {
+              "species": "Puyotan",
+                "weight": 5,
+                "moves": [
+                    ["Pain Split"],
+                    ["Dragon Tail", "Haze"],
+                    ["Knock Off", "Encore"],
+                    ["U-turn" ]
+                ],
+                "item": ["Flame Orb"],
+                "nature": "Impish",
+                "evs": {"def": 252, "hp": 252 , "spd": 4 },
+                "teraType": ["Steel"],
+                "ability": ["Marvel Scale"]
+          },
+          {
+               "species": "Puyotan",
+                "weight": 10,
+                "moves": [
+                    ["Imprison"],
+                    ["Transform"],
+                    ["Whirlpool"],
+                    ["U-turn" ]
+                ],
+                "item": ["Sitrus Berry", "Leftovers", "Red Card"],
+                "nature": "Jolly",
+                "evs": {"spe": 252, "def": 252 , "spd": 4 },
+                "teraType": ["Steel"],
+                "ability": ["Marvel Scale", "Berserk"]
           }
       ]
   },
@@ -890,6 +920,36 @@
             "item": ["Choice Scarf"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Mega Launcher"]
+        },
+        {
+            "species": "Parademise",
+            "weight": 20,
+            "moves": [
+                ["Wish"],
+                ["Dark Pulse"],
+                ["Doom Desire"],
+                ["Protect"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Levitate"]
+        },
+        {
+            "species": "Parademise",
+            "weight": 20,
+            "moves": [
+                ["Flash Cannon"],
+                ["Focus Blast"],
+                ["Volt Switch"],
+                ["Tailwind"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Modest",
+            "evs": {"hp": 252, "spa": 252 , "spd": 4 },
             "teraType": ["Fairy"],
             "ability": ["Mega Launcher"]
         }
