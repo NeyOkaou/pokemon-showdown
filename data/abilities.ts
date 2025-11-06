@@ -3229,8 +3229,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					if (pokemon.side.removeSideCondition(sideCondition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(sideCondition).name, '[from] ability: Pickup');
 						this.add('-message', `${pokemon.name} picked up the hazards on the field ! It’s gonna sting…`);
-						this.add('-item', pokemon, this.dex.items.get('stickybarbs'), '[from] ability: Pickup');
-						pokemon.setItem('stickybarbs');
+						this.add('-item', pokemon, this.dex.items.get('stickybarb'), '[from] ability: Pickup');
+						pokemon.setItem('stickybarb');
 					}
 				}
 			}
