@@ -3862,7 +3862,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			liquidation: ["9M"],
 			raindance: ["9M"],
 			razorshell: ["9M"],
-			withdraaw: ["9M"],
+			withdraw: ["9M"],
 			//general
 			protect: ["9M"],
 			frustration: ["9M"],
@@ -3976,7 +3976,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			liquidation: ["9M"],
 			raindance: ["9M"],
 			razorshell: ["9M"],
-			withdraaw: ["9M"],
+			withdraw: ["9M"],
 			//ROCK
 			headsmash: ["9M"],
 			rockslide: ["9M"],
