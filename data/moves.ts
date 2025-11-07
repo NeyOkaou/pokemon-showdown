@@ -20546,7 +20546,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			},
 		},
 		secondary: null,
-		target: "foeSide",
+		target: "normal",
 		type: "Poison",
 		zMove: { boost: { def: 1 } },
 		contestType: "Clever",

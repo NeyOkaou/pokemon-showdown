@@ -575,7 +575,7 @@
       "sets": [
         {
             "species": "Mandelman",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Nasty Plot"],
                 ["Destiny Bond"],
@@ -609,7 +609,7 @@
             "moves": [
                 ["Lovely Kiss"],
                 ["Brick Break"],
-                ["Knock Off"],
+                ["Knock Off","Pursuit"],
                 ["Baddy Bad"]
             ],
             "item": ["Light Clay","Focus Sash"],
@@ -620,9 +620,9 @@
         },
         {
             "species": "Mandelman",
-            "weight": 20,
+            "weight": 5,
             "moves": [
-                ["Endeavor"],
+                ["Night Shade"],
                 ["Sucker Punch"],
                 ["Destiny Bond"],
                 ["Taunt"]
@@ -953,6 +953,126 @@
             "teraType": ["Fairy"],
             "ability": ["Mega Launcher"]
         }
+      ]
+    },
+    "stalibri": {
+      "weight": 50,
+      "sets": [
+          {
+              "species": "Stalibri",
+              "weight": 20,
+              "moves": [
+                  ["Stealth Rock"],
+                  ["Drill Run"],
+                  ["Taunt"],
+                  ["Thief"]
+              ],
+              "item": ["Focus Sash"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Inner Focus"]
+          }
+      ]
+    },
+    "zardopium": {
+      "weight": 50,
+      "sets": [
+          {
+              "species": "Zardopium",
+              "weight": 20,
+              "moves": [
+                  ["Stone Edge"],
+                  ["Drill Run"],
+                  ["Substitute"],
+                  ["Rock Polish"]
+              ],
+              "item": ["Sitrus Berry","Leftovers"],
+              "nature": "Adament",
+              "evs": {"atk": 252, "spe": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Fur Coat"]
+          },
+          {
+              "species": "Zardopium",
+              "weight": 20,
+              "moves": [
+                  ["Stone Edge","Beak Blast"],
+                  ["Stealth Rock"],
+                  ["Whirlwind"],
+                  ["Roost"]
+              ],
+              "item": ["Rocky Helmet","Heavy-Duty Boots"],
+              "nature": "Careful",
+              "evs": {"hp": 252, "spd": 252, "spe": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Fur Coat"]
+          },
+          {
+              "species": "Zardopium",
+              "weight": 20,
+              "moves": [
+                  ["Beak Blast"],
+                  ["Chilly Reception"],
+                  ["Defog"],
+                  ["Roost"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Careful",
+              "evs": {"hp": 252, "spd": 252, "spe": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Fur Coat"]
+          },
+          {
+              "species": "Zardopium",
+              "weight": 5,
+              "moves": [
+                  ["Beak Blast"],
+                  ["Stone Edge"],
+                  ["Drill Run"],
+                  ["Accelerock"]
+              ],
+              "item": ["Assault Vest"],
+              "nature": "Adament",
+              "evs": {"hp": 252, "atk": 252, "spe": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Fur Coat"]
+          }
+      ]
+    },
+    "veuvoile": {
+      "weight": 50,
+      "sets": [
+        {
+              "species": "Veuvoile",
+              "weight": 20,
+              "moves": [
+                  ["Sticky Web"],
+                  ["Taunt"],
+                  ["Knock Off"],
+                  ["U-Turn"]
+              ],
+              "item": ["Black Sludge"],
+              "nature": "Jolly",
+              "evs": {"hp": 252, "spe": 252, "atk": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Aroma Veil"]
+          },
+          {
+              "species": "Veuvoile",
+              "weight": 20,
+              "moves": [
+                  ["Toxic"],
+                  ["Taunt"],
+                  ["Knock Off"],
+                  ["Aromatherapy"]
+              ],
+              "item": ["Black Sludge"],
+              "nature": "Impish",
+              "evs": {"hp": 252, "spe": 4, "spd": 252},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Pressure"]
+          }
       ]
     }
 }

@@ -3224,16 +3224,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	pickup: {
 		onStart(pokemon) {
 			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
-			if (!pokemon.item){
 				for (const sideCondition of removeAll) {
 					if (pokemon.side.removeSideCondition(sideCondition)) {
 						this.add('-sideend', pokemon.side, this.dex.conditions.get(sideCondition).name, '[from] ability: Pickup');
 						this.add('-message', `${pokemon.name} picked up the hazards on the field !`);
-						this.add('-item', pokemon, this.dex.items.get('somehazards'), '[from] ability: Pickup');
-						pokemon.setItem('somehazards');
 					}
 				}
-			}
 		},
 		onResidualOrder: 28,
 		onResidualSubOrder: 2,
