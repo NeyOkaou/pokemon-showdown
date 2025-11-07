@@ -7744,4 +7744,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: -484,
 		gen: 9,
 	},
+	somehazards: {
+		name: "Some Hazards",
+		spritenum: 2583,
+		fling: {
+			basePower: 100,
+		},
+		num: -485,
+		gen: 9,
+	},
 };
