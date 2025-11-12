@@ -1174,5 +1174,70 @@
               "ability": ["Pressure"]
           }
       ]
+    },
+    "palmypince": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Palmypince",
+            "weight": 20,
+            "moves": [
+                ["Stone Edge"],
+                ["Stealth Rock"],
+                ["Flip Turn"],
+                ["Milk Drink"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Pickup"]
+        },
+        {
+            "species": "Palmypince",
+            "weight": 20,
+            "moves": [
+                ["Stone Edge","Head Smash"],
+                ["Seed Bomb","Wood Hammer"],
+                ["Earthquake","Cross Chop"],
+                ["Shell Smash"]
+            ],
+            "item": ["White Herb"],
+            "nature": "Adament",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Pickup"]
+        },
+        {
+            "species": "Palmypince",
+            "weight": 20,
+            "moves": [
+                ["Rock Blast"],
+                ["Stealth Rock"],
+                ["Leech Seed"],
+                ["Milk Drink"]
+            ],
+            "item": ["Leftovers","Rocky Helmet"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Pickup"]
+        },
+        {
+            "species": "Palmypince",
+            "weight": 20,
+            "moves": [
+                ["Solar Blade"],
+                ["Head Smash"],
+                ["Earthquake"],
+                ["Swords Dance"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Chlorophyll"]
+        }
+      ]
     }
 }
