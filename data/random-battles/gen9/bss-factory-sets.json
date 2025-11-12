@@ -1239,5 +1239,70 @@
             "ability": ["Chlorophyll"]
         }
       ]
+    },
+    "tundragon": {
+      "weight": 70,
+      "sets": [
+        {
+            "species": "Tundragon",
+            "weight": 20,
+            "moves": [
+                ["Icicle Spear"],
+                ["Slack Off"],
+                ["Cotton Guard"],
+                ["Body Press"]
+            ],
+            "item": ["Loaded Dice"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fluffy"]
+        },
+        {
+            "species": "Tundragon",
+            "weight": 20,
+            "moves": [
+                ["Icicle Spear"],
+                ["Scale Shot"],
+                ["Bulldoze"],
+                ["Chilly Reception"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Skill Link"]
+        },
+        {
+            "species": "Tundragon",
+            "weight": 10,
+            "moves": [
+                ["Triple Axel"],
+                ["Slack Off"],
+                ["Haze"],
+                ["Engelure"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "hp": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Fluffy"]
+        },
+        {
+            "species": "Tundragon",
+            "weight": 5,
+            "moves": [
+                ["Triple Axel"],
+                ["Bulldoze"],
+                ["Ice Shard"],
+                ["Dragon Tail"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "spd": 4 , "atk": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Fluffy"]
+        }
+      ]
     }
 }
