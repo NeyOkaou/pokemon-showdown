@@ -199,7 +199,7 @@
           },
           {
               "species": "Puyotan",
-                "weight": 5,
+                "weight": 1,
                 "moves": [
                     ["Pain Split"],
                     ["Dragon Tail", "Haze"],
@@ -214,7 +214,7 @@
           },
           {
                "species": "Puyotan",
-                "weight": 10,
+                "weight": 1,
                 "moves": [
                     ["Imprison"],
                     ["Transform"],
