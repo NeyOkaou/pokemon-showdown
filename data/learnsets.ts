@@ -3924,7 +3924,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudshot: ["9M"],
 			sandattack: ["9M"],
 			spikes: ["9M"],
-			sandstom: ["9M"],
+			sandstorm: ["9M"],
 			//NORMAL
 			milkdrink: ["9M"],
 			visegrip: ["9M"],

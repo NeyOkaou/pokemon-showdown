@@ -855,6 +855,106 @@
         }
       ]
     },
+    "phantasm": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Phantasm",
+            "weight": 20,
+            "moves": [
+                ["Protect"],
+                ["Knock Off"],
+                ["Iron Defense"],
+                ["Body Press"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Stamina"]
+        },
+        {
+            "species": "Phantasm",
+            "weight": 20,
+            "moves": [
+                ["Protect","Pain Split"],
+                ["Knock Off"],
+                ["Explosion"],
+                ["Bondage"]
+            ],
+            "item": ["Wide Lens"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Laceration"]
+        },
+        {
+            "species": "Phantasm",
+            "weight": 20,
+            "moves": [
+                ["Protect"],
+                ["Knock Off"],
+                ["Explosion"],
+                ["Bondage"]
+            ],
+            "item": ["Binding Band"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Stamina"]
+        }
+      ]
+    },
+    "beelzerow": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Beelzeros",
+            "weight": 20,
+            "moves": [
+                ["Knock Off"],
+                ["Swords Dance","Bulk Up"],
+                ["Draining Punch"],
+                ["Sucker Punch","Pursuit"]
+            ],
+            "item": ["Black Glasses","Expert Belt","Life Orb","Lum Berry"],
+            "nature": "Adamant",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        },
+        {
+            "species": "Beelzeros",
+            "weight": 20,
+            "moves": [
+                ["Knock Off"],
+                ["Sucker Punch"],
+                ["Draining Punch"],
+                ["Pursuit"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Adamant",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        },
+        {
+            "species": "Beelzeros",
+            "weight": 5,
+            "moves": [
+                ["Ceaseless Edge"],
+                ["Taunt"],
+                ["Lovely Kiss"],
+                ["Pursuit"]
+            ],
+            "item": ["Mental Herb"],
+            "nature": "Adamant",
+            "evs": {"spe": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Insomnia"]
+        }
+      ]
+    },
     "pythagon": {
       "weight": 70,
       "sets": [
