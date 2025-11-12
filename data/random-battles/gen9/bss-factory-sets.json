@@ -905,7 +905,7 @@
         }
       ]
     },
-    "beelzerow": {
+    "beelzeros": {
       "weight": 50,
       "sets": [
         {
@@ -1225,7 +1225,7 @@
         },
         {
             "species": "Palmypince",
-            "weight": 20,
+            "weight": 5,
             "moves": [
                 ["Solar Blade"],
                 ["Head Smash"],
