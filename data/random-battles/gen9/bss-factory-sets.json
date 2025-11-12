@@ -914,7 +914,7 @@
             "moves": [
                 ["Knock Off"],
                 ["Swords Dance","Bulk Up"],
-                ["Draining Punch"],
+                ["Drain Punch"],
                 ["Sucker Punch","Pursuit"]
             ],
             "item": ["Black Glasses","Expert Belt","Life Orb","Lum Berry"],
@@ -929,7 +929,7 @@
             "moves": [
                 ["Knock Off"],
                 ["Sucker Punch"],
-                ["Draining Punch"],
+                ["Drain Punch"],
                 ["Pursuit"]
             ],
             "item": ["Assault Vest"],
