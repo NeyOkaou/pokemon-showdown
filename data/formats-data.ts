@@ -65,7 +65,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "UU",
 	},
 	invocamon: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
