@@ -426,7 +426,7 @@
       ]
   },
     "invocamon": {
-      "weight": 70,
+      "weight": 50,
       "sets": [
         {
             "species": "Invocamon",
@@ -540,7 +540,7 @@
         },
         {
             "species": "Melodrame",
-            "weight": 20,
+            "weight": 10,
             "moves": [
                 ["Boomburst"],
                 ["Dark Pulse", "Alluring Voice"],
@@ -555,7 +555,7 @@
         },
         {
             "species": "Melodrame",
-            "weight": 20,
+            "weight": 10,
             "moves": [
                 ["Boomburst"],
                 ["Snarl", "Dark Pulse"],
