@@ -712,7 +712,7 @@
                 ["Light Screen","Reflect","Hypnosis","Will-O-Wisp","Trick Room"],
                 ["Teleport" ]
             ],
-            "item": ["Rocky Helmet","Life Orb"],
+            "item": ["Rocky Helmet"],
             "nature": "Calm",
             "evs": {"hp": 252, "def": 252 , "spd": 4 },
             "teraType": ["Fairy"],
@@ -836,7 +836,7 @@
       ]
     },
     "daemonix": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Daemonix",
@@ -1056,7 +1056,7 @@
       ]
     },
     "stalibri": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Stalibri",
