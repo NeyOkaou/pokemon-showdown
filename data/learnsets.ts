@@ -4001,6 +4001,85 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
+	emprism:{
+		learnset:{
+			//GHOST
+			astonish: ["9M"],
+			confuseray: ["9M"],
+			shadowball: ["9M"],
+			shadowsneak: ["9M"],
+			//GROUND
+			spikes: ["9M"],
+			dig: ["9M"],
+			mudshot: ["9M"],
+			sandattack: ["9M"],
+			//POISON
+			coil: ["9M"],
+			//PSYCHIC
+			trickroom: ["9M"],
+			trick: ["9M"],
+			teleport: ["9M"],
+			synchronoise: ["9M"],
+			storedpower: ["9M"],
+			skillswap: ["9M"],
+			psywave: ["9M"],
+			reflect: ["9M"],
+			psyshock: ["9M"],
+			psychicnoise: ["9M"],
+			psychic: ["9M"],
+			psybeam: ["9M"],
+			mirrorcoat: ["9M"],
+			miracleeye: ["9M"],
+			meditate: ["9M"],
+			magicroom: ["9M"],
+			lightscreen: ["9M"],
+			healpulse: ["9M"],
+			healblock: ["9M"],
+			futuresight: ["9M"],
+			agility: ["9M"],
+			dreameater: ["9M"],
+			confusion: ["9M"],
+			barrier: ["9M"],
+			//STEEL
+			flashcannon: ["9M"],
+			mirrorshot: ["9M"],
+			//ROCK
+			stoneedge: ["9M"],
+			accelerock: ["9M"],
+			rockslide: ["9M"],
+			rockthrow: ["9M"],
+			rocktomb: ["9M"],
+			sandstorm: ["9M"],
+			headsmash: ["9M"],
+			powergem: ["9M"],
+			stealthrock: ["9M"],
+			//NORMAL
+			camouflage: ["9M"],
+			conversion: ["9M"],
+			disable: ["9M"],
+			encore: ["9M"],
+			focusenergy: ["9M"],
+			foresight: ["9M"],
+			hyperbeam: ["9M"],
+			triattack: ["9M"],
+			quickattack: ["9M"],
+			rapidspin: ["9M"],
+			pound: ["9M"],
+			slam: ["9M"],
+			tailwhip: ["9M"],
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+		}
+	},
 	prismunter:{
 		learnset:{
 			//BUG
@@ -4072,7 +4151,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lightscreen: ["9M"],
 			healpulse: ["9M"],
 			healblock: ["9M"],
-			futursight: ["9M"],
+			futuresight: ["9M"],
 			agility: ["9M"],
 			dreameater: ["9M"],
 			confusion: ["9M"],
@@ -4123,7 +4202,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
-
 		}
 	},
 	missingno: {
