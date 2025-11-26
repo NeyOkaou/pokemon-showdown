@@ -218,15 +218,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Uber",
 	},
 	emprism:{
-		doublesTier: "DUber",
 		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
 	},
 	prismunter:{
-		doublesTier: "DUber",
 		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
 	},
 	rochiere:{
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
 	},
 	primitronc:{
 		tier: "Illegal",

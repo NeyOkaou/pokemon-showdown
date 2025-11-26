@@ -20642,7 +20642,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Rock", "Fairy"],
 		genderRatio: { M: 0.3, F: 0.7 },
 		baseStats: { hp: 52, atk: 60, def: 95, spa: 88, spd: 95, spe: 80 },
-		abilities: { 0: "Misty Surge", 1: "Solid Rock", H: "Telepathy"},
+		abilities: { 0: "Misty Surge", H: "White Smoke"},
 		heightm: 0.7,
 		weightkg: 6,
 		color: "Pink",
