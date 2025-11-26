@@ -1341,7 +1341,7 @@
       ]
     },
     "rochiere": {
-      "weight": 100,
+      "weight": 50,
       "sets": [
         {
             "species": "Rochie\u0300re",
@@ -1357,6 +1357,71 @@
             "evs": {"hp": 248, "spd": 252 , "def": 8 },
             "teraType": ["Fairy"],
             "ability": ["Misty Surge"]
+        }
+      ]
+    },
+    "prismunter": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Prismunter",
+            "weight": 20,
+            "moves": [
+                ["Photon Geyser"],
+                ["Focus Blast"],
+                ["Power Gem"],
+                ["Dazzling Gleam"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Protean"]
+        },
+        {
+            "species": "Prismunter",
+            "weight": 20,
+            "moves": [
+                ["Photon Geyser"],
+                ["Focus Blast"],
+                ["Power Gem"],
+                ["Tail Glow"]
+            ],
+            "item": ["Life Orb","Expert Belt"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Protean"]
+        },
+        {
+            "species": "Prismunter",
+            "weight": 20,
+            "moves": [
+                ["Photon Geyser"],
+                ["Focus Blast"],
+                ["Power Gem"],
+                ["Meteor Beam"]
+            ],
+            "item": ["Power Herb"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Protean"]
+        },
+        {
+            "species": "Prismunter",
+            "weight": 5,
+            "moves": [
+                ["Taunt"],
+                ["Stealth Rock"],
+                ["Spikes"],
+                ["Psychic Noise"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Protean"]
         }
       ]
     },
