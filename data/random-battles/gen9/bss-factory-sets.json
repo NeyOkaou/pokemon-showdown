@@ -1357,6 +1357,51 @@
             "evs": {"hp": 248, "spd": 252 , "def": 8 },
             "teraType": ["Fairy"],
             "ability": ["Misty Surge"]
+        },
+        {
+            "species": "Rochie\u0300re",
+            "weight": 20,
+            "moves": [
+                ["Recover"],
+                ["Stealth Rock"],
+                ["Clear Smog"],
+                ["Strange Steam"]
+            ],
+            "item": ["Rocky Helmet"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Misty Surge"]
+        },
+        {
+            "species": "Rochie\u0300re",
+            "weight": 5,
+            "moves": [
+                ["Recover"],
+                ["Substitute"],
+                ["Mist Ball"],
+                ["Protect"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Misty Surge"]
+        },
+        {
+            "species": "Rochie\u0300re",
+            "weight": 20,
+            "moves": [
+                ["Clear Smog"],
+                ["Substitute"],
+                ["Revival Blessing"],
+                ["Strange Steam"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Modest",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Misty Surge"]
         }
       ]
     },
