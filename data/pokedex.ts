@@ -20638,7 +20638,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	rochiere: {
 		num: -5056,
-		name: "Rochiere",
+		name: "Rochie\u0300re",
 		types: ["Rock", "Fairy"],
 		genderRatio: { M: 0.3, F: 0.7 },
 		baseStats: { hp: 52, atk: 60, def: 95, spa: 88, spd: 95, spe: 80 },
