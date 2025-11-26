@@ -4096,13 +4096,15 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             confide: ["9M"],
 			//rock
 			smackdown: ["9M"],
+			aromatherapy: ["9M"],
+			sweetscent: ["9M"],
 			rockthrow: ["9M"],
 			rockslide: ["9M"],
 			stealthrock: ["9M"],
 			rockpolish: ["9M"],
 			sandstorm: ["9M"],
 			ancientpower: ["9M"],
-			powergeem: ["9M"],
+			powergem: ["9M"],
 			rocktomb: ["9M"],
 			//fairy
 			fairywind: ["9M"],
@@ -4115,7 +4117,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//normal
 			tackle: ["9M"],
 			naturalgift: ["9M"],
-			destruction: ["9M"],
+			selfdestruct: ["9M"],
 			explosion: ["9M"],
 			weatherball: ["9M"],
 			harden: ["9M"],
