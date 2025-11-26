@@ -902,6 +902,21 @@
             "evs": {"atk": 252, "hp": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Stamina"]
+        },
+        {
+            "species": "Phantasm",
+            "weight": 5,
+            "moves": [
+                ["Mean Look"],
+                ["Rest"],
+                ["Captivate"],
+                ["Spite"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Stamina"]
         }
       ]
     },
@@ -1302,6 +1317,91 @@
             "evs": {"spe": 252, "spd": 4 , "atk": 252 },
             "teraType": ["Fairy"],
             "ability": ["Fluffy"]
+        }
+      ]
+    },
+    "rottenia": {
+      "weight": 80,
+      "sets": [
+        {
+            "species": "Rottenia",
+            "weight": 20,
+            "moves": [
+                ["Protect"],
+                ["Toxic"],
+                ["Infestation"],
+                ["Foul Play","Destiny Bond"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Sassy",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Infiltrator"]
+        }
+      ]
+    },
+    "wardelith": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Wardelith",
+            "weight": 20,
+            "moves": [
+                ["Meteor Beam"],
+                ["Earth Power"],
+                ["Stealth Rock"],
+                ["Power Gem"]
+            ],
+            "item": ["Power Herb"],
+            "nature": "Modest",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sturdy","Rough Skin"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 5,
+            "moves": [
+                ["Fire Blast"],
+                ["Block"],
+                ["Perish Song"],
+                ["Protect"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Rough Skin"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 20,
+            "moves": [
+                ["Meteor Beam"],
+                ["Earth Power"],
+                ["Knock Off"],
+                ["Sandstorm"]
+            ],
+            "item": ["Smooth Rock"],
+            "nature": "Quiet",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sturdy","Rough Skin"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 20,
+            "moves": [
+                ["Earth Power"],
+                ["Power Gem"],
+                ["Knock Off"],
+                ["Explosion"]
+            ],
+            "item": ["Rocky Helmet"],
+            "nature": "Quiet",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Rough Skin"]
         }
       ]
     }
