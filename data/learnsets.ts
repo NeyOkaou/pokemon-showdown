@@ -4080,11 +4080,84 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
+	rochiere:{
+		learnset:{
+			//general moves
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            round: ["9M"],
+            swagger: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+			//rock
+			smackdown: ["9M"],
+			rockthrow: ["9M"],
+			rockslide: ["9M"],
+			stealthrock: ["9M"],
+			rockpolish: ["9M"],
+			sandstorm: ["9M"],
+			ancientpower: ["9M"],
+			powergeem: ["9M"],
+			rocktomb: ["9M"],
+			//fairy
+			fairywind: ["9M"],
+			strangesteam: ["9M"],
+			dazzlinggleam: ["9M"],
+			mistyexplosion: ["9M"],
+			aromaticmist: ["9M"],
+			mistyterrain: ["9M"],
+			sweetkiss: ["9M"],
+			//normal
+			tackle: ["9M"],
+			naturalgift: ["9M"],
+			destruction: ["9M"],
+			explosion: ["9M"],
+			weatherball: ["9M"],
+			harden: ["9M"],
+			safeguard: ["9M"],
+			wish: ["9M"],
+			revivalblessing: ["9M"],
+			refresh: ["9M"],
+			smokescreen: ["9M"],
+			//ground
+			bulldoze: ["9M"],
+			earthpower: ["9M"],
+			//bug
+			ragepowder: ["9M"],
+			powder: ["9M"],
+			silverwind: ["9M"],
+			//fire 
+			incinerate: ["9M"],
+			//steel
+			shelter: ["9M"],
+			gyroball: ["9M"],
+			//psychic
+			magicpowder: ["9M"],
+			healpulse: ["9M"],
+			amnesia: ["9M"],
+			mistball: ["9M"],
+			embargo: ["9M"],
+			//dark
+			fling: ["9M"],
+			//poison
+			smog: ["9M"],
+			clearsmog: ["9M"],
+			//ice
+			mist: ["9M"],
+			haze: ["9M"],
+		}
+	},
 	prismunter:{
 		learnset:{
 			//BUG
 			signalbeam: ["9M"],
 			tailglow: ["9M"],
+			expandingforce: ["9M"],
 			//DARK
 			feintattack: ["9M"],
 			honeclaws: ["9M"],
