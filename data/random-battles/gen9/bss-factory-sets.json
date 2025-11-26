@@ -1340,6 +1340,26 @@
         }
       ]
     },
+    "rochiere": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Rochière",
+            "weight": 20,
+            "moves": [
+                ["Recover"],
+                ["Revival Blessing"],
+                ["Aromatherapy"],
+                ["Strange Steam"]
+            ],
+            "item": ["Leppa Berry"],
+            "nature": "Calm",
+            "evs": {"hp": 248, "spd": 252 , "def": 8 },
+            "teraType": ["Fairy"],
+            "ability": ["Misty Surge"]
+        }
+      ]
+    },
     "wardelith": {
       "weight": 50,
       "sets": [

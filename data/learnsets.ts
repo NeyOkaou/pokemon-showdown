@@ -4122,7 +4122,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M"],
 			harden: ["9M"],
 			safeguard: ["9M"],
-			wish: ["9M"],
+			recover: ["9M"],
 			revivalblessing: ["9M"],
 			refresh: ["9M"],
 			smokescreen: ["9M"],
