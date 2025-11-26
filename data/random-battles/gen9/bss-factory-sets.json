@@ -1341,7 +1341,7 @@
       ]
     },
     "rochiere": {
-      "weight": 50,
+      "weight": 100,
       "sets": [
         {
             "species": "Rochière",
