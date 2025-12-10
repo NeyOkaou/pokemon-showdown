@@ -20,9 +20,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	puyotan: {
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	figgon: {
 		tier: "LC",
