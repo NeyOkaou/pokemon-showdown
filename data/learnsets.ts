@@ -4503,7 +4503,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				bugbite: ["9M"],
 				fellstinger: ["9M"],
 				leechlife: ["9M"],
-				lunge: ["9M"]
+				lunge: ["9M"],
 				pinmissile: ["9M"],
 				stringshot: ["9M"],
 				uturn: ["9M"],
@@ -4539,7 +4539,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 		}
 	},
-
 	aggrestik:{
 		learnset:{
 				//BUG
