@@ -4497,6 +4497,127 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 		}
 	},
+	larvambre:{
+		learnset:{
+				//BUG
+				bugbite: ["9M"],
+				fellstinger: ["9M"],
+				leechlife: ["9M"],
+				lunge: ["9M"]
+				pinmissile: ["9M"],
+				stringshot: ["9M"],
+				uturn: ["9M"],
+				
+				//DARK
+				bite: ["9M"],
+				
+				//GRASS
+				absorb: ["9M"],
+				megadrain: ["9M"],
+				gigadrain: ["9M"],
+				
+				//POISON
+				poisonsting: ["9M"],
+				
+				//NORMAL
+				endeavor: ["9M"],
+				endure: ["9M"],
+				minimize: ["9M"],
+				
+				//WATER
+				watergun: ["9M"],
+				
+				protect: ["9M"],
+				frustration: ["9M"],
+				doubleteam: ["9M"],
+				facade: ["9M"],
+				rest: ["9M"],
+				attract: ["9M"],
+				round: ["9M"],
+				sleeptalk: ["9M"],
+				substitute: ["9M"],
+				confide: ["9M"],
+		}
+	},
+
+	aggrestik:{
+		learnset:{
+				//BUG
+				bugbite: ["9M"],
+				bugbuzz: ["9M"],
+				firstimpression: ["9M"],
+				fellstinger: ["9M"],
+				leechlife: ["9M"],
+				lunge: ["9M"],
+				megahorn: ["9M"],
+				pinmissile: ["9M"],
+				stringshot: ["9M"],
+				uturn: ["9M"],
+				
+				//DARK
+				bite: ["9M"],
+				honeclaws: ["9M"],
+				pursuit: ["9M"],
+				
+				//FLYING
+				acrobatics: ["9M"],
+				aerialace: ["9M"],
+				airslash: ["9M"],
+				wingattack: ["9M"],
+				gust: ["9M"],
+				
+				//GRASS
+				absorb: ["9M"],
+				megadrain: ["9M"],
+				gigadrain: ["9M"],
+				
+				//GROUND
+				drillrun: ["9M"],
+				
+				//POISON
+				poisonsting: ["9M"],
+				
+				//ROCK
+				ancientpower: ["9M"],
+				rockpolish: ["9M"],
+				rocktomb: ["9M"],
+				stoneedge: ["9M"],
+				smackdown: ["9M"],
+				rockblast: ["9M"],
+				rockslide: ["9M"],
+				
+				
+				//STEEL
+				spikecannon: ["9M"],
+				steelwing: ["9M"],
+				
+				//NORMAL
+				endeavor: ["9M"],
+				endure: ["9M"],
+				encore: ["9M"],
+				minimize: ["9M"],
+				bind: ["9M"],
+				razorwind: ["9M"],
+				roar: ["9M"],
+				uproar: ["9M"],
+				supersonic: ["9M"],
+				quickattack: ["9M"],
+				
+				//WATER
+				watergun: ["9M"],
+				
+				protect: ["9M"],
+				frustration: ["9M"],
+				doubleteam: ["9M"],
+				facade: ["9M"],
+				rest: ["9M"],
+				attract: ["9M"],
+				round: ["9M"],
+				sleeptalk: ["9M"],
+				substitute: ["9M"],
+				confide: ["9M"],
+		}
+	}
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
