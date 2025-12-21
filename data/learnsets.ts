@@ -4616,7 +4616,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				substitute: ["9M"],
 				confide: ["9M"],
 		}
-	}
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
