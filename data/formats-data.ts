@@ -266,6 +266,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	progr3x:{
 		tier: "Illegal",
 	},
+	yukigori:{
+		tier: "Illegal",
+	},
+	yetidiot:{
+		tier: "Illegal",
+	},
+	glacynapse:{
+		tier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
