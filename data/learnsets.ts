@@ -4741,7 +4741,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			// grass
 			woodhammer: ["9M"],
-			leafsage: ["9M"],
+			leafage: ["9M"],
 			leafstorm: ["9M"],
 			magicalleaf: ["9M"],
 			razorleaf: ["9M"],
@@ -4773,7 +4773,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			playrough: ["9M"],
 
 			//fighting
-			hammerharm: ["9M"],
+			hammerarm: ["9M"],
 			superpower: ["9M"],
 			strength: ["9M"],
 			rocksmash: ["9M"],
@@ -4856,6 +4856,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//ghost
 			shadowball: ["9M"],
 			confuseray: ["9M"],
+			rockclimb: ["9M"],
 			//ice
 			auroraveil: ["9M"],
 			aurorabeam: ["9M"],
@@ -4870,7 +4871,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			engelure: ["9M"],
 			//psychic
 			agility: ["9M"],
-			camlmind: ["9M"],
+			calmmind: ["9M"],
 			confusion: ["9M"],
 			psybeam: ["9M"],
 			psyshock: ["9M"],
@@ -4878,7 +4879,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dreameater: ["9M"],
 			extrasensory: ["9M"],
 			expandingforce: ["9M"],
-			futursight: ["9M"],
+			futuresight: ["9M"],
 			psychup: ["9M"],
 			hypnosis: ["9M"],
 			instruct: ["9M"],
