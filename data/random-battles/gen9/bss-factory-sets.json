@@ -180,7 +180,7 @@
       ]
   },
   "puyotan": {
-      "weight": 50,
+      "weight": 10,
       "sets": [
           {
               "species": "Puyotan",
@@ -1090,6 +1090,116 @@
           }
       ]
     },
+    "filicolith": {
+      "weight": 25,
+      "sets": [
+          {
+              "species": "Filicolith",
+              "weight": 25,
+              "moves": [
+                  ["Glare","Stealth Rock"],
+                  ["Body Press","Ice Beam","Power Gem"],
+                  ["Leech Seed"],
+                  ["Substitute"]
+              ],
+              "item": ["Leftovers","Sitrus Berry","Chople Berry"],
+              "nature": "Jolly",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Water Absorb"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 50,
+              "moves": [
+                  ["Tri Attack"],
+                  ["Power Gem"],
+                  ["Earth Power","Focus Blast","Body Press"],
+                  ["Giga Drain","Energy Ball"]
+              ],
+              "item": ["Choice Specs"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "spa": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Refrigerate"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 35,
+              "moves": [
+                  ["Tri Attack"],
+                  ["Meteor Beam"],
+                  ["Earth Power","Focus Blast","Body Press"],
+                  ["Synthesis"]
+              ],
+              "item": ["Power Herb"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "spa": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Refrigerate"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 15,
+              "moves": [
+                  ["Stealth Rock","Spikes"],
+                  ["Ice Beam","Blizzard"],
+                  ["Explosion"],
+                  ["Focus Blast","Earth Power","Body Press"]
+              ],
+              "item": ["Rocky Helmet","Focus Sash","Custap Berry"],
+              "nature": "Quiet",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Refrigerate","Forewarn","Water Absorb"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 15,
+              "moves": [
+                  ["Giga Drin","Energy Ball"],
+                  ["Tri Attack"],
+                  ["Power Gem"],
+                  ["Focus Blast","Earth Power","Body Press"]
+              ],
+              "item": ["Assault Vest"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Refrigerate"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 5,
+              "moves": [
+                  ["Reflect","Light Screen"],
+                  ["Synthesis"],
+                  ["Ice Beam"],
+                  ["Focus Blast","Earth Power","Body Press"]
+              ],
+              "item": ["Light Clay"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Water Absorb"]
+          },
+          {
+              "species": "Filicolith",
+              "weight": 5,
+              "moves": [
+                  ["Reflect","Light Screen"],
+                  ["Synthesis"],
+                  ["Ice Beam"],
+                  ["Focus Blast","Earth Power","Body Press"]
+              ],
+              "item": ["Light Clay"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "def": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Water Absorb"]
+          }
+      ]
+    },
     "zardopium": {
       "weight": 50,
       "sets": [
@@ -1427,12 +1537,12 @@
             "species": "Prismunter",
             "weight": 20,
             "moves": [
-                ["Photon Geyser"],
+                ["Photon Geyser","Thunderbolt"],
                 ["Focus Blast"],
-                ["Power Gem"],
+                ["Dazzling Gleam"],
                 ["Tail Glow"]
             ],
-            "item": ["Life Orb","Expert Belt"],
+            "item": ["Life Orb","Expert Belt","Focus Sash"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
@@ -1444,7 +1554,7 @@
             "moves": [
                 ["Photon Geyser"],
                 ["Focus Blast"],
-                ["Power Gem"],
+                ["Shadow Ball"],
                 ["Meteor Beam"]
             ],
             "item": ["Power Herb"],
