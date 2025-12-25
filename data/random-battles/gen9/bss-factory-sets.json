@@ -1091,7 +1091,7 @@
       ]
     },
     "filicolith": {
-      "weight": 25,
+      "weight": 50,
       "sets": [
           {
               "species": "Filicolith",
