@@ -20745,7 +20745,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Ice", "Normal"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 70, atk: 130, def: 120, spa: 30, spd: 120, spe: 40 },
-		abilities: { 0: "Simpleton", 1: "Simple", H: "Unaware"},
+		abilities: { 0: "Own Tempo", 1: "Simple", H: "Unaware"},
 		heightm: 3,
 		weightkg: 310,
 		color: "White",
