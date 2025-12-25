@@ -727,6 +727,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		activate: "  [POKEMON] shattered [TEAM]'s protections!",
 	},
+	breaktheice: {
+		name: "Break the Ice",
+		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+		shortDesc: "Destroys screens, unless the target is immune.",
+	},
 	brine: {
 		name: "Brine",
 		desc: "Power doubles if the target has less than or equal to half of its maximum HP remaining.",
@@ -7270,6 +7275,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	vacuumwave: {
 		name: "Vacuum Wave",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	thinkfast: {
+		name: "Think Fast",
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},

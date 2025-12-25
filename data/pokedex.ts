@@ -20741,7 +20741,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	yetidiot: {
 		num: -5064,
-		name: "Yetidiot",
+		name: "Y\u0301tidiot",
 		types: ["Ice", "Normal"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 70, atk: 130, def: 120, spa: 30, spd: 120, spe: 40 },

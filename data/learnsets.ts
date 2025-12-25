@@ -4617,6 +4617,318 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 		}
 	},
+	yetidiot:{
+		learnset:{
+			// dark
+			honeclaws: ["9M"],
+			brutalswing: ["9M"],
+
+			// dragon
+			outrage: ["9M"],
+			dragonclaw: ["9M"],
+
+			// electric
+			thunder: ["9M"],
+			thunderbolt: ["9M"],
+
+			// fairy
+			babydolleyes: ["9M"],
+			charm: ["9M"],
+			playrough: ["9M"],
+
+			// fighting
+			bodypress: ["9M"],
+			bulkup: ["9M"],
+			superpower: ["9M"],
+			strength: ["9M"],
+
+			// ghost
+			astonish: ["9M"],
+			shadowclaw: ["9M"],
+			shadowball: ["9M"],
+
+			// ground
+			dig: ["9M"],
+			earthquake: ["9M"],
+
+			// ice
+			aurorabeam: ["9M"],
+			icepunch: ["9M"],
+			avalanche: ["9M"],
+			blizzard: ["9M"],
+			engelure: ["9M"],
+			breaktheice: ["9M"],
+			icebeam: ["9M"],
+			snowscape: ["9M"],
+			iceball: ["9M"],
+			iceshard: ["9M"],
+			icywind: ["9M"],
+			haze: ["9M"],
+			icehammer: ["9M"],
+			chillyreception: ["9M"],
+			powdersnow: ["9M"],
+			iciclespear: ["9M"],
+
+			// psychic
+			amnesia: ["9M"],
+			braindamage: ["9M"],
+
+			// rock
+			rocksmash: ["9M"],
+			rocktomb: ["9M"],
+			rockslide: ["9M"],
+
+			// steel
+			cut: ["9M"],
+
+			// normal
+			bide: ["9M"],
+			block: ["9M"],
+			bodyslam: ["9M"],
+			covet: ["9M"],
+			crushclaw: ["9M"],
+			defensecurl: ["9M"],
+			doubleedge: ["9M"],
+			endure: ["9M"],
+			explosion: ["9M"],
+			selfdestruct: ["9M"],
+			facade: ["9M"],
+			furyswipes: ["9M"],
+			gigaimpact: ["9M"],
+			growl: ["9M"],
+			guillotine: ["9M"],
+			headbutt: ["9M"],
+			hornattack: ["9M"],
+			hyperbeam: ["9M"],
+			minimize: ["9M"],
+			rockclimb: ["9M"],
+			scaryface: ["9M"],
+			simplebeam: ["9M"],
+			snore: ["9M"],
+			swift: ["9M"],
+			thrash: ["9M"],
+			weatherball: ["9M"],
+			yawn: ["9M"],
+			acupressure: ["9M"],
+			slackoff: ["9M"],
+
+			// general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+		}
+	},
+
+	yukigori:{
+		learnset:{
+			// general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+
+			// grass
+			woodhammer: ["9M"],
+			leafsage: ["9M"],
+			leafstorm: ["9M"],
+			magicalleaf: ["9M"],
+			razorleaf: ["9M"],
+			grassyterrain: ["9M"],
+			grassknot: ["9M"],
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
+
+			// ice
+			icepunch: ["9M"],
+			avalanche: ["9M"],
+			engelure: ["9M"],
+			icywind: ["9M"],
+			aurorabeam: ["9M"],
+			icebeam: ["9M"],
+			blizzard: ["9M"],
+			breaktheice: ["9M"],
+			snowscape: ["9M"],
+			mist: ["9M"],
+			icehammer: ["9M"],
+			icefang: ["9M"],
+			powdersnow: ["9M"],
+
+			//electric
+			thunderpunch: ["9M"],
+
+			//fairy
+			playrough: ["9M"],
+
+			//fighting
+			hammerharm: ["9M"],
+			superpower: ["9M"],
+			strength: ["9M"],
+			rocksmash: ["9M"],
+			brickbreak: ["9M"],
+			bodypress: ["9M"],
+			bulkup: ["9M"],
+
+			//ground
+			earthquake: ["9M"],
+			bulldoze: ["9M"],
+			dig: ["9M"],
+
+			//psychic
+			braindamage: ["9M"],
+			//rock
+			rockslide: ["9M"],
+			rocktomb: ["9M"],
+			smackdown: ["9M"],
+			
+			// normal
+			megapunch: ["9M"],
+			pound: ["9M"],
+			bellydrum: ["9M"],
+			doublehit: ["9M"],
+			thrash: ["9M"],
+			quickattack: ["9M"],
+			headbutt: ["9M"],
+			takedown: ["9M"],
+			gigaimpact: ["9M"],
+			endure: ["9M"],
+			bodyslam: ["9M"],
+			helpinghand: ["9M"],
+			followme: ["9M"],
+			batonpass: ["9M"],
+			weatherball: ["9M"],
+			growl: ["9M"],
+			leer: ["9M"],
+			defensecurl: ["9M"],
+			rockclimb: ["9M"],
+			endeavor: ["9M"],
+			feint: ["9M"],
+			focusenergy: ["9M"],
+			//dark
+			knockoff: ["9M"],
+			thief: ["9M"],
+			pursuit: ["9M"],
+			taunt: ["9M"],
+			powertrip: ["9M"],
+
+		}
+	},
+
+	glacynapse:{
+		learnset:{
+			//DARK
+			knockoff: ["9M"],
+			thief: ["9M"],
+			taunt: ["9M"],
+			//electric
+			supercellslam: ["9M"],
+			thunderpunch: ["9M"],
+			thunder: ["9M"],
+			spark: ["9M"],
+			flash: ["9M"],
+			thunderbolt: ["9M"],
+			//fighting
+			brickbreak: ["9M"],
+			doublekick: ["9M"],
+			drainpunch: ["9M"],
+			dynamicpunch: ["9M"],
+			focuspunch: ["9M"],
+			machpunch: ["9M"],
+			lowkick: ["9M"],
+			strength: ["9M"],
+			detect: ["9M"],
+			lowsweep: ["9M"],
+			rocksmash: ["9M"],
+			superpower: ["9M"],
+			bulkup: ["9M"],
+			//ghost
+			shadowball: ["9M"],
+			confuseray: ["9M"],
+			//ice
+			auroraveil: ["9M"],
+			aurorabeam: ["9M"],
+			icepunch: ["9M"],
+			blizzard: ["9M"],
+			brainfreeze: ["9M"],
+			chillyreception: ["9M"],
+			snowscape: ["9M"],
+			powdersnow: ["9M"],
+			sheercold: ["9M"],
+			icebeam: ["9M"],
+			engelure: ["9M"],
+			//psychic
+			agility: ["9M"],
+			camlmind: ["9M"],
+			confusion: ["9M"],
+			psybeam: ["9M"],
+			psyshock: ["9M"],
+			psychic: ["9M"],
+			dreameater: ["9M"],
+			extrasensory: ["9M"],
+			expandingforce: ["9M"],
+			futursight: ["9M"],
+			psychup: ["9M"],
+			hypnosis: ["9M"],
+			instruct: ["9M"],
+			lightscreen: ["9M"],
+			reflect: ["9M"],
+			psywave: ["9M"],
+			thinkfast: ["9M"],
+			psychicterrain: ["9M"],
+			skillswap: ["9M"],
+			teleport: ["9M"],
+			trickroom: ["9M"],
+			zenheadbutt: ["9M"],
+			braindamage: ["9M"],
+			trick: ["9M"],
+			//steel
+			ironhead: ["9M"],
+			bulletpunch: ["9M"],
+			//normal
+			acupressure: ["9M"],
+			batonpass: ["9M"],
+			bide: ["9M"],
+			bodyslam: ["9M"],
+			megapunch: ["9M"],
+			megakick: ["9M"],
+			disable: ["9M"],
+			fakeout: ["9M"],
+			focusenergy: ["9M"],
+			followme: ["9M"],
+			gigaimpact: ["9M"],
+			headbutt: ["9M"],
+			helpinghand: ["9M"],
+			hyperbeam: ["9M"],
+			recover: ["9M"],
+			swagger: ["9M"],
+			takedown: ["9M"],
+			wrap: ["9M"],
+
+			// general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			rest: ["9M"],
+			facade: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+		}
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
