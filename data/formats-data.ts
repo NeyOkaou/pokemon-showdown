@@ -5949,6 +5949,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	bulballon: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	syclar: {
 		isNonstandard: "CAP",
 		tier: "CAP LC",
@@ -5974,8 +5978,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	breezi: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	fidgit: {
 		isNonstandard: "CAP",
@@ -6026,8 +6029,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP LC",
 	},
 	colossoil: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	protowatt: {
 		isNonstandard: "CAP",
@@ -6038,18 +6040,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	voodoll: {
-		tier: "Illegal,"
+		tier: "Illegal",
 	},
 	voodoom: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	scratchet: {
 		tier: "Illegal",
 	},
 	tomohawk: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	necturine: {
 		isNonstandard: "CAP",
@@ -6076,20 +6076,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	brattler: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	malaconda: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	cawdet: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	cawmodore: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	volkritter: {
 		isNonstandard: "CAP",
@@ -6207,12 +6203,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	venomicon: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	venomiconepilogue: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	saharascal: {
 		isNonstandard: "CAP",
