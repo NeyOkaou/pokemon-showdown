@@ -1157,7 +1157,7 @@
               "species": "Filicolith",
               "weight": 15,
               "moves": [
-                  ["Giga Drin","Energy Ball"],
+                  ["Giga Drain","Energy Ball"],
                   ["Tri Attack"],
                   ["Power Gem"],
                   ["Focus Blast","Earth Power","Body Press"]
