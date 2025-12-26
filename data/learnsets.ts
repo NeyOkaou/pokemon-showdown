@@ -4158,7 +4158,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset:{
 			//BUG
 			signalbeam: ["9M"],
-			tailglow: ["9M"],
 			expandingforce: ["9M"],
 			//DARK
 			feintattack: ["9M"],
