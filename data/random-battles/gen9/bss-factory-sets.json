@@ -1537,21 +1537,6 @@
             "species": "Prismunter",
             "weight": 20,
             "moves": [
-                ["Photon Geyser","Thunderbolt"],
-                ["Focus Blast"],
-                ["Dazzling Gleam"],
-                ["Tail Glow"]
-            ],
-            "item": ["Life Orb","Expert Belt","Focus Sash"],
-            "nature": "Timid",
-            "evs": {"spa": 252, "spe": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Protean"]
-        },
-        {
-            "species": "Prismunter",
-            "weight": 20,
-            "moves": [
                 ["Photon Geyser"],
                 ["Focus Blast"],
                 ["Shadow Ball","Dazzling Gleam"],
