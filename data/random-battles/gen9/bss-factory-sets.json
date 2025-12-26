@@ -1554,7 +1554,7 @@
             "moves": [
                 ["Photon Geyser"],
                 ["Focus Blast"],
-                ["Shadow Ball"],
+                ["Shadow Ball","Dazzling Gleam"],
                 ["Meteor Beam"]
             ],
             "item": ["Power Herb"],
