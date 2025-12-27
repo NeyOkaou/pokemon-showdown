@@ -5953,6 +5953,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	yhvh: {
+		tier: "Illegal",
+	},
 	syclar: {
 		isNonstandard: "CAP",
 		tier: "CAP LC",

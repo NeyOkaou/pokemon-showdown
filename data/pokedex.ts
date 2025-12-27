@@ -20775,4 +20775,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		eggGroups: ["Fairy"],
 	},
+	yhvh: {
+		num: -5067,
+		name: "YHVH",
+		types: ["Psychic"],
+		gender: "M",
+        baseStats: { hp: 120, atk : 95, def: 115, spa: 125, spd: 130, spe: 60 },
+        abilities: { 0: "Pressure", 1: "Levitate", H: "Synchronize", S:"Regenerator"},
+        heightm: 3.6,
+        weightkg: 340,
+		color: "Yellow",
+		eggGroups: ["Undiscovered"],
+	},
 };
