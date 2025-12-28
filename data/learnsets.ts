@@ -4953,6 +4953,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			floatyfall: ["9M"],
 			gust: ["9M"],
 			tailwind: ["9M"],
+			airslash: ["9M"],
+			hurricane: ["9M"],
 			//Ghost
 			shadowball: ["9M"],
 			snowscape: ["9M"],
