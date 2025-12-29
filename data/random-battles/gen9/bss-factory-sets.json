@@ -1090,6 +1090,71 @@
           }
       ]
     },
+    "aggrestik": {
+      "weight": 50,
+      "sets": [
+          {
+              "species": "Aggrestik",
+              "weight": 30,
+              "moves": [
+                  ["First Impression"],
+                  ["Stone Edge"],
+                  ["U-Turn"],
+                  ["Pursuit","Drill Run"]
+              ],
+              "item": ["Choice Band"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "hp": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Stakeout"]
+          },
+          {
+              "species": "Aggrestik",
+              "weight": 30,
+              "moves": [
+                  ["First Impression"],
+                  ["Stone Edge","Rock Slide"],
+                  ["Leech Life"],
+                  ["Drill Run"]
+              ],
+              "item": ["Assault Vest"],
+              "nature": "Adamant",
+              "evs": {"atk": 252, "hp": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Stakeout","Soundproof","Swarm"]
+          },
+          {
+              "species": "Aggrestik",
+              "weight": 5,
+              "moves": [
+                  ["First Impression"],
+                  ["Pin Missile"],
+                  ["Rock Blast"],
+                  ["Spike Cannon"]
+              ],
+              "item": ["Loaded Dice"],
+              "nature": "Adamant",
+              "evs": {"atk": 252, "hp": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Stakeout","Soundproof","Swarm"]
+          },
+          {
+              "species": "Aggrestik",
+              "weight": 15,
+              "moves": [
+                  ["Hone Claws"],
+                  ["Stone Edge","Rock Slide"],
+                  ["Megahorn"],
+                  ["Substitute"]
+              ],
+              "item": ["Salac Berry"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Swarm"]
+          }
+      ]
+    },
     "filicolith": {
       "weight": 50,
       "sets": [
