@@ -4583,6 +4583,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				stoneedge: ["9M"],
 				smackdown: ["9M"],
 				rockblast: ["9M"],
+				stealthrock: ["9M"],
 				rockslide: ["9M"],
 				
 				
