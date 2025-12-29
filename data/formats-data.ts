@@ -244,10 +244,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	larvambre:{
-		tier: "Illegal",
+	tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "LC",
 	},
 	aggrestik:{
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "OU",
 	},
 	statisorus:{
 		tier: "Illegal",

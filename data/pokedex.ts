@@ -20694,7 +20694,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Bug", "Rock"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 30, atk: 40, def: 40, spa: 30, spd: 30, spe: 25 },
-		abilities: { 0: "Swarm", 1: "Runaway", H: "Glutonny"},
+		abilities: { 0: "Swarm", 1: "Runaway", H: "Gluttony"},
 		heightm: 1,
 		weightkg: 50,
 		evos: ["Aggrestik"],
