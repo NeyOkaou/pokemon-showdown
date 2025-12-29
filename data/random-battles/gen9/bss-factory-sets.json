@@ -820,7 +820,7 @@
         },
         {
             "species": "Auberjaw",
-            "weight": 5,
+            "weight": 15,
             "moves": [
                 ["Power Whip"],
                 ["Earthquake"],
@@ -1183,21 +1183,6 @@
                   ["Giga Drain","Energy Ball"]
               ],
               "item": ["Choice Specs"],
-              "nature": "Modest",
-              "evs": {"hp": 252, "spa": 252, "spd": 4},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Refrigerate"]
-          },
-          {
-              "species": "Filicolith",
-              "weight": 35,
-              "moves": [
-                  ["Tri Attack"],
-                  ["Meteor Beam"],
-                  ["Earth Power","Focus Blast","Body Press"],
-                  ["Synthesis"]
-              ],
-              "item": ["Power Herb"],
               "nature": "Modest",
               "evs": {"hp": 252, "spa": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
@@ -1600,21 +1585,6 @@
         },
         {
             "species": "Prismunter",
-            "weight": 20,
-            "moves": [
-                ["Photon Geyser"],
-                ["Focus Blast"],
-                ["Shadow Ball","Dazzling Gleam"],
-                ["Meteor Beam"]
-            ],
-            "item": ["Power Herb"],
-            "nature": "Timid",
-            "evs": {"spa": 252, "spe": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Protean"]
-        },
-        {
-            "species": "Prismunter",
             "weight": 5,
             "moves": [
                 ["Taunt"],
@@ -1635,21 +1605,6 @@
       "sets": [
         {
             "species": "Wardelith",
-            "weight": 20,
-            "moves": [
-                ["Meteor Beam"],
-                ["Earth Power"],
-                ["Stealth Rock"],
-                ["Power Gem"]
-            ],
-            "item": ["Power Herb"],
-            "nature": "Modest",
-            "evs": {"hp": 252, "spa": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Sturdy","Rough Skin"]
-        },
-        {
-            "species": "Wardelith",
             "weight": 5,
             "moves": [
                 ["Fire Blast"],
@@ -1662,21 +1617,6 @@
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Rough Skin"]
-        },
-        {
-            "species": "Wardelith",
-            "weight": 20,
-            "moves": [
-                ["Meteor Beam"],
-                ["Earth Power"],
-                ["Knock Off"],
-                ["Sandstorm"]
-            ],
-            "item": ["Smooth Rock"],
-            "nature": "Quiet",
-            "evs": {"hp": 252, "spa": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Sturdy","Rough Skin"]
         },
         {
             "species": "Wardelith",
