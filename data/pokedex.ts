@@ -20706,7 +20706,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Aggrestik",
 		types: ["Bug", "Rock"],
 		genderRatio: { M: 0.9, F: 0.1 },
-		baseStats: { hp: 50, atk: 135, def: 109, spa: 56, spd: 81, spe: 64 },
+		baseStats: { hp: 53, atk: 115, def: 109, spa: 71, spd: 81, spe: 71 },
 		abilities: { 0: "Swarm", 1: "Runaway", H: "Stakeout"},
 		heightm: 2,
 		weightkg: 86,
