@@ -20707,7 +20707,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Bug", "Rock"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 53, atk: 115, def: 109, spa: 71, spd: 81, spe: 71 },
-		abilities: { 0: "Swarm", 1: "Runaway", H: "Stakeout"},
+		abilities: { 0: "Swarm", 1: "Soundproof", H: "Stakeout"},
 		heightm: 2,
 		weightkg: 86,
 		prevo: "Larvambre",
