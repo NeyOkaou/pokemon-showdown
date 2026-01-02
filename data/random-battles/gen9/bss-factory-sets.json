@@ -1095,33 +1095,18 @@
       "sets": [
           {
               "species": "Aggrestik",
-              "weight": 30,
+              "weight": 40,
               "moves": [
                   ["First Impression"],
-                  ["Stone Edge"],
+                  ["Stone Edge","Rock Slide"],
                   ["U-Turn"],
-                  ["Pursuit","Drill Run"]
+                  ["Pursuit","Drill Run","Megahorn","Leech Life"]
               ],
-              "item": ["Choice Band"],
+              "item": ["Choice Band","Life Orb",],
               "nature": "Jolly",
               "evs": {"atk": 252, "hp": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Stakeout"]
-          },
-          {
-              "species": "Aggrestik",
-              "weight": 30,
-              "moves": [
-                  ["First Impression"],
-                  ["Stone Edge","Rock Slide"],
-                  ["Leech Life"],
-                  ["Drill Run"]
-              ],
-              "item": ["Assault Vest"],
-              "nature": "Adamant",
-              "evs": {"atk": 252, "hp": 252, "spd": 4},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Stakeout","Soundproof","Swarm"]
           },
           {
               "species": "Aggrestik",
