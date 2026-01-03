@@ -1335,6 +1335,101 @@
           }
       ]
     },
+    "bisorgue":{
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Bisorgue",
+            "weight": 30,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Superpower"],
+                ["Headlong Rush","Earthquake","High Horsepower"],
+                ["Horn Leech"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        },
+        {
+            "species": "Bisorgue",
+            "weight": 15,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Superpower"],
+                ["Knock Off"],
+                ["Heavy Slam","Iron Head","Play Rough","Headlong Rush","Earthquake","High Horsepower"] 
+            ],
+            "item": ["Choice Band"],
+            "nature": "Jolly",
+            "evs": {"hp": 4, "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        },
+        {
+            "species": "Bisorgue",
+            "weight": 15,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Superpower"],
+                ["Knock Off"],
+                ["Heavy Slam","Iron Head","Play Rough","Headlong Rush","Earthquake","High Horsepower"] 
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Adament",
+            "evs": {"hp": 4, "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        },
+        {
+            "species": "Bisorgue",
+            "weight": 15,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Superpower"],
+                ["Bulk Up","Swords Dance"],
+                ["Headlong Rush","Earthquake","High Horsepower","Knock Off"] 
+            ],
+            "item": ["Life Orb","Expert Belt","Stone Plate"],
+            "nature": "Adament",
+            "evs": {"hp": 4, "atk": 252 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        },
+        {
+            "species": "Bisorgue",
+            "weight": 10,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Superpower"],
+                ["Bulk Up","Swords Dance"],
+                ["Substitute"] 
+            ],
+            "item": ["Life Orb","Expert Belt","Stone Plate"],
+            "nature": "Adament",
+            "evs": {"hp": 252, "atk": 252 , "spe": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        },
+        {
+            "species": "Bisorgue",
+            "weight": 5,
+            "moves": [
+                ["Stone Edge","Rock Slide","Rock Climb"],
+                ["Focus Blast"],
+                ["Knock Off"],
+                ["Earth Power"]
+            ],
+            "item": ["Rocky Helmet","Sitrus Berry","Leftovers"],
+            "nature": "Naughty",
+            "evs": {"hp": 252, "atk": 252 , "spe": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["War Horn"]
+        }
+      ]
+    },
     "palmypince": {
       "weight": 50,
       "sets": [
@@ -1382,21 +1477,6 @@
             "evs": {"hp": 252, "spd": 252 , "atk": 4 },
             "teraType": ["Fairy"],
             "ability": ["Pickup"]
-        },
-        {
-            "species": "Palmypince",
-            "weight": 5,
-            "moves": [
-                ["Solar Blade"],
-                ["Head Smash"],
-                ["Earthquake"],
-                ["Swords Dance"]
-            ],
-            "item": ["Life Orb"],
-            "nature": "Adamant",
-            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Chlorophyll"]
         }
       ]
     },
