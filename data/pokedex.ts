@@ -20792,7 +20792,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Beecrochet",
 		types: ["Bug", "Normal"],
 		gender: "M",
-		baseStats: { hp: 12, atk: 141, def: 25, spa: 55, spd: 38, spe: 114 },
+		baseStats: { hp: 12, atk: 171, def: 25, spa: 55, spd: 38, spe: 114 },
 		abilities: { 0: "Cotton Down", 1: "Klutz", H: "Levitate" },
 		heightm: 1.2,
 		weightkg: 38.5,
