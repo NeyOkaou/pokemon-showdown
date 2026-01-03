@@ -20788,7 +20788,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	beecrochet: {
-		num: 416,
+		num: -5068,
 		name: "Beecrochet",
 		types: ["Bug", "Normal"],
 		gender: "M",
