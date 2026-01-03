@@ -2553,7 +2553,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] National Dex",
 		mod: 'gen9',
-		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		ruleset: ['Standard NatDex', '!Sleep Clause Mod', 'Terastal Clause'],
 		banlist: [
 			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
 			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
@@ -2703,7 +2703,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] National Dex AG",
 		mod: 'gen9',
 		searchShow: false,
-		ruleset: ['Standard AG', 'NatDex Mod'],
+		ruleset: ['NatDex Mod','!Sleep Clause Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] National Dex AAA",
