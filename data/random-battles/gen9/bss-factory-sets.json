@@ -1102,7 +1102,7 @@
                   ["U-Turn"],
                   ["Pursuit","Drill Run","Megahorn","Leech Life"]
               ],
-              "item": ["Choice Band","Life Orb",],
+              "item": ["Choice Band","Life Orb"],
               "nature": "Jolly",
               "evs": {"atk": 252, "hp": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
