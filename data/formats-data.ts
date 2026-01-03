@@ -257,7 +257,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	bisorgue:{
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "OU",
 	},
 	protyra:{
 		tier: "Illegal",
