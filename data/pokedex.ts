@@ -20787,4 +20787,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
+	beecrochet: {
+		num: 416,
+		name: "Beecrochet",
+		types: ["Bug", "Normal"],
+		gender: "M",
+		baseStats: { hp: 94, atk: 55, def: 102, spa: 80, spd: 78, spe: 23 },
+		abilities: { 0: "Cotton Down", 1: "Klutz", H: "Levitate" },
+		heightm: 1.2,
+		weightkg: 38.5,
+		color: "Yellow",
+		prevo: "Combee",
+		evoLevel: 21,
+		eggGroups: ["Bug"],
+	},
 };

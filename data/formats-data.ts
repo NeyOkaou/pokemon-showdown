@@ -5961,6 +5961,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	yhvh: {
 		tier: "Illegal",
+		natDexTier: "AG",
+	},
+	beecrochet: {
+		tier: "Illegal",
+		natDexTier: "AG",
 	},
 	syclar: {
 		isNonstandard: "CAP",
