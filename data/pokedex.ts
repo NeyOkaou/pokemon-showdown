@@ -19879,7 +19879,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Cockalypse",
 		types: ["Dragon", "Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp: 90, atk: 125, def: 85, spa: 107, spd: 65, spe: 85 },
+		baseStats: { hp: 90, atk: 125, def: 84, spa: 107, spd: 64, spe: 85 },
 		abilities: { 0: "Big Pecks", 1: "Keen Eye", H: "Mold Breaker" },
 		heightm: 3,
 		weightkg: 210,
