@@ -545,6 +545,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	gyaoon: {
 		learnset: {
 			shedtail: ["9L1"],
+			wideguard: ["9M"],
 			slackoff: ["9L1"],
 			bodypress: ["9L1"],
 			ancientpower: ["9L1"],
@@ -1209,6 +1210,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flashcannon: ["9M"],
 			irondefense: ["9M"],
 			ironhead: ["9M"],
+			wideguard: ["9M"],
 			metalburst: ["9M"],
 			endeavor: ["9M"],
 			metalclaw: ["9M"],
@@ -3692,6 +3694,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt:["9M"],
 			pursuit:["9M"],
 			thief:["9M"],
+			wideguard: ["9M"],
 			//FIGHTING
 			seismictoss:["9M"],
 			rocksmash:["9M"],
@@ -4549,6 +4552,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				torment: ["9M"],
 				powertrip: ["9M"],
 				knockoff: ["9M"],
+				wideguard: ["9M"],
 				beatup: ["9M"],
 				assurance: ["9M"],
 				//Dragon
@@ -5138,7 +5142,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
-
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
