@@ -194,12 +194,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	gralibri:{
-		tier: "Uber",
+		tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
 	stalibri:{
-		tier: "Uber",
+		tier: "NFE",
 		doublesTier: "DUber",
 		natDexTier: "NFE",
 	},
@@ -209,7 +209,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	cocoquille:{
-		tier: "Uber",
+		tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
@@ -219,7 +219,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	emprism:{
-		tier: "Uber",
+		tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
@@ -234,7 +234,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	primitronc:{
-		tier: "Uber",
+		tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
@@ -244,7 +244,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	larvambre:{
-	tier: "Uber",
+	tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
