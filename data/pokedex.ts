@@ -20042,7 +20042,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gender: "N",
 		baseStats: { hp: 90, atk: 60, def: 85, spa: 120, spd: 85, spe: 60 },
 		abilities: { 0: "Download", 1: "Heavy Metal", H: "Simple" },
-		heightm: 0.1,
+		heightm: 1.0,
 		weightkg: 300,
 		color: "Blue",
 		prevo: "Scriptile",
