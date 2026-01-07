@@ -165,11 +165,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Illegal",
 	},
 	ostenssy:{
-		tier: "Uber",
+		tier: "LC",
 		natDexTier: "LC",
 	},
 	rancossor:{
-		tier: "Uber",
+		tier: "NFE",
 		doublesTier: "DUber",
 		natDexTier: "NFE",
 	},
@@ -179,12 +179,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	galemimi:{
-		tier: "Uber",
+		tier: "LC",
 		doublesTier: "DUber",
 		natDexTier: "LC",
 	},
 	galem:{
-		tier: "Uber",
+		tier: "NFE",
 		doublesTier: "DUber",
 		natDexTier: "NFE",
 	},
