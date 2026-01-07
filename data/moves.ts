@@ -3669,14 +3669,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onHit(pokemon) {
 			pokemon.addVolatile('stall');
 		},
-		secondary: {
-			chance: 100,
-			self: {
-				boosts: {
-					accuracy: 1,
-				},
-			},
-		},
 		target: "self",
 		type: "Fighting",
 		zMove: { boost: { evasion: 1 } },
