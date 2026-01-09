@@ -22477,4 +22477,23 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Cool",
 	},
+	starduststorm: {
+		num: -1000,
+		accuracy: 100,
+		basePower: 110,
+		category: "Special",
+		name: "Stardust Storm",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		self: {
+			boosts: {
+				spa: -1,
+			},
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Rock",
+		contestType: "Beautiful",
+	},
 };

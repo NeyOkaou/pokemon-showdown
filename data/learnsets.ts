@@ -1286,6 +1286,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M"],
 			//dark
 			embargo: ["9M"],
+			starduststorm: ["9M"],
 			nastyplot: ["9M"],
 			memento: ["9M"],
 			thief: ["9M"],
@@ -3171,6 +3172,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodyslam: ["9M"],
 			//general
 			protect: ["9M"],
+			starduststorm: ["9M"],
 			frustration: ["9M"],
 			doubleteam: ["9M"],
 			facade: ["9M"],
@@ -3187,6 +3189,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	mossemeros:{
 		learnset:{
 			//BUG
+			starduststorm: ["9M"],
 			defendorder: ["9M"],
 			attackorder: ["9M"],
 			healorder: ["9M"], 
@@ -3446,6 +3449,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			snarl: ["9M"], 
 			//ELECTTIC
 			flash: ["9M"], 
+			starduststorm: ["9M"],
 			thunder: ["9M"], 
 			thunderbolt: ["9M"], 
 			//FIGHTING 
@@ -4091,6 +4095,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["9M"],
             doubleteam: ["9M"],
             facade: ["9M"],
+			starduststorm: ["9M"],
             rest: ["9M"],
             attract: ["9M"],
             round: ["9M"],
@@ -4386,6 +4391,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				//BUG
 				signalbeam: ["9M"],
 				//FIGHTING
+				starduststorm: ["9M"],
 				focusblast: ["9M"],
 				bodypress: ["9M"],
 				rocksmash: ["9M"],
@@ -4551,6 +4557,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				payback: ["9M"],
 				torment: ["9M"],
 				powertrip: ["9M"],
+				closecombat: ["9M"],
+				rockpolish: ["9M"],
+				stoneaxe: ["9M"],
 				knockoff: ["9M"],
 				wideguard: ["9M"],
 				beatup: ["9M"],

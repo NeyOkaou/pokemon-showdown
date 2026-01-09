@@ -3853,6 +3853,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		activate: "#payday",
 	},
+	starduststorm: {
+		name: "Stardust Storm",
+		desc: "Lowers the user's Special Attack by 1 stage.",
+		shortDesc: "Lowers the user's Sp. Atk by 1. Hits foe(s).",
+
+		activate: "#payday",
+	},
 	maliciousmoonsault: {
 		name: "Malicious Moonsault",
 		desc: "Damage doubles and no accuracy check is done if the target has used Minimize while active.",
