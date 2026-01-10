@@ -5149,12 +5149,127 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
+	lilichen:{
+		learnset: {
+			//grass
+			grassyglide : ["9M"],
+			leechseed : ["9M"],
+			sleeppowder : ["9M"],
+			leafage : ["9M"],
+			solarbeam: ["9M"],
+			razorleaf : ["9M"],
+			ingrain : ["9M"],
+			synthesis : ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			grasspledge : ["9M"],
+			//poison
+			poisonpowder : ["9M"],
+			gastroacid : ["9M"],
+			toxic : ["9M"],
+			//normal
+			nobleroar : ["9M"],
+			pound : ["9M"],
+			leer : ["9M"],
+			meanlook : ["9M"],
+			growth : ["9M"],
+			cut : ["9M"],
+			endure : ["9M"],
+			recycle : ["9M"],
+			stockpile : ["9M"],
+			encore : ["9M"],
+			wrap  : ["9M"],
+			bodyslam : ["9M"],
+			//fire
+			raindance: ["9M"],
+			sunnyday : ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            round: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
+	noblichen:{
+		learnset: {
+			//grass
+			grassyglide : ["9M"],
+			leechseed : ["9M"],
+			sleeppowder : ["9M"],
+			leafage : ["9M"],
+			razorleaf : ["9M"],
+			ingrain : ["9M"],
+			synthesis : ["9M"],
+			hornleech : ["9M"],
+			solarbeam: ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			grasspledge : ["9M"],
+			//poison
+			poisonpowder : ["9M"],
+			gastroacid : ["9M"],
+			toxic : ["9M"],
+			poisonfang : ["9M"],
+			//dark
+			crunch : ["9M"],
+			bite : ["9M"],
+			taunt : ["9M"],
+			//rock
+			rocktomb : ["9M"],
+			//ground
+			bulldoze : ["9M"],
+			//psychic
+			psychicfangs : ["9M"],
+			amnesia : ["9M"],
+			//normal
+			nobleroar : ["9M"],
+			pound : ["9M"],
+			leer : ["9M"],
+			meanlook : ["9M"],
+			growth : ["9M"],
+			cut : ["9M"],
+			endure : ["9M"],
+			recycle : ["9M"],
+			stockpile : ["9M"],
+			encore : ["9M"],
+			wrap  : ["9M"],
+			bodyslam : ["9M"],
+			//electric
+			thunderfang : ["9M"],
+			//steel
+			//fire
+			raindance: ["9M"],
+			sunnyday : ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            round: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
 	monarchen:{
 		learnset: {
 			//bug
 			attackorder : ["9M"],
 			defendorder : ["9M"],
 			healorder : ["9M"],
+			solarbeam: ["9M"],
 			//grass
 			woodhammer : ["9M"],
 			grassyglide : ["9M"],
@@ -5183,11 +5298,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//dark
 			crunch : ["9M"],
 			bite : ["9M"],
-			theif : ["9M"],
+			thief : ["9M"],
 			taunt : ["9M"],
 			punishment  : ["9M"],
 			foulplay : ["9M"],
 			knockoff : ["9M"],
+			raindance: ["9M"],
 			nastyplot : ["9M"],
 			//rock
 			rockslide : ["9M"],
