@@ -4865,6 +4865,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leafage: ["9M"],
 			leafstorm: ["9M"],
 			magicalleaf: ["9M"],
+			bulletseed: ["9M"],
 			razorleaf: ["9M"],
 			grassyterrain: ["9M"],
 			grassknot: ["9M"],
@@ -4937,6 +4938,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leafage: ["9M"],
 			leafstorm: ["9M"],
 			magicalleaf: ["9M"],
+			bulletseed: ["9M"],
 			razorleaf: ["9M"],
 			grassyterrain: ["9M"],
 			grassknot: ["9M"],
@@ -5028,6 +5030,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			// grass
 			woodhammer: ["9M"],
+			bulletseed: ["9M"],
 			leafage: ["9M"],
 			leafstorm: ["9M"],
 			iceball: ["9M"],

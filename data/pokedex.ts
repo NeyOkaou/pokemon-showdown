@@ -20834,7 +20834,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		fukunny: {
 		num: -5072,
 		name: "Fukunny",
-		types: ["Grass"],
+		types: ["Grass","Ice"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 65, atk: 32, def: 35, spa: 32, spd: 35, spe: 67 },
 		abilities: { 0: "Run Away", 1: "Ice Body", H: "Huge Power"},
