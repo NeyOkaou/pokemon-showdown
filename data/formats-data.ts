@@ -166,91 +166,72 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	ostenssy:{
 		tier: "LC",
-		natDexTier: "LC",
 	},
 	rancossor:{
 		tier: "NFE",
-		doublesTier: "DUber",
-		natDexTier: "NFE",
 	},
 	mossemeros:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	galemimi:{
 		tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
 	},
 	galem:{
 		tier: "NFE",
-		doublesTier: "DUber",
-		natDexTier: "NFE",
 	},
 	wardelith:{
 		tier: "UU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	gralibri:{
 		tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
 	},
 	stalibri:{
 		tier: "NFE",
-		doublesTier: "DUber",
-		natDexTier: "NFE",
 	},
 	zardopium:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	cocoquille:{
 		tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
 	},
 	palmypince:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	emprism:{
 		tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
 	},
 	prismunter:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	rochiere:{
 		tier: "UU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	primitronc:{
 		tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
 	},
 	filicolith:{
 		tier: "RU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	larvambre:{
-	tier: "LC",
-		doublesTier: "DUber",
-		natDexTier: "LC",
+		tier: "LC",
 	},
 	aggrestik:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	statisorus:{
@@ -258,7 +239,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	bisorgue:{
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	protyra:{
@@ -274,7 +255,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	yukigori:{
-		tier: "AG",
+		tier: "Uber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	yetidiot:{
@@ -286,15 +268,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	lilichen:{
-		tier: "Illegal",
-		natDexTier: "LC",
+		tier: "LC",
 	},
 	noblichen:{
-		tier: "Illegal",
-		natDexTier: "NFE",
+		tier: "NFE",
 	},
 	monarchen:{
 		tier: "Uber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	//END MOODMON
