@@ -278,6 +278,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	fukunny:{
+		tier: "LC",
+	},
+	usagunny:{
+		tier: "NFE",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
