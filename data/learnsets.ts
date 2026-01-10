@@ -5152,6 +5152,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	lilichen:{
 		learnset: {
 			//grass
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
 			grassyglide : ["9M"],
 			leechseed : ["9M"],
 			sleeppowder : ["9M"],
@@ -5201,6 +5204,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	noblichen:{
 		learnset: {
 			//grass
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
 			grassyglide : ["9M"],
 			leechseed : ["9M"],
 			sleeppowder : ["9M"],
@@ -5266,6 +5272,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	monarchen:{
 		learnset: {
 			//bug
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
 			attackorder : ["9M"],
 			defendorder : ["9M"],
 			healorder : ["9M"],
