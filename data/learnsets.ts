@@ -4846,10 +4846,175 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
+	fukunny:{
+		learnset:{
+			// general
+			bounce: ["9M"],
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
 
+			// grass
+			leafage: ["9M"],
+			leafstorm: ["9M"],
+			magicalleaf: ["9M"],
+			razorleaf: ["9M"],
+			grassyterrain: ["9M"],
+			grassknot: ["9M"],
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
+
+			// ice
+			iceball: ["9M"],
+			avalanche: ["9M"],
+			engelure: ["9M"],
+			icywind: ["9M"],
+			aurorabeam: ["9M"],
+			icebeam: ["9M"],
+			blizzard: ["9M"],
+			snowscape: ["9M"],
+			mist: ["9M"],
+			icefang: ["9M"],
+			powdersnow: ["9M"],
+			chillyreception: ["9M"],
+
+			//fairy
+			playrough: ["9M"],
+
+			//fighting
+			rocksmash: ["9M"],
+
+			//ground
+			dig: ["9M"],
+
+			
+			// normal
+			pound: ["9M"],
+			doublehit: ["9M"],
+			quickattack: ["9M"],
+			headbutt: ["9M"],
+			takedown: ["9M"],
+			endure: ["9M"],
+			bodyslam: ["9M"],
+			helpinghand: ["9M"],
+			followme: ["9M"],
+			batonpass: ["9M"],
+			weatherball: ["9M"],
+			growl: ["9M"],
+			leer: ["9M"],
+			defensecurl: ["9M"],
+			rockclimb: ["9M"],
+			endeavor: ["9M"],
+			feint: ["9M"],
+			focusenergy: ["9M"],
+
+		}
+	},
+	usagunny:{
+		learnset:{
+			// general
+			bounce: ["9M"],
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+
+			// grass
+			leafage: ["9M"],
+			leafstorm: ["9M"],
+			magicalleaf: ["9M"],
+			razorleaf: ["9M"],
+			grassyterrain: ["9M"],
+			grassknot: ["9M"],
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
+
+			// ice
+			iceball: ["9M"],
+			icepunch: ["9M"],
+			avalanche: ["9M"],
+			chillyreception: ["9M"],
+			engelure: ["9M"],
+			icywind: ["9M"],
+			aurorabeam: ["9M"],
+			icebeam: ["9M"],
+			blizzard: ["9M"],
+			breaktheice: ["9M"],
+			snowscape: ["9M"],
+			mist: ["9M"],
+			icefang: ["9M"],
+			powdersnow: ["9M"],
+
+			//electric
+			thunderpunch: ["9M"],
+
+			//fairy
+			playrough: ["9M"],
+
+			//fighting
+			strength: ["9M"],
+			rocksmash: ["9M"],
+			brickbreak: ["9M"],
+			bulkup: ["9M"],
+
+			//ground
+			dig: ["9M"],
+
+
+			//rock
+			rocktomb: ["9M"],
+			smackdown: ["9M"],
+			
+			// normal
+			megapunch: ["9M"],
+			pound: ["9M"],
+			bellydrum: ["9M"],
+			doublehit: ["9M"],
+			thrash: ["9M"],
+			quickattack: ["9M"],
+			headbutt: ["9M"],
+			takedown: ["9M"],
+			endure: ["9M"],
+			bodyslam: ["9M"],
+			helpinghand: ["9M"],
+			followme: ["9M"],
+			batonpass: ["9M"],
+			weatherball: ["9M"],
+			growl: ["9M"],
+			leer: ["9M"],
+			defensecurl: ["9M"],
+			rockclimb: ["9M"],
+			endeavor: ["9M"],
+			feint: ["9M"],
+			focusenergy: ["9M"],
+			//dark
+			knockoff: ["9M"],
+			thief: ["9M"],
+			pursuit: ["9M"],
+			taunt: ["9M"],
+			powertrip: ["9M"],
+
+		}
+	},
 	yukigori:{
 		learnset:{
 			// general
+			bounce: ["9M"],
 			protect: ["9M"],
 			frustration: ["9M"],
 			doubleteam: ["9M"],
@@ -4865,6 +5030,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			woodhammer: ["9M"],
 			leafage: ["9M"],
 			leafstorm: ["9M"],
+			iceball: ["9M"],
 			magicalleaf: ["9M"],
 			razorleaf: ["9M"],
 			grassyterrain: ["9M"],
@@ -4875,6 +5041,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			// ice
 			icepunch: ["9M"],
+			chillyreception: ["9M"],
 			avalanche: ["9M"],
 			engelure: ["9M"],
 			icywind: ["9M"],
@@ -5328,9 +5495,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//normal
 			nobleroar : ["9M"],
 			pound : ["9M"],
+			followme  : ["9M"],
 			leer : ["9M"],
 			megapunch : ["9M"],
 			mefirst : ["9M"],
+			helpinghand: ["9M"],
 			meanlook : ["9M"],
 			growth : ["9M"],
 			falseswipe : ["9M"],
