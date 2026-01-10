@@ -285,6 +285,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "AG",
 		natDexTier: "OU",
 	},
+	lilichen:{
+		tier: "Illegal",
+		natDexTier: "LC",
+	},
+	noblichen:{
+		tier: "Illegal",
+		natDexTier: "NFE",
+	},
+	monarchen:{
+		tier: "Uber",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
