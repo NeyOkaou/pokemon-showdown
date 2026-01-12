@@ -5541,6 +5541,67 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             confide: ["9M"],
 		}
 	},
+	plankteuy:{
+		learnset:{
+			//grass
+			grasswhistle : ["9M"],
+			leafage : ["9M"],
+			synthesis : ["9M"],
+			ingrain : ["9M"],
+			leafstorm : ["9M"],
+			cottonspore : ["9M"],
+			energyball : ["9M"],
+			grassyterrain : ["9M"],
+			magicalleaf : ["9M"],
+			gigadrain : ["9M"],
+			solarbeam : ["9M"],
+			grassknot : ["9M"],
+			grassyglide : ["9M"],
+			chloroblast: ["9M"],
+			//water
+			watergun : ["9M"],
+			brine : ["9M"],
+			flipturn : ["9M"],
+			bubblebeam : ["9M"],
+			whirlpool : ["9M"],
+			waterpulse : ["9M"],
+			raindance : ["9M"],
+			aquaring : ["9M"],
+			//fairy
+			babydolleyes : ["9M"],
+			charm : ["9M"],
+			//normal
+			tearfullook : ["9M"],
+			covet : ["9M"],
+			holdback : ["9M"],
+			swift : ["9M"],
+			weatherball : ["9M"],
+			minimize : ["9M"],
+			entrainment : ["9M"],
+			simplebeam : ["9M"],
+			splash : ["9M"],
+			workup : ["9M"],
+			//steel
+			cut : ["9M"],
+			//poison
+			acidarmor : ["9M"],
+			gastroacid : ["9M"],
+			followme : ["9M"],
+			//dark
+			faketears : ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            round: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],

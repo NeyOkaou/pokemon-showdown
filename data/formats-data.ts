@@ -284,6 +284,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	usagunny:{
 		tier: "NFE",
 	},
+	plankteuy:{
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

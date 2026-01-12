@@ -20873,5 +20873,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 31,
 		eggGroups: ["Field"],
 	},
-
+	plankteuy: {
+		num: -5074,
+		name: "Plankteuy",
+		types: ["Grass"],
+		genderRatio: { M: 0.5, F: 0.5 },
+		baseStats: { hp: 59, atk: 33, def: 55, spa: 56, spd: 83, spe: 74 },
+		abilities: { 0: "Leaf Guard", 1:"Chlorophyll", H: "Sap Sipper"},
+		heightm: 0.1,
+		weightkg: 0.1,
+		color: "Green",
+		eggGroups: ["Grass", "Water1"],
+	},
 };
