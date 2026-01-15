@@ -20901,7 +20901,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: -5076,
 		name: "Verophyla",
 		types: ["Grass", "Ground"],
-		baseStats: { hp: 72, atk: 76, def: 102, spa: 40, spd: 80, spe: 45 },
+		baseStats: { hp: 72, atk: 54, def: 82, spa: 70, spd: 75, spe: 62 },
 		abilities: { 0: "Water Absorb", 1: "Sticky Hold", H: "Iron Barbs", S:"Hospitality" },
 		heightm: 0.3,
 		weightkg: 40,
