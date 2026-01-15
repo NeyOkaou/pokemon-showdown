@@ -5601,10 +5601,151 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             confide: ["9M"],
 		}
 	},
+	alwy:{
+		learnset:{
+			//grass
+			leechseed : ["9M"],
+			leafage : ["9M"],
+			razorleaf : ["9M"],
+			ingrain : ["9M"],
+			synthesis : ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			spikyshield : ["9M"],
+			powerwhip : ["9M"],
+			grasswhistle : ["9M"],
+			gigadrain : ["9M"],
+			megadrain : ["9M"],
+			absorb : ["9M"],
+			aromatherapy : ["9M"],
+			
+			faketears : ["9M"],
+
+			//rock
+			//water
+			lifedew : ["9M"],
+			raindance: ["9M"],
+			withdraw: ["9M"],
+			watersport: ["9M"],
+			//ground
+			earthquake : ["9M"],
+			bulldoze : ["9M"],
+			earthpower : ["9M"],
+			spikes : ["9M"],
+			mudslap : ["9M"],
+			mudshot : ["9M"],
+			fissure : ["9M"],
+			//normal
+			bind: ["9M"],
+			encore: ["9M"],
+			pound : ["9M"],
+			growth : ["9M"],
+			wish : ["9M"],
+			cut : ["9M"],
+			recycle : ["9M"],
+			captivate : ["9M"],
+			refresh : ["9M"],
+			tickle : ["9M"],
+			swift : ["9M"],
+			covet : ["9M"],
+			naturalgift : ["9M"],
+			helpinghand : ["9M"],
+			//fire
+			sunnyday : ["9M"],
+			//bug 
+			pinmissile : ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
+	verophyla:{
+		learnset:{
+			//grass
+			grassyglide : ["9M"],
+			leechseed : ["9M"],
+			leafage : ["9M"],
+			razorleaf : ["9M"],
+			ingrain : ["9M"],
+			synthesis : ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			spikyshield : ["9M"],
+			powerwhip : ["9M"],
+			grasswhistle : ["9M"],
+			gigadrain : ["9M"],
+			megadrain : ["9M"],
+			absorb : ["9M"],
+			aromatherapy : ["9M"],
+			//psychic
+			calmmind : ["9M"],
+			psychic : ["9M"],
+			reflect : ["9M"],
+			lightscreen : ["9M"],
+			//dark
+			taunt : ["9M"],
+			faketears : ["9M"],
+
+			//rock
+			rocktomb : ["9M"],
+			//water
+			lifedew : ["9M"],
+			raindance: ["9M"],
+			withdraw: ["9M"],
+			watersport: ["9M"],
+			//ground
+			earthquake : ["9M"],
+			bulldoze : ["9M"],
+			earthpower : ["9M"],
+			spikes : ["9M"],
+			mudslap : ["9M"],
+			mudshot : ["9M"],
+			fissure : ["9M"],
+			//normal
+			bind: ["9M"],
+			encore: ["9M"],
+			pound : ["9M"],
+			growth : ["9M"],
+			wish : ["9M"],
+			cut : ["9M"],
+			recycle : ["9M"],
+			captivate : ["9M"],
+			refresh : ["9M"],
+			tickle : ["9M"],
+			swift : ["9M"],
+			covet : ["9M"],
+			hyperbeam: ["9M"],
+			naturalgift : ["9M"],
+			helpinghand : ["9M"],
+			//fire
+			sunnyday : ["9M"],
+			//bug 
+			pinmissile : ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
 	veracina:{
 		learnset:{
-			//fairy 
-			playrough : ["9M"],
 			//grass
 			grassyglide : ["9M"],
 			leechseed : ["9M"],
@@ -5641,6 +5782,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//water
 			lifedew : ["9M"],
 			raindance: ["9M"],
+			withdraw: ["9M"],
+			watersport: ["9M"],
 			aquaring : ["9M"],
 			//ground
 			earthquake : ["9M"],
@@ -5651,6 +5794,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mudshot : ["9M"],
 			fissure : ["9M"],
 			//normal
+			bind: ["9M"],
+			encore: ["9M"],
 			pound : ["9M"],
 			growth : ["9M"],
 			wish : ["9M"],
