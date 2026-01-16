@@ -300,6 +300,44 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	sinji: {
+		tier: "LC",
+	},
+	patabrroot: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	shroomalice: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	jamush: {
+		tier: "LC",
+
+	},
+	mycellum: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	colzadon: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	kerocorn: {
+		tier: "LC",
+	},
+	croacorn: {
+		tier: "NFE",
+	},
+	choracorn: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
