@@ -5971,7 +5971,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			frenzyplant: ["9M"],
 			energyball: ["9M"],
 			absorb: ["9M"],
-			uproot: ["9M"],
 			forestscurse: ["9M"],
 			bulletseed: ["9M"],
 			cottonguard: ["9M"],
