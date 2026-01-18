@@ -5845,6 +5845,79 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             confide: ["9M"],
 		}
 	},
+	sinjini:{
+		learnset:{
+			//Dark
+			taunt: ["9M"],
+			knockoff: ["9M"],
+			thief: ["9M"],
+			//fairy
+			decorate: ["9M"],
+			//Fighting
+			strength: ["9M"],
+			rocksmash: ["9M"],
+			brickbreak: ["9M"],
+			doublekick: ["9M"],
+			victorydance: ["9M"],
+			//rock
+			rockslide: ["9M"],
+			rockthrow: ["9M"],
+			stealthrock: ["9M"],
+			//water
+			raindance: ["9M"],
+			sunnyday: ["9M"],
+			//grass
+			
+			branchpoke: ["9M"],
+			synthesis: ["9M"],
+			solarbeam: ["9M"],
+			sleeppowder: ["9M"],
+			razorleaf: ["9M"],
+			grasspledge: ["9M"],
+			magicalleaf: ["9M"],
+			junglehealing: ["9M"],
+			grassknot: ["9M"],
+			leechseed: ["9M"],
+			gigadrain: ["9M"],
+			absorb: ["9M"],
+			forestcurse: ["9M"],
+			bulletseed: ["9M"],
+			cottonguard: ["9M"],
+			megadrain: ["9M"],
+			//normal
+			yawn: ["9M"],
+			weatherball: ["9M"],
+			recycle: ["9M"],
+			naturepower: ["9M"],
+			naturalgift: ["9M"],
+			leer: ["9M"],
+			hyperbeam: ["9M"],
+			helpinghand: ["9M"],
+			growth: ["9M"],
+			celebrate: ["9M"],
+			bodyslam: ["9M"],
+			batonpass: ["9M"],
+			//ground
+			sandattack: ["9M"],
+			mudshot: ["9M"],
+			mudslap: ["9M"],
+			magnitude: ["9M"],
+			fissure: ["9M"],
+			earthquake: ["9M"],
+			earthpower: ["9M"],
+			bulldoze: ["9M"],
+			//general
+            protect: ["9M"],
+            frustration: ["9M"],
+            doubleteam: ["9M"],
+            facade: ["9M"],
+            rest: ["9M"],
+            attract: ["9M"],
+            sleeptalk: ["9M"],
+            substitute: ["9M"],
+            confide: ["9M"],
+		}
+	},
 	sylvesage:{
 		learnset:{
 			//Dark
@@ -5870,7 +5943,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lightscreen: ["9M"],
 			reflect: ["9M"],
 			psychic: ["9M"],
-			camlmind: ["9M"],
+			calmmind: ["9M"],
 			//rock
 			rockslide: ["9M"],
 			rockthrow: ["9M"],
@@ -5891,6 +5964,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			solarbeam: ["9M"],
 			sleeppowder: ["9M"],
 			razorleaf: ["9M"],
+			grasspledge: ["9M"],
 			magicalleaf: ["9M"],
 			junglehealing: ["9M"],
 			grassknot: ["9M"],
@@ -5900,7 +5974,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			absorb: ["9M"],
 			forestcurse: ["9M"],
 			bulletseed: ["9M"],
-			cotonguard: ["9M"],
+			cottonguard: ["9M"],
 			megadrain: ["9M"],
 			//normal
 			yawn: ["9M"],
