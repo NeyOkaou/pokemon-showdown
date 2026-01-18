@@ -1358,7 +1358,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			recover: ["9M"],
 			sonicboom: ["9M"],
 			swift: ["9M"],
-			terrainpulse: ["9M"],
+		
 			weatherball: ["9M"],
 			wish: ["9M"],
 			whirlwind: ["9M"],
@@ -2731,7 +2731,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			icebeam: ["9M"],
 			chargebeam: ["9M"],
 			steelbeam: ["9M"],
-			terrainpulse: ["9M"],
 			solarbeam: ["9M"], 
 			hyperbeam: ["9M"], 
 		},
@@ -2933,7 +2932,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			perishsong: ["9M"],
 			refresh: ["9M"],
 			scaryface: ["9M"],
-			terrainpulse: ["9M"],
 			weatherball: ["9M"],
 
 
