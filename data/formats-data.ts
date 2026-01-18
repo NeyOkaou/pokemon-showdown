@@ -300,6 +300,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	sinjini:{
+		tier: "LC",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	sylvesage:{
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
