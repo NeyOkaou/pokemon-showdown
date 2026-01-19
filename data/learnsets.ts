@@ -6056,7 +6056,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			calmmind: ["9M"],
 			dreameater: ["9M"],
 			expandingforce: ["9M"],
-			futursight: ["9M"],
+			futuresight: ["9M"],
 			gravity: ["9M"],
 			guardswap: ["9M"],
 			healblock: ["9M"],
