@@ -6121,6 +6121,77 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
+	jamush:{
+		learnset:{
+			//bug
+			//dark
+			//electric
+			paraboliccharge : ["9M"],
+			thunder : ["9M"],
+			thunderbolt : ["9M"],
+			thundershock : ["9M"],
+			shockwave : ["9M"],
+			chargebeam: ["9M"],
+			thunderwave : ["9M"],
+			thundercage : ["9M"],
+			electricterrain : ["9M"],
+			eerieimpulse : ["9M"],
+			zapcannon : ["9M"],
+			electroball: ["9M"],
+			voltswitch : ["9M"],
+			discharge : ["9M"],
+			spark : ["9M"],
+			flash : ["9M"],
+			//grass
+			leechseed : ["9M"],
+			sleeppowder : ["9M"],
+			poisonpowder: ["9M"],
+			stunspore: ["9M"],
+			spore: ["9M"],
+			leafage : ["9M"],
+			razorleaf: ["9M"],
+			ingrain : ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			gigadrain : ["9M"],
+			megadrain : ["9M"],
+			absorb : ["9M"],
+			solarbeam: ["9M"],
+			icebeam: ["9M"],
+			//poison 
+			toxic: ["9M"],
+			gunkshot: ["9M"],
+			flashcannon: ["9M"],
+			//psy
+			lightscreen: ["9M"],
+			reflect: ["9M"],
+			//rock
+			//normal
+			followme: ["9M"],
+			focusenergy: ["9M"],
+			hyperbeam: ["9M"],
+			simplebeam: ["9M"],
+			growth: ["9M"],
+			slam: ["9M"],
+			stockpile: ["9M"],
+			supersonic: ["9M"],
+			swift: ["9M"],
+			weatherball: ["9M"],
+			lockon: ["9M"],
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+		}
+	},
 	mycellum:{
 		learnset:{
 			//bug
@@ -6136,7 +6207,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			chargebeam: ["9M"],
 			thunderwave : ["9M"],
 			thundercage : ["9M"],
-			electricteerrain : ["9M"],
+			electricterrain : ["9M"],
 			eerieimpulse : ["9M"],
 			zapcannon : ["9M"],
 			electroball: ["9M"],
@@ -6150,7 +6221,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//fighting
 			rocksmash : ["9M"],
 			counter : ["9M"],
-			strenght : ["9M"],
+			strength : ["9M"],
 			focusblast: ["9M"],
 			//ghost
 			confuseray : ["9M"],
@@ -6159,7 +6230,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			leechseed : ["9M"],
 			sleeppowder : ["9M"],
 			poisonpowder: ["9M"],
-			stunespore: ["9M"],
+			stunspore: ["9M"],
 			spore: ["9M"],
 			leafage : ["9M"],
 			razorleaf: ["9M"],
@@ -6197,8 +6268,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rocktomb : ["9M"],
 			cut: ["9M"],
 			//normal
-			accupressure: ["9M"],
+			acupressure: ["9M"],
 			bodyslam: ["9M"],
+			autotomize: ["9M"],
+			oilup: ["9M"],
 			block: ["9M"],
 			disable: ["9M"],
 			explosion: ["9M"],
