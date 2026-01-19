@@ -5749,6 +5749,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset:{
 			//grass
 			grassyglide : ["9M"],
+			leafstorm: ["9M"],
 			leechseed : ["9M"],
 			leafage : ["9M"],
 			razorleaf : ["9M"],
@@ -5923,6 +5924,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Dark
 			taunt: ["9M"],
 			knockoff: ["9M"],
+			leafstorm: ["9M"],
 			thief: ["9M"],
 			//electric
 			thunder: ["9M"],
@@ -6119,7 +6121,111 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		}
 	},
-
+	mycellum:{
+		learnset:{
+			//bug
+			signalbeam : ["9M"],
+			infestation: ["9M"],
+			//dark
+			//electric
+			paraboliccharge : ["9M"],
+			thunder : ["9M"],
+			thunderbolt : ["9M"],
+			thundershock : ["9M"],
+			shockwave : ["9M"],
+			chargebeam: ["9M"],
+			thunderwave : ["9M"],
+			thundercage : ["9M"],
+			electricteerrain : ["9M"],
+			eerieimpulse : ["9M"],
+			zapcannon : ["9M"],
+			electroball: ["9M"],
+			voltswitch : ["9M"],
+			discharge : ["9M"],
+			spark : ["9M"],
+			flash : ["9M"],
+			multiprises: ["9M"],
+			//fairy
+			dazzlinggleam: ["9M"],
+			//fighting
+			rocksmash : ["9M"],
+			counter : ["9M"],
+			strenght : ["9M"],
+			focusblast: ["9M"],
+			//ghost
+			confuseray : ["9M"],
+			shadowball: ["9M"],
+			//grass
+			leechseed : ["9M"],
+			sleeppowder : ["9M"],
+			poisonpowder: ["9M"],
+			stunespore: ["9M"],
+			spore: ["9M"],
+			leafage : ["9M"],
+			razorleaf: ["9M"],
+			ingrain : ["9M"],
+			bulletseed : ["9M"],
+			energyball : ["9M"],
+			grassknot : ["9M"],
+			grassyterrain : ["9M"],
+			gigadrain : ["9M"],
+			megadrain : ["9M"],
+			vinewhip: ["9M"],
+			powerwhip: ["9M"],
+			absorb : ["9M"],
+			solarbeam: ["9M"],
+			//ground
+			earthquake : ["9M"],
+			stompingtantrum : ["9M"],
+			earthpower : ["9M"],
+			bulldoze : ["9M"],
+			//ice 
+			icebeam: ["9M"],
+			//poison 
+			sludgebomb : ["9M"],
+			toxic: ["9M"],
+			gunkshot: ["9M"],
+			flashcannon: ["9M"],
+			magnetbomb: ["9M"],
+			mirrorshot: ["9M"],
+			//psy
+			psychic: ["9M"],
+			lightscreen: ["9M"],
+			reflect: ["9M"],
+			//rock
+			powergem : ["9M"],
+			rocktomb : ["9M"],
+			cut: ["9M"],
+			//normal
+			accupressure: ["9M"],
+			bodyslam: ["9M"],
+			block: ["9M"],
+			disable: ["9M"],
+			explosion: ["9M"],
+			selfdestruct: ["9M"],
+			followme: ["9M"],
+			focusenergy: ["9M"],
+			hyperbeam: ["9M"],
+			simplebeam: ["9M"],
+			growth: ["9M"],
+			slam: ["9M"],
+			stockpile: ["9M"],
+			supersonic: ["9M"],
+			swift: ["9M"],
+			weatherball: ["9M"],
+			lockon: ["9M"],
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+		}
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],

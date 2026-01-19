@@ -315,6 +315,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	jamush:{
+		tier: "LC",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	mycellum:{
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
