@@ -6024,6 +6024,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			nastyplot: ["9M"],
 			faketears: ["9M"],
 			foulplay: ["9M"],
+			teleport: ["9M"],
 			fling: ["9M"],
 			taunt: ["9M"],
 			thief: ["9M"],
