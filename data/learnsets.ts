@@ -2084,6 +2084,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sweetkiss: ["9M"],
 			drainingkiss: ["9M"],
 			playrough: ["9M"],
+			knockoff: ["9M"],
 			moonlight: ["9M"],
 			spiritbreak: ["9M"],
 
@@ -2144,6 +2145,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			snatch: ["9M"],
 			pursuit: ["9M"],
 			succubykiss: ["9M"],
+			suckerpunch: ["9M"],
 			knockoff: ["9M"],
 			embargo: ["9M"],
 			feintattack: ["9M"],
