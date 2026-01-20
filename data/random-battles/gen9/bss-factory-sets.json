@@ -1443,6 +1443,36 @@
             "evs": {"def": 252, "spa": 252 , "hp": 4 },
             "teraType": ["Fairy"],
             "ability": ["Sand Stream"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 10,
+            "moves": [
+                ["Stardust Storm","Stone Edge"],
+                ["Earthquake"],
+                ["Body Press"],
+                ["Curse"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Sassy",
+            "evs": {"def": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Stream"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 10,
+            "moves": [
+                ["Stardust Storm","Stone Edge"],
+                ["Earthquake"],
+                ["Body Press"],
+                ["Curse"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Sassy",
+            "evs": {"spd": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Stream"]
         }
       ]
     }
