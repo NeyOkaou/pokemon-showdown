@@ -6198,6 +6198,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			signalbeam : ["9M"],
 			infestation: ["9M"],
 			//dark
+			nastyplot: ["9M"],
 			//electric
 			paraboliccharge : ["9M"],
 			thunder : ["9M"],
