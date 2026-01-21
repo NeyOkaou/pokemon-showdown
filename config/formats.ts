@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "MoodMons",
 	},
 	{
-		name: "[MOOD] Random Battle",
+		name: "[Gen 9] Random Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		team: 'randomBSSFactory',
@@ -34,7 +34,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause','!Team Preview'],
 	},
 	{
-		name: "[MOOD] Unrated Random Battle",
+		name: "[Gen 9] Unrated Random Battle",
 		mod: 'gen9',
 		team: 'random',
 		challengeShow: false,
@@ -42,7 +42,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "[MOOD] Free-For-All Random Battle",
+		name: "[Gen 9] Free-For-All Random Battle",
 		mod: 'gen9',
 		team: 'random',
 		gameType: 'freeforall',
@@ -51,14 +51,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "[MOOD] Random Battle (Blitz)",
+		name: "[Gen 9] Random Battle (Blitz)",
 		mod: 'gen9',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['[MOOD] Random Battle', 'Blitz'],
+		ruleset: ['[Gen 9] Random Battle', 'Blitz'],
 	},
 	{
-		name: "[MOOD] Multi Random Battle",
+		name: "[Gen 9] Multi Random Battle",
 		mod: 'gen9',
 		team: 'random',
 		gameType: 'multi',
@@ -71,43 +71,43 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] OU",
+		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
-		name: "[MOOD] Ubers",
+		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Terastal Clause'],
 		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
-		name: "[MOOD] UU",
+		name: "[Gen 9] UU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] OU'],
+		ruleset: ['[Gen 9] OU'],
 		banlist: ['OU', 'UUBL'],
 	},
 	{
-		name: "[MOOD] RU",
+		name: "[Gen 9] RU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] UU'],
+		ruleset: ['[Gen 9] UU'],
 		banlist: ['UU', 'RUBL', 'Light Clay'],
 	},
 	{
-		name: "[MOOD] NU",
+		name: "[Gen 9] NU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] RU'],
+		ruleset: ['[Gen 9] RU'],
 		banlist: ['RU', 'NUBL', 'Drought', 'Quick Claw'],
 	},
 	{
-		name: "[MOOD] PU",
+		name: "[Gen 9] PU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] NU'],
+		ruleset: ['[Gen 9] NU'],
 		banlist: ['NU', 'PUBL', 'Damp Rock'],
 	},
 	{
-		name: "[MOOD] LC",
+		name: "[Gen 9] LC",
 		mod: 'gen9',
 		ruleset: ['Little Cup', 'Standard', 'Terastal Clause'],
 		banlist: [
@@ -117,7 +117,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},//daemonix
 	{
-		name: "[MOOD] Monotype",
+		name: "[Gen 9] Monotype",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Same Type Clause', 'Terastal Clause'],
 		banlist: [
@@ -130,28 +130,28 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] CAP",
+		name: "[Gen 9] CAP",
 		desc: "The Create-A-Pok&eacute;mon project is a community dedicated to exploring and understanding the competitive Pok&eacute;mon metagame by designing, creating, and playtesting new Pok&eacute;mon concepts.",
 		mod: 'gen9',
-		ruleset: ['[MOOD] OU', '+CAP'],
+		ruleset: ['[Gen 9] OU', '+CAP'],
 		banlist: ['Crucibellite', 'Rage Fist'],
 	},
 	{
-		name: "[MOOD] BSS Reg I",
+		name: "[Gen 9] BSS Reg I",
 		mod: 'gen9',
 		bestOfDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Limit Two Restricted'],
 		restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "[MOOD] BSS Reg J",
+		name: "[Gen 9] BSS Reg J",
 		mod: 'gen9',
 		bestOfDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Limit Two Restricted'],
 		restricted: ['Restricted Legendary', 'Mythical'],
 	},
 	{
-		name: "[MOOD] Custom Game",
+		name: "[Gen 9] Custom Game",
 		mod: 'gen9',
 		searchShow: false,
 		debug: true,
@@ -164,10 +164,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "MoodMons Doubles",
+		section: "S/V Doubles",
 	},
 	{
-		name: "[MOOD] Random Doubles Battle",
+		name: "[Gen 9] Random Doubles Battle",
 		mod: 'gen9',
 		gameType: 'doubles',
 		team: 'random',
@@ -175,27 +175,27 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Illusion Level Mod', 'Sleep Clause Mod'],
 	},
 	{
-		name: "[MOOD] Doubles OU",
+		name: "[Gen 9] Doubles OU",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Evasion Abilities Clause'],
 		banlist: ['DUber', 'Shadow Tag'],
 	},
 	{
-		name: "[MOOD] Doubles Ubers",
+		name: "[Gen 9] Doubles Ubers",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', '!Gravity Sleep Clause'],
 	},
 	{
-		name: "[MOOD] Doubles UU",
+		name: "[Gen 9] Doubles UU",
 		mod: 'gen9',
 		gameType: 'doubles',
-		ruleset: ['[MOOD] Doubles OU'],
+		ruleset: ['[Gen 9] Doubles OU'],
 		banlist: ['DOU', 'DBL'],
 	},
 	{
-		name: "[MOOD] Doubles LC",
+		name: "[Gen 9] Doubles LC",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -206,7 +206,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] VGC 2023 Reg D",
+		name: "[Gen 9] VGC 2023 Reg D",
 		mod: 'gen9predlc',
 		gameType: 'doubles',
 		searchShow: false,
@@ -215,7 +215,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Walking Wake', 'Iron Leaves'],
 	},
 	{
-		name: "[MOOD] VGC 2024 Reg G",
+		name: "[Gen 9] VGC 2024 Reg G",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -224,7 +224,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg H",
+		name: "[Gen 9] VGC 2025 Reg H",
 		mod: 'gen9',
 		gameType: 'doubles',
 		bestOfDefault: true,
@@ -232,14 +232,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Sub-Legendary', 'Paradox', 'Gouging Fire', 'Iron Boulder', 'Iron Crown', 'Raging Bolt'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg H (Bo3)",
+		name: "[Gen 9] VGC 2025 Reg H (Bo3)",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3'],
 		banlist: ['Sub-Legendary', 'Paradox', 'Gouging Fire', 'Iron Boulder', 'Iron Crown', 'Raging Bolt'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg I",
+		name: "[Gen 9] VGC 2025 Reg I",
 		mod: 'gen9',
 		gameType: 'doubles',
 		bestOfDefault: true,
@@ -247,14 +247,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg I (Bo3)",
+		name: "[Gen 9] VGC 2025 Reg I (Bo3)",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 9', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', 'Limit Two Restricted'],
 		restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg J",
+		name: "[Gen 9] VGC 2025 Reg J",
 		mod: 'gen9',
 		gameType: 'doubles',
 		bestOfDefault: true,
@@ -262,7 +262,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Restricted Legendary', 'Mythical'],
 	},
 	{
-		name: "[MOOD] VGC 2025 Reg J (Bo3)",
+		name: "[Gen 9] VGC 2025 Reg J (Bo3)",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -270,7 +270,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['Restricted Legendary', 'Mythical'],
 	},
 	{
-		name: "[MOOD] Doubles Custom Game",
+		name: "[Gen 9] Doubles Custom Game",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -287,7 +287,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Unofficial Metagames",
 	},
 	{
-		name: "[MOOD] 1v1",
+		name: "[Gen 9] 1v1",
 		desc: `Bring three Pok&eacute;mon to Team Preview and choose one to battle.`,
 		mod: 'gen9',
 		ruleset: [
@@ -304,7 +304,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] 2v2 Doubles",
+		name: "[Gen 9] 2v2 Doubles",
 		desc: `Double battle where you bring four Pok&eacute;mon to Team Preview and choose only two.`,
 		mod: 'gen9',
 		gameType: 'doubles',
@@ -320,14 +320,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Anything Goes",
+		name: "[Gen 9] Anything Goes",
 		mod: 'gen9',
 		ruleset: ['Standard AG'],
 	},
 	{
-		name: "[MOOD] Ubers UU",
+		name: "[Gen 9] Ubers UU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] Ubers'],
+		ruleset: ['[Gen 9] Ubers'],
 		banlist: [
 			// Ubers OU
 			'Arceus-Normal', 'Arceus-Fairy', 'Arceus-Ghost', 'Arceus-Ground', 'Arceus-Water', 'Calyrex-Ice', 'Chien-Pao', 'Deoxys-Attack', 'Deoxys-Speed', 'Ditto',
@@ -338,13 +338,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] ZU",
+		name: "[Gen 9] ZU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] PU'],
+		ruleset: ['[Gen 9] PU'],
 		banlist: ['PU', 'ZUBL', 'Unburden'],
 	},
 	{
-		name: "[MOOD] Free-For-All",
+		name: "[Gen 9] Free-For-All",
 		mod: 'gen9',
 		gameType: 'freeforall',
 		rated: false,
@@ -361,10 +361,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] LC UU",
+		name: "[Gen 9] LC UU",
 		mod: 'gen9',
 		searchShow: false,
-		ruleset: ['[MOOD] LC'],
+		ruleset: ['[Gen 9] LC'],
 		banlist: [
 			'Chinchou', 'Diglett-Alola', 'Elekid', 'Foongus', 'Glimmet', 'Gothita', 'Grookey', 'Growlithe-Hisui', 'Mareanie', 'Mienfoo', 'Mudbray',
 			'Pawniard', 'Sandshrew-Alola', 'Shellder', 'Shellos', 'Shroodle', 'Snubbull', 'Stunky', 'Tinkatink', 'Toedscool', 'Torchic', 'Vullaby',
@@ -374,7 +374,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] NFE",
+		name: "[Gen 9] NFE",
 		desc: `Only Pok&eacute;mon that can evolve are allowed.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -393,7 +393,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Pet Mods",
 	},
 	{
-		name: "[MOOD] Balls Random Battle",
+		name: "[Gen 9] Balls Random Battle",
 		desc: "A random battle format featuring Fakemon based on balls (and guns (don't ask)) from the real world and other media.",
 		mod: 'balls',
 		team: 'randomBLL',
@@ -414,7 +414,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Balls", // for roomtours
+		name: "[Gen 9] Balls", // for roomtours
 		mod: 'balls',
 		searchShow: false,
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Data Preview', 'Sprite Viewer'],
@@ -446,7 +446,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] CCAPM 2024 Random Battle",
+		name: "[Gen 9] CCAPM 2024 Random Battle",
 		desc: "A random battle format featuring Fakemon created during the Community Create-A-Pet Mod event in the Pet Mods room in 2024.",
 		mod: 'ccapm2024',
 		team: 'randomCPM',
@@ -478,14 +478,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 1,
 	},
 	{
-		name: "[MOOD] Draft",
+		name: "[Gen 9] Draft",
 		mod: 'gen9',
 		searchShow: false,
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', 'Min Source Gen = 9'],
 	},
 	{
-		name: "[MOOD] 6v6 Doubles Draft",
+		name: "[Gen 9] 6v6 Doubles Draft",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -493,7 +493,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Draft', '!Sleep Clause Mod', '!Evasion Clause', 'Min Source Gen = 9'],
 	},
 	{
-		name: "[MOOD] 4v4 Doubles Draft",
+		name: "[Gen 9] 4v4 Doubles Draft",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -502,26 +502,26 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard Draft', 'Item Clause = 1', 'VGC Timer', '!Sleep Clause Mod', '!OHKO Clause', '!Evasion Clause', 'Adjust Level = 50', 'Picked Team Size = 4', 'Min Source Gen = 9'],
 	},
 	{
-		name: "[MOOD] NatDex Draft",
+		name: "[Gen 9] NatDex Draft",
 		mod: 'gen9',
 		searchShow: false,
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1'],
 	},
 	{
-		name: "[MOOD] NatDex 6v6 Doubles Draft",
+		name: "[Gen 9] NatDex 6v6 Doubles Draft",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
 		teraPreviewDefault: true,
-		ruleset: ['[MOOD] 6v6 Doubles Draft', '+Unobtainable', '+Past', '!! Min Source Gen = 3'],
+		ruleset: ['[Gen 9] 6v6 Doubles Draft', '+Unobtainable', '+Past', '!! Min Source Gen = 3'],
 	},
 	{
-		name: "[MOOD] NatDex LC Draft",
+		name: "[Gen 9] NatDex LC Draft",
 		mod: 'gen9',
 		searchShow: false,
 		teraPreviewDefault: true,
-		ruleset: ['[MOOD] NatDex Draft', 'Item Clause = 2', 'Little Cup'],
+		ruleset: ['[Gen 9] NatDex Draft', 'Item Clause = 2', 'Little Cup'],
 		banlist: ['Dragon Rage', 'Sonic Boom'],
 	},
 	{
@@ -584,9 +584,27 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "OM of the Month",
 		column: 2,
 	},
-	
 	{
-		name: "[MOOD] Inheritance",
+		name: "[Gen 9] Alphabet Cup",
+		desc: `Allows Pok&eacute;mon to use any move that shares the same first letter as their name or a previous evolution's name.`,
+		mod: 'gen9',
+		// searchShow: false,
+		ruleset: ['Standard OMs', 'Alphabet Cup Move Legality', 'Sleep Moves Clause', 'Terastal Clause'],
+		banlist: [
+			'Annihilape', 'Arceus', 'Baxcalibur', 'Blaziken', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Deoxys-Attack', 'Deoxys-Normal', 'Dialga', 'Dialga-Origin',
+			'Dragapult', 'Dragonite', 'Espathra', 'Eternatus', 'Flutter Mane', 'Giratina', 'Giratina-Origin', 'Gouging Fire', 'Groudon', 'Ho-Oh', 'Iron Bundle', 'Kingambit', 'Koraidon',
+			'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Landorus-Incarnate', 'Lugia', 'Lunala', 'Magearna', 'Mamoswine', 'Meowscarada', 'Mewtwo', 'Miraidon', 'Necrozma-Dawn-Wings',
+			'Necrozma-Dusk-Mane', 'Palafin', 'Palkia', 'Palkia-Origin', 'Rayquaza', 'Reshiram', 'Sceptile', 'Shaymin-Sky', 'Sneasler', 'Solgaleo', 'Spectrier', 'Ursaluna',
+			'Urshifu-Single-Strike', 'Weavile', 'Zacian', 'Zacian-Crowned', 'Zamazenta-Crowned', 'Zekrom', 'Arena Trap', 'Moody', 'Shadow Tag', 'Damp Rock', 'Heat Rock',
+			'King\'s Rock', 'Light Clay', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail',
+		],
+		restricted: [
+			'Belly Drum', 'Ceaseless Edge', 'Clangorous Soul', 'Dire Claw', 'Extreme Speed', 'Fillet Away', 'Glacial Lance', 'Glare', 'Lumina Crash', 'Rage Fist', 'Revival Blessing',
+			'Salt Cure', 'Shell Smash', 'Shift Gear', 'Surging Strikes', 'Tail Glow', 'Triple Arrows',
+		],
+	},
+	{
+		name: "[Gen 9] Inheritance",
 		desc: `Pok&eacute;mon may use the ability and moves of another, as long as they forfeit their own learnset.`,
 		mod: 'gen9',
 		// searchShow: false,
@@ -784,7 +802,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 2,
 	},
 	{
-		name: "[MOOD] Almost Any Ability",
+		name: "[Gen 9] Almost Any Ability",
 		desc: `Pok&eacute;mon have access to almost any ability.`,
 		mod: 'gen9',
 		ruleset: ['Standard OMs', '!Obtainable Abilities', 'Ability Clause = 1', 'Sleep Moves Clause', 'Terastal Clause'],
@@ -800,7 +818,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Balanced Hackmons",
+		name: "[Gen 9] Balanced Hackmons",
 		desc: `Anything directly hackable onto a set (EVs, IVs, forme, ability, item, and move) and is usable in local battles is allowed.`,
 		mod: 'gen9',
 		ruleset: [
@@ -817,7 +835,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Godly Gift",
+		name: "[Gen 9] Godly Gift",
 		desc: `Each Pok&eacute;mon receives one base stat from a God (Restricted Pok&eacute;mon) depending on its position in the team. If there is no restricted Pok&eacute;mon, it uses the Pok&eacute;mon in the first slot.`,
 		mod: 'gen9',
 		ruleset: ['Standard OMs', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Sleep Moves Clause', 'Godly Gift Mod'],
@@ -834,7 +852,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Mix and Mega",
+		name: "[Gen 9] Mix and Mega",
 		desc: `Mega evolve any Pok&eacute;mon with any mega stone, or transform them with Genesect Drives, Primal orbs, Origin orbs, Rusted items, Ogerpon Masks, Arceus Plates, and Silvally Memories with no limit. Mega and Primal boosts based on form changes from gen 7.`,
 		mod: 'mixandmega',
 		ruleset: ['Standard OMs', 'Evasion Items Clause', 'Evasion Abilities Clause', 'Sleep Moves Clause', 'Terastal Clause'],
@@ -902,7 +920,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Shared Power",
+		name: "[Gen 9] Shared Power",
 		desc: `Once a Pok&eacute;mon switches in, its ability is shared with the rest of the team.`,
 		mod: 'sharedpower',
 		ruleset: ['Standard OMs', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Sleep Moves Clause'],
@@ -951,7 +969,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] STABmons",
+		name: "[Gen 9] STABmons",
 		desc: `Pok&eacute;mon can use any move of their typing, in addition to the moves they can normally learn.`,
 		mod: 'gen9',
 		ruleset: ['Standard OMs', 'STABmons Move Legality', 'Sleep Moves Clause', 'Terastal Clause'],
@@ -984,7 +1002,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 2,
 	},
 	{
-		name: "[MOOD] 1-2 Switch",
+		name: "[Gen 9] 1-2 Switch",
 		desc: `Doubles-based metagame where each Pok&eacute;mon takes turns being "active" every few turns.`,
 		mod: 'gen9',
 		gameType: 'doubles',
@@ -1033,7 +1051,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] 350 Cup",
+		name: "[Gen 9] 350 Cup",
 		desc: `Pokemon with a BST of 350 or lower have their stats doubled.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1041,14 +1059,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Calyrex-Shadow', 'Flittle', 'Gastly', 'Miraidon', 'Pikachu', 'Rufflet', 'Arena Trap', 'Moody', 'Shadow Tag', 'Eviolite', 'Baton Pass'],
 	},
 	{
-		name: "[MOOD] Bad 'n Boosted",
+		name: "[Gen 9] Bad 'n Boosted",
 		desc: `All base stats of 70 and lower are doubled.`,
 		searchShow: false,
 		ruleset: ['Standard', 'Bad \'n Boosted Mod', 'Sleep Moves Clause', '!Sleep Clause Mod'],
 		banlist: ['AG', 'Araquanid', 'Cyclizar', 'Espathra', 'Espeon', 'Polteageist', 'Huge Power', 'Moody', 'Pure Power', 'Shadow Tag', 'Eviolite', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects'],
 	},
 	{
-		name: "[MOOD] Battlefields",
+		name: "[Gen 9] Battlefields",
 		desc: `Any field condition with a set duration becomes permanent once triggered unless directly replaced, removed, or reversed. Namely, this impacts screens, weathers, terrains, room effects, gravity, and side conditions like Tailwind and Safeguard.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1075,7 +1093,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Camomons",
+		name: "[Gen 9] Camomons",
 		desc: `Pok&eacute;mon have their types set to match their first two moves.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1090,7 +1108,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Category Swap",
+		name: "[Gen 9] Category Swap",
 		desc: `All Special moves become Physical, and all Physical moves become Special.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1104,7 +1122,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Convergence",
+		name: "[Gen 9] Convergence",
 		desc: `Allows all Pok&eacute;mon that have identical types to share moves and abilities.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1121,7 +1139,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Cross Evolution",
+		name: "[Gen 9] Cross Evolution",
 		desc: `Give a Pok&eacute;mon a Pok&eacute;mon name of the next evolution stage as a nickname to inherit stat changes, typing, abilities, and moves from the next stage Pok&eacute;mon.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1249,7 +1267,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Fervent Impersonation",
+		name: "[Gen 9] Fervent Impersonation",
 		desc: `Nickname a Pok&eacute;mon after another Pok&eacute;mon that it shares a moveset with, and it will transform into the Pok&eacute;mon it's nicknamed after once it drops to or below 50% health.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1264,7 +1282,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		// Implemented the mechanics as a Rule because I'm too lazy to make battles read base format for `onResidual` at the moment
 	},
 	{
-		name: "[MOOD] Foresighters",
+		name: "[Gen 9] Foresighters",
 		desc: `Moves in the first moveslot will be delayed by two turns.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1311,7 +1329,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Formemons",
+		name: "[Gen 9] Formemons",
 		desc: `Alternate formes of existing Pokemon can be used directly without required items/moves.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1326,7 +1344,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Fortemons",
+		name: "[Gen 9] Fortemons",
 		desc: `Put an attacking move in the item slot to have all of a Pok&eacute;mon's attacks inherit its properties.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1510,7 +1528,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Frantic Fusions",
+		name: "[Gen 9] Frantic Fusions",
 		desc: `Pok&eacute;mon nicknamed after another Pok&eacute;mon get their stats buffed by 1/4 of that Pok&eacute;mon's stats, barring HP, and access to one of their abilities.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1528,7 +1546,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Full Potential",
+		name: "[Gen 9] Full Potential",
 		desc: `Pok&eacute;mon's moves hit off of their highest stat, except HP.`,
 		mod: 'fullpotential',
 		searchShow: false,
@@ -1544,7 +1562,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Inverse",
+		name: "[Gen 9] Inverse",
 		desc: `The type chart is inverted; weaknesses become resistances, while resistances and immunities become weaknesses.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1558,7 +1576,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Nature Swap",
+		name: "[Gen 9] Nature Swap",
 		desc: `Pok&eacute;mon have their stats swapped around based on their nature. A Pok&eacute;mon with a Modest nature will have its Atk and Sp. Atk stats swap.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -1613,7 +1631,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Partners in Crime",
+		name: "[Gen 9] Partners in Crime",
 		desc: `Doubles-based metagame where both active ally Pok&eacute;mon share abilities and moves.`,
 		mod: 'partnersincrime',
 		gameType: 'doubles',
@@ -1682,7 +1700,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Passive Aggressive",
+		name: "[Gen 9] Passive Aggressive",
 		desc: `All forms of passive damage deal type-based damage based on the primary type of the Pok&eacute;mon that inflicted the passive damage against the target Pok&eacute;mon.`,
 		mod: 'passiveaggressive',
 		searchShow: false,
@@ -1696,7 +1714,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Pokebilities",
+		name: "[Gen 9] Pokebilities",
 		desc: `Pok&eacute;mon have all of their released abilities simultaneously.`,
 		mod: 'pokebilities',
 		searchShow: false,
@@ -1763,7 +1781,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Pokemoves",
+		name: "[Gen 9] Pokemoves",
 		desc: `Put a Pok&eacute;mon's name in a moveslot to turn them into a move. The move has 8 PP, 100% accuracy, and a category and Base Power matching their highest attacking stat. Use /pokemove for more info.`,
 		mod: 'pokemoves',
 		searchShow: false,
@@ -1896,14 +1914,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Pure Hackmons",
+		name: "[Gen 9] Pure Hackmons",
 		desc: `Anything directly hackable onto a set (EVs, IVs, forme, ability, item, and move) and is usable in local battles is allowed.`,
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Hackmons Forme Legality', 'Species Reveal Clause', 'Endless Battle Clause'],
 	},
 	{
-		name: "[MOOD] Relay Race",
+		name: "[Gen 9] Relay Race",
 		desc: `The effects of the move Baton Pass are triggered upon manually withdrawing a Pok&eacute;mon from battle.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2022,7 +2040,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Revelationmons",
+		name: "[Gen 9] Revelationmons",
 		desc: `The moves in the first slot(s) of a Pok&eacute;mon's set have their types changed to match the Pok&eacute;mon's type(s).`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2038,7 +2056,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		restricted: ['U-turn', 'Volt Switch'],
 	},
 	{
-		name: "[MOOD] Sharing is Caring",
+		name: "[Gen 9] Sharing is Caring",
 		desc: `All Pok&eacute;mon on a team share their items.`,
 		mod: 'sharingiscaring',
 		searchShow: false,
@@ -2077,7 +2095,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Tera Donation",
+		name: "[Gen 9] Tera Donation",
 		desc: `The first Pok&eacute;mon sent out immediately terastallizes. The other Pok&eacute;mon in the party inherit that Tera Type as an additional type.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2278,7 +2296,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] The Card Game",
+		name: "[Gen 9] The Card Game",
 		desc: `The type chart is simplified based off of the Pok&eacute;mon Trading Card Game.`,
 		mod: 'thecardgame',
 		searchShow: false,
@@ -2317,7 +2335,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] The Loser's Game",
+		name: "[Gen 9] The Loser's Game",
 		desc: `The first player to lose all of their Pok&eacute;mon wins.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2399,7 +2417,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Tier Shift",
+		name: "[Gen 9] Tier Shift",
 		desc: `Pok&eacute;mon below OU get their stats, excluding HP, boosted. UU/RUBL get +15, RU/NUBL get +20, NU/PUBL get +25, and PU or lower get +30.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2411,7 +2429,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		unbanlist: ['Arceus-Bug', 'Arceus-Grass', 'Arceus-Ice'],
 	},
 	{
-		name: "[MOOD] Trademarked",
+		name: "[Gen 9] Trademarked",
 		desc: `Sacrifice your Pok&eacute;mon's ability for a status move that activates on switch-in.`,
 		mod: 'trademarked',
 		searchShow: false,
@@ -2480,7 +2498,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Triples",
+		name: "[Gen 9] Triples",
 		mod: 'gen9',
 		gameType: 'triples',
 		searchShow: false,
@@ -2493,7 +2511,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Type Split",
+		name: "[Gen 9] Type Split",
 		desc: `The Physical/Special split is reverted; All non-Status moves are Physical or Special depending on their type, no exceptions.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2533,7 +2551,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "National Dex",
 	},
 	{
-		name: "[MOOD] National Dex",
+		name: "[Gen 9] National Dex",
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', 'Terastal Clause'],
 		banlist: [
@@ -2554,7 +2572,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "National Dex Other Tiers",
 	},
 	{
-		name: "[MOOD] National Dex 35 Pokes",
+		name: "[Gen 9] National Dex 35 Pokes",
 		desc: `Only 35 Pok&eacute;mon are legal.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2588,26 +2606,26 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] National Dex Ubers",
+		name: "[Gen 9] National Dex Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause', 'Mega Rayquaza Clause'],
 		banlist: ['ND AG', 'Shedinja', 'Assist', 'Baton Pass','Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
-		name: "[MOOD] National Dex UU",
+		name: "[Gen 9] National Dex UU",
 		mod: 'gen9',
-		ruleset: ['[MOOD] National Dex'],
+		ruleset: ['[Gen 9] National Dex'],
 		banlist: ['ND OU', 'ND UUBL', 'Drizzle', 'Drought', 'Light Clay'],
 	},
 	{
-		name: "[MOOD] National Dex RU",
+		name: "[Gen 9] National Dex RU",
 		mod: 'gen9',
 		searchShow: false,
-		ruleset: ['[MOOD] National Dex UU'],
+		ruleset: ['[Gen 9] National Dex UU'],
 		banlist: ['ND UU', 'ND RUBL', 'Slowbro-Base + Slowbronite'],
 	},
 	{
-		name: "[MOOD] National Dex LC",
+		name: "[Gen 9] National Dex LC",
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Standard NatDex', 'Little Cup'],
@@ -2619,7 +2637,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex Monotype",
+		name: "[Gen 9] National Dex Monotype",
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', 'Same Type Clause', 'Terastal Clause'],
 		banlist: [
@@ -2635,7 +2653,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex Doubles",
+		name: "[Gen 9] National Dex Doubles",
 		mod: 'gen9',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'NatDex Mod', 'Evasion Abilities Clause'],
@@ -2648,7 +2666,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex Doubles Ubers",
+		name: "[Gen 9] National Dex Doubles Ubers",
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
@@ -2656,10 +2674,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Shedinja', 'Assist'],
 	},
 	{
-		name: "[MOOD] National Dex Ubers UU",
+		name: "[Gen 9] National Dex Ubers UU",
 		mod: 'gen9',
 		// searchShow: false,
-		ruleset: ['[MOOD] National Dex Ubers'],
+		ruleset: ['[Gen 9] National Dex Ubers'],
 		banlist: [
 			'Arceus-Normal', 'Arceus-Dark', 'Arceus-Ground', 'Calyrex-Ice', 'Deoxys-Attack', 'Deoxys-Speed', 'Dondozo', 'Eternatus', 'Giratina-Origin', 'Groudon-Primal', 'Ho-Oh', 'Kyogre-Primal',
 			'Lunala', 'Marshadow', 'Melmetal', 'Mewtwo-Mega-Y', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Salamence-Mega', 'Smeargle', 'Terapagos', 'Yveltal', 'Zacian-Crowned', 'Zygarde-50%',
@@ -2669,7 +2687,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex 1v1",
+		name: "[Gen 9] National Dex 1v1",
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Standard AG', 'NatDex Mod', 'Nickname Clause', 'Evasion Moves Clause', 'OHKO Clause', 'Species Clause', 'Sleep Moves Clause', 'Terastal Clause', 'Accuracy Moves Clause', 'Picked Team Size = 1', 'Max Team Size = 3'],
@@ -2682,13 +2700,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex AG",
+		name: "[Gen 9] National Dex AG",
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Standard AG', 'NatDex Mod'],
 	},
 	{
-		name: "[MOOD] National Dex AAA",
+		name: "[Gen 9] National Dex AAA",
 		desc: `Pok&eacute;mon have access to almost any ability.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2705,7 +2723,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex BH",
+		name: "[Gen 9] National Dex BH",
 		desc: `Balanced Hackmons with National Dex elements mixed in.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2739,7 +2757,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] National Dex Godly Gift",
+		name: "[Gen 9] National Dex Godly Gift",
 		desc: `Each Pok&eacute;mon receives one base stat from a God (Restricted Pok&eacute;mon) depending on its position in the team. If there is no restricted Pok&eacute;mon, it uses the Pok&eacute;mon in the first slot.`,
 		mod: 'gen9',
 		searchShow: false,
@@ -2758,7 +2776,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] National Dex STABmons",
+		name: "[Gen 9] National Dex STABmons",
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Standard NatDex', 'STABmons Move Legality', '!Sleep Clause Mod', 'Sleep Moves Clause', 'Terastal Clause'],
@@ -2835,12 +2853,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 3,
 	},
 	{
-		name: "[MOOD] Random Battle (Hyperblitz, Auto Choose)",
-		desc: `[MOOD] Random Battle (Blitz), but even faster! If a player runs out of time on a turn, the first available option is automatically selected.`,
+		name: "[Gen 9] Random Battle (Hyperblitz, Auto Choose)",
+		desc: `[Gen 9] Random Battle (Blitz), but even faster! If a player runs out of time on a turn, the first available option is automatically selected.`,
 		mod: 'gen9',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['[MOOD] Random Battle (Blitz)', '!! Timer Starting = 900', '!! Timer Add Per Turn = 10', '!! Timer Max Per Turn = 10', 'Timeout Auto Choose'],
+		ruleset: ['[Gen 9] Random Battle (Blitz)', '!! Timer Starting = 900', '!! Timer Add Per Turn = 10', '!! Timer Max Per Turn = 10', 'Timeout Auto Choose'],
 	},
 
 	// Randomized Metas
@@ -2851,18 +2869,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		column: 3,
 	},
 	{
-		name: "[MOOD] Random Roulette",
-		desc: `Random Battles in a random generation! [Gen 1] Random Battle - [MOOD] Random Battle.`,
+		name: "[Gen 9] Random Roulette",
+		desc: `Random Battles in a random generation! [Gen 1] Random Battle - [Gen 9] Random Battle.`,
 		mod: 'randomroulette',
 		team: 'random',
 		bestOfDefault: true,
 	},
 	{
-		name: "[MOOD] Monkey's Paw Random Battle",
+		name: "[Gen 9] Monkey's Paw Random Battle",
 		desc: `Every Pokemon can wish for something with the Monkey's Paw once.`,
 		mod: 'monkeyspaw',
 		team: 'random',
-		ruleset: ['[MOOD] Random Battle'],
+		ruleset: ['[Gen 9] Random Battle'],
 		onBegin() {
 			for (const side of this.sides) {
 				// @ts-expect-error I hate references with all of my life force
@@ -2902,7 +2920,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Super Staff Bros Ultimate",
+		name: "[Gen 9] Super Staff Bros Ultimate",
 		desc: "The fifth iteration of Super Staff Bros is here! Battle with a random team of pokemon created by the sim staff.",
 		mod: 'gen9ssb',
 		debug: true,
@@ -2954,19 +2972,19 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Monotype Random Battle",
+		name: "[Gen 9] Monotype Random Battle",
 		mod: 'gen9',
 		team: 'random',
 		bestOfDefault: true,
 		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "[MOOD] Random Battle (Shared Power, B12P6)",
-		desc: `[MOOD] Random Battle with Team Preview, Bring 12 Pick 6, and Shared Power.`,
+		name: "[Gen 9] Random Battle (Shared Power, B12P6)",
+		desc: `[Gen 9] Random Battle with Team Preview, Bring 12 Pick 6, and Shared Power.`,
 		mod: 'sharedpower',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['[MOOD] Random Battle', 'Team Preview', 'Max Team Size = 12', 'Picked Team Size = 6'],
+		ruleset: ['[Gen 9] Random Battle', 'Team Preview', 'Max Team Size = 12', 'Picked Team Size = 6'],
 		onValidateRule() {
 			if (this.format.gameType !== 'singles') {
 				throw new Error(`Shared Power currently does not support ${this.format.gameType} battles.`);
@@ -2984,12 +3002,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Random Battle Mayhem",
-		desc: `[MOOD] Random Battle with Team Preview and elements of Camomons, Inverse, Scalemons, and Shared Power.`,
+		name: "[Gen 9] Random Battle Mayhem",
+		desc: `[Gen 9] Random Battle with Team Preview and elements of Camomons, Inverse, Scalemons, and Shared Power.`,
 		mod: 'sharedpower',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['[MOOD] Random Battle', 'Team Preview', 'Camomons Mod', 'Inverse Mod', 'Scalemons Mod'],
+		ruleset: ['[Gen 9] Random Battle', 'Team Preview', 'Camomons Mod', 'Inverse Mod', 'Scalemons Mod'],
 		onValidateRule() {
 			if (this.format.gameType !== 'singles') {
 				throw new Error(`Shared Power currently does not support ${this.format.gameType} battles.`);
@@ -3007,7 +3025,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Battle Factory",
+		name: "[Gen 9] Battle Factory",
 		desc: `Randomized teams of Pok&eacute;mon for a generated Smogon tier with sets that are competitively viable.`,
 		mod: 'gen9',
 		team: 'randomFactory',
@@ -3018,7 +3036,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] BSS Factory",
+		name: "[Gen 9] BSS Factory",
 		desc: `Randomized 3v3 Singles featuring Pok&eacute;mon and movesets popular in Battle Stadium Singles.`,
 		mod: 'gen9',
 		team: 'randomBSSFactory',
@@ -3027,7 +3045,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		
 	},
 	{
-		name: "[MOOD] Draft Factory",
+		name: "[Gen 9] Draft Factory",
 		desc: `Randomized matchups sourced from various 6v6 singles draft leagues.`,
 		mod: 'gen9',
 		team: 'randomDraftFactory',
@@ -3059,14 +3077,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[MOOD] Baby Random Battle",
+		name: "[Gen 9] Baby Random Battle",
 		mod: 'gen9',
 		team: 'randomBaby',
 		bestOfDefault: true,
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "[MOOD] Computer-Generated Teams",
+		name: "[Gen 9] Computer-Generated Teams",
 		desc: `Teams generated automatically based on heuristics (rules), with levels based on previous success/failure in battle. ` +
 			`Not affiliated with Random Battles formats. Some sets will by nature be worse than others, but you can report egregiously bad sets ` +
 			`with <a href="https://forms.gle/DYwQN5qGVegz3YU38">this form</a>.`,
@@ -3076,7 +3094,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
-		name: "[MOOD] Hackmons Cup",
+		name: "[Gen 9] Hackmons Cup",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
 		mod: 'gen9',
 		team: 'randomHC',
@@ -3085,18 +3103,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['CAP', 'LGPE', 'MissingNo.', 'Pikachu-Cosplay', 'Pichu-Spiky-eared', 'Pokestar Smeargle', 'Pokestar UFO', 'Pokestar UFO-2', 'Pokestar Brycen-Man', 'Pokestar MT', 'Pokestar MT2', 'Pokestar Transport', 'Pokestar Giant', 'Pokestar Humanoid', 'Pokestar Monster', 'Pokestar F-00', 'Pokestar F-002', 'Pokestar Spirit', 'Pokestar Black Door', 'Pokestar White Door', 'Pokestar Black Belt', 'Pokestar UFO-PropU2', 'Xerneas-Neutral'],
 	},
 	{
-		name: "[MOOD] Doubles Hackmons Cup",
+		name: "[Gen 9] Doubles Hackmons Cup",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item. Now with TWICE the Pok&eacute;mon per side!`,
 		mod: 'gen9',
 		team: 'randomHC',
 		searchShow: false,
 		bestOfDefault: true,
 		gameType: 'doubles',
-		ruleset: ['[MOOD] Hackmons Cup'],
+		ruleset: ['[Gen 9] Hackmons Cup'],
 	},
 	{
-		name: "[MOOD] Broken Cup",
-		desc: `[MOOD] Hackmons Cup but with only the most powerful Pok&eacute;mon, moves, abilities, and items.`,
+		name: "[Gen 9] Broken Cup",
+		desc: `[Gen 9] Hackmons Cup but with only the most powerful Pok&eacute;mon, moves, abilities, and items.`,
 
 		team: 'randomHC',
 		bestOfDefault: true,
@@ -3209,7 +3227,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 	},
 	{
-		name: "[MOOD] Challenge Cup 1v1",
+		name: "[Gen 9] Challenge Cup 1v1",
 		desc: `Get a randomized team of level-balanced Pok&eacute;mon with absolutely any legal ability, moves, and item, and choose one to battle.`,
 		mod: 'gen9',
 		team: 'randomCC',
@@ -3217,7 +3235,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Terastal Clause', 'Picked Team Size = 1'],
 	},
 	{
-		name: "[MOOD] Challenge Cup 2v2",
+		name: "[Gen 9] Challenge Cup 2v2",
 		desc: `Get a randomized team of level-balanced Pok&eacute;mon with absolutely any legal ability, moves, and item, and choose two to battle in a doubles format.`,
 		mod: 'gen9',
 		team: 'randomCC',
@@ -3226,7 +3244,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Team Preview', 'Picked Team Size = 2'],
 	},
 	{
-		name: "[MOOD] Challenge Cup 6v6",
+		name: "[Gen 9] Challenge Cup 6v6",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any legal ability, moves, and item.`,
 		mod: 'gen9',
 		team: 'randomCC',
@@ -3235,7 +3253,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 	{
-		name: "[MOOD] Metronome Battle",
+		name: "[Gen 9] Metronome Battle",
 		mod: 'gen9',
 		gameType: 'doubles',
 		bestOfDefault: true,
