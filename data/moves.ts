@@ -15758,8 +15758,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	rockclimb: {
 		num: 431,
-		accuracy: 85,
-		basePower: 90,
+		accuracy: 100,
+		basePower: 85,
 		category: "Physical",
 		
 		name: "Rock Climb",
@@ -22485,7 +22485,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Stardust Storm",
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1 },
+		flags: { protect: 1, mirror: 1, metronome : 1 },
 		self: {
 			boosts: {
 				spa: -1,
@@ -22495,5 +22495,31 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Rock",
 		contestType: "Beautiful",
+	},
+	beautemps: {
+		num: -1002,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Beau Temps",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		priorityChargeCallback(source) {
+			source.addVolatile('beautemps');
+		},
+		weather: 'sunnyday',
+		selfSwitch: true,
+		secondary: null,
+		condition: {
+			duration: 1,
+			onBeforeMovePriority: 100,
+			onBeforeMove(source, target, move) {
+				if (move.id !== 'beautemps') return;
+				this.add('-prepare', source, 'Beau Temps', '[premajor]');
+			},
+		},
+		target: "all",
+		type: "Fire",
 	},
 };
