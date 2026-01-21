@@ -1,6 +1,6 @@
 {
   "celestial": {
-      "weight": 3,
+      "weight": 1,
       "sets": [
           {
               "species": "Celestial",
@@ -80,7 +80,7 @@
       ]
   },
   "gardilisk": {
-      "weight": 10,
+      "weight": 5,
       "sets": [
           {
               "species": "Gardilisk",
@@ -88,14 +88,14 @@
               "moves": [
                   ["Dragon Blade"],
                   ["Outrage","Dragon Claw","Dragon Tail"],
-                  ["Sacred Sword", "Brick Break"],
+                  ["Sacred Sword"],
                   ["Quick Slice"]
               ],
               "item": ["Assault Vest","Life Orb","Leftovers","Rocky Helmet","Choice Scarf","Choice Band"],
               "nature": "Adamant",
               "evs": {"hp": 248, "atk": 252, "spd": 8},
               "teraType": ["Normal"],
-              "ability": ["Sharpness","Hyper Cutter"]
+              "ability": ["Sharpness"]
           },
           {
               "species": "Gardilisk",
@@ -103,14 +103,14 @@
               "moves": [
                   ["Dragon Blade"],
                   ["Dragon Claw","Outrage"],
-                  ["Sacred Sword", "Brick Break"],
+                  ["Sacred Sword"],
                   ["Autotomize","Swords Dance","Quick Slice"]
               ],
               "item": ["Life Orb","Leftovers","Rocky Helmet"],
               "nature": "Adamant",
               "evs": {"atk": 248, "spe": 252, "def": 8},
               "teraType": ["Normal"],
-              "ability": ["Sharpness","Hyper Cutter"]
+              "ability": ["Sharpness"]
           },
           {
               "species": "Gardilisk",
@@ -125,12 +125,12 @@
               "nature": "Jolly",
               "evs": {"atk": 248, "spe": 252, "def": 8},
               "teraType": ["Normal"],
-              "ability": ["Sharpness","Hyper Cutter"]
+              "ability": ["Sharpness"]
           }
       ]
   },
   "cockalypse": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Cockalypse",
@@ -138,7 +138,7 @@
               "moves": [
                   ["Bolt Beak"],
                   ["Outrage", "Dragon Claw"],
-                  ["Earthquake","Superpower"],
+                  ["Earthquake","Superpower","Brave Bird"],
                   ["Volt Switch"]
               ],
               "item": ["Choice Scarf"],
@@ -166,7 +166,7 @@
               "species": "Cockalypse",
               "weight": 20,
               "moves": [
-                  ["Tailwind","Thunder Wave"],
+                  ["Thunder Wave","Defog"],
                   ["Dragon Tail","Dragon Pulse"],
                   ["Roost"],
                   ["Volt Switch"]
@@ -180,7 +180,7 @@
       ]
   },
   "puyotan": {
-      "weight": 10,
+      "weight": 5,
       "sets": [
           {
               "species": "Puyotan",
@@ -196,41 +196,11 @@
               "evs": {"hp": 252, "spd": 4, "spe": 252},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Imposter"]
-          },
-          {
-              "species": "Puyotan",
-                "weight": 1,
-                "moves": [
-                    ["Pain Split"],
-                    ["Dragon Tail", "Haze"],
-                    ["Knock Off", "Encore"],
-                    ["U-turn" ]
-                ],
-                "item": ["Flame Orb"],
-                "nature": "Impish",
-                "evs": {"def": 252, "hp": 252 , "spd": 4 },
-                "teraType": ["Steel"],
-                "ability": ["Marvel Scale"]
-          },
-          {
-               "species": "Puyotan",
-                "weight": 1,
-                "moves": [
-                    ["Imprison"],
-                    ["Transform"],
-                    ["Whirlpool"],
-                    ["U-turn" ]
-                ],
-                "item": ["Sitrus Berry", "Leftovers", "Red Card"],
-                "nature": "Jolly",
-                "evs": {"spe": 252, "def": 252 , "spd": 4 },
-                "teraType": ["Steel"],
-                "ability": ["Marvel Scale", "Berserk"]
           }
       ]
   },
   "terrakami": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Terrakami",
@@ -281,21 +251,6 @@
               "species": "Terrakami",
               "weight": 20,
               "moves": [
-                  ["Dragon Tail"],
-                  ["Stealth Rock"],
-                  ["Earthquake","Land's Wrath"],
-                  ["Spikes"]
-              ],
-              "item": ["Rocky Helmet"],
-              "nature": "Adamant",
-              "evs": {"hp": 248, "spd": 252, "def": 8},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Earth Eater"]
-          },
-          {
-              "species": "Terrakami",
-              "weight": 20,
-              "moves": [
                   ["Outrage","Dragon Claw"],
                   ["U-Turn"],
                   ["Earthquake","Land's Wrath"],
@@ -310,14 +265,14 @@
       ]
   },
   "glaugoon": {
-      "weight": 70,
+      "weight": 25,
       "sets": [
           {
               "species": "Glaugoon",
               "weight": 20,
               "moves": [
                   ["Drache Toxic"],
-                  ["Sludge Wave","Draco Meteor"],
+                  ["Draco Meteor","Dragon Pulse"],
                   ["Reflect","Light Screen"],
                   ["Flip Turn"]
               ],
@@ -347,7 +302,7 @@
               "weight": 20,
               "moves": [
                   ["Drache Toxic"],
-                  ["Sludge Wave","Focus Blast","Ice Beam"],
+                  ["Focus Blast"],
                   ["Dragon Pulse","Draco Meteor"],
                   ["Flip Turn"]
               ],
@@ -355,28 +310,13 @@
               "nature": "Timid",
               "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Fairy", "Grass"],
-              "ability": ["Gooey","Poison Point"]
-          },
-          {
-              "species": "Glaugoon",
-              "weight": 20,
-              "moves": [
-                  ["agility"],
-                  ["Sludge Wave","Sludge Bomb"],
-                  ["Dragon Pulse","Draco Meteor"],
-                  ["Focus Blast"]
-              ],
-              "item": ["Life Orb","Expert Belt"],
-              "nature": "Timid",
-              "evs": {"spa": 252, "spe": 252, "def": 4},
-              "teraType": ["Fairy", "Grass"],
-              "ability": ["Gooey","Poison Point"]
+              "ability": ["Gooey"]
           }
       ]
   },
 
   "gyaoon": {
-      "weight": 70,
+      "weight": 35,
       "sets": [
         {
             "species": "Gyaoon",
@@ -399,11 +339,11 @@
             "moves": [
                 ["Shed Tail"],
                 ["Body Slam"],
-                ["Slack Off","Dragon Claw"],
-                ["Knock Off","Thunder Wave"]
+                ["Slack Off"],
+                ["Knock Off"]
             ],
             "item": ["Leftovers","Sitrus Berry"],
-            "nature": "Carfeul",
+            "nature": "Careful",
             "evs": {"hp": 252, "spd": 252, "atk": 4},
             "teraType": ["Fairy", "Ghost"],
             "ability": ["Unaware"]
@@ -426,16 +366,16 @@
       ]
   },
     "invocamon": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Invocamon",
             "weight": 20,
-            "moves": [
+            "moves": [      
                 ["Dragon Rush,","Draco Meteor"],
-                ["Dual Wingbeat","Aeroblast"],
+                ["Aeroblast"],
                 ["Blizzard","Thunder"],
-                ["Fire Blast","Earthquake"]
+                ["Fire Blast"]
             ],
             "item": ["Life Orb","Expert Belt","Choice Scarf"],
             "nature": "Timid",
@@ -452,7 +392,7 @@
                 ["Iron Head"],
                 ["Earthquake"]
             ],
-            "item": ["Life Orb","Expert Belt","Choice Scarf","Choice Band"],
+            "item": ["Life Orb","Expert Belt","Choice Scarf","Choice Band","Lum Berry"],
             "nature": "Jolly",
             "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
             "teraType": ["Fairy"],
@@ -464,10 +404,10 @@
             "moves": [
                 ["Dragon Rush","Draco Meteor"],
                 ["Aeroblast"],
-                ["Earthquake"],
-                ["Fire Blast","Iron Head"]
+                ["Earthquake","Fire Blast"],
+                ["Iron Head"]
             ],
-            "item": ["Life Orb","Expert Belt","Lum Berry"],
+            "item": ["Life Orb","Expert Belt"],
             "nature": "Timid",
             "evs": {"atk": 4 , "spa": 252 , "spe": 252 },
             "teraType": ["Fairy"],
@@ -480,25 +420,10 @@
                 ["Dragon Rush"],
                 ["Dragon Dance"],
                 ["Iron Head"],
-                ["Earthquake"]
+                ["Earthquake","Fire Blast"]
             ],
             "item": ["Life Orb","Expert Belt","Heavy-Duty Boots"],
             "nature": "Jolly",
-            "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["No Guard"]
-        },
-        {
-            "species": "Invocamon",
-            "weight": 20,
-            "moves": [
-                ["Dragon Rush"],
-                ["Dragon Dance"],
-                ["Iron Head"],
-                ["Sky Attack"]
-            ],
-            "item": ["Power Herb"],
-            "nature": "Adament",
             "evs": {"spa": 4 , "atk": 252 , "spe": 252 },
             "teraType": ["Fairy"],
             "ability": ["No Guard"]
@@ -506,7 +431,7 @@
       ]
     },
     "melodrame": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Melodrame",
@@ -525,27 +450,12 @@
         },
         {
             "species": "Melodrame",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Boomburst"],
-                ["Dark Pulse","Snarl"],
-                ["Focus Energy"],
-                ["Overdrive", "Alluring Voice"]
-            ],
-            "item": ["Leek"],
-            "nature": "Timid",
-            "evs": {"spa": 252 , "spe": 252, "spd": 4},
-            "teraType": ["Normal"],
-            "ability": ["Punk Rock"]
-        },
-        {
-            "species": "Melodrame",
-            "weight": 10,
-            "moves": [
-                ["Boomburst"],
-                ["Dark Pulse", "Alluring Voice"],
+                ["Dark Pulse", "Snarl"],
                 ["Switcheroo"],
-                ["Healing Wish"]
+                ["Healing Wish","Alluring Voice"]
             ],
             "item": ["Choice Scarf"],
             "nature": "Timid",
@@ -555,7 +465,7 @@
         },
         {
             "species": "Melodrame",
-            "weight": 10,
+            "weight": 20,
             "moves": [
                 ["Boomburst"],
                 ["Snarl", "Dark Pulse"],
@@ -571,137 +481,63 @@
       ]
     },
     "mandelman": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Mandelman",
             "weight": 20,
             "moves": [
-                ["Nasty Plot"],
-                ["Destiny Bond"],
-                ["Disable","Parting Shot"],
-                ["Baddy Bad"]
-            ],
-            "item": ["Light Clay"],
-            "nature": "Bold",
-            "evs": {"hp": 252, "spe":252 , "spd": 4},
-            "teraType": ["Fairy"],
-            "ability": ["Intimidate","Shadow Tag"]
-        },
-        {
-            "species": "Mandelman",
-            "weight": 20,
-            "moves": [
-                ["Nasty Plot"],
-                ["Destiny Bond"],
-                ["Disable","Parting Shot"],
-                ["Baddy Bad"]
-            ],
-            "item": ["Light Clay"],
-            "nature": "Bold",
-            "evs": {"hp": 252, "def":252 , "spd": 4},
-            "teraType": ["Fairy"],
-            "ability": ["Intimidate","Shadow Tag"]
-        },
-        {
-            "species": "Mandelman",
-            "weight": 20,
-            "moves": [
                 ["Lovely Kiss"],
-                ["Brick Break"],
-                ["Knock Off","Pursuit"],
+                ["Brick Break","Parting Shot"],
+                ["Knock Off","Pursuit","Sucker Punch"],
                 ["Baddy Bad"]
             ],
             "item": ["Light Clay","Focus Sash"],
             "nature": "Bold",
             "evs": {"spa": 252, "spe":252 , "spd": 4},
             "teraType": ["Fairy"],
-            "ability": ["Bad Dreams","Shadow Tag"]
-        },
-        {
-            "species": "Mandelman",
-            "weight": 5,
-            "moves": [
-                ["Night Shade"],
-                ["Sucker Punch"],
-                ["Destiny Bond"],
-                ["Taunt"]
-            ],
-            "item": ["Focus Sash"],
-            "nature": "Timid",
-            "evs": {"hp": 252, "spe":252 , "spd": 4},
-            "teraType": ["Fairy"],
-            "ability": ["Shadow Tag"]
+            "ability": ["Bad Dreams","Intimidate"]
         }
       ]
     },
     "achaethena": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
+
         {
             "species": "Achaethena",
             "weight": 20,
             "moves": [
-                ["Close Combat", "Superpower","Drain Punch"],
-                ["Mach Punch"],
-                ["Poison Jab", "Taunt", "Strength Sap", "Spirit Break", "Leech Life","Ice Punch"],
-                ["Knock Off", "Pursuit", "Succuby Kiss" ]
-            ],
-            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Jolly",
-            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Vampire", "Levitate", "Merciless"]
-        },
-        {
-            "species": "Achaethena",
-            "weight": 20,
-            "moves": [
-                ["Close Combat", "Superpower","Drain Punch"],
-                ["Mach Punch"],
-                ["Poison Jab", "Taunt"],
-                ["Knock Off", "Pursuit", "Succuby Kiss" ]
-            ],
-            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Adamant",
-            "evs": {"spe": 252, "atk": 252 , "spd": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Vampire", "Levitate", "Merciless"]
-        },
-        {
-            "species": "Achaethena",
-            "weight": 5,
-            "moves": [
-                ["Calm Mind", "Nasty Plot"],
-                ["Draining Kiss", "Alluring Voice", "Soul Blast"],
-                ["Aura Sphere", "Vacuum Wave"],
-                ["Dark Pulse"]
-            ],
-            "item": ["Focus Sash", "Life Orb", "Expert Belt"],
-            "nature": "Modest",
-            "evs": { "spa": 252 , "spe": 252, "spd": 4},
-            "teraType": ["Fairy"],
-            "ability": ["Levitate", "Vampire"]
-        },
-        {
-            "species": "Achaethena",
-            "weight": 20,
-            "moves": [
-                ["Close Combat", "Superpower","Drain Punch"],
-                ["Mach Punch"],
+                ["Close Combat", "Superpower","Axe Kick"],
+                ["Mach Punch","Sucker Punch"],
                 ["Poison Jab","Parting Shot"],
-                ["Knock Off", "Pursuit", "Succuby Kiss" ]
+                ["Knock Off", "Pursuit"]
             ],
-            "item": ["Choice Scarf"],
+            "item": ["Choice Scarf","Focus Sash","Heavy-Duty Boots","Life Orb"],
             "nature": "Jolly",
             "evs": {"spe": 252, "atk": 252 , "spd": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Vampire", "Levitate"]
+            "ability": ["Levitate"]
+        },
+        {
+            "species": "Achaethena",
+            "weight": 20,
+            "moves": [
+                ["Soul Blast"],
+                ["Aura Sphere","Focus Blast"],
+                ["Knock Off","Pursuit"],
+                ["Vacuum Wave"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Hasty",
+            "evs": {"spe": 252, "spa": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Levitate"]
         }
       ]
     },
     "hierocculte": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Hierocculte",
@@ -721,7 +557,7 @@
       ]
     },
     "mossemeros": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Mossemeros",
@@ -742,16 +578,16 @@
             "species": "Mossemeros",
             "weight": 20,
             "moves": [
-                ["Body Press"],
+                ["Body Press","Earthquake","Stone Edge","Poltergeist"],
                 ["Rapid Spin"],
-                ["Poltergeist","Shadowbone"],
-                ["Stone Edge"]
+                ["Heal Order"],
+                ["Will-O-Wisp"]
             ],
             "item": ["Rocky Helmet"],
             "nature": "Adamant",
-            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Fragmentate"]
+            "ability": ["Solid Rock"]
         },
         {
             "species": "Mossemeros",
@@ -766,27 +602,27 @@
             "nature": "Adamant",
             "evs": {"hp": 252, "atk": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Fragmentate"]
+            "ability": ["Fragmentate","Solid Rock"]
         },
         {
             "species": "Mossemeros",
-            "weight": 5,
+            "weight": 20,
             "moves": [
-                ["Substitute"],
-                ["Last Respects"],
                 ["Rapid Spin"],
-                ["Stone Edge"]
+                ["Shadow Sneak"],
+                ["Hammer Arm"],
+                ["Shadow Bone"]
             ],
-            "item": ["Rocky Helmet"],
+            "item": ["Assault Vest"],
             "nature": "Adamant",
-            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "evs": {"spd": 252, "atk": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Fragmentate"]
+            "ability": ["Fragmentate","Solid Rock"]
         }
       ]
     },
     "auberjaw": {
-      "weight": 80,
+      "weight": 35,
       "sets": [
         {
             "species": "Auberjaw",
@@ -807,21 +643,6 @@
             "species": "Auberjaw",
             "weight": 20,
             "moves": [
-                ["Snap Trap"],
-                ["Leech Seed"],
-                ["Protect"],
-                ["Substitute"]
-            ],
-            "item": ["Leftovers","Sitrus Berry","Yache Berry"],
-            "nature": "Impish",
-            "evs": {"hp": 252, "def": 252 , "atk": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Strong Jaw","Harvest"]
-        },
-        {
-            "species": "Auberjaw",
-            "weight": 15,
-            "moves": [
                 ["Power Whip"],
                 ["Earthquake"],
                 ["Body Press"],
@@ -836,7 +657,7 @@
       ]
     },
     "daemonix": {
-      "weight": 25,
+      "weight": 15,
       "sets": [
         {
             "species": "Daemonix",
@@ -856,7 +677,7 @@
       ]
     },
     "phantasm": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Phantasm",
@@ -905,7 +726,7 @@
         },
         {
             "species": "Phantasm",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Mean Look"],
                 ["Rest"],
@@ -921,7 +742,7 @@
       ]
     },
     "beelzeros": {
-      "weight": 50,
+      "weight": 35,
       "sets": [
         {
             "species": "Beelzeros",
@@ -934,7 +755,22 @@
             ],
             "item": ["Black Glasses","Expert Belt","Life Orb","Lum Berry"],
             "nature": "Adamant",
-            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        },
+        {
+            "species": "Beelzeros",
+            "weight": 20,
+            "moves": [
+                ["Knock Off"],
+                ["Swords Dance"],
+                ["Dynamic Punch","Drain Punch"],
+                ["Substitute"]
+            ],
+            "item": ["Salac Berry"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Vampire"]
         },
@@ -945,22 +781,22 @@
                 ["Knock Off"],
                 ["Sucker Punch"],
                 ["Drain Punch"],
-                ["Pursuit"]
+                ["Pursuit","Ceaseless Edge","Poison Jab"]
             ],
             "item": ["Assault Vest"],
             "nature": "Adamant",
-            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Vampire"]
         },
         {
             "species": "Beelzeros",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Ceaseless Edge"],
-                ["Taunt"],
+                ["Taunt","Strength Sap"],
                 ["Lovely Kiss"],
-                ["Pursuit"]
+                ["Pursuit","Sucker Punch","Knock Off","Superpower","Drain Punch"]
             ],
             "item": ["Mental Herb"],
             "nature": "Adamant",
@@ -971,7 +807,7 @@
       ]
     },
     "pythagon": {
-      "weight": 70,
+      "weight": 35,
       "sets": [
         {
             "species": "Pythagon",
@@ -993,8 +829,8 @@
             "weight": 20,
             "moves": [
                 ["Fickle Beam"],
-                ["Fire Blast","Thunder"],
-                ["Volt Switch"],
+                ["Volt Switch","Thunder","Thunderbolt"],
+                ["Ice Beam"],
                 ["Focus Blast"]
             ],
             "item": ["Choice Scarf"],
@@ -1021,7 +857,7 @@
       ]
     },
     "parademise": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Parademise",
@@ -1029,10 +865,25 @@
             "moves": [
                 ["Flash Cannon"],
                 ["Focus Blast","Aura Sphere"],
-                ["Dark Pulse"],
+                ["Dark Pulse","Fire Blast"],
                 ["Volt Switch"]
             ],
             "item": ["Choice Scarf"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Mega Launcher"]
+        },
+        {
+            "species": "Parademise",
+            "weight": 20,
+            "moves": [
+                ["Flash Cannon"],
+                ["Focus Blast","Aura Sphere"],
+                ["Dark Pulse","Fire Blast"],
+                ["Trick Room"]
+            ],
+            "item": ["Focus Sash"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
@@ -1052,26 +903,11 @@
             "evs": {"hp": 252, "def": 252 , "spd": 4 },
             "teraType": ["Fairy"],
             "ability": ["Levitate"]
-        },
-        {
-            "species": "Parademise",
-            "weight": 20,
-            "moves": [
-                ["Flash Cannon"],
-                ["Focus Blast"],
-                ["Volt Switch"],
-                ["Tailwind"]
-            ],
-            "item": ["Focus Sash"],
-            "nature": "Modest",
-            "evs": {"hp": 252, "spa": 252 , "spd": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Mega Launcher"]
         }
       ]
     },
     "stalibri": {
-      "weight": 25,
+      "weight": 15,
       "sets": [
           {
               "species": "Stalibri",
@@ -1091,7 +927,7 @@
       ]
     },
     "aggrestik": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Aggrestik",
@@ -1110,22 +946,22 @@
           },
           {
               "species": "Aggrestik",
-              "weight": 5,
+              "weight": 20,
               "moves": [
                   ["First Impression"],
-                  ["Pin Missile"],
-                  ["Rock Blast"],
-                  ["Spike Cannon"]
+                  ["U-Turn"],
+                  ["Rock Slide"],
+                  ["Drill Run"]
               ],
-              "item": ["Loaded Dice"],
+              "item": ["Insect Plate","Life Orb"],
               "nature": "Adamant",
               "evs": {"atk": 252, "hp": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Stakeout","Soundproof","Swarm"]
+              "ability": ["Stakeout"]
           },
           {
               "species": "Aggrestik",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Hone Claws"],
                   ["Stone Edge","Rock Slide"],
@@ -1141,11 +977,11 @@
       ]
     },
     "filicolith": {
-      "weight": 50,
+      "weight": 45,
       "sets": [
           {
               "species": "Filicolith",
-              "weight": 25,
+              "weight": 20,
               "moves": [
                   ["Glare","Stealth Rock"],
                   ["Body Press","Ice Beam","Power Gem"],
@@ -1160,10 +996,10 @@
           },
           {
               "species": "Filicolith",
-              "weight": 50,
+              "weight": 20,
               "moves": [
                   ["Tri Attack"],
-                  ["Power Gem"],
+                  ["Power Gem","Stardust Storm"],
                   ["Earth Power","Focus Blast","Body Press"],
                   ["Giga Drain","Energy Ball"]
               ],
@@ -1175,10 +1011,10 @@
           },
           {
               "species": "Filicolith",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Stealth Rock","Spikes"],
-                  ["Ice Beam","Blizzard"],
+                  ["Tri Attack"],
                   ["Explosion"],
                   ["Focus Blast","Earth Power","Body Press"]
               ],
@@ -1186,15 +1022,15 @@
               "nature": "Quiet",
               "evs": {"hp": 252, "spd": 252, "def": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Refrigerate","Forewarn","Water Absorb"]
+              "ability": ["Refrigerate"]
           },
           {
               "species": "Filicolith",
-              "weight": 15,
+              "weight": 20,
               "moves": [
                   ["Giga Drain","Energy Ball"],
                   ["Tri Attack"],
-                  ["Power Gem"],
+                  ["Power Gem","Stardust Storm"],
                   ["Focus Blast","Earth Power","Body Press"]
               ],
               "item": ["Assault Vest"],
@@ -1205,7 +1041,7 @@
           },
           {
               "species": "Filicolith",
-              "weight": 5,
+              "weight": 10,
               "moves": [
                   ["Reflect","Light Screen"],
                   ["Synthesis"],
@@ -1220,7 +1056,7 @@
           },
           {
               "species": "Filicolith",
-              "weight": 5,
+              "weight": 10,
               "moves": [
                   ["Reflect","Light Screen"],
                   ["Synthesis"],
@@ -1236,7 +1072,7 @@
       ]
     },
     "zardopium": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Zardopium",
@@ -1285,7 +1121,7 @@
           },
           {
               "species": "Zardopium",
-              "weight": 5,
+              "weight": 20,
               "moves": [
                   ["Beak Blast"],
                   ["Stone Edge"],
@@ -1301,137 +1137,62 @@
       ]
     },
     "veuvoile": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
               "species": "Veuvoile",
               "weight": 20,
               "moves": [
                   ["Sticky Web"],
-                  ["Taunt"],
+                  ["Taunt","Aromatherapy","Silk Trap"],
                   ["Knock Off"],
                   ["U-Turn"]
               ],
-              "item": ["Black Sludge"],
+              "item": ["Black Sludge","Air Balloon"],
               "nature": "Jolly",
               "evs": {"hp": 252, "spe": 252, "atk": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Aroma Veil"]
-          },
-          {
-              "species": "Veuvoile",
-              "weight": 20,
-              "moves": [
-                  ["Toxic"],
-                  ["Taunt"],
-                  ["Knock Off"],
-                  ["Aromatherapy"]
-              ],
-              "item": ["Black Sludge"],
-              "nature": "Impish",
-              "evs": {"hp": 252, "spe": 4, "spd": 252},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Pressure"]
           }
       ]
     },
     "bisorgue":{
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Bisorgue",
-            "weight": 30,
+            "weight": 20,
             "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Superpower"],
-                ["Headlong Rush","Earthquake","High Horsepower"],
-                ["Horn Leech"]
+                ["Stone Axe"],
+                ["Close Combat"],
+                ["Headlong Rush"],
+                ["Knock Off"]
             ],
-            "item": ["Assault Vest"],
-            "nature": "Adamant",
+            "item": ["Assault Vest","Choice Scarf","Choice Band"],
+            "nature": "Jolly",
             "evs": {"hp": 252, "atk": 252 , "spd": 4 },
             "teraType": ["Fairy"],
             "ability": ["War Horn"]
         },
         {
             "species": "Bisorgue",
-            "weight": 15,
+            "weight": 20,
             "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Superpower"],
-                ["Knock Off"],
-                ["Heavy Slam","Iron Head","Play Rough","Headlong Rush","Earthquake","High Horsepower"] 
-            ],
-            "item": ["Choice Band"],
-            "nature": "Jolly",
-            "evs": {"hp": 4, "atk": 252 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["War Horn"]
-        },
-        {
-            "species": "Bisorgue",
-            "weight": 15,
-            "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Superpower"],
-                ["Knock Off"],
-                ["Heavy Slam","Iron Head","Play Rough","Headlong Rush","Earthquake","High Horsepower"] 
-            ],
-            "item": ["Choice Scarf"],
-            "nature": "Adament",
-            "evs": {"hp": 4, "atk": 252 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["War Horn"]
-        },
-        {
-            "species": "Bisorgue",
-            "weight": 15,
-            "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Superpower"],
+                ["Stone Axe"],
+                ["Close Combat"],
                 ["Bulk Up","Swords Dance"],
-                ["Headlong Rush","Earthquake","High Horsepower","Knock Off"] 
+                ["Headlong Rush","Knock Off"] 
             ],
-            "item": ["Life Orb","Expert Belt","Stone Plate"],
+            "item": ["Life Orb"],
             "nature": "Adament",
             "evs": {"hp": 4, "atk": 252 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["War Horn"]
-        },
-        {
-            "species": "Bisorgue",
-            "weight": 10,
-            "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Superpower"],
-                ["Bulk Up","Swords Dance"],
-                ["Substitute"] 
-            ],
-            "item": ["Life Orb","Expert Belt","Stone Plate"],
-            "nature": "Adament",
-            "evs": {"hp": 252, "atk": 252 , "spe": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["War Horn"]
-        },
-        {
-            "species": "Bisorgue",
-            "weight": 5,
-            "moves": [
-                ["Stone Edge","Rock Slide","Rock Climb"],
-                ["Focus Blast"],
-                ["Knock Off"],
-                ["Earth Power"]
-            ],
-            "item": ["Rocky Helmet","Sitrus Berry","Leftovers"],
-            "nature": "Naughty",
-            "evs": {"hp": 252, "atk": 252 , "spe": 4 },
             "teraType": ["Fairy"],
             "ability": ["War Horn"]
         }
       ]
     },
     "palmypince": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Palmypince",
@@ -1481,7 +1242,7 @@
       ]
     },
     "tundragon": {
-      "weight": 70,
+      "weight": 35,
       "sets": [
         {
             "species": "Tundragon",
@@ -1515,7 +1276,7 @@
         },
         {
             "species": "Tundragon",
-            "weight": 10,
+            "weight": 20,
             "moves": [
                 ["Triple Axel"],
                 ["Slack Off"],
@@ -1530,7 +1291,7 @@
         },
         {
             "species": "Tundragon",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Triple Axel"],
                 ["Bulldoze"],
@@ -1546,7 +1307,7 @@
       ]
     },
     "rottenia": {
-      "weight": 80,
+      "weight": 45,
       "sets": [
         {
             "species": "Rottenia",
@@ -1566,7 +1327,7 @@
       ]
     },
     "rochiere": {
-      "weight": 50,
+      "weight": 35,
       "sets": [
         {
             "species": "Rochie\u0300re",
@@ -1577,7 +1338,7 @@
                 ["Aromatherapy"],
                 ["Strange Steam"]
             ],
-            "item": ["Leppa Berry"],
+            "item": ["Leppa Berry","Focus Sash"],
             "nature": "Calm",
             "evs": {"hp": 248, "spd": 252 , "def": 8 },
             "teraType": ["Fairy"],
@@ -1597,41 +1358,11 @@
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Misty Surge"]
-        },
-        {
-            "species": "Rochie\u0300re",
-            "weight": 5,
-            "moves": [
-                ["Recover"],
-                ["Substitute"],
-                ["Mist Ball"],
-                ["Protect"]
-            ],
-            "item": ["Heavy-Duty Boots"],
-            "nature": "Calm",
-            "evs": {"hp": 252, "spd": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Misty Surge"]
-        },
-        {
-            "species": "Rochie\u0300re",
-            "weight": 20,
-            "moves": [
-                ["Clear Smog"],
-                ["Substitute"],
-                ["Revival Blessing"],
-                ["Strange Steam"]
-            ],
-            "item": ["Focus Sash"],
-            "nature": "Modest",
-            "evs": {"hp": 252, "spd": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Misty Surge"]
         }
       ]
     },
     "prismunter": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Prismunter",
@@ -1639,8 +1370,8 @@
             "moves": [
                 ["Photon Geyser"],
                 ["Focus Blast"],
-                ["Power Gem"],
-                ["Dazzling Gleam"]
+                ["Power Gem","Stardust Storm"],
+                ["Dazzling Gleam","Flash Cannon","Shadow Ball"]
             ],
             "item": ["Choice Specs"],
             "nature": "Timid",
@@ -1650,11 +1381,11 @@
         },
         {
             "species": "Prismunter",
-            "weight": 5,
+            "weight": 20,
             "moves": [
                 ["Taunt"],
                 ["Stealth Rock"],
-                ["Spikes"],
+                ["Spikes","Thunder Wave"],
                 ["Psychic Noise"]
             ],
             "item": ["Focus Sash"],
@@ -1666,7 +1397,7 @@
       ]
     },
     "wardelith": {
-      "weight": 50,
+      "weight": 35,
       "sets": [
         {
             "species": "Wardelith",
@@ -1687,16 +1418,61 @@
             "species": "Wardelith",
             "weight": 20,
             "moves": [
-                ["Earth Power"],
-                ["Power Gem"],
+                ["Stardust Storm","Power Gem"],
+                ["Fire Blast","Earth Power","Explosion"],
                 ["Knock Off"],
-                ["Explosion"]
+                ["Stealth Rock"]
             ],
-            "item": ["Rocky Helmet"],
+            "item": ["Smooth Rock"],
             "nature": "Quiet",
             "evs": {"hp": 252, "spa": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Rough Skin"]
+            "ability": ["Sand Stream"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 20,
+            "moves": [
+                ["Stardust Storm"],
+                ["Earth Power"],
+                ["Power Gem"],
+                ["Fire Blast"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Bold",
+            "evs": {"def": 252, "spa": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Stream"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 10,
+            "moves": [
+                ["Stardust Storm","Stone Edge"],
+                ["Earthquake"],
+                ["Body Press"],
+                ["Curse"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Sassy",
+            "evs": {"def": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Stream"]
+        },
+        {
+            "species": "Wardelith",
+            "weight": 10,
+            "moves": [
+                ["Stardust Storm","Stone Edge"],
+                ["Earthquake"],
+                ["Body Press"],
+                ["Curse"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Sassy",
+            "evs": {"spd": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Stream"]
         }
       ]
     }

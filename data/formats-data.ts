@@ -304,11 +304,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	patabrroot: {
+	sinjini:{
+		tier: "LC",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	sylvesage:{
 		tier: "Uber",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	shroomalice: {
+	shroomalice:{
 		tier: "Uber",
 		doublesTier: "DOU",
 		natDexTier: "OU",
@@ -338,6 +345,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	jamush:{
+		tier: "LC",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+	mycellum:{
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "OU",
+	},
+
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

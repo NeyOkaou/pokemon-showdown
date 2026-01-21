@@ -1858,7 +1858,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	strongjaw: {
 		name: "Strong Jaw",
 		desc: "This Pokemon's bite-based attacks have their power multiplied by 1.5.",
-		shortDesc: "This Pokemon's bite-based attacks have 1.5x power. Bug Bite is not boosted.",
+		shortDesc: "This Pokemon's bite-based attacks have 1.5x power.",
 	},
 	sturdy: {
 		name: "Sturdy",
@@ -2357,7 +2357,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	vampire: {
 		name: "Vampire",
-		shortDesc: "Boosts the user's draining moves by 30%.",
+		shortDesc: "This Pokemon's draining-based attacks have 1.3x power.",
 	},
 	laceration: {
 		name: "Laceration",
