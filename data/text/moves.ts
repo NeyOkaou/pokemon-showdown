@@ -7706,4 +7706,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. 30% chance of infatuating a pokemon of the opposing gender.",
 		shortDesc: "User recovers 50% of the damage dealt. 30% chance to infatuate a target of the opposing gender.",
 	},
+	beautemps: {
+		name: "Beau Temps",
+		desc: "For 5 turns, the weather becomes Sunny. The user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
+		shortDesc: "Starts Sunny Day. User switches out.",
+
+		prepare: "  [POKEMON] is calling for the sun!",
+	},
 };
