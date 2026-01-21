@@ -23,7 +23,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "S/V Singles",
+		section: "MoodMons",
 	},
 	{
 		name: "[Gen 9] Random Battle",
