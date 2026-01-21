@@ -1655,7 +1655,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	boltbeak: {
 		num: 754,
 		accuracy: 100,
-		basePower: 85,
+		basePower: 75,
 		basePowerCallback(pokemon, target, move) {
 			if (target.newlySwitched || this.queue.willMove(target)) {
 				this.debug('Bolt Beak damage boost');
