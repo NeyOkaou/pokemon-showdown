@@ -502,6 +502,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			seedbomb: ["9L25"],
 			synthesis: ["9L28"],
 			dragoncheer: ["9L29"],
+			rototiller: ["9M"],
 			slam: ["9L30"],
 			crunch: ["9L30"],
 			stompingtantrum: ["9L33"],
@@ -1109,6 +1110,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	apprenpti: {
 		learnset: {
 			sharpen: ["9M"], 
+			furycutter: ["9M"], 
 			//steel
 			autotomize: ["9M"],
 			flashcannon: ["9M"],
@@ -1152,6 +1154,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			irondefense: ["9M"],
 			ironhead: ["9M"],
 			metalclaw: ["9M"],
+			furycutter: ["9M"], 
 			mirrorshot: ["9M"],
 			quickslice: ["9M"],
 			smartstrike: ["9M"],
@@ -1204,6 +1207,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//steel
 			sharpen: ["9M"], 
 			autotomize: ["9M"],
+			furycutter: ["9M"], 
 			cut: ["9M"],
 			dragonblade: ["9M"],
 			flashcannon: ["9M"],
@@ -6299,6 +6303,92 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
+		}
+	},
+	cendracine:{
+		learnset:{
+			//Bug
+			//Dark 
+			darkpulse:  ["9M"],
+			brutalswing:  ["9M"],
+			taunt:  ["9M"],
+			//fighting 
+			focuspunch :["9M"],
+			octolock: ["9M"],
+			//fire
+			burningjealousy: ["9M"],
+			willoswisp: ["9M"],
+			overheat: ["9M"],
+			heatwave: ["9M"],
+			flamethrower: ["9M"],
+			fireblast: ["9M"],
+			firelash: ["9M"],
+			ember: ["9M"],
+			burnup: ["9M"],
+			fierydance: ["9M"],
+			firepunch: ["9M"],
+			firespin: ["9M"],
+			flamburst: ["9M"],
+			incinerate: ["9M"],
+			mindblown: ["9M"],
+			searingshot: ["9M"],
+			sunnyday: ["9M"],
+			//normal
+			wrap: ["9M"],
+			tailwhip: ["9M"],
+			swift: ["9M"],
+			smockscreen: ["9M"],
+			slam: ["9M"],
+			scaryface: ["9M"],
+			recycle: ["9M"],
+			naturepower: ["9M"],
+			naturalgift: ["9M"],
+			minimize: ["9M"],
+			morningsun: ["9M"],
+			meanlook: ["9M"],
+			hyperbeam: ["9M"],
+			helpinghand: ["9M"],
+			growth: ["9M"],
+			encore: ["9M"],
+			//ghost
+			shadowball: ["9M"],
+			peekaboo: ["9M"],
+			//grass
+			absorb: ["9M"],
+			megadrain: ["9M"],
+			gigadrain: ["9M"],
+			sleeppowder: ["9M"],
+			stunspore: ["9M"],
+			poisonpowder: ["9M"],
+			chloroblast: ["9M"],
+			bulletseed: ["9M"],
+			energyball: ["9M"],
+			grassknot: ["9M"],
+			grassyglide: ["9M"],
+			grassyterrain: ["9M"],
+			leafstorm: ["9M"],
+			leechseed: ["9M"],
+			petaldance: ["9M"],
+			petalblizzard: ["9M"],
+			solarbeam: ["9M"],
+			powerwhip: ["9M"],
+			vinewhip: ["9M"],
+			seedbomb: ["9M"],
+			synthesis: ["9M"],
+			rototiller: ["9M"],
+			//poison
+			poisonjab: ["9M"],
+			poisontail: ["9M"],
+			sludgebomb: ["9M"],
+			//rock
+			rockthrow: ["9M"],
+			smackdown: ["9M"],
+			//steel
+			cut: ["9M"],
+			sunsteelstrike: ["9M"],
+			oilup: ["9M"],
+			irontail: ["9M"],
+
 		}
 	},
 	missingno: {
