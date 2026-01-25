@@ -1084,7 +1084,7 @@
                   ["Rock Polish"]
               ],
               "item": ["Sitrus Berry","Leftovers"],
-              "nature": "Adament",
+              "nature": "Adamant",
               "evs": {"atk": 252, "spe": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Fur Coat"]
@@ -1129,7 +1129,7 @@
                   ["Accelerock"]
               ],
               "item": ["Assault Vest"],
-              "nature": "Adament",
+              "nature": "Adamant",
               "evs": {"hp": 252, "atk": 252, "spe": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Fur Coat"]
@@ -1184,7 +1184,7 @@
                 ["Headlong Rush","Knock Off"] 
             ],
             "item": ["Life Orb"],
-            "nature": "Adament",
+            "nature": "Adamant",
             "evs": {"hp": 4, "atk": 252 , "spe": 252 },
             "teraType": ["Fairy"],
             "ability": ["War Horn"]
@@ -1219,7 +1219,7 @@
                 ["Shell Smash"]
             ],
             "item": ["White Herb"],
-            "nature": "Adament",
+            "nature": "Adamant",
             "evs": {"atk": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Pickup"]
@@ -1266,7 +1266,7 @@
                 ["Icicle Spear"],
                 ["Scale Shot"],
                 ["Bulldoze"],
-                ["Chilly Reception"]
+                ["Spike Cannon"]
             ],
             "item": ["Choice Scarf"],
             "nature": "Jolly",
@@ -1473,6 +1473,141 @@
             "evs": {"spd": 252, "atk": 252 , "hp": 4 },
             "teraType": ["Fairy"],
             "ability": ["Sand Stream"]
+        }
+      ]
+    },
+    "monarchen": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Monarchen",
+            "weight": 20,
+            "moves": [
+                ["Horn Leech"],
+                ["Grassy Glide"],
+                ["Swords Dance"],
+                ["Knock Off"]
+            ],
+            "item": ["Black Sludge","Grassy Seed"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Grassy Surge"]
+        },
+        {
+            "species": "Monarchen",
+            "weight": 10,
+            "moves": [
+                ["Leech Seed"],
+                ["Substitute"],
+                ["Toxic"],
+                ["Protect"]
+            ],
+            "item": ["Black Sludge","Life Orb"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Grassy Surge"]
+        },
+        {
+            "species": "Monarchen",
+            "weight": 10,
+            "moves": [
+                ["Leech Seed"],
+                ["Substitute"],
+                ["Toxic"],
+                ["Protect"]
+            ],
+            "item": ["Black Sludge","Rocky Helmet"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Grassy Surge"]
+        },
+        {
+            "species": "Monarchen",
+            "weight": 20,
+            "moves": [
+                ["Giga Drain"],
+                ["Sludge Bomb","Knock Off"],
+                ["Toxic"],
+                ["Heal Order"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Grassy Surge"]
+        },
+        {
+            "species": "Monarchen",
+            "weight": 20,
+            "moves": [
+                ["Horn Leech"],
+                ["Body Press"],
+                ["Knock Off"],
+                ["Grassy Glider"]
+            ],
+            "item": ["Assault Veste","Grassy Seed"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Grassy Surge"]
+        }
+      ]
+    },
+    "yukigori": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Yukigori",
+            "weight": 10,
+            "moves": [
+                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Wood Hammer"],
+                ["Super Power","Earthquake"],
+                ["Knock Off"]
+            ],
+            "item": ["Choice Band","Choice Scarf"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Huge Power"]
+        },
+        {
+            "species": "Yukigori",
+            "weight": 10,
+            "moves": [
+                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Wood Hammer"],
+                ["Super Power","Earthquake"],
+                ["Knock Off"]
+            ],
+            "item": ["Choice Band","Choice Scarf"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Huge Power"]
+        }
+      ]
+    },
+    "shroomalice": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Shroomalice",
+            "weight": 20,
+            "moves": [
+                ["Giga Drain"],
+                ["Spore"],
+                ["Leech Seed","Psychic","Psychic Noise"],
+                ["Teleport"]
+            ],
+            "item": ["Leftovers","Life Orb"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Infiltrator","Bad Dreams"]
         }
       ]
     }

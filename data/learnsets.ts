@@ -659,7 +659,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	dracoton: {
 		learnset: {
 			powdersnow: ["9M"],
-			chillyreception: ["9M"],
 			raindance: ["9M"],
 			rockblast: ["9M"],
 			tripleaxel: ["9M"],
@@ -709,7 +708,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bulletseed: ["9M"],
 			haze: ["9M"],
 			auroraveil: ["9M"],
-			chillyreception: ["9M"],
 			raindance: ["9M"],
 			bulldoze: ["9M"],
 			rockblast: ["9M"],
@@ -4886,7 +4884,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mist: ["9M"],
 			icefang: ["9M"],
 			powdersnow: ["9M"],
-			chillyreception: ["9M"],
+	
 
 			//fairy
 			playrough: ["9M"],
@@ -4951,7 +4949,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			iceball: ["9M"],
 			icepunch: ["9M"],
 			avalanche: ["9M"],
-			chillyreception: ["9M"],
 			engelure: ["9M"],
 			icywind: ["9M"],
 			aurorabeam: ["9M"],
@@ -5045,7 +5042,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			// ice
 			icepunch: ["9M"],
-			chillyreception: ["9M"],
 			avalanche: ["9M"],
 			engelure: ["9M"],
 			icywind: ["9M"],
