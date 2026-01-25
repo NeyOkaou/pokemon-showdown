@@ -4848,6 +4848,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	fukunny:{
 		learnset:{
 			// general
+			iceshard: ["9M"],
 			bounce: ["9M"],
 			protect: ["9M"],
 			frustration: ["9M"],
@@ -4932,6 +4933,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
 			confide: ["9M"],
+			iceshard: ["9M"],
 
 			// grass
 			leafage: ["9M"],
@@ -5016,6 +5018,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			// general
 			bounce: ["9M"],
 			protect: ["9M"],
+			iceshard: ["9M"],
 			frustration: ["9M"],
 			doubleteam: ["9M"],
 			facade: ["9M"],

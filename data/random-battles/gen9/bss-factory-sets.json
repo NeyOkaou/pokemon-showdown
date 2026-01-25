@@ -1546,7 +1546,7 @@
                 ["Horn Leech"],
                 ["Body Press"],
                 ["Knock Off"],
-                ["Grassy Glider"]
+                ["Grassy Glide"]
             ],
             "item": ["Assault Veste","Grassy Seed"],
             "nature": "Bold",
@@ -1566,7 +1566,7 @@
                 ["Ice Punch","Break the Ice","Ice Hammer"],
                 ["Wood Hammer"],
                 ["Super Power","Earthquake"],
-                ["Knock Off"]
+                ["Knock Off","Ice Shard"]
             ],
             "item": ["Choice Band","Choice Scarf"],
             "nature": "Jolly",
@@ -1581,7 +1581,7 @@
                 ["Ice Punch","Break the Ice","Ice Hammer"],
                 ["Wood Hammer"],
                 ["Super Power","Earthquake"],
-                ["Knock Off"]
+                ["Knock Off","Ice Shard"]
             ],
             "item": ["Choice Band","Choice Scarf"],
             "nature": "Adamant",
@@ -1589,6 +1589,21 @@
             "teraType": ["Fairy"],
             "ability": ["Huge Power"]
         }
+        {
+            "species": "Yukigori",
+            "weight": 20,
+            "moves": [
+                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Belly Drum"],
+                ["Super Power","Earthquake"],
+                ["Ice Shard"]
+            ],
+            "item": ["Sitrus Berry"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Huge Power"]
+        },
       ]
     },
     "shroomalice": {
@@ -1608,6 +1623,26 @@
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Infiltrator","Bad Dreams"]
+        }
+      ]
+    },
+    "plankteuy": {
+      "weight": 5,
+      "sets": [
+        {
+            "species": "Plankteuy",
+            "weight": 20,
+            "moves": [
+                ["Chloroblast"],
+                ["Flip Turn"],
+                ["Bubble Beam"],
+                ["Whirlpool"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Chlorophyll"]
         }
       ]
     }
