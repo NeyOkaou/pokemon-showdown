@@ -326,7 +326,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	colzadon: {
+	cendracine:{
 		tier: "Uber",
 		doublesTier: "DOU",
 		natDexTier: "OU",

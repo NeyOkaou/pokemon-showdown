@@ -489,6 +489,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			raindance: ["9L1"],
 			dracometeor: ["9L1"],
 			snaptrap: ["9L1"],
+			chloroblast: ["9M"],
 			leafage: ["9L1"],
 			eggbomb: ["9L1"],
 			growl: ["9L1"],
@@ -3916,6 +3917,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigadrain: ["9M"],
 			megadrain: ["9M"],
 			grassknot: ["9M"],
+			chloroblast: ["9M"],
 			grassyglide: ["9M"],
 			grassyterrain: ["9M"],
 			leechseed: ["9M"],
@@ -5747,6 +5749,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	veracina:{
 		learnset:{
 			//grass
+			chloroblast: ["9M"],
 			grassyglide : ["9M"],
 			leafstorm: ["9M"],
 			leechseed : ["9M"],
@@ -5956,6 +5959,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watersport: ["9M"],
 			//grass
 			worryseed: ["9M"],
+			chloroblast: ["9M"],
 			woodhammer: ["9M"],
 			vinewhip: ["9M"],
 			powerwhip: ["9M"],
@@ -6250,8 +6254,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			stompingtantrum : ["9M"],
 			earthpower : ["9M"],
 			bulldoze : ["9M"],
-			//ice 
-			icebeam: ["9M"],
 			//poison 
 			sludgebomb : ["9M"],
 			toxic: ["9M"],
