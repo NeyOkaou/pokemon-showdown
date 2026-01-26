@@ -1663,7 +1663,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			darkpulse: ["9M"], 
 			pursuit: ["9M"], 
 			fling: ["9M"], 
-			counter:["9M"],
 			taunt: ["9M"], 
 			snatch: ["9M"], 
 			quash: ["9M"], 
