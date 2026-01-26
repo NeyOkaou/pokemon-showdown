@@ -3664,7 +3664,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			endure:["9M"],
 			quickattack:["9M"],
 			falseswipe:["9M"],
-			facade:["9M"],
 			focusenergy:["9M"],
 			furyattack:["9M"],
 			leer:["9M"],
@@ -6387,7 +6386,19 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sunsteelstrike: ["9M"],
 			oilup: ["9M"],
 			irontail: ["9M"],
-
+			//general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"], 
+			},
 		}
 	},
 	missingno: {
