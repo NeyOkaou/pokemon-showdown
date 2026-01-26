@@ -6314,7 +6314,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt:  ["9M"],
 			//fighting 
 			focuspunch :["9M"],
-			octolock: ["9M"],
 			//fire
 			burningjealousy: ["9M"],
 			willowisp: ["9M"],
