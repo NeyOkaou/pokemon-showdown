@@ -6164,7 +6164,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			megadrain : ["9M"],
 			absorb : ["9M"],
 			solarbeam: ["9M"],
-			icebeam: ["9M"],
 			//poison 
 			toxic: ["9M"],
 			gunkshot: ["9M"],
