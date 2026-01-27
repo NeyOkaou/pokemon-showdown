@@ -6310,6 +6310,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			earthpower:  ["9M"],
 			brutalswing:  ["9M"],
 			taunt:  ["9M"],
+			weatherball:  ["9M"],
 			//fighting 
 			focuspunch :["9M"],
 			//fire
