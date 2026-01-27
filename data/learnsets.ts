@@ -6307,6 +6307,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Bug
 			//Dark 
 			darkpulse:  ["9M"],
+			earthpower:  ["9M"],
 			brutalswing:  ["9M"],
 			taunt:  ["9M"],
 			//fighting 
