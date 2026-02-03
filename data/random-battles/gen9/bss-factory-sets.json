@@ -1401,21 +1401,6 @@
       "sets": [
         {
             "species": "Wardelith",
-            "weight": 5,
-            "moves": [
-                ["Fire Blast"],
-                ["Block"],
-                ["Perish Song"],
-                ["Protect"]
-            ],
-            "item": ["Leftovers"],
-            "nature": "Calm",
-            "evs": {"hp": 252, "spd": 252 , "def": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Rough Skin"]
-        },
-        {
-            "species": "Wardelith",
             "weight": 20,
             "moves": [
                 ["Stardust Storm","Power Gem"],
