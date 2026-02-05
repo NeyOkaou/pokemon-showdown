@@ -1549,7 +1549,7 @@
             "weight": 10,
             "moves": [
                 ["Ice Punch","Break the Ice","Ice Hammer"],
-                ["Wood Hammer"],
+                ["Wood Hammer","Drum Beating"],
                 ["Super Power","Earthquake"],
                 ["Knock Off","Ice Shard"]
             ],
@@ -1564,7 +1564,7 @@
             "weight": 10,
             "moves": [
                 ["Ice Punch","Break the Ice","Ice Hammer"],
-                ["Wood Hammer"],
+                ["Wood Hammer","Drum Beating"],
                 ["Super Power","Earthquake"],
                 ["Knock Off","Ice Shard"]
             ],
