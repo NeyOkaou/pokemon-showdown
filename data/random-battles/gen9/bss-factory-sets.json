@@ -1712,7 +1712,7 @@
             "nature": "Relaxed",
             "evs": {"hp": 252, "def": 252 , "spa": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Regenerator"]
+            "ability": ["Natural Cure","Overgrow","Gooey"]
         },
         {
             "species": "Sylve\u0301sage",
@@ -1727,7 +1727,7 @@
             "nature": "Relaxed",
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Regenerator"]
+            "ability": ["Natural Cure","Overgrow","Gooey"]
         },
         {
             "species": "Sylve\u0301sage",
@@ -1742,7 +1742,7 @@
             "nature": "Relaxed",
             "evs": {"hp": 252, "def": 252 , "spa": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Regenerator"]
+            "ability": ["Natural Cure","Overgrow","Gooey"]
         }
       ]
     },
