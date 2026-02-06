@@ -6403,6 +6403,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	kerocorn:{
 		learnset:{
 			//bug
+			encore: ["9M"], 
 			pounce: ["9M"], 
 			
 			//flying
@@ -6495,6 +6496,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//bug
 			pounce: ["9M"], 
 			//dark
+			encore: ["9M"],
 			taunt: ["9M"], 
 			flatter: ["9M"], 
 			//fighting
@@ -6594,6 +6596,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//bug
 			pounce: ["9M"], 
 			//dark
+			encore: ["9M"],
 			taunt: ["9M"], 
 			flatter: ["9M"], 
 			//fighting
