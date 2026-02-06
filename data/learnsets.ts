@@ -6665,6 +6665,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//normal
 			batonpass: ["9M"],
 			bellydrum: ["9M"],
+			booburst: ["9M"],
 			bide: ["9M"],
 			bodyslam: ["9M"],
 			hypervoice: ["9M"],
