@@ -5035,7 +5035,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
 			// grass
 			woodhammer: ["9M"],
-			drumbeating: ["9M"],
 			bulletseed: ["9M"],
 			leafage: ["9M"],
 			leafstorm: ["9M"],
@@ -6664,7 +6663,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//normal
 			batonpass: ["9M"],
 			bellydrum: ["9M"],
-			booburst: ["9M"],
+			boomburst: ["9M"],
 			bide: ["9M"],
 			bodyslam: ["9M"],
 			hypervoice: ["9M"],
