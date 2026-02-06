@@ -6598,6 +6598,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"], 
 			flatter: ["9M"], 
 			//fighting
+			weatherball: ["9M"], 
 			rocksmash: ["9M"], 
 			brickbreak: ["9M"], 
 			counter: ["9M"], 
