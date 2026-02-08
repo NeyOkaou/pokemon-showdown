@@ -1846,4 +1846,84 @@
         }
       ]
     }
+    "choracorn": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Choracorn",
+            "weight": 20,
+            "moves": [
+                ["Scald","Bouncy Bubble","Hydro Pump"],
+                ["Giga Drain","Ice Beam"],
+                ["Encore"],
+                ["Flip Turn"]
+            ],
+            "item": ["Damp Rock"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Choracorn",
+            "weight": 20,
+            "moves": [
+                ["Whirlpool"],
+                ["Giga Drain","Ice Beam"],
+                ["Protect"],
+                ["Perish Song"]
+            ],
+            "item": ["Damp Rock"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Choracorn",
+            "weight": 10,
+            "moves": [
+                ["Boomburst"],
+                ["Giga Drain"],
+                ["Ice Beam"],
+                ["Flip Turn"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Liquid Voice"]
+        },
+        {
+            "species": "Choracorn",
+            "weight": 10,
+            "moves": [
+                ["Hydro Pump"],
+                ["Giga Drain"],
+                ["Ice Beam"],
+                ["Flip Turn"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Choracorn",
+            "weight": 20,
+            "moves": [
+                ["Bouncy Bubble","Hydro Pump","Scald"],
+                ["Giga Drain"],
+                ["Ice Beam"],
+                ["Encore"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        }
+      ]
+    }
 }
