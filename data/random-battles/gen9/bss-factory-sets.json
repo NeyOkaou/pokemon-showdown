@@ -1926,4 +1926,134 @@
         }
       ]
     }
+    "glacynapse": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Glacynapse",
+            "weight": 10,
+            "moves": [
+                ["Brain Damage"],
+                ["Brain Freeze"],
+                ["Superpower","Drain Punch"],
+                ["Knock Off","Mach Punch","Bullet Punch","Think Fast"]
+            ],
+            "item": ["Choice Scarf","Choice Band"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Reckless","Neuroforce"]
+        },
+        {
+            "species": "Glacynapse",
+            "weight": 10,
+            "moves": [
+                ["Brain Damage"],
+                ["Brain Freeze"],
+                ["Superpower","Drain Punch"],
+                ["Knock Off","Mach Punch","Bullet Punch","Think Fast"]
+            ],
+            "item": ["Choice Scarf","Choice Band"],
+            "nature": "Adamant",
+            "evs": {"spe": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Reckless","Neuroforce"]
+        },
+        {
+            "species": "Glacynapse",
+            "weight": 10,
+            "moves": [
+                ["Think Fast"],
+                ["Blizzard"],
+                ["Focus Blast"],
+                ["Psychic"]
+            ],
+            "item": ["Choice Scarf","Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spe": 252, "spa": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Neuroforce"]
+        },
+        {
+            "species": "Glacynapse",
+            "weight": 10,
+            "moves": [
+                ["Think Fast"],
+                ["Blizzard"],
+                ["Focus Blast"],
+                ["Psychic"]
+            ],
+            "item": ["Choice Scarf","Choice Specs"],
+            "nature": "Modest",
+            "evs": {"spe": 252, "spa": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Neuroforce"]
+        },
+        {
+            "species": "Glacynapse",
+            "weight": 20,
+            "moves": [
+                ["Brain Damage"],
+                ["Brain Freeze"],
+                ["Drain Punch"],
+                ["Bulk Up"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Jolly",
+            "evs": {"spe": 252, "atk": 252 , "hp": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Reckless","Neuroforce"]
+        },
+      ]
+    },
+    "yetidiot": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Ye\u0301tidiot",
+            "weight": 20,
+            "moves": [
+                ["Thrash"],
+                ["Body Press"],
+                ["Ice Hammer"],
+                ["Earthquake"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Own Tempo"]
+        },
+        {
+            "species": "Ye\u0301tidiot",
+            "weight": 20,
+            "moves": [
+                ["Bulk Up"],
+                ["Body Press"],
+                ["Slack Off"],
+                ["Break The Ice","Ice Hammer"]
+            ],
+            "item": ["Sitrus Berry"],
+            "nature": "Adamant",
+            "evs": {"spd": 252, "hp": 248 , "atk": 8 },
+            "teraType": ["Fairy"],
+            "ability": ["Simple"]
+        },
+        {
+            "species": "Ye\u0301tidiot",
+            "weight": 20,
+            "moves": [
+                ["Engelure"],
+                ["Body Press"],
+                ["Slack Off"],
+                ["Break The Ice","Ice Hammer"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Careful",
+            "evs": {"spd": 252, "hp": 248 , "atk": 8 },
+            "teraType": ["Fairy"],
+            "ability": ["Unaware"]
+        }
+      ]
+    },
 }
