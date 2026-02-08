@@ -259,12 +259,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	fourugla:{
+		tier: "LC",
+	},
 	yetidiot:{
-		tier: "AG",
+		tier: "Uber",
 		natDexTier: "OU",
 	},
+	synapti:{
+		tier: "LC",
+	},
 	glacynapse:{
-		tier: "AG",
+		tier: "Uber",
 		natDexTier: "OU",
 	},
 	lilichen:{
