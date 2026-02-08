@@ -2003,7 +2003,7 @@
             "evs": {"spe": 252, "atk": 252 , "hp": 4 },
             "teraType": ["Fairy"],
             "ability": ["Reckless","Neuroforce"]
-        },
+        }
       ]
     },
     "yetidiot": {
