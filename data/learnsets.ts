@@ -4743,190 +4743,192 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		}
 	},
 	fourugla:{
-		// dark
-			brutalswing: ["9M"],
-
-			// fairy
-			babydolleyes: ["9M"],
-			charm: ["9M"],
-			playrough: ["9M"],
-
-			// ghost
-			astonish: ["9M"],
-			shadowclaw: ["9M"],
-			shadowball: ["9M"],
-
-			// ground
-			dig: ["9M"],
-
-			// ice
-			aurorabeam: ["9M"],
-			avalanche: ["9M"],
-			blizzard: ["9M"],
-			engelure: ["9M"],
-			breaktheice: ["9M"],
-			icebeam: ["9M"],
-			snowscape: ["9M"],
-			iceball: ["9M"],
-			iceshard: ["9M"],
-			icywind: ["9M"],
-			haze: ["9M"],
-			chillyreception: ["9M"],
-			powdersnow: ["9M"],
-			iciclespear: ["9M"],
-
-			// psychic
-			amnesia: ["9M"],
-			braindamage: ["9M"],
-
-			// steel
-			cut: ["9M"],
-
-			// normal
-			bide: ["9M"],
-			block: ["9M"],
-			bodyslam: ["9M"],
-			covet: ["9M"],
-			crushclaw: ["9M"],
-			defensecurl: ["9M"],
-			doubleedge: ["9M"],
-			endure: ["9M"],
-			explosion: ["9M"],
-			selfdestruct: ["9M"],
-			facade: ["9M"],
-			furyswipes: ["9M"],
-			gigaimpact: ["9M"],
-			growl: ["9M"],
-			headbutt: ["9M"],
-			hyperbeam: ["9M"],
-			minimize: ["9M"],
-			rockclimb: ["9M"],
-			scaryface: ["9M"],
-			simplebeam: ["9M"],
-			snore: ["9M"],
-			swift: ["9M"],
-			thrash: ["9M"],
-			weatherball: ["9M"],
-			yawn: ["9M"],
-			acupressure: ["9M"],
-			slackoff: ["9M"],
-
-			// general
-			protect: ["9M"],
-			frustration: ["9M"],
-			doubleteam: ["9M"],
-			rest: ["9M"],
-			attract: ["9M"],
-			round: ["9M"],
-			sleeptalk: ["9M"],
-			substitute: ["9M"],
-			confide: ["9M"],
-	}
-	yetidiot:{
 		learnset:{
-			// dark
-			honeclaws: ["9M"],
-			brutalswing: ["9M"],
+				// dark
+				brutalswing: ["9M"],
 
-			// dragon
-			outrage: ["9M"],
-			dragonclaw: ["9M"],
+				// fairy
+				babydolleyes: ["9M"],
+				charm: ["9M"],
+				playrough: ["9M"],
 
-			// electric
-			thunder: ["9M"],
-			thunderbolt: ["9M"],
+				// ghost
+				astonish: ["9M"],
+				shadowclaw: ["9M"],
+				shadowball: ["9M"],
 
-			// fairy
-			babydolleyes: ["9M"],
-			charm: ["9M"],
-			playrough: ["9M"],
+				// ground
+				dig: ["9M"],
 
-			// fighting
-			bodypress: ["9M"],
-			bulkup: ["9M"],
-			superpower: ["9M"],
-			strength: ["9M"],
+				// ice
+				aurorabeam: ["9M"],
+				avalanche: ["9M"],
+				blizzard: ["9M"],
+				engelure: ["9M"],
+				breaktheice: ["9M"],
+				icebeam: ["9M"],
+				snowscape: ["9M"],
+				iceball: ["9M"],
+				iceshard: ["9M"],
+				icywind: ["9M"],
+				haze: ["9M"],
+				chillyreception: ["9M"],
+				powdersnow: ["9M"],
+				iciclespear: ["9M"],
 
-			// ghost
-			astonish: ["9M"],
-			shadowclaw: ["9M"],
-			shadowball: ["9M"],
+				// psychic
+				amnesia: ["9M"],
+				braindamage: ["9M"],
 
-			// ground
-			dig: ["9M"],
-			earthquake: ["9M"],
+				// steel
+				cut: ["9M"],
 
-			// ice
-			aurorabeam: ["9M"],
-			icepunch: ["9M"],
-			avalanche: ["9M"],
-			blizzard: ["9M"],
-			engelure: ["9M"],
-			breaktheice: ["9M"],
-			icebeam: ["9M"],
-			snowscape: ["9M"],
-			iceball: ["9M"],
-			iceshard: ["9M"],
-			icywind: ["9M"],
-			haze: ["9M"],
-			icehammer: ["9M"],
-			chillyreception: ["9M"],
-			powdersnow: ["9M"],
-			iciclespear: ["9M"],
+				// normal
+				bide: ["9M"],
+				block: ["9M"],
+				bodyslam: ["9M"],
+				covet: ["9M"],
+				crushclaw: ["9M"],
+				defensecurl: ["9M"],
+				doubleedge: ["9M"],
+				endure: ["9M"],
+				explosion: ["9M"],
+				selfdestruct: ["9M"],
+				facade: ["9M"],
+				furyswipes: ["9M"],
+				gigaimpact: ["9M"],
+				growl: ["9M"],
+				headbutt: ["9M"],
+				hyperbeam: ["9M"],
+				minimize: ["9M"],
+				rockclimb: ["9M"],
+				scaryface: ["9M"],
+				simplebeam: ["9M"],
+				snore: ["9M"],
+				swift: ["9M"],
+				thrash: ["9M"],
+				weatherball: ["9M"],
+				yawn: ["9M"],
+				acupressure: ["9M"],
+				slackoff: ["9M"],
 
-			// psychic
-			amnesia: ["9M"],
-			braindamage: ["9M"],
+				// general
+				protect: ["9M"],
+				frustration: ["9M"],
+				doubleteam: ["9M"],
+				rest: ["9M"],
+				attract: ["9M"],
+				round: ["9M"],
+				sleeptalk: ["9M"],
+				substitute: ["9M"],
+				confide: ["9M"],
+			}
+		},
+		yetidiot:{
+			learnset:{
+				// dark
+				honeclaws: ["9M"],
+				brutalswing: ["9M"],
 
-			// rock
-			rocksmash: ["9M"],
-			rocktomb: ["9M"],
-			rockslide: ["9M"],
+				// dragon
+				outrage: ["9M"],
+				dragonclaw: ["9M"],
 
-			// steel
-			cut: ["9M"],
+				// electric
+				thunder: ["9M"],
+				thunderbolt: ["9M"],
 
-			// normal
-			bide: ["9M"],
-			block: ["9M"],
-			bodyslam: ["9M"],
-			covet: ["9M"],
-			crushclaw: ["9M"],
-			defensecurl: ["9M"],
-			doubleedge: ["9M"],
-			endure: ["9M"],
-			explosion: ["9M"],
-			selfdestruct: ["9M"],
-			facade: ["9M"],
-			furyswipes: ["9M"],
-			gigaimpact: ["9M"],
-			growl: ["9M"],
-			guillotine: ["9M"],
-			headbutt: ["9M"],
-			hornattack: ["9M"],
-			hyperbeam: ["9M"],
-			minimize: ["9M"],
-			rockclimb: ["9M"],
-			scaryface: ["9M"],
-			simplebeam: ["9M"],
-			snore: ["9M"],
-			swift: ["9M"],
-			thrash: ["9M"],
-			weatherball: ["9M"],
-			yawn: ["9M"],
-			acupressure: ["9M"],
-			slackoff: ["9M"],
+				// fairy
+				babydolleyes: ["9M"],
+				charm: ["9M"],
+				playrough: ["9M"],
 
-			// general
-			protect: ["9M"],
-			frustration: ["9M"],
-			doubleteam: ["9M"],
-			rest: ["9M"],
-			attract: ["9M"],
-			round: ["9M"],
-			sleeptalk: ["9M"],
-			substitute: ["9M"],
-			confide: ["9M"],
+				// fighting
+				bodypress: ["9M"],
+				bulkup: ["9M"],
+				superpower: ["9M"],
+				strength: ["9M"],
+
+				// ghost
+				astonish: ["9M"],
+				shadowclaw: ["9M"],
+				shadowball: ["9M"],
+
+				// ground
+				dig: ["9M"],
+				earthquake: ["9M"],
+
+				// ice
+				aurorabeam: ["9M"],
+				icepunch: ["9M"],
+				avalanche: ["9M"],
+				blizzard: ["9M"],
+				engelure: ["9M"],
+				breaktheice: ["9M"],
+				icebeam: ["9M"],
+				snowscape: ["9M"],
+				iceball: ["9M"],
+				iceshard: ["9M"],
+				icywind: ["9M"],
+				haze: ["9M"],
+				icehammer: ["9M"],
+				chillyreception: ["9M"],
+				powdersnow: ["9M"],
+				iciclespear: ["9M"],
+
+				// psychic
+				amnesia: ["9M"],
+				braindamage: ["9M"],
+
+				// rock
+				rocksmash: ["9M"],
+				rocktomb: ["9M"],
+				rockslide: ["9M"],
+
+				// steel
+				cut: ["9M"],
+
+				// normal
+				bide: ["9M"],
+				block: ["9M"],
+				bodyslam: ["9M"],
+				covet: ["9M"],
+				crushclaw: ["9M"],
+				defensecurl: ["9M"],
+				doubleedge: ["9M"],
+				endure: ["9M"],
+				explosion: ["9M"],
+				selfdestruct: ["9M"],
+				facade: ["9M"],
+				furyswipes: ["9M"],
+				gigaimpact: ["9M"],
+				growl: ["9M"],
+				guillotine: ["9M"],
+				headbutt: ["9M"],
+				hornattack: ["9M"],
+				hyperbeam: ["9M"],
+				minimize: ["9M"],
+				rockclimb: ["9M"],
+				scaryface: ["9M"],
+				simplebeam: ["9M"],
+				snore: ["9M"],
+				swift: ["9M"],
+				thrash: ["9M"],
+				weatherball: ["9M"],
+				yawn: ["9M"],
+				acupressure: ["9M"],
+				slackoff: ["9M"],
+
+				// general
+				protect: ["9M"],
+				frustration: ["9M"],
+				doubleteam: ["9M"],
+				rest: ["9M"],
+				attract: ["9M"],
+				round: ["9M"],
+				sleeptalk: ["9M"],
+				substitute: ["9M"],
+				confide: ["9M"],
 		}
 	},
 	fukunny:{
