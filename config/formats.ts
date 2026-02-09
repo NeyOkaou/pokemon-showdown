@@ -132,10 +132,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Mood CAP",
 		desc: "The Create-A-Pok&eacute;mon project is a community dedicated to exploring and understanding the competitive Pok&eacute;mon metagame by designing, creating, and playtesting new Pok&eacute;mon concepts.",
-		mod: 'gen3',
+		mod: 'gen9',
 		ruleset: ['[Gen 9] OU', '+CAP'],
-		banlist: ['Crucibellite', 'Rage Fist','OU'],
-		
+		banlist: ['Crucibellite', 'Rage Fist','OU','Uber','UU','RU','NU','PU','ZU'],
 	},
 	{
 		name: "[Gen 9] BSS Reg I",
