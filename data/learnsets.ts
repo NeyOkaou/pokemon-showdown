@@ -4862,7 +4862,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				leechseed: ["9M"],
 				powerwhip: ["9M"],
 				vinewhip: ["9M"],
-				sappyseed: ["9M"],
 				solarbeam: ["9M"],
 				trailblaze: ["9M"],
 				//ground
