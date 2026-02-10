@@ -21078,6 +21078,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Glacynapse"],
 		eggGroups: ["Human-Like"],
 	},
+	bananya: {
+		num: -5089,
+		name: "Bananya",
+		types: ["Grass"],
+		genderRatio: { M: 0.75, F: 0.25 },
+		baseStats: { hp: 90, atk: 85, def: 50, spa: 65, spd: 76, spe: 80 },
+		abilities: { 0: "Run Away",1: "Shed Skin", H:"Natural Cure"}, 
+		heightm: 0.5,
+		weightkg: 9,
+		color: "Yellow",
+		eggGroups: ["Field"],
+	},
 };
 
 

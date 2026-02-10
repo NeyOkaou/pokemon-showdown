@@ -6022,6 +6022,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	bananya: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	yhvh: {
 		tier: "Illegal",
 		natDexTier: "AG",
@@ -6043,16 +6047,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	embirch: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	flarelm: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	pyroak: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	breezi: {
 		tier: "Illegal",
@@ -6129,12 +6130,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	necturine: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	necturna: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	mollux: {
 		isNonstandard: "CAP",
@@ -6217,16 +6216,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	fawnifer: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	electrelk: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	caribolt: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	smogecko: {
 		isNonstandard: "CAP",
