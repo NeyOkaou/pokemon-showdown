@@ -4824,6 +4824,90 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 			}
 		},
+		bananya:{
+			learnset:{
+				//dark
+				//bug
+				assurance: ["9M"],
+				bite: ["9M"],
+				crunch: ["9M"],
+				faketears: ["9M"],
+				feintattack: ["9M"],
+				honeclaws: ["9M"],
+				pursuit: ["9M"],
+				thief: ["9M"],
+				taunt: ["9M"],
+				//electrique
+				thunderfang: ["9M"],
+				//fairy
+				playrough: ["9M"],
+				charm: ["9M"],
+				decorate: ["9M"],
+				//fire
+				sunnyday: ["9M"],
+				//flying
+				acrobatics: ["9M"],
+				//ghost 
+				lick: ["9M"],
+				shadowclaw: ["9M"],
+				peekaboo: ["9M"],
+				//grass
+				absorb: ["9M"],
+				aromatherapy: ["9M"],
+				megadrain: ["9M"],
+				gigadrain: ["9M"],
+				bulletseed: ["9M"],
+				energyball: ["9M"],
+				grassknot: ["9M"],
+				leechseed: ["9M"],
+				powerwhip: ["9M"],
+				vinewhip: ["9M"],
+				sappyseed: ["9M"],
+				solarbeam: ["9M"],
+				trailblaze: ["9M"],
+				//ground
+				dig: ["9M"],
+				sandattack: ["9M"],
+				mudslap: ["9M"],
+				belch: ["9M"],
+				coil: ["9M"],
+				amnesia: ["9M"],
+				psychicfangs: ["9M"],
+				agility: ["9M"],
+				metalclaw: ["9M"],
+				cut: ["9M"],
+				irontail: ["9M"],
+				captivate: ["9M"],
+				copycat: ["9M"],
+				covet: ["9M"],
+				crushclaw: ["9M"],
+				growl: ["9M"],
+				growth: ["9M"],
+				scratch: ["9M"],
+				furyswipes: ["9M"],
+				encore: ["9M"],
+				fakeout: ["9M"],
+				quickattack: ["9M"],
+				falseswipe: ["9M"],
+				helpinghand: ["9M"],
+				leer: ["9M"],
+				milkdrink: ["9M"],
+				recycle: ["9M"],
+				roar: ["9M"],
+				scaryface: ["9M"],
+				slam: ["9M"],
+				// general
+				protect: ["9M"],
+				frustration: ["9M"],
+				doubleteam: ["9M"],
+				rest: ["9M"],
+				attract: ["9M"],
+				round: ["9M"],
+				sleeptalk: ["9M"],
+				substitute: ["9M"],
+				confide: ["9M"],
+			}
+		},
 		yetidiot:{
 			learnset:{
 				// dark
