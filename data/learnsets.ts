@@ -4822,9 +4822,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				sleeptalk: ["9M"],
 				substitute: ["9M"],
 				confide: ["9M"],
-		}
-	},
-	bananya:{
+			}
+		},
+		bananya:{
 			learnset:{
 				//dark
 				//bug
@@ -4907,7 +4907,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				confide: ["9M"],
 			}
 		},
-	yetidiot:{
+		yetidiot:{
 			learnset:{
 				// dark
 				honeclaws: ["9M"],
