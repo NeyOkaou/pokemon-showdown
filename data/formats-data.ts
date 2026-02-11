@@ -348,6 +348,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	stalla: {
+		tier: "LC",
+	},
+	starling: {
+		tier: "NFE",
+	},
+	gladiva: {
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
