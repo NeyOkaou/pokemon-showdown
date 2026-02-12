@@ -1,6 +1,6 @@
 {
   "celestial": {
-      "weight": 1,
+      "weight": 0,
       "sets": [
           {
               "species": "Celestial",
@@ -87,7 +87,7 @@
               "weight": 20,
               "moves": [
                   ["Dragon Blade"],
-                  ["Outrage","Dragon Claw","Dragon Tail"],
+                  ["Outrage","Dragon Claw","Dragon Tail","Glaive Rush"],
                   ["Sacred Sword"],
                   ["Quick Slice"]
               ],
@@ -102,7 +102,7 @@
               "weight": 20,
               "moves": [
                   ["Dragon Blade"],
-                  ["Dragon Claw","Outrage"],
+                  ["Dragon Claw","Outrage","Glaive Rush"],
                   ["Sacred Sword"],
                   ["Autotomize","Swords Dance","Quick Slice"]
               ],
