@@ -7125,6 +7125,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			snarl: ["9M"],
 			taunt: ["9M"],
 			faketears: ["9M"],
+			partingshot: ["9M"],
 			memento: ["9M"],
 			torment: ["9M"],
 			//electric
