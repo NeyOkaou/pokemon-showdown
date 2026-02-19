@@ -359,6 +359,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "Uber",
 	},
+	chillopede: {
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	kamephal: {
+		tier: "Illegal",
+	},
+	glakame: {
+		tier: "Illegal",
+	},
+	virice: {
+		tier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",

@@ -21132,6 +21132,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 38,
 		eggGroups: ["Human-Like", "Fairy"],
 	},
+	chillopede: {
+		num: -5093,
+		name: "Chillopede",
+		types: ["Bug","Ice"],
+		genderRatio: { M: 0.50, F: 0.50 },
+		baseStats: { hp: 78, atk: 100, def: 79, spa: 53, spd: 70, spe: 105 },
+		abilities: { 0: "Thick Fat", H: "Tinted Lens" },
+		heightm: 2.4,
+		weightkg: 120,
+		color: "Green",
+		eggGroups: ["Bug"],
+	},
 };
 
 
