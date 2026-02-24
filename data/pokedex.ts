@@ -21138,7 +21138,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Bug","Ice"],
 		genderRatio: { M: 0.50, F: 0.50 },
 		baseStats: { hp: 40, atk: 15, def: 50, spa: 43, spd: 33, spe: 19 },
-		abilities: { 0: "Gluttony", 1: "Run Away" , H: "Slush Rush" },
+		abilities: { 0: "Gluttony", 1: "Run Away" , H: "Snow Cloak" },
 		heightm: 0.7,
 		weightkg: 15,
 		color: "Green",
