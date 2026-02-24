@@ -7187,7 +7187,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			reflect: ["9M"],
 			//normal
 			captivate: ["9M"],
-			confide: ["9M"],
 			covet: ["9M"],
 			doubleslap: ["9M"],
 			echoedvoice: ["9M"],
@@ -7220,8 +7219,39 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				sleeptalk: ["9M"],
 				substitute: ["9M"],
 				confide: ["9M"],
-			}
+			},
 		},
+	congenille:{
+		learnset:{
+			//Bug
+			dig: ["9M"],
+			//ice
+			breaktheice: ["9M"],
+			engelure: ["9M"],
+			icefang: ["9M"],
+			//poison
+			poisonsting: ["9M"],
+			//steel
+			cut: ["9M"],
+			//normal
+			defensecurl: ["9M"],
+			falseswipe: ["9M"],
+			tailwhip: ["9M"],
+			stockpile: ["9M"],
+			spitup: ["9M"],
+			swallow: ["9M"],
+			//general
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                round: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		},
+	},
 	chillopede:{
 		learnset:{
 			//Bug
