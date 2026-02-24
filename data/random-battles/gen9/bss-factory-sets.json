@@ -1518,7 +1518,7 @@
                 ["Knock Off"],
                 ["Grassy Glide"]
             ],
-            "item": ["Assault Veste","Grassy Seed"],
+            "item": ["Assault Vest","Grassy Seed"],
             "nature": "Bold",
             "evs": {"hp": 252, "def": 252 , "atk": 4 },
             "teraType": ["Fairy"],
