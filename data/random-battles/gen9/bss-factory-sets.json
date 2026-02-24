@@ -2073,7 +2073,23 @@
             "evs": {"spe": 252, "spa": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Snow Warning","Queenly Majesty"]
+        },
+         {
+            "species": "Gladiva",
+            "weight": 20,
+            "moves": [
+                ["Freezy Frost","Freeze-Dry"],
+                ["Moon Blast"],
+                ["Thunderbolt"],
+                ["Calm Mind"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Timid",
+            "evs": {"spe": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Snow Warning","Queenly Majesty"]
         }
+
       ]
     }
 }
