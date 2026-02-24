@@ -147,7 +147,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	lumini: {
-		tier: "LC",
+		tier: "RU",
+		doublesTier: "DOU",
+		natDexTier: "RU",
 	},
 	parademise: {
 		tier: "OU",
@@ -358,6 +360,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Uber",
 		doublesTier: "DUber",
 		natDexTier: "Uber",
+	},
+	congenille: {
+		tier: "LC",
 	},
 	chillopede: {
 		tier: "Uber",
