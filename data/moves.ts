@@ -22531,15 +22531,14 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 20,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		onHit(target,source){
+		onTryHit(target,source){
 			const item = source.getItem();
 			if (source.hp && item.isBerry) {
 				if (this.singleEvent('Eat', item, null, source, null, null)) {
 					this.runEvent('EatItem', source, null, null, item);
-					source.useItem()
+					//source.useItem()
 				}
 				if (item.onEat) source.ateBerry = true;
-				
 			}
 		},
 		basePowerCallback(source, target, move) {
@@ -22564,9 +22563,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
-		onHit(source, target, move) {
-			if (source.illusion) target.addVolatile('attract', target, move);
-		this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
+		beforeMoveCallback(source, target, move) {
+			if (source.illusion) source.addVolatile('attract');
+		},
+		onHit(target, source) {
+			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
 		secondary: {
 			chance: 100,
