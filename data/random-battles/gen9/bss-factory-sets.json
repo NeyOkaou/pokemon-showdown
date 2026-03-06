@@ -2048,7 +2048,7 @@
             "species": "Gladiva",
             "weight": 20,
             "moves": [
-                ["Freezy Frost"],
+                ["Blizzard"],
                 ["Moon Blast"],
                 ["Aurora Veil"],
                 ["Parting Shot"]
@@ -2063,7 +2063,7 @@
             "species": "Gladiva",
             "weight": 20,
             "moves": [
-                ["Freezy Frost"],
+                ["Freezy Frost","Freez-Dry","Blizzard"],
                 ["Moon Blast"],
                 ["Thunderbolt"],
                 ["Parting Shot","Trick"]
@@ -2078,7 +2078,7 @@
             "species": "Gladiva",
             "weight": 20,
             "moves": [
-                ["Freezy Frost","Freeze-Dry"],
+                ["Freezy Frost","Freeze-Dry","Blizzard"],
                 ["Moon Blast"],
                 ["Thunderbolt"],
                 ["Calm Mind"]
@@ -2090,6 +2090,86 @@
             "ability": ["Snow Warning","Queenly Majesty"]
         }
 
+      ]
+    },
+    "chillopede": {
+      "weight": 30,
+      "sets": [
+        {
+            "species": "Chillopede",
+            "weight": 10,
+            "moves": [
+                ["Megahorn","Lunge"],
+                ["Icicle Crash","Triple Axel","Ice Spinner"],
+                ["Ice Shard","First Impression"],
+                ["U-Turn"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Tinted Lens"]
+        },
+        {
+            "species": "Chillopede",
+            "weight": 10,
+            "moves": [
+                ["Megahorn","Lunge"],
+                ["Icicle Crash","Triple Axel","Ice Spinner"],
+                ["Ice Shard","First Impression"],
+                ["U-Turn"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Tinted Lens"]
+        },
+        {
+            "species": "Chillopede",
+            "weight": 20,
+            "moves": [
+                ["Megahorn","Lunge"],
+                ["Rapid Spin"],
+                ["Dragon Tail"],
+                ["U-Turn"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        },
+        {
+            "species": "Chillopede",
+            "weight": 20,
+            "moves": [
+                ["Megahorn"],
+                ["Rapid Spin"],
+                ["Ice Shard"],
+                ["Coil"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Tinted Lens"]
+        },
+         {
+            "species": "Chillopede",
+            "weight": 20,
+            "moves": [
+                ["Megahorn"],
+                ["Icicle Crash"],
+                ["Ice Shard"],
+                ["Coil"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Tinted Lens"]
+        }
       ]
     }
 }
