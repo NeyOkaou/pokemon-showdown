@@ -22522,4 +22522,88 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "all",
 		type: "Fire",
 	},
+	jampunch: {
+		num: -1003,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Jam Punch",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onHit(target,source){
+			const item = source.getItem();
+			if (source.hp && item.isBerry) {
+				if (this.singleEvent('Eat', item, null, source, null, null)) {
+					this.runEvent('EatItem', source, null, null, item);
+				}
+				if (item.onEat) source.ateBerry = true;
+			}
+		},
+		basePowerCallback(source, target, move) {
+			if (source.ateBerry) {
+				return move.basePower * 2;
+			}
+			return move.basePower;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		contestType: "Tough",
+	},
+	mermaidsong: {
+		num: -1004,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Mermaid Song",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
+		onHit(source, target, move) {
+			if (source.illusion) target.addVolatile('attract', source, move);
+		},
+		onHit(target, source) {
+			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
+		},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spa: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+	},
 };
+
+
+
+num: 367,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Acupressure",
+		pp: 30,
+		priority: 0,
+		flags: { metronome: 1 },
+		onHit(target) {
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] < 6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = 2;
+				this.boost(boost);
+			} else {
+				return false;
+			}
+		},

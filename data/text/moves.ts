@@ -4746,6 +4746,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		removeItem: "#bugbite",
 	},
+	jampunch:{
+		name: "Jam Punch",
+		desc:"If this move is successful and the user has not fainted, if holding a berry, the user will eats it immediately, gaining its effects. Deals 2x damage if a berry is eaten.",
+		shortDesc:"User eats its own Berry. Deals 2x damage if a berry is eaten.",
+	}
 	poisonfang: {
 		name: "Poison Fang",
 		desc: "Has a 50% chance to badly poison the target.",
@@ -7055,6 +7060,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Torch Song",
 		desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "100% chance to raise the user's Sp. Atk by 1.",
+	},
+	mermaidsong: {
+		name: "Mermaid Song",
+		desc: "If the user is under Illusion the opponent will become infatuated if it is of the opposite gender. Has a 100% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "Infatuating Pokemon of the opposite gender if the user is under Illusion. 100% chance to raise the user's Sp. Atk by 1.",
 	},
 	torment: {
 		name: "Torment",

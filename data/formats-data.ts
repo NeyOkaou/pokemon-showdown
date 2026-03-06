@@ -378,6 +378,31 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	virice: {
 		tier: "Illegal",
 	},
+	bermudine: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	blobuster: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	phlotoxico: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	sheruran: {
+		tier: "LC",
+	},
+	sherucroc: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+
+
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
