@@ -22563,10 +22563,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
-		beforeMoveCallback(source, target, move) {
-			if (source.illusion && target) target.addVolatile('attract')
-		},
 		onHit(target, source) {
+			if (source.illusion && target) target.addVolatile('attract')
 			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
 		secondary: {

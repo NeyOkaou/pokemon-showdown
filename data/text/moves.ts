@@ -4749,7 +4749,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	jampunch:{
 		name: "Jam Punch",
 		desc:"If this move is successful and the user has not fainted, if holding a berry, the user will eats it immediately, gaining its effects. Deals 2x damage if a berry is eaten.",
-		shortDesc:"User eats its own Berry. Deals 2x damage if a berry is eaten.",
+		shortDesc:"User eats its own Berry. Deals x2 damages.",
 	},
 	poisonfang: {
 		name: "Poison Fang",
