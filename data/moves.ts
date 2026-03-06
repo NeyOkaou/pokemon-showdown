@@ -22562,9 +22562,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
 		onHit(source, target, move) {
 			if (source.illusion) target.addVolatile('attract', source, move);
-		},
-		onHit(target, source) {
-			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
+		this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
 		secondary: {
 			chance: 100,
