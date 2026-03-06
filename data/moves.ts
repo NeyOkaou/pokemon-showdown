@@ -22579,31 +22579,3 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Beautiful",
 	},
 };
-
-
-
-num: 367,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		name: "Acupressure",
-		pp: 30,
-		priority: 0,
-		flags: { metronome: 1 },
-		onHit(target) {
-			const stats: BoostID[] = [];
-			let stat: BoostID;
-			for (stat in target.boosts) {
-				if (target.boosts[stat] < 6) {
-					stats.push(stat);
-				}
-			}
-			if (stats.length) {
-				const randomStat = this.sample(stats);
-				const boost: SparseBoostsTable = {};
-				boost[randomStat] = 2;
-				this.boost(boost);
-			} else {
-				return false;
-			}
-		},
