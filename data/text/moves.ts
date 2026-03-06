@@ -4750,7 +4750,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Jam Punch",
 		desc:"If this move is successful and the user has not fainted, if holding a berry, the user will eats it immediately, gaining its effects. Deals 2x damage if a berry is eaten.",
 		shortDesc:"User eats its own Berry. Deals 2x damage if a berry is eaten.",
-	}
+	},
 	poisonfang: {
 		name: "Poison Fang",
 		desc: "Has a 50% chance to badly poison the target.",
