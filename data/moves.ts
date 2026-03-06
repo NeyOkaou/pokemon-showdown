@@ -22536,12 +22536,16 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (source.hp && item.isBerry) {
 				if (this.singleEvent('Eat', item, null, source, null, null)) {
 					this.runEvent('EatItem', source, null, null, item);
+					source.useItem()
 				}
 				if (item.onEat) source.ateBerry = true;
+				
 			}
 		},
 		basePowerCallback(source, target, move) {
 			if (source.ateBerry) {
+				source.ateBerry = false;
+				source.takeItem(source);
 				return move.basePower * 2;
 			}
 			return move.basePower;
@@ -22561,7 +22565,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
 		onHit(source, target, move) {
-			if (source.illusion) target.addVolatile('attract', source, move);
+			if (source.illusion) target.addVolatile('attract', target, move);
 		this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
 		secondary: {
