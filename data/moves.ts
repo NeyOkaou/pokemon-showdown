@@ -22591,13 +22591,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
 
 		onTry(target,source){
-			if(!(target.status === 'psn' || target.status ==='tox' || target.status === 'frz')){
-				this.add('-fail', source, 'heal');
+			if(!(source.status === 'psn' || source.status ==='tox' || source.status === 'frz')){
+				//this.add('-fail', target, 'heal');
 				return null;
 			}
 		},
 		onHit(target, source, move) {
-			this.heal(target.maxhp); // Aesthetic only as the healing happens after you fall asleep in-game
+			this.heal(source.maxhp); // Aesthetic only as the healing happens after you fall asleep in-game
 		},
 
 		secondary: null,
