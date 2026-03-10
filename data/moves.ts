@@ -22579,29 +22579,5 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Water",
 		contestType: "Beautiful",
 	},
-	glaglasoin: {
-		num: -1005,
-		accuracy: 100,
-		basePower: 0,
-		category: "Status",
-		
-		name: "Gla Gla Soin",
-		pp: 20,
-		priority: 0,
-		flags: { protect: 1, reflectable: 1, heal:1, mirror: 1, metronome: 1 },
-
-		onTry(target,source){
-			if(!(source.status === 'psn' || source.status ==='tox' || source.status === 'frz')){
-				//this.add('-fail', target, 'heal');
-				return null;
-			}
-		},
-		secondary: null,
-		target: "normal",
-		heal: [1, 2],
-		type: "Ice",
-		zMove: { boost: { def: 1 } },
-		contestType: "Clever",
-	},
 };
 	
