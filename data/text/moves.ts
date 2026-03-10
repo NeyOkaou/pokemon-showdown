@@ -7064,7 +7064,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	mermaidsong: {
 		name: "Mermaid Song",
 		desc: "If the user is under Illusion the opponent will become infatuated if it is of the opposite gender. Has a 100% chance to raise the user's Special Attack by 1 stage.",
-		shortDesc: "Infatuating Pokemon of the opposite gender if the user is under Illusion. 100% chance to raise the user's Sp. Atk by 1.",
+		shortDesc: "Infatuate an opponent If the user is under Illusion. Raises the user's Sp. Atk by 1.",
 	},
 	torment: {
 		name: "Torment",
@@ -7314,6 +7314,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Venom Drench",
 		desc: "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
 		shortDesc: "Lowers Atk/Sp. Atk/Speed of poisoned foes by 1.",
+	},
+	glaglasoin: {
+		name: "Gla Gla Soin",
+		desc: "The user restores 1/2 of its maximum HP, rounded half up if the target is poisoned or frozen. Fails if the target is not poisoned or frozen.",
+		shortDesc: "Heals the user by 50% of its max HP if the target is poisoned or frozen.",
 	},
 	venoshock: {
 		name: "Venoshock",

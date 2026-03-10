@@ -2062,6 +2062,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon's attacks have a 30% chance of badly poisoning. This effect comes before a move's inherent secondary effect chance.",
 		shortDesc: "This Pokemon's attacks have a 30% chance of badly poisoning.",
 	},
+	coldchain: {
+		name: "Cold Chain",
+		desc: "This Pokemon's attacks have a 30% chance of causing Frostbite. This effect comes before a move's inherent secondary effect chance.",
+		shortDesc: "This Pokemon's attacks have a 30% chance of causing Frostbite.",
+	},
 	toxicdebris: {
 		name: "Toxic Debris",
 		shortDesc: "If this Pokemon is hit by a physical attack, Toxic Spikes are set on the opposing side.",

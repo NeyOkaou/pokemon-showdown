@@ -5902,7 +5902,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -386,
 	},
 	gravityfalls: {
-		onStart(pokemon,source) {
+		onStart(pokemon) {
 			let activated = false;
 			for (const target of pokemon.adjacentFoes()) {
 				if (!activated) {
@@ -5928,5 +5928,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "War Horn",
 		rating: 3.5,
 		num: -388
+	},
+	coldchain: {
+		onSourceDamagingHit(damage, target, source, move) {
+			// Despite not being a secondary, Shield Dust / Covert Cloak block Toxic Chain's effect
+			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
+
+			if (this.randomChance(3, 10)) {
+				target.trySetStatus('frz', source);
+			}
+		},
+		flags: {},
+		name: "Cold Chain",
+		rating: 4.5,
+		num: -389,
 	},
 };
