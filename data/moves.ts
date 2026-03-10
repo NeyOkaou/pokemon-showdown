@@ -22588,7 +22588,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Gla Gla Soin",
 		pp: 20,
 		priority: 0,
-		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, reflectable: 1, heal:1, mirror: 1, metronome: 1 },
 
 		onTry(target,source){
 			if(!(source.status === 'psn' || source.status ==='tox' || source.status === 'frz')){
@@ -22596,12 +22596,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				return null;
 			}
 		},
-		onHit(target, source, move) {
-			this.heal(source.maxhp); // Aesthetic only as the healing happens after you fall asleep in-game
-		},
-
 		secondary: null,
 		target: "normal",
+		heal: [1, 2],
 		type: "Ice",
 		zMove: { boost: { def: 1 } },
 		contestType: "Clever",
