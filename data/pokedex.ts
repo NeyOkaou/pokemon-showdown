@@ -21196,7 +21196,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Amorphous"],
 	},
 	sheruran: {
-		num: -5093,
+		num: -5098,
 		name: "Sheruran",
 		types: ["Steel","Poison"],
 		gender: "N",
@@ -21209,7 +21209,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Amorphous","Water 3"],
 	},
 	sherucroc: {
-		num: -5094,
+		num: -5099,
 		name: "Sherucroc",
 		types: ["Steel","Poison"],
 		genderRatio: { M: 0.50, F: 0.50 },
@@ -21221,6 +21221,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Sheruran",
 		evoLevel: 40,
 		eggGroups: ["Amorphous","Water 3"],
+	},
+	rhumaggro: {
+		num: -5100,
+		name: "Rhumaggro",
+		types: ["Poison","Ice"],
+		gender: "N",
+		baseStats: { hp: 103, atk: 93, def: 111, spa: 78, spd: 135, spe: 70 },
+		abilities: { 0: "Cold Chain"}, 
+		heightm: 1.2,
+		weightkg: 32,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
 	},
 };
 

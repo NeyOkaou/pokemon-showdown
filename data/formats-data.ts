@@ -268,6 +268,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Uber",
 		natDexTier: "OU",
 	},
+	rhumaggro:{
+		tier: "Uber",
+		natDexTier: "OU",
+	},
 	synapti:{
 		tier: "LC",
 	},
