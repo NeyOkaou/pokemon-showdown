@@ -2304,7 +2304,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gunkshot: ["9M"],
 			malignantchain: ["9M"],
 			mortalspin: ["9M"],
-			poisonfan: ["9M"],
+			poisonfang: ["9M"],
 			poisonsting: ["9M"],
 			venomdrench: ["9M"],
 			//NORMAL
