@@ -2171,5 +2171,40 @@
             "ability": ["Tinted Lens"]
         }
       ]
+    },
+    "rhumaggro": {
+      "weight": 30,
+      "sets": [
+          {
+              "species": "Rhumaggro",
+              "weight": 20,
+              "moves": [
+                  ["Frost Breath"],
+                  ["Toxic Spikes"],
+                  ["Venoshock"],
+                  ["Mortal Spin"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Quiet",
+              "evs": {"hp": 252, "spa": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Cold Chain"]
+          },
+          {
+              "species": "Rhumaggro",
+              "weight": 20,
+              "moves": [
+                  ["Toxic","Engelure"],
+                  ["Spiky Shield"],
+                  ["Strength Sap"],
+                  ["Malignant Chain"]
+              ],
+              "item": ["Black Sludge","Heavy-Duty Boots"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "spd": 252, "spa": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Cold Chain"]
+          }
+      ]
     }
 }
