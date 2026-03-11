@@ -2244,7 +2244,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			//ELECTRIC
 			flash: ["9M"],
-			shocwave: ["9M"],
+			shockwave: ["9M"],
 			thunder: ["9M"],
 			thunderbolt: ["9M"],
 			thunderwave: ["9M"],
@@ -2299,7 +2299,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			venoshock: ["9M"],
 			sludgebomb: ["9M"],
 			sludgewave: ["9M"],
-			acidspary: ["9M"],
+			acidspray: ["9M"],
 			clearsmog: ["9M"],
 			gunkshot: ["9M"],
 			malignantchain: ["9M"],
