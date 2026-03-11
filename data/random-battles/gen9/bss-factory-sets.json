@@ -2199,7 +2199,7 @@
                   ["Strength Sap"],
                   ["Malignant Chain"]
               ],
-              "item": ["Black Sludge","Heavy-Duty Boots"],
+              "item": ["Heavy-Duty Boots"],
               "nature": "Calm",
               "evs": {"hp": 252, "spd": 252, "spa": 4},
               "teraType": ["Grass", "Poison", "Water"],
