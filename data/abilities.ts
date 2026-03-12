@@ -5931,7 +5931,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	coldchain: {
 		onSourceDamagingHit(damage, target, source, move) {
-			// Despite not being a secondary, Shield Dust / Covert Cloak block Cold Chain's effect
+			// Despite not being a secondary, Shield Dust / Covert Cloak block Toxic Chain's effect
 			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
 
 			if (this.randomChance(3, 10)) {
@@ -5942,40 +5942,5 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Cold Chain",
 		rating: 4.5,
 		num: -389,
-	},
-	neverendingwinter: {
-		onStart(source) {
-			this.field.setWeather('snow');
-		},
-		onAnySetWeather(target, source, weather) {
-			const strongWeathers = ['desolateland', 'primordialsea', 'deltastream'];
-			if (this.field.getWeather().id === 'snow' && !strongWeathers.includes(weather.id)) return false;
-		},
-		onEnd(pokemon) {
-			if (this.field.weatherState.source !== pokemon) return;
-			for (const target of this.getAllActive()) {
-				if (target === pokemon) continue;
-				if (target.hasAbility('neverendingwinter')) {
-					this.field.weatherState.source = target;
-					return;
-				}
-			}
-			this.field.clearWeather();
-		},
-		onResidualOrder: 28,
-		onResidualSubOrder: 2,
-		onResidual(pokemon, target, source) {
-			if (pokemon.activeTurns) {
-				if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
-
-			if (this.randomChance(3, 10)) {
-				target.trySetStatus('frz', source);
-				}
-			}
-		},
-		flags: {},
-		name: "Never Ending Winter",
-		rating: 4.5,
-		num: -190,
 	},
 };
