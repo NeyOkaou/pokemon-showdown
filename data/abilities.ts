@@ -5961,22 +5961,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
             }
             return this.chainModify(0.5);
         },
-		onTryHit(target) {
-			if (target.getAbility().flags['cantsuppress']) {
-				return false;
-			}
-		},
+		//onTryHit(target) {
+		//	if (target.getAbility().flags['cantsuppress']) {
+		//		return false;
+		//	}
+		//},
 
-		onStart(pokemon) {
-			const oldAbility = pokemon.hasAbility('epidemie') ? null : pokemon.setAbility('epidemie');
+		//onStart(pokemon) {
+		//	const oldAbility = pokemon.hasAbility('epidemie') ? null : pokemon.setAbility('epidemie');
 
-			if (oldAbility) {
-				this.add('-ability', pokemon, 'Epidemie', '[from] ability: Epidemie');
-			}
-			if (pokemon.hasType('Ice') || pokemon.hasType('Poison')) {
-				return;
-			}
-		},
+		//	if (oldAbility) {
+		//		this.add('-ability', pokemon, 'Epidemie', '[from] ability: Epidemie');
+		//	}
+		//	if (pokemon.hasType('Ice') || pokemon.hasType('Poison')) {
+		//		return;
+		//	}
+		//},
 
 
         flags: {},
