@@ -22579,5 +22579,37 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Water",
 		contestType: "Beautiful",
 	},
+	contagion: {
+		num: -390,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Contagion",
+		pp: 20,
+		priority: 0,
+		flags: { reflectable: 1, nonsky: 1, metronome: 1, mustpressure: 1 },
+		sideCondition: 'contagion',
+		condition: {
+			// this is a side condition
+			onSideStart(side) {
+				this.add('-sidestart', side, 'move: Contagion')
+			},
+			onSwitchIn(pokemon) {
+				if (pokemon.hasType('Ice')) {
+					this.add('-sideend', pokemon.side, 'move: Contagion', `[of] ${pokemon}`);
+					pokemon.side.removeSideCondition('Contagion');
+				} else if (pokemon.hasType('Steel') || pokemon.hasItem('covertcloak')) {
+					// do nothing
+				} else {
+					pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+				}
+			},
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Ice",
+		zMove: { boost: { def: 1 } },
+		contestType: "Clever",
+	},
 };
 	
