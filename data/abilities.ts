@@ -5943,4 +5943,22 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: -389,
 	},
+	epidemie: {
+        onModifyAtkPriority: 5,
+        
+        onModifyAtk(atk, pokemon) {
+            if (pokemon.hasType('Ice') || pokemon.hasType('Poison')){
+              return;
+            }
+            return this.chainModify(0.5);
+        },
+        onModifySpAPriority: 5,
+        onModifySpA(atk, pokemon) {
+            return this.chainModify(0.5);
+        },
+        flags: {},
+        name: "Epidemie",
+        rating: -1,
+        num: -1000,
+    },
 };
