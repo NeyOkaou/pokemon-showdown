@@ -5943,6 +5943,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: -389,
 	},
+
+	
 	epidemie: {
         onModifyAtkPriority: 5,
         
@@ -5954,8 +5956,29 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
         },
         onModifySpAPriority: 5,
         onModifySpA(atk, pokemon) {
+			if (pokemon.hasType('Ice') || pokemon.hasType('Poison')){
+              return;
+            }
             return this.chainModify(0.5);
         },
+		onTryHit(target) {
+			if (target.getAbility().flags['cantsuppress']) {
+				return false;
+			}
+		},
+
+		onStart(pokemon) {
+			const oldAbility = pokemon.hasAbility('epidemie') ? null : pokemon.setAbility('epidemie');
+
+			if (oldAbility) {
+				this.add('-ability', pokemon, 'Epidemie', '[from] ability: Epidemie');
+			}
+			if (pokemon.hasType('Ice') || pokemon.hasType('Poison')) {
+				return;
+			}
+		},
+
+
         flags: {},
         name: "Epidemie",
         rating: -1,
