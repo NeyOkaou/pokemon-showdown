@@ -5961,6 +5961,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
             }
             return this.chainModify(0.5);
         },
+		onStart(pokemon){
+			for (const target of pokemon.foes()) {
+				if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie'))  continue;
+				const oldAbility = target.setAbility('epidemie');
+				if (oldAbility) {
+					this.add('-ability', target, 'Epidemie', '[from] ability: Epidemie');
+				}
+			}
+		},
 
 		/*
 						A FIXER 
@@ -5983,7 +5992,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 						A FIXER
 		*/
-
+		
         flags: {},
         name: "Epidemie",
         rating: -1,
