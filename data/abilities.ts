@@ -5970,29 +5970,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				}
 			}
 		},
-
-		/*
-						A FIXER 
-
-		onTryHit(target) {
-			if (target.getAbility().flags['cantsuppress']) {
-				return false;
+		onResidual(pokemon){
+			if(pokemon.baseSpecies.baseSpecies == 'Rhummagro' ){
+				for (const target of pokemon.foes()) {
+					if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie')){
+						continue;
+					}
+					if (this.randomChance(3, 10)) {
+						const oldAbility = target.setAbility('epidemie');
+						if (oldAbility) {
+							this.add('-ability', target, 'Epidemie', '[from] ability: Epidemie');
+						}
+					}
+				}
 			}
 		},
-
-		onStart(pokemon) {
-			const oldAbility = pokemon.hasAbility('epidemie') ? null : pokemon.setAbility('epidemie');
-
-			if (oldAbility) {
-				this.add('-ability', pokemon, 'Epidemie', '[from] ability: Epidemie');
-			}
-			if (pokemon.hasType('Ice') || pokemon.hasType('Poison')) {
-				return;
-			}
-		},
-						A FIXER
-		*/
-		
         flags: {},
         name: "Epidemie",
         rating: -1,
