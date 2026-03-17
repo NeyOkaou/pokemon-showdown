@@ -17,6 +17,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			shortDesc: "This Pokemon's Normal-type moves become Flying type and have 1.3x power.",
 		},
 	},
+	epidemie:{
+		name:"Epidemie",
+		desc: "Causes the target's Ability to become Epidemie. Halved the user's Attack and Special Attack. If the user is a Rhumaggro there is a 30% chance that the opponent ability becomes Epidemie, at the end of each turns  Fails if the target is either Ice or Poison, or if their ability is : Bond, Comatose, Disguise, Gulp Missile, Ice Face, Insomnia, Multitype, Power Construct, RKS System, Schooling, Shields Down, Stance Change, Tera Shift, Truant, Zen Mode, or Zero to Hero.",
+		shortDesc:"The target's Ability becomes Epidemie. ",
+	},
 	aftermath: {
 		name: "Aftermath",
 		desc: "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. This effect is prevented if the move's user has the Magic Guard Ability or if any active Pokemon has the Damp Ability.",
