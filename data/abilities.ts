@@ -5970,7 +5970,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onResidual(pokemon){
-			if(pokemon.baseSpecies.baseSpecies == 'Rhummagro' ){
+			if (pokemon.hasType('Ice') && pokemon.hasType('Poison')){
 				for (const target of pokemon.foes()) {
 					if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie')){
 						continue;
