@@ -765,7 +765,7 @@
             "moves": [
                 ["Knock Off"],
                 ["Swords Dance"],
-                ["Dynamic Punch","Drain Punch"],
+                ["Drain Punch"],
                 ["Substitute"]
             ],
             "item": ["Salac Berry"],
@@ -958,21 +958,6 @@
               "evs": {"atk": 252, "hp": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Stakeout"]
-          },
-          {
-              "species": "Aggrestik",
-              "weight": 20,
-              "moves": [
-                  ["Hone Claws"],
-                  ["Stone Edge","Rock Slide"],
-                  ["Megahorn"],
-                  ["Substitute"]
-              ],
-              "item": ["Salac Berry"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spe": 252, "spd": 4},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Swarm"]
           }
       ]
     },
@@ -1473,7 +1458,7 @@
                 ["Toxic"],
                 ["Protect"]
             ],
-            "item": ["Black Sludge","Life Orb"],
+            "item": ["Black Sludge"],
             "nature": "Bold",
             "evs": {"hp": 252, "def": 252 , "spd": 4 },
             "teraType": ["Fairy"],
@@ -2129,7 +2114,7 @@
             "species": "Chillopede",
             "weight": 20,
             "moves": [
-                ["Megahorn","Lunge"],
+                ["Icicle Crash","Triple Axel","Ice Spinner"],
                 ["Rapid Spin"],
                 ["Dragon Tail"],
                 ["U-Turn"]
