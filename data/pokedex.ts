@@ -20942,7 +20942,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.5,
 		weightkg: 10,
 		color: "Green",
-		evos: ["Sylv\u0301sage"],
+		evos: ["Sylve\u0301sage"],
 		eggGroups: ["Grass"],
 	},
 	sylvesage: {
@@ -21233,6 +21233,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 32,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
+	},
+	arctitane: {
+		num: 285,
+		name: "Arctitane",
+		types: ["Ice","Steel"],
+		baseStats: { hp: 91, atk: 82, def: 192, spa: 55, spd: 75, spe: 20 },
+		abilities: { 0: "Iron Barbs", 1: "Contrary", H: "Ice Scales" },
+		heightm: 1.4,
+		weightkg: 400,
+		color: "Gray",
+		eggGroups: ["Fairy", "Grass"],
 	},
 };
 

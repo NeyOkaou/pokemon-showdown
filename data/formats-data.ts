@@ -272,6 +272,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Uber",
 		natDexTier: "OU",
 	},
+	arctitane:{
+		tier: "Uber",
+		natDexTier: "OU",
+	},
 	synapti:{
 		tier: "LC",
 	},
