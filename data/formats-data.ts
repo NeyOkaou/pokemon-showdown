@@ -31,14 +31,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	auberjaw: {
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "DOU",
 		natDexTier: "RU",
 	},
 	gyaoon: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	dracoton: {
 		tier: "LC",
@@ -110,7 +110,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mandelman: {
 		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	poki: {
 		tier: "Illegal",
@@ -147,9 +147,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	lumini: {
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "DOU",
-		natDexTier: "RU",
+		natDexTier: "NU",
 	},
 	parademise: {
 		tier: "OU",
@@ -195,7 +195,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	zardopium:{
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
@@ -265,23 +265,27 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	yetidiot:{
-		tier: "Uber",
-		natDexTier: "OU",
+		tier: "UU",
+		doublesTier: "DOU",
+		natDexTier: "UU",
 	},
 	rhumaggro:{
-		tier: "Uber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	arctitane:{
-		tier: "Uber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	synapti:{
 		tier: "LC",
 	},
 	glacynapse:{
-		tier: "Uber",
-		natDexTier: "OU",
+		tier: "UU",
+		doublesTier: "DOU",
+		natDexTier: "UU",
 	},
 	lilichen:{
 		tier: "LC",
@@ -301,7 +305,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	plankteuy:{
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
@@ -325,14 +329,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	sylvesage:{
-		tier: "OU",
-		doublesTier: "DOU",
-		natDexTier: "OU",
-	},
-	shroomalice:{
 		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "UU",
+	},
+	shroomalice:{
+		tier: "RU",
+		doublesTier: "DOU",
+		natDexTier: "RU",
 	},
 	jamush: {
 		tier: "LC",
@@ -365,17 +369,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	gladiva: {
-		tier: "Uber",
-		doublesTier: "DUber",
-		natDexTier: "Uber",
+		tier: "OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	congenille: {
 		tier: "LC",
 	},
 	chillopede: {
-		tier: "Uber",
-		doublesTier: "DUber",
-		natDexTier: "Uber",
+		tier: "OU",
+		doublesTier: "DOU",
+		natDexTier: "OU",
 	},
 	kamephal: {
 		tier: "Illegal",

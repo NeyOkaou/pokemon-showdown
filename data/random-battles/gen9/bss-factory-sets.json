@@ -130,7 +130,7 @@
       ]
   },
   "cockalypse": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
           {
               "species": "Cockalypse",
@@ -200,7 +200,7 @@
       ]
   },
   "terrakami": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
           {
               "species": "Terrakami",
@@ -316,7 +316,7 @@
   },
 
   "gyaoon": {
-      "weight": 35,
+      "weight": 25,
       "sets": [
         {
             "species": "Gyaoon",
@@ -481,7 +481,7 @@
       ]
     },
     "mandelman": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
         {
             "species": "Mandelman",
@@ -622,7 +622,7 @@
       ]
     },
     "auberjaw": {
-      "weight": 35,
+      "weight": 45,
       "sets": [
         {
             "species": "Auberjaw",
@@ -1367,7 +1367,7 @@
       ]
     },
     "wardelith": {
-      "weight": 35,
+      "weight": 25,
       "sets": [
         {
             "species": "Wardelith",
@@ -1432,7 +1432,7 @@
       ]
     },
     "monarchen": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Monarchen",
@@ -1512,7 +1512,7 @@
       ]
     },
     "yukigori": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Yukigori",
@@ -1562,7 +1562,7 @@
       ]
     },
     "shroomalice": {
-      "weight": 30,
+      "weight": 45,
       "sets": [
         {
             "species": "Shroomalice",
@@ -1582,7 +1582,7 @@
       ]
     },
     "plankteuy": {
-      "weight": 5,
+      "weight": 50,
       "sets": [
         {
             "species": "Plankteuy",
@@ -1602,7 +1602,7 @@
       ]
     },
     "mycellum": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Mycellum",
@@ -1667,7 +1667,7 @@
       ]
     },
     "sylvesage": {
-      "weight": 30,
+      "weight": 35,
       "sets": [
         {
             "species": "Sylve\u0301sage",
@@ -1717,7 +1717,7 @@
       ]
     },
     "cendracine": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Cendracine",
@@ -1767,7 +1767,7 @@
       ]
     },
     "veracina": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Veracina",
@@ -1817,7 +1817,7 @@
       ]
     },
     "choracorn": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Choracorn",
@@ -1897,7 +1897,7 @@
       ]
     },
     "glacynapse": {
-      "weight": 30,
+      "weight": 35,
       "sets": [
         {
             "species": "Glacynapse",
@@ -1977,7 +1977,7 @@
       ]
     },
     "yetidiot": {
-      "weight": 30,
+      "weight": 35,
       "sets": [
         {
             "species": "Ye\u0301tidiot",
@@ -2027,7 +2027,7 @@
       ]
     },
     "gladiva": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Gladiva",
@@ -2078,7 +2078,7 @@
       ]
     },
     "chillopede": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
         {
             "species": "Chillopede",
@@ -2158,7 +2158,7 @@
       ]
     },
     "rhumaggro": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
           {
               "species": "Rhumaggro",
@@ -2193,7 +2193,7 @@
       ]
     },
      "arctitane": {
-      "weight": 30,
+      "weight": 25,
       "sets": [
           {
               "species": "Arctitane",
