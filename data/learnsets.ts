@@ -4781,7 +4781,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
         }
     },
 	arctitane:{
-  		learnsset:{
+  		learnset:{
     			//general
                 //BUG
                 megahorn: ["9M"],
