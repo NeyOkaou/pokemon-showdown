@@ -4905,6 +4905,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				headbutt: ["9M"],
 				naturepower: ["9M"],
 				meanlook: ["9M"],
+				iceball: ["9M"],
+				autotomize: ["9M"],
 				//GEN
                 protect: ["9M"],
                 frustration: ["9M"],
