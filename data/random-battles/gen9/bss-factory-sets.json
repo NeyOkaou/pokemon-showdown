@@ -580,7 +580,7 @@
             "moves": [
                 ["Body Press","Earthquake","Stone Edge","Poltergeist"],
                 ["Rapid Spin"],
-                ["Heal Order"],
+                ["Recover"],
                 ["Will-O-Wisp"]
             ],
             "item": ["Rocky Helmet"],
@@ -2179,10 +2179,10 @@
               "species": "Rhumaggro",
               "weight": 20,
               "moves": [
-                  ["Toxic","Engelure"],
+                  ["Mortal Spin"],
                   ["Spiky Shield"],
                   ["Strength Sap"],
-                  ["Malignant Chain"]
+                  ["Malignant Chain","Venoshock","Freeze-Dry","Frost Breath"]
               ],
               "item": ["Heavy-Duty Boots"],
               "nature": "Calm",

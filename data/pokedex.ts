@@ -21235,7 +21235,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	arctitane: {
-		num: 285,
+		num: -5101,
 		name: "Arctitane",
 		types: ["Ice","Steel"],
 		baseStats: { hp: 91, atk: 82, def: 192, spa: 55, spd: 75, spe: 20 },
