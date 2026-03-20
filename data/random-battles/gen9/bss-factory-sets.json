@@ -2191,5 +2191,85 @@
               "ability": ["Epidemie"]
           }
       ]
+    },
+     "arctitane": {
+      "weight": 30,
+      "sets": [
+          {
+              "species": "Arctitane",
+              "weight": 20,
+              "moves": [
+                  ["Avalanche","Break the Ice","Ice Spinner","Mountain Gale"],
+                  ["Rapid Spin"],
+                  ["Engelure","Stealth Rock","Spikes"],
+                  ["Spiky Shield","Body Press"]
+              ],
+              "item": ["Rocky Helmet"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Iron Barbs"]
+          },
+          {
+              "species": "Arctitane",
+              "weight": 20,
+              "moves": [
+                  ["Mountain Gale"],
+                  ["Body Press"],
+                  ["Stealth Rock"],
+                  ["Spikes","Dragon Tail"]
+              ],
+              "item": ["Custap Berry"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Iron Barbs","Ice Scales"]
+          },
+          {
+              "species": "Arctitane",
+              "weight": 20,
+              "moves": [
+                  ["Avalanche","Break the Ice","Ice Spinner","Mountain Gale"],
+                  ["Body Press"],
+                  ["Heavy Slam","Dragon Tail"],
+                  ["Rapid Spin"]
+              ],
+              "item": ["Assault Vest"],
+              "nature": "Adamant",
+              "evs": {"hp": 252, "atk": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Ice Scales"]
+          },
+          {
+              "species": "Arctitane",
+              "weight": 20,
+              "moves": [
+                  ["Avalanche","Break the Ice","Ice Spinner","Mountain Gale"],
+                  ["Body Press"],
+                  ["Sleep Talk"],
+                  ["Rest"]
+              ],
+              "item": ["Leftovers","Heavy-Duty Boots","Chesto Berry","Chopple Berry","Occa Berry"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Ice Scales"]
+          },
+          {
+              "species": "Arctitane",
+              "weight": 20,
+              "moves": [
+                  ["Icicle Spear"],
+                  ["Body Press"],
+                  ["Spike Cannon"],
+                  ["Rapid Spin"]
+              ],
+              "item": ["Loaded Dice"],
+              "nature": "Adamant",
+              "evs": {"hp": 252, "atk": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Hustle"]
+          }
+      ]
     }
 }
