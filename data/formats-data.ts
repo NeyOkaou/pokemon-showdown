@@ -381,39 +381,51 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	kamephal: {
-		tier: "Illegal",
-	},
-	glakame: {
-		tier: "Illegal",
-	},
-	virice: {
-		tier: "Illegal",
-	},
 	bermudine: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "OU",
+		natDexTier: "AG",
 	},
 	blobuster: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "OU",
+		natDexTier: "AG",
 	},
 	phlotoxico: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "OU",
+		natDexTier: "AG",
 	},
 	sheruran: {
-		tier: "LC",
+		tier: "AG",
 	},
 	sherucroc: {
 		tier: "AG",
 		doublesTier: "DUber",
+		natDexTier: "AG",
+	},
+	woopeel: {
+		tier: "LC",
+	},
+	crueel: {
+		tier: "NFE",
+	},
+	horrifeel: {
+		tier: "Uber",
+		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
-
+	caterpile: {
+		tier: "LC",
+	},
+	cocamper: {
+		tier: "NFE",
+	},
+	lampiposa: {
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
 
 	//END MOODMON
 	bulbasaur: {
