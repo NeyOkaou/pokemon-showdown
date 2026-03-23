@@ -21290,7 +21290,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	caterpile: {
 		num: -5105,
 		name: "Caterpile",
-		types: ["Bug"],
+		types: ["Bug", "Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 40, atk: 20, def: 20, spa: 50, spd: 40, spe: 30 },
 		abilities: { 0: "Shed Skin", 1: "Static", H: "Illuminate" },
