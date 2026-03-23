@@ -5701,7 +5701,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePowerCallback(pokemon, target, move) {
 			if (target.newlySwitched || this.queue.willMove(target)) {
 				this.debug('Fishious Rend damage boost');
-				return move.basePower * 2;
+				return move.basePower * 1.3;
 			}
 			this.debug('Fishious Rend NOT boosted');
 			return move.basePower;
@@ -22233,7 +22233,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, slicing: 1, contact: 1 },
 		onEffectiveness(typeMod, target, type) {
-			if (type === 'Steel') return 1;
+			if (type === 'Dragon') return 1;
 		},
 		secondary: null,
 		target: "normal",

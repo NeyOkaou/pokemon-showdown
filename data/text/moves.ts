@@ -2101,8 +2101,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	fishiousrend: {
 		name: "Fishious Rend",
-		desc: "Power doubles if the user moves before the target.",
-		shortDesc: "Power doubles if user moves before the target.",
+		desc: "Deals 1.3x damage if the user moves before the target.",
+		shortDesc: "Deals 1.3x damage user moves before the target.",
 	},
 	fissure: {
 		name: "Fissure",
@@ -7679,8 +7679,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	dragonblade: {
 		name: "Dragon Blade",
-		desc: "This move's type effectiveness against Steel is changed to be super effective no matter what this move's type is.",
-		shortDesc: "Super effective on Steel.",
+		desc: "This move's type effectiveness against Dragon is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Dragon.",
 	},
 	quickslice: {
 		name: "Quick Slice",
