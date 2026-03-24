@@ -4371,7 +4371,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rocktomb: ["9M"],
 			sandstorm: ["9M"],
 			headsmash: ["9M"],
-			meteorbeam: ["9M"],
+			starduststorm: ["9M"],
 			powergem: ["9M"],
 			stealthrock: ["9M"],
 			//NORMAL
@@ -7449,7 +7449,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			encore: ["9M"],
 			entrainment: ["9M"],
 			followme: ["9M"],
-			glare: ["9M"],
 			growl: ["9M"],
 			helpinghand: ["9M"],
 			hyperbeam: ["9M"],

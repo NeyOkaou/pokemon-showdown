@@ -1374,7 +1374,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	protean: {
 		name: "Protean",
 		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
-		shortDesc: "This Pokemon's type changes to the type of the move it is using.",
+		shortDesc: "This Pokemon's type changes to the type of the move it is using. Once per switch-in.",
 		gen8: {
 			desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
 			shortDesc: "This Pokemon's type changes to the type of the move it is using.",

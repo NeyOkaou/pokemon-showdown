@@ -20210,9 +20210,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Bug", "Monster"],
 		gen: 9,
 	},
-	sleepompik: {
+	endormini: {
 		num: -5027,
-		name: "Sleepompik",
+		name: "Endormini",
 		types: ["Dark"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 30, atk: 41, def: 34, spa: 65, spd: 54, spe: 66 },
@@ -20234,7 +20234,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.10,
 		weightkg: 50,
 		color: "Black",
-		prevo: "Sleepompik",
+		prevo: "Endormini",
 		evoLevel: 26,
 		evos: ["Mandelman"],
 		eggGroups: ["Human-Like"],
@@ -20942,12 +20942,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.5,
 		weightkg: 10,
 		color: "Green",
-		evos: ["Sylve\u0301sage"],
+		evos: ["Sylvesagio"],
 		eggGroups: ["Grass"],
 	},
-	sylvesage: {
+	sylvesagio: {
 		num: -5079,
-		name: "Sylve\u0301sage",
+		name: "Sylvesagio",
 		types: ["Grass", "Ground"],
 		genderRatio: { M: 0.125, F: 0.875 },
 		baseStats: { hp: 83, atk: 67, def: 82, spa: 104, spd: 108, spe: 56 },

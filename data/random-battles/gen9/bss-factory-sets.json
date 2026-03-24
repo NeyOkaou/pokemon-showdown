@@ -1666,11 +1666,11 @@
         }
       ]
     },
-    "sylvesage": {
+    "sylvesagio": {
       "weight": 35,
       "sets": [
         {
-            "species": "Sylve\u0301sage",
+            "species": "Sylvesagio",
             "weight": 10,
             "moves": [
                 ["Stealth Rock","Taunt","Leech Seed","Light Screen","Reflect"],

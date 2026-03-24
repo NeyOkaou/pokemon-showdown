@@ -101,7 +101,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "RU",
 	},
-	sleepompik: {
+	endormini: {
 		tier: "LC",
 	},
 	ominousleh: {
@@ -328,7 +328,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	sylvesage:{
+	sylvesagio:{
 		tier: "UU",
 		doublesTier: "DOU",
 		natDexTier: "UU",
@@ -426,7 +426,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
-
+	cheepouf: {
+		tier: "Illegal",
+	},
+	cheesetah: {
+		tier: "Illegal",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
