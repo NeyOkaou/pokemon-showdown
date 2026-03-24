@@ -427,10 +427,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	cheepouf: {
-		tier: "Illegal",
+		tier: "LC",
 	},
 	cheesetah: {
-		tier: "Illegal",
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "OU",
 	},
 	//END MOODMON
 	bulbasaur: {
