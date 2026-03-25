@@ -2271,5 +2271,70 @@
               "ability": ["Hustle"]
           }
       ]
+    },
+    "horrifeel": {
+      "weight": 50,
+      "sets": [
+          {
+              "species": "Horrifeel",
+              "weight": 20,
+              "moves": [
+                  ["Fishious Rend","Water Fall","Liquidation"],
+                  ["Dragon Dance","Coil"],
+                  ["Thunder Fang","Volt Tackle"],
+                  ["Aqua Jet","Volt Switch","Flip Turn"]
+              ],
+              "item": ["Life Orb"],
+              "nature": "Adamant",
+              "evs": {"atk": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          },
+          {
+              "species": "Horrifeel",
+              "weight": 10,
+              "moves": [
+                  ["Ice Fang","Crunch"],
+                  ["Fishious Rend"],
+                  ["Thunder Fang","Volt Tackle"],
+                  ["Aqua Jet","Flip Turn"]
+              ],
+              "item": ["Choice Scarf"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          },
+          {
+              "species": "Horrifeel",
+              "weight": 10,
+              "moves": [
+                  ["Ice Fang","Crunch"],
+                  ["Liquidation"],
+                  ["Thunder Fang","Volt Tackle"],
+                  ["Aqua Jet","Flip Turn"]
+              ],
+              "item": ["Choice Band"],
+              "nature": "Jolly",
+              "evs": {"atk": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          },
+          {
+              "species": "Horrifeel",
+              "weight": 20,
+              "moves": [
+                  ["Volt Switch"],
+                  ["Fishious Rend","Liquidation"],
+                  ["Rapid Spin"],
+                  ["Glare","Taunt","Encore"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Jolly",
+              "evs": {"hp": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          }
+      ]
     }
 }
