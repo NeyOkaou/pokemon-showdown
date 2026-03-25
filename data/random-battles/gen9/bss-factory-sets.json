@@ -1685,7 +1685,7 @@
             "ability": ["Natural Cure","Overgrow","Gooey"]
         },
         {
-            "species": "Sylve\u0301sage",
+            "species": "Sylvesagio",
             "weight": 10,
             "moves": [
                 ["Stealth Rock","Taunt","Leech Seed","Light Screen","Reflect"],
@@ -1700,7 +1700,7 @@
             "ability": ["Natural Cure","Overgrow","Gooey"]
         },
         {
-            "species": "Sylve\u0301sage",
+            "species": "Sylvesagio",
             "weight": 30,
             "moves": [
                 ["Stealth Rock"],
