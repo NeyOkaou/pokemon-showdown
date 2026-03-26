@@ -5249,6 +5249,64 @@ woopeel:{
                 confide: ["9M"],
 	}
 },
+	caterpile:{
+			learnset:{
+			    //BUG
+				stringshot: ["9M"],
+				bugbite: ["9M"],
+				//ELECTRIC
+				thundershock: ["9M"],
+				thunderwave: ["9M"],
+				spark: ["9M"],
+				flash: ["9M"],
+				thunderbolt: ["9M"],
+				thunder: ["9M"],
+				charge: ["9M"],
+				shockwave: ["9M"],
+				lightscreen: ["9M"],
+				reflect: ["9M"],
+				doubleteam: ["9M"],
+				harden: ["9M"],
+				//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+	}
+},
+	cocamper:{
+			learnset:{
+			    //BUG
+				stringshot: ["9M"],
+				bugbite: ["9M"],
+				//ELECTRIC
+				thundershock: ["9M"],
+				thunderwave: ["9M"],
+				spark: ["9M"],
+				flash: ["9M"],
+				thunderbolt: ["9M"],
+				thunder: ["9M"],
+				charge: ["9M"],
+				shockwave: ["9M"],
+				lightscreen: ["9M"],
+				reflect: ["9M"],
+				doubleteam: ["9M"],
+				harden: ["9M"],
+				//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+	}
+},
 	lampiposa:{
 		learnset:{
 			    //BUG
