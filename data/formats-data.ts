@@ -422,7 +422,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	lampiposa: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},

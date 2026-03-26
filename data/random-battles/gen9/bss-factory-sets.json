@@ -2336,5 +2336,55 @@
               "ability": ["Sheer Force"]
           }
       ]
+    },
+    "lampiposa": {
+      "weight": 50,
+      "sets": [
+          {
+              "species": "Lampiposa",
+              "weight": 10,
+              "moves": [
+                  ["Quiver Dance","Tail Glow"],
+                  ["Discharge","Thunderbolt"],
+                  ["Bug Buzz","Heat Wave"],
+                  ["Roost"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Flash Fire"]
+          },
+          {
+              "species": "Lampiposa",
+              "weight": 10,
+              "moves": [
+                  ["Quiver Dance"],
+                  ["Discharge","Thunderbolt"],
+                  ["Bug Buzz","Overheat"],
+                  ["Roost"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "def": 252, "spd": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Flash Fire"]
+          },
+          {
+              "species": "Lampiposa",
+              "weight": 20,
+              "moves": [
+                  ["Roost"],
+                  ["Discharge","Thunderbolt","Bug Buzz"],
+                  ["Volt Switch","U-Turn"],
+                  ["Defog","Whirlwind","Thunder Wave"]
+              ],
+              "item": ["Heavy-Duty Boots"],
+              "nature": "Modest",
+              "evs": {"hp": 252, "spd": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Flash Fire"]
+          }
+      ]
     }
 }

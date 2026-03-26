@@ -5291,7 +5291,7 @@ woopeel:{
 				defog: ["9M"],
 				dualwingbeat: ["9M"],
 				fly: ["9M"],
-				tailwhind: ["9M"],
+				tailwind: ["9M"],
 				wingattack: ["9M"],
 				roost: ["9M"],
 				//GHOST
@@ -5300,7 +5300,7 @@ woopeel:{
 				energyball: ["9M"],
 				gigadrain: ["9M"],
 				stunspore: ["9M"],
-				poisonpower: ["9M"],
+				poisonpowder: ["9M"],
 				sleeppowder: ["9M"],
 				//PSYCHIC
 				allyswitch: ["9M"],
