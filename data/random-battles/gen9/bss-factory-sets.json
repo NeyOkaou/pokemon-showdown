@@ -2375,8 +2375,8 @@
               "weight": 20,
               "moves": [
                   ["Roost"],
-                  ["Discharge","Thunderbolt","Bug Buzz"],
-                  ["Volt Switch","U-Turn"],
+                  ["Bug Buzz"],
+                  ["Volt Switch"],
                   ["Defog"]
               ],
               "item": ["Heavy-Duty Boots"],
