@@ -21348,7 +21348,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Electric", "Fire"],
 		genderRatio: { M: 0.9, F: 0.1 },
 		baseStats: { hp: 69, atk: 117, def: 52 ,spa: 99, spd: 50, spe: 132 },
-		abilities: { 0: "Shield Dust", 1: "Strong Jaw", H: "Surg Surfer"},
+		abilities: { 0: "Shield Dust", 1: "Strong Jaw", H: "Surge Surfer"},
 		heightm: 1.4,
 		weightkg: 64,
 		prevo: "Cheepouf",
