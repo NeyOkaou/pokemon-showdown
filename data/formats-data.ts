@@ -430,7 +430,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	cheesetah: {
-		tier: "Illegal",
+		tier: "Uber",
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},

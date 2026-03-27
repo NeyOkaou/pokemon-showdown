@@ -1518,7 +1518,7 @@
             "species": "Yukigori",
             "weight": 10,
             "moves": [
-                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Ice Hammer"],
                 ["Wood Hammer"],
                 ["Super Power","Earthquake"],
                 ["Knock Off","Ice Shard"]
@@ -1533,7 +1533,7 @@
             "species": "Yukigori",
             "weight": 10,
             "moves": [
-                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Ice Hammer"],
                 ["Wood Hammer"],
                 ["Super Power","Earthquake"],
                 ["Knock Off","Ice Shard"]
@@ -1548,7 +1548,7 @@
             "species": "Yukigori",
             "weight": 20,
             "moves": [
-                ["Ice Punch","Break the Ice","Ice Hammer"],
+                ["Ice Hammer"],
                 ["Belly Drum"],
                 ["Super Power","Earthquake"],
                 ["Ice Shard"]
@@ -1573,7 +1573,7 @@
                 ["Leech Seed","Psychic","Psychic Noise"],
                 ["Teleport"]
             ],
-            "item": ["Leftovers","Life Orb"],
+            "item": ["Leftovers"],
             "nature": "Calm",
             "evs": {"hp": 252, "spd": 252 , "def": 4 },
             "teraType": ["Fairy"],
@@ -2333,7 +2333,7 @@
               "nature": "Jolly",
               "evs": {"hp": 252, "spe": 252, "def": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Sheer Force"]
+              "ability": ["Torrent"]
           }
       ]
     },
