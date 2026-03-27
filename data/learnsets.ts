@@ -5403,6 +5403,85 @@ woopeel:{
                 confide: ["9M"],
 	}
 },
+	cheepouf:{
+		learnset:{
+			//BUG
+				powder: ["9M"],
+				ragepowder: ["9M"],
+				//DARK
+				bite: ["9M"],
+				crunch: ["9M"],
+				brutalswing: ["9M"],
+				snarl: ["9M"],
+				//ELECTRIC
+				charge: ["9M"],
+				chargebeam: ["9M"],
+				discharge: ["9M"],
+				electricterrain: ["9M"],
+				thunder: ["9M"],
+				thunderbolt: ["9M"],
+				thundershock: ["9M"],
+				thunderwave: ["9M"],
+				thunderfang: ["9M"],
+				shockwave: ["9M"],
+				voltswitch: ["9M"],
+				//FAIRY
+				charm: ["9M"],
+				playrough: ["9M"],
+				//FIGHTING
+				doublekick: ["9M"],
+				//FIRE
+				flamecharge: ["9M"],
+				flamethrower: ["9M"],
+				fireblast: ["9M"],
+				ember: ["9M"],
+				firespin: ["9M"],
+				flamewheel: ["9M"],
+				incinerate: ["9M"],
+				overheat: ["9M"],
+				flameburst: ["9M"],
+				firefang: ["9M"],
+				sunnyday: ["9M"],
+				//GHOST
+				lick: ["9M"],
+				//GROUND
+				dig: ["9M"],
+				sandattack: ["9M"],
+			
+				yawn: ["9M"],
+				workup: ["9M"],
+				weatherball: ["9M"],
+				scratch: ["9M"],
+				growl: ["9M"],
+				roar: ["9M"],
+				tailwhip: ["9M"],
+
+				swift: ["9M"],
+				swagger: ["9M"],
+				superfang: ["9M"],
+				scaryface: ["9M"],
+				quickattack: ["9M"],
+				playnice: ["9M"],
+				leer: ["9M"],
+				hyperbeam: ["9M"],
+				endeavor: ["9M"],
+				endure: ["9M"],
+				furyswipes: ["9M"],
+				encore: ["9M"],
+				helpinghand: ["9M"],
+				followme: ["9M"],
+				//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		}
+	},
 	cheesetah:{
 		learnset:{
 			//BUG
@@ -5430,13 +5509,12 @@ woopeel:{
 				electroball: ["9M"],
 				magneticflux: ["9M"],
 				risingvoltage: ["9M"],
-				magneticrise: ["9M"],
+				magnetrise: ["9M"],
 				supercellslam: ["9M"],
 				thunder: ["9M"],
-				thundetbolt: ["9M"],
+				thunderbolt: ["9M"],
 				thundershock: ["9M"],
 				thunderwave: ["9M"],
-				electroball: ["9M"],
 				thunderfang: ["9M"],
 				thunderclap: ["9M"],
 				shockwave: ["9M"],
