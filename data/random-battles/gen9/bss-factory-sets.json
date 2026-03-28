@@ -2386,5 +2386,55 @@
               "ability": ["Flash Fire"]
           }
       ]
+    },
+    "cheesetah": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Cheesetah",
+            "weight": 20,
+            "moves": [
+                ["Fire Fang"],
+                ["Thunder Fang"],
+                ["Crunch","Ice Fang","Psychic Fangs"],
+                ["Volt Switch","Extreme Speed"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Strong Jaw"]
+        },
+        {
+            "species": "Cheesetah",
+            "weight": 20,
+            "moves": [
+                ["Fire Blast","Flamethrower","Overheat"],
+                ["Thunder","Thunderbolt","Discharge"],
+                ["Grass Knot"],
+                ["Volt Switch"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Shield Dust"]
+        },
+        {
+            "species": "Cheesetah",
+            "weight": 20,
+            "moves": [
+                ["Flare Blitz"],
+                ["Volt Tackle"],
+                ["Superpower","Knock Off","Crunch","Psychic Fangs","Play Rough"],
+                ["Volt Switch","Extreme Speed"]
+            ],
+            "item": ["Life Orb","Air Balloon"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Shield Dust"]
+        }
+      ]
     }
 }
