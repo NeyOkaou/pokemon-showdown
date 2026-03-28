@@ -1787,7 +1787,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 	},
 
-	sleepompik:{
+	endormini:{
 		learnset:{
 			//Dark
 			darkpulse: ["9M"],
@@ -7098,7 +7098,7 @@ woopeel:{
             confide: ["9M"],
 		}
 	},
-	sylvesage:{
+	sylvesagio:{
 		learnset:{
 			//Dark
 			taunt: ["9M"],
