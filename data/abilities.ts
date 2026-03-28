@@ -5966,7 +5966,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie'))  continue;
 				const oldAbility = target.setAbility('epidemie');
 				if (oldAbility) {
-					this.add('-ability', target, 'ability: Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
+					this.add('-ability', target, 'Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
 				}
 			}
 		},
@@ -5979,7 +5979,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					if (this.randomChance(3, 10)) {
 						const oldAbility = target.setAbility('epidemie');
 						if (oldAbility) {
-							this.add('-ability', target, 'ability: Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
+							this.add('-ability', target, 'Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
 						}
 					}
 				}
