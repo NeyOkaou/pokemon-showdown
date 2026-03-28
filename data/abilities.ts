@@ -5961,7 +5961,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
             }
             return this.chainModify(0.5);
         },
-		onStart(pokemon){
+		onUpdate(pokemon){
 			for (const target of pokemon.foes()) {
 				if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie'))  continue;
 				const oldAbility = target.setAbility('epidemie');
