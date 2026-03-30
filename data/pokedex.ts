@@ -21330,7 +21330,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Bug"],
 	},
 	cheepouf: {
-		num: -5058,
+		num: -5108,
 		name: "Cheepouf",
 		types: ["Electric", "Fire"],
 		genderRatio: { M: 0.9, F: 0.1 },
@@ -21343,7 +21343,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Grass", "Mineral"],
 	},
 	cheesetah: {
-		num: -5059,
+		num: -5109,
 		name: "Cheesetah",
 		types: ["Electric", "Fire"],
 		genderRatio: { M: 0.9, F: 0.1 },
