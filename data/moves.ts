@@ -1228,7 +1228,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	behemothblade: {
 		num: 781,
 		accuracy: 200,
-		basePower: 100,
+		basePower: 200,
 		category: "Physical",
 		name: "Behemoth Blade",
 		pp: 5,
