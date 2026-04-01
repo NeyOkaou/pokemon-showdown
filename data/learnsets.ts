@@ -1206,6 +1206,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//steel
 			sharpen: ["9M"], 
 			autotomize: ["9M"],
+			behemothblade: ["9M"],
 			furycutter: ["9M"], 
 			cut: ["9M"],
 			glaiverush: ["9M"],

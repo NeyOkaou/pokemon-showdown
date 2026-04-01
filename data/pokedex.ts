@@ -20128,7 +20128,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Gardilisk",
 		types: ["Dragon", "Steel"],
 		genderRatio: { M: 0.9, F: 0.1 },
-		baseStats: { hp: 110, atk: 140, def: 130, spa: 61, spd: 77, spe: 82 },
+		baseStats: { hp: 110, atk: 170, def: 30, spa: 61, spd: 30, spe: 180 },
 		abilities: { 0: "Battle Armor", 1: "Hyper Cutter", H: "Sharpness" },
 		heightm: 1.94,
 		weightkg: 190,
