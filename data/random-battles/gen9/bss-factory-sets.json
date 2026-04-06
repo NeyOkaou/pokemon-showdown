@@ -2421,5 +2421,100 @@
             "ability": ["Shield Dust"]
         }
       ]
+    },
+    "octorage": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Octorage",
+            "weight": 20,
+            "moves": [
+                ["Hurricane","Bleakwind Storm"],
+                ["Thunder","Wildbolt Storm"],
+                ["Weather Ball"],
+                ["Volt Switch"]
+            ],
+            "item": ["Damp Rock"],
+            "nature": "Modest",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Octorage",
+            "weight": 20,
+            "moves": [
+                ["Bleakwind Storm"],
+                ["Wildbolt Storm"],
+                ["Heat Wave","Blizzard"],
+                ["Volt Switch"]
+            ],
+            "item": ["Choice Specs","Life Orb","Heavy-Duty Boots","Wide Lens","Assault Vest"],
+            "nature": "Modest",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Wind Power"]
+        },
+        {
+            "species": "Octorage",
+            "weight": 5,
+            "moves": [
+                ["Hurricane","Bleakwind Storm"],
+                ["Thunder","Wildbolt Storm"],
+                ["Defog","Thunder Wave"],
+                ["Volt Switch"]
+            ],
+            "item": ["Damp Rock"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Octorage",
+            "weight": 5,
+            "moves": [
+                ["Hurricane","Bleakwind Storm"],
+                ["Thunder","Wildbolt Storm"],
+                ["Defog","Thunder Wave"],
+                ["Volt Switch"]
+            ],
+            "item": ["Damp Rock"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Octorage",
+            "weight": 5,
+            "moves": [
+                ["Hurricane","Bleakwind Storm"],
+                ["Volt Switch"],
+                ["Thunder Wave","Whirlwind"],
+                ["Defog"]
+            ],
+            "item": ["Leftovers","Heavy-Duty Boots"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        },
+        {
+            "species": "Octorage",
+            "weight": 5,
+            "moves": [
+                ["Hurricane","Bleakwind Storm"],
+                ["Volt Switch"],
+                ["Thunder Wave","Whirlwind"],
+                ["Defog"]
+            ],
+            "item": ["Leftovers","Heavy-Duty Boots"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Drizzle"]
+        }
+      ]
     }
 }
