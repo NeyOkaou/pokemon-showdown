@@ -5494,6 +5494,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				pokemon.addVolatile('charge');
 			}
 		},
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['wind']) {
+				this.debug('Sharpness boost');
+				return this.chainModify(1.2);
+			}
+		},
 		flags: {},
 		name: "Wind Power",
 		rating: 1,

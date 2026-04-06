@@ -21356,6 +21356,31 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "White",
 		eggGroups: ["Grass", "Mineral"],
 	},
+	octonimbus: {
+		num: -5110,
+		name: "octonimbus",
+		types: ["Flying"],
+		baseStats: { hp: 30, atk: 36, def: 27, spa: 70, spd: 60, spe: 90 },
+		abilities: { 0: "Cloud Nine", H: "Wind Power" },
+		heightm: 0.8,
+		weightkg: 1,
+		color: "Gray",
+		evos: ["Octorage"],
+		eggGroups: ["Water 3", "Amorphous"],
+	},
+	octorage: {
+		num: -5111,
+		name: "Octorage",
+		types: ["Flying","Electric"],
+		baseStats: { hp: 70, atk: 52, def: 78, spa: 93, spd: 98, spe: 76 },
+		abilities: { 0: "Cloud Nine", 1: "Drizzle", H: "Wind Power" },
+		heightm: 40,
+		weightkg: 5,
+		color: "Black",
+		prevo: "Octonimbus",
+		evoLevel: 25,
+		eggGroups: ["Water 3", "Amorphous"],
+	},
 };
 
 

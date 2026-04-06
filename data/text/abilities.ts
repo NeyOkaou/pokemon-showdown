@@ -2240,8 +2240,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	windpower: {
 		name: "Wind Power",
-		desc: "This Pokemon gains the Charge effect when it takes a hit from a wind move or when Tailwind begins on this Pokemon's side.",
-		shortDesc: "This Pokemon gains the Charge effect when hit by a wind move or Tailwind begins.",
+		desc: "This Pokemon's winds moves have their power multiplied by 1.2. Gains the Charge effect when it takes a hit from a wind move or when Tailwind begins on this Pokemon's side.",
+		shortDesc: "This Pokemon's winds moves have their power multiplied by 1.2. Gains the Charge effect when hit by a wind move or Tailwind begins.",
 
 		start: "#electromorphosis",
 	},

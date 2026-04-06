@@ -434,6 +434,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
+	octonimbus: {
+		tier: "LC",
+	},
+	octorage: {
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
 	//END MOODMON
 	bulbasaur: {
 		tier: "Illegal",
