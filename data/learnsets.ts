@@ -5683,6 +5683,75 @@ woopeel:{
 				confide: ["9M"],
 		}
 	},
+	octonimbus:{
+		learnset:{
+				//DRAGON
+				twister: ["9M"],
+				//ELECTRIC
+				charge: ["9M"],
+				shockwave: ["9M"],
+				spark: ["9M"],
+				thunder: ["9M"],
+				thunderbolt: ["9M"],
+				thundercage: ["9M"],
+				thunderwave: ["9M"],
+				thundershock: ["9M"],
+				flash: ["9M"],
+				//FIRE
+				sunnyday: ["9M"],
+				//FLYING
+				aircutter: ["9M"],
+				airslash: ["9M"],
+				hurricane: ["9M"],
+				gust: ["9M"],
+				defog: ["9M"],
+				fly: ["9M"],
+				tailwind: ["9M"],
+				//ICE
+				blizzard: ["9M"],
+				snowscape: ["9M"],
+				icywind: ["9M"],
+				powdersnow: ["9M"],
+				//WATER
+				brine: ["9M"],
+				chillingwater: ["9M"],
+				surf: ["9M"],
+				bubblebeam: ["9M"],
+				octazooka: ["9M"],
+				raindance: ["9M"],
+				waterpulse: ["9M"],
+				//NORMAL
+				whirlwind: ["9M"],
+				weatherball: ["9M"],
+				swift: ["9M"],
+				splash: ["9M"],
+				smokescreen: ["9M"],
+				scaryface: ["9M"],
+				razorwind: ["9M"],
+				rage: ["9M"],
+				minimize: ["9M"],
+				meanlook: ["9M"],
+				naturepower: ["9M"],
+				hyperbeam: ["9M"],
+				disable: ["9M"],
+				constrict: ["9M"],
+				wrap: ["9M"],
+				camouflage: ["9M"],
+				block: ["9M"],
+				acupressure: ["9M"],
+				bide: ["9M"],
+				//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		}
+	},
 	octorage:{
 		learnset:{
 				//DARK
@@ -5768,7 +5837,7 @@ woopeel:{
 				weatherball: ["9M"],
 				swift: ["9M"],
 				splash: ["9M"],
-				smockscreen: ["9M"],
+				smokescreen: ["9M"],
 				selfdestruct: ["9M"],
 				explosion: ["9M"],
 				scaryface: ["9M"],
@@ -5781,7 +5850,7 @@ woopeel:{
 				disable: ["9M"],
 				constrict: ["9M"],
 				wrap: ["9M"],
-				camouflagd: ["9M"],
+				camouflage: ["9M"],
 				block: ["9M"],
 				acupressure: ["9M"],
 				bide: ["9M"],
