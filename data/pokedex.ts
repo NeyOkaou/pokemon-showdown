@@ -21358,7 +21358,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	octonimbus: {
 		num: -5110,
-		name: "octonimbus",
+		name: "Octonimbus",
 		types: ["Flying"],
 		baseStats: { hp: 30, atk: 36, def: 27, spa: 70, spd: 60, spe: 90 },
 		abilities: { 0: "Cloud Nine", H: "Wind Power" },
@@ -21378,7 +21378,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 5,
 		color: "Black",
 		prevo: "Octonimbus",
-		evoLevel: 25,
+		evoLevel: 30,
 		eggGroups: ["Water 3", "Amorphous"],
 	},
 };
