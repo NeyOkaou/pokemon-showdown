@@ -2282,11 +2282,41 @@
                   ["Fishious Rend","Water Fall","Liquidation"],
                   ["Dragon Dance","Coil"],
                   ["Thunder Fang","Volt Tackle"],
-                  ["Aqua Jet","Volt Switch","Flip Turn"]
+                  ["Aqua Jet","Taunt"]
               ],
               "item": ["Life Orb"],
               "nature": "Adamant",
               "evs": {"atk": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          },
+          {
+              "species": "Horrifeel",
+              "weight": 20,
+              "moves": [
+                  ["Muddy Water"],
+                  ["Nasty Plot"],
+                  ["Thunderbolt"],
+                  ["Thunder Clap"]
+              ],
+              "item": ["Life Orb"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Sheer Force"]
+          },
+          {
+              "species": "Horrifeel",
+              "weight": 20,
+              "moves": [
+                  ["Muddy Water"],
+                  ["Volt Switch"],
+                  ["Thunderbolt"],
+                  ["Thunder Clap","Ice Beam"]
+              ],
+              "item": ["Choice Specs"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Sheer Force"]
           },

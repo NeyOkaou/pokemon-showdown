@@ -5146,7 +5146,6 @@ woopeel:{
 				thunderfang: ["9M"],
 				thunderbolt: ["9M"],
 				thunderclap: ["9M"],
-				thundercage: ["9M"],
 				thunderwave: ["9M"],
 				shockwave: ["9M"],
 				charge: ["9M"],
@@ -5164,10 +5163,6 @@ woopeel:{
 				wildcharge: ["9M"],
 				//FAIRY
 				playrough: ["9M"],
-				//FIRE
-				firefang: ["9M"],
-				flamethrower: ["9M"],
-				fireblast: ["9M"],
 				//GHOST
 				shadowsneak: ["9M"],
 				shadowclaw: ["9M"],
@@ -5325,6 +5320,7 @@ woopeel:{
 				uturn: ["9M"],
 				//ELECTRIC
 				thundershock: ["9M"],
+				paraboliccharge: ["9M"],
 				thunderwave: ["9M"],
 				spark: ["9M"],
 				flash: ["9M"],
