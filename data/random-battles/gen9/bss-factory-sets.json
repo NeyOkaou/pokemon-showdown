@@ -2399,6 +2399,21 @@
               "evs": {"hp": 252, "spd": 252, "def": 4},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Flash Fire"]
+          },
+          {
+              "species": "Lampiposa",
+              "weight": 20,
+              "moves": [
+                  ["Sleep Powder"],
+                  ["Bug Buzz"],
+                  ["Thunderbolt","Thunder"],
+                  ["Tail Glow","Quiver Dance"]
+              ],
+              "item": ["Wide Lens"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Flash Fire"]
           }
       ]
     },
