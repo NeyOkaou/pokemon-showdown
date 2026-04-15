@@ -5952,14 +5952,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: -389,
 	},
-
+	
 	epidemie: {
 		onSwitchIn(pokemon) {
 			for (const foe of pokemon.adjacentFoes()) {
 				if (foe.hasType('Ice') || foe.hasType('Poison')) continue;
 				if (foe.getVolatile('epidemie')) continue;
 				foe.addVolatile('epidemie');
-				this.add('-activate', foe, 'ability: Epidemie', '[of] ' + pokemon);
 			}
 		},
 		onResidual(pokemon) {
@@ -5968,7 +5967,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (foe.getVolatile('epidemie')) continue;
 				if (this.randomChance(3, 10)) {
 					foe.addVolatile('epidemie');
-					this.add('-activate', foe, 'ability: Epidemie', '[of] ' + pokemon);
 				}
 			}
 		},
@@ -5993,7 +5991,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		name: "Epidemie",
 		rating: 3,
-		num: -390, // Numéro custom, adapte selon ton fork
+		num: -390,
 	},
 
 	/*
