@@ -5953,7 +5953,50 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -389,
 	},
 
-	
+	epidemie: {
+		onSwitchIn(pokemon) {
+			for (const foe of pokemon.adjacentFoes()) {
+				if (foe.hasType('Ice') || foe.hasType('Poison')) continue;
+				if (foe.getVolatile('epidemie')) continue;
+				foe.addVolatile('epidemie');
+				this.add('-activate', foe, 'ability: Epidemie', '[of] ' + pokemon);
+			}
+		},
+		onResidual(pokemon) {
+			for (const foe of pokemon.adjacentFoes()) {
+				if (foe.hasType('Ice') || foe.hasType('Poison')) continue;
+				if (foe.getVolatile('epidemie')) continue;
+				if (this.randomChance(3, 10)) {
+					foe.addVolatile('epidemie');
+					this.add('-activate', foe, 'ability: Epidemie', '[of] ' + pokemon);
+				}
+			}
+		},
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'epidemie');
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'epidemie');
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				this.debug('Epidemie atk debuff');
+				return this.chainModify(0.5);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				this.debug('Epidemie spa debuff');
+				return this.chainModify(0.5);
+			},
+		},
+		flags: {},
+		name: "Epidemie",
+		rating: 3,
+		num: -390, // Numéro custom, adapte selon ton fork
+	},
+
+	/*
 	epidemie: {
         onModifyAtkPriority: 5,
         onModifyAtk(atk, pokemon) {
@@ -5998,4 +6041,5 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
         rating: -1,
         num: -1000,
     },
+	*/
 };
