@@ -21,6 +21,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name:"Epidemie",
 		desc: "Causes the target to become Epidemie. At the end of each turn, there is a 30% chance to spread Epidemic to the opponent",
 		shortDesc: "Apply Epidemie to the target. A Pokémon affected by Epidemie has its Attack and Special Attack halved. At the end of each turn, there is a 30% chance to spread Epidemie to the opponent."
+	},
 	aftermath: {
 		name: "Aftermath",
 		desc: "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. This effect is prevented if the move's user has the Magic Guard Ability or if any active Pokemon has the Damp Ability.",
