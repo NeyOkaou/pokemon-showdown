@@ -3456,6 +3456,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 239,
 	},
 	protean: {
+		onSwitchIn(pokemon) {
+			this.effectState.protean = false;
+		},
 		onPrepareHit(source, target, move) {
 			if (this.effectState.protean) return;
 			if (move.hasBounced || move.flags['futuremove'] || move.sourceEffect === 'snatch' || move.callsMove) return;
