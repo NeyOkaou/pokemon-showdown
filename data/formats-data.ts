@@ -244,18 +244,6 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
-	protyra:{
-		tier: "Illegal",
-	},
-	mecarex:{
-		tier: "Illegal",
-	},
-	omecatyra:{
-		tier: "Illegal",
-	},
-	progr3x:{
-		tier: "Illegal",
-	},
 	yukigori:{
 		tier: "OU",
 		doublesTier: "DOU",
@@ -442,7 +430,49 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
+	gerbuzz: {
+		tier: "LC",
+	},
+	teslanten: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
+	},
+	cilang: {
+		tier: "LC",
+	},
+	compilex: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
+	},
+	omegama: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
+	},
+	denkid: {
+		tier: "LC",
+	},
+	denkigan: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
+	},
+	protyra: {
+		tier: "LC",
+	},
+	mecarex: {
+	tier: "NFE",
+	},
+	mecatyra0: {
+		tier: "Uber",
+		doublesTier: "DOU",
+		natDexTier: "Uber",
+	},
 	//END MOODMON
+
+
 	bulbasaur: {
 		tier: "Illegal",
 	},
