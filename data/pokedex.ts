@@ -21486,7 +21486,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.5,
 		weightkg: 100,
 		color: "Gray",
-		evos: ["Protyra"],
+		evos: ["Mecarex"],
 		eggGroups: ["Mineral"],
 
 	},
