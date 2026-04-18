@@ -5933,7 +5933,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	warhorn: {
 		onStart(pokemon) {
 			for (const target of pokemon.adjacentFoes()) {
-			target.addVolatile('taunt')
+				target.addVolatile('taunt')
+			}
 		},
 		flags: {},
 		name: "War Horn",
