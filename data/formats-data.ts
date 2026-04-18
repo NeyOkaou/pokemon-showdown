@@ -465,7 +465,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mecarex: {
 	tier: "NFE",
 	},
-	mecatyra0: {
+	"0mecatyra": {
 		tier: "Uber",
 		doublesTier: "DOU",
 		natDexTier: "Uber",

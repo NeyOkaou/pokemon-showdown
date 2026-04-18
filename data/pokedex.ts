@@ -21505,7 +21505,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Mineral"],
 
 	},
-	mecatyra0: {
+	"0mecatyra": {
 		num: -5121,
 		name:"0-Mecatyra",
 		types:["Electric", "Steel"],
