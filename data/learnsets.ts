@@ -6208,6 +6208,42 @@ woopeel:{
 
 		}
 	},
+	omegama:{
+		learnset:{
+			//WATER
+				aquaring: ["9M"],
+			//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		}
+	},
+	compilex:{
+		learnset:{
+			//ELECTRIC
+			electroweb: ["9M"],
+			//FIGHTING
+			closecombat : ["9M"],
+			drainpunch : ["9M"],
+			machpunch : ["9M"],
+			//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		}
+	},
 	usagunny:{
 		learnset:{
 			// general
