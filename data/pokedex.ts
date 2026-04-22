@@ -21394,7 +21394,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 
 	},
-	testlanten: {
+	teslanten: {
 		num: -5113,
 		name:"Testlanten",
 		types:["Electric"],
