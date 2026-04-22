@@ -21386,7 +21386,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name:"Gerbuzz",
 		types:["Electric"],
 		baseStats: { hp: 40, atk: 61, def: 45, spa: 75, spd: 45, spe: 90 },
-		abilities: { 0: "Static", 1: "Sand Rush", H: "Lightning Rode" },
+		abilities: { 0: "Static", 1: "Sand Rush", H: "Lightning Rod" },
 		heightm: 0.25,
 		weightkg: 1.2,
 		color: "Yellow",
@@ -21399,7 +21399,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name:"Teslanten",
 		types:["Electric"],
 		baseStats: { hp: 70, atk: 75, def: 65, spa: 95, spd: 70, spe: 115 },
-		abilities: { 0: "Static", 1: "Sand Rush", H: "Lightning Rode" },
+		abilities: { 0: "Static", 1: "Sand Rush", H: "Lightning Rod" },
 		heightm: 1,
 		weightkg: 30,
 		color: "Yellow",
@@ -21448,7 +21448,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Black",
 		eggGroups: ["Mineral"],
 	},
-	
+
 	denkid: {
 		num: -5117,
 		name:"Denkid",
