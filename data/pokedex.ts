@@ -21441,13 +21441,14 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: -5116,
 		name:"Omegama",
 		types:["Electric", "Ghost"],
-		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
-		abilities: { 0: "Static", 1: "Cursed Body", H: "Snow Warning", S:"" },
+		baseStats: { hp: 74, atk: 60, def: 86, spa: 104, spd: 118, spe: 49 },
+		abilities: { 0: "Static", 1: "Cursed Body", H: "Snow Warning"},
 		heightm: 2,
 		weightkg: 300,
 		color: "Black",
 		eggGroups: ["Mineral"],
 	},
+	
 	denkid: {
 		num: -5117,
 		name:"Denkid",

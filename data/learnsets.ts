@@ -6210,6 +6210,8 @@ woopeel:{
 	},
 	omegama:{
 		learnset:{
+			//ELECTRIC
+				electroweb: ["9M"],
 			//WATER
 				aquaring: ["9M"],
 			//GENERAL
@@ -6226,8 +6228,7 @@ woopeel:{
 	},
 	compilex:{
 		learnset:{
-			//ELECTRIC
-			electroweb: ["9M"],
+			
 			//FIGHTING
 			closecombat : ["9M"],
 			drainpunch : ["9M"],
