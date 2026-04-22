@@ -21396,7 +21396,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	teslanten: {
 		num: -5113,
-		name:"Testlanten",
+		name:"Teslanten",
 		types:["Electric"],
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Static", 1: "Sand Rush", H: "Lighting Rode" },
