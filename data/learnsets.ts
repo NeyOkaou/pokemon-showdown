@@ -6226,6 +6226,80 @@ woopeel:{
                 confide: ["9M"],
 		}
 	},
+	denkigan:{
+		learnset:{
+			//BUG
+				signalbeam: ["9M"],
+				//DARK
+				taunt: ["9M"],
+				//ELECTRIC
+				charge: ["9M"],
+				chargebeam: ["9M"],
+				dischage: ["9M"],
+				thunder: ["9M"],
+				thunderbolt: ["9M"],
+				thunderpunch: ["9M"],
+				thundershock: ["9M"],
+				thunderwave: ["9M"],
+				thundercage: ["9M"],
+				thuderclap: ["9M"],
+				voltswitch: ["9M"],
+				risingvoltage: ["9M"],
+				eerieimpulse: ["9M"],
+				electricterrain: ["9M"],
+				electrify: ["9M"],
+				magneticflux: ["9M"],
+				magneticrise: ["9M"],
+				iondeluge: ["9M"],
+				shockwave: ["9M"],
+				spark: ["9M"],
+				wildcharge: ["9M"],
+				zapcanon: ["9M"],
+				multiprises: ["9M"],
+				flash: ["9M"],
+				flashbang: ["9M"],
+				//FIRE
+				sunnyday: ["9M"],
+				overheat: ["9M"],
+				//FAIRY 
+				dazzlinggleam: ["9M"],
+				//GHOST
+				confuseray: ["9M"],
+				//PSYCHC
+				allyswitch: ["9M"],
+				agility: ["9M"],
+				lightscreen: ["9M"],
+				luminacrash: ["9M"],
+				reflect: ["9M"],
+				thinkfast: ["9M"],
+				//STEEL
+				flascannon: ["9M"],
+				mirrorshot: ["9M"],
+				//NORMAL
+				acupressure: ["9M"],
+				followme: ["9M"],
+				captivate: ["9M"],
+				disable: ["9M"],
+				encore: ["9M"],
+				foresight: ["9M"],
+				helpinghand: ["9M"],
+				hhyperbeam: ["9M"],
+				laserfocus: ["9M"],
+				minimize: ["9M"],
+				terrainpulse: ["9M"],
+
+            //GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		}
+	},
 	compilex:{
 		learnset:{
 			
