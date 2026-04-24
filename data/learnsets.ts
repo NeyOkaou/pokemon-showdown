@@ -6268,7 +6268,7 @@ woopeel:{
 				//PSYCHC
 				allyswitch: ["9M"],
 				extremespeed:["9M"]
-				glitzzyglow:["9M"]
+				glitzyglow:["9M"]
 				agility: ["9M"],
 				lightscreen: ["9M"],
 				luminacrash: ["9M"],
