@@ -6346,6 +6346,110 @@ woopeel:{
                 confide: ["9M"],
 		}
 	},
+	gerbuzz:{
+		learnset:{
+					//BUG
+				pounce: ["9M"],
+				//DARK
+				bite: ["9M"],
+				crunch: ["9M"],
+				brutalswing: ["9M"],
+				fling: ["9M"],
+				knockoff: ["9M"],
+				thief: ["9M"],
+				///ELECTRIC
+				charge: ["9M"],
+				chargebeam: ["9M"],
+				discharge: ["9M"],
+				shockwave: ["9M"],
+				nuzzle: ["9M"],
+				thundershock: ["9M"],
+				thunderwave: ["9M"],
+				thunder: ["9M"],
+				thunderbolt: ["9M"],
+				thunderpunch: ["9M"],
+				electroball: ["9M"],
+				flash: ["9M"],
+				thunderfang: ["9M"],
+				paraboliccharge: ["9M"],
+				spark: ["9M"],
+				voltswitch: ["9M"],
+				volttackle: ["9M"],
+				wildcharge: ["9M"],
+				//FAIRY
+				charm: ["9M"],
+				babydolleyes: ["9M"],
+				//FIGHTING
+				jumpkick: ["9M"],
+				doublekick: ["9M"],
+				triplekick: ["9M"],
+				lowkick: ["9M"],
+				//FIR
+				firepunch: ["9M"],
+				//FLYING
+				acrobatics: ["9M"],
+				bounce: ["9M"],
+				//GHOST
+				astonish: ["9M"],
+				//GROUND
+				dig: ["9M"],
+				sandattack: ["9M"],
+				mudslap: ["9M"],
+				//GRASS
+				//ICE
+				icepunch: ["9M"],
+				//NORMAL
+				acupressure: ["9M"],
+				assist: ["9M"],
+				batonpass: ["9M"],
+				minimize: ["9M"],
+				camouflage: ["9M"],
+				captivate: ["9M"],
+				leer: ["9M"],
+				growl: ["9M"],
+				tailwhip: ["9M"],
+				tailslap: ["9M"],
+				encore: ["9M"],
+				fakeout: ["9M"],
+				flail: ["9M"],
+				focusenergy: ["9M"],
+				followme: ["9M"],
+				headbutt: ["9M"],
+				helpinghand: ["9M"],
+				hyperbeam: ["9M"],
+				hyperfang: ["9M"],
+				superfang: ["9M"],
+				quickattack: ["9M"],
+				megakick: ["9M"],
+				recycle: ["9M"],
+				slam: ["9M"],
+				spitup: ["9M"],
+				swallow: ["9M"],
+				stockpile: ["9M"],
+				stuffcheeks: ["9M"],
+				weatherball: ["9M"],
+				//PSYCHIC
+				agility: ["9M"],
+				braindamage: ["9M"],
+				//ROCK
+				rockclimb: ["9M"],
+				sandstorm: ["9M"],
+				//STEEL
+				irontail: ["9M"],
+				//WATER
+				raindance: ["9M"],
+				//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+        }
+    },
 	teslanten:{
 		learnset:{
 					//BUG
@@ -6361,7 +6465,6 @@ woopeel:{
 				charge: ["9M"],
 				chargebeam: ["9M"],
 				discharge: ["9M"],
-				doubleshock: ["9M"],
 				shockwave: ["9M"],
 				nuzzle: ["9M"],
 				thundershock: ["9M"],
