@@ -2807,7 +2807,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			spikecannon: ["9M"],
 			autotomize: ["9M"],
 			oilup: ["9M"],
-			shiftgear: ["9M"],
+			
 
 			//Normal
 			naturalgift: ["9M"], 
@@ -6793,7 +6793,6 @@ woopeel:{
 				//ROCK
 				sandstorm: ["9M"],
 				//STEEL
-				shiftgear: ["9M"],
 				autotomize: ["9M"],
 				oilup: ["9M"],
 				flashcannon: ["9M"],
