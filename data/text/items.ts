@@ -971,12 +971,12 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	lightball: {
 		name: "Light Ball",
-		shortDesc: "If held by a Pikachu, its Attack and Sp. Atk are doubled.",
+		shortDesc: "If held by a Pikachu or a Gerbuzz, its Attack and Sp. Atk are doubled.",
 		gen4: {
-			shortDesc: "If held by a Pikachu, its attacks have their power doubled.",
+			shortDesc: "If held by a Pikachu or a Gerbuzz, its attacks have their power doubled.",
 		},
 		gen3: {
-			shortDesc: "If held by a Pikachu, its Special Attack is doubled.",
+			shortDesc: "If held by a Pikachu or a Gerbuzz, its Special Attack is doubled.",
 		},
 	},
 	lightclay: {
