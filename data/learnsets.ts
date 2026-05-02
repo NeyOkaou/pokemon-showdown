@@ -6437,7 +6437,7 @@ woopeel:{
 			raindance: ["9M"],
 			//NORMAL
 			acupressure: ["9M"],
-			assit: ["9M"],
+			assist: ["9M"],
 			batonpass: ["9M"],
 			block: ["9M"],
 			bodyslam: ["9M"],
