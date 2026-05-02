@@ -19984,7 +19984,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Gyaoon",
 		types: ["Normal","Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
-		baseStats: { hp:75, atk: 80, def: 115, spa: 75, spd: 115, spe: 65 },
+		baseStats: { hp:85, atk: 78, def: 115, spa: 72, spd: 115, spe: 60 },
 		abilities: { 0: "Unaware", 1: "Cotton Down", H: "Unnerve" },
 		heightm: 1.50,
 		weightkg: 40,
