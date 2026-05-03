@@ -842,7 +842,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				honeclaws: ["9M"],
 				sludgebomb: ["9M"],
 				acidspray: ["9M"],
-				poisonfangs: ["9M"],
+				poisonfang: ["9M"],
 				toxic: ["9M"],
 				twister: ["9M"],
 				flamethrower: ["9M"],
