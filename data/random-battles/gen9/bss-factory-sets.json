@@ -676,6 +676,71 @@
         }
       ]
     },
+    "gerbuzz": {
+      "weight": 5,
+      "sets": [
+        {
+            "species": "Gerbuzz",
+            "weight": 20,
+            "moves": [
+                ["Volt Tackle"],
+                ["Thunderbolt"],
+                ["Ice Punch"],
+                ["Volt Switch"]
+            ],
+            "item": ["Light Ball"],
+            "nature": "Naive",
+            "evs": {"spa": 128, "spe": 252 , "atk": 128 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Rush"]
+        },
+        {
+            "species": "Gerbuzz",
+            "weight": 10,
+            "moves": [
+                ["Volt Tackle"],
+                ["Jump Kick"],
+                ["Ice Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Light Ball"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "def": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Rush"]
+        },
+        {
+            "species": "Gerbuzz",
+            "weight": 10,
+            "moves": [
+                ["Volt Tackle"],
+                ["Jump Kick"],
+                ["Ice Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Light Ball"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "def": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Sand Rush"]
+        },
+        {
+            "species": "Gerbuzz",
+            "weight": 20,
+            "moves": [
+                ["Fake Out"],
+                ["Thunderbolt"],
+                ["Nuzzle"],
+                ["Volt Switch"]
+            ],
+            "item": ["Light Ball"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Static","Lighting Rod"]
+        }
+      ]
+    },
     "phantasm": {
       "weight": 25,
       "sets": [
