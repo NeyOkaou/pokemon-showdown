@@ -5165,8 +5165,6 @@ woopeel:{
 				voltswitch: ["9M"],
 				volttackle: ["9M"],
 				wildcharge: ["9M"],
-				//FAIRY
-				playrough: ["9M"],
 				//GHOST
 				shadowsneak: ["9M"],
 				shadowclaw: ["9M"],
