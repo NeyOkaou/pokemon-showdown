@@ -137,6 +137,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Crucibellite', 'Rage Fist'],
 	},
 	{
+		name: "[Gen 9] MOOD Fun",
+		mod: 'gen9',
+		ruleset: ['Standard', '!Sleep Clause Mod', 'Terastal Clause'],
+		banlist: ['Illegal', 'Unreleased'],
+		unbanlist: ['MOOD Fun'],
+	},
+	{
 		name: "[Gen 9] BSS Reg I",
 		mod: 'gen9',
 		bestOfDefault: true,

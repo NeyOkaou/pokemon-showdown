@@ -6149,13 +6149,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	//MOODFUN
 	yhvh: {
-		tier: "Illegal",
-		natDexTier: "AG",
+		tier: "MOOD Fun",
+    	natDexTier: "AG",
 	},
 	beecrochet: {
-		tier: "Illegal",
-		natDexTier: "AG",
+		tier: "MOOD Fun",
+    	natDexTier: "AG",
 	},
 	syclar: {
 		isNonstandard: "CAP",
