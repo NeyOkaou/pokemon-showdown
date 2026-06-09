@@ -286,6 +286,21 @@
               "species": "Glaugoon",
               "weight": 20,
               "moves": [
+                  ["Drache Toxic","Sludge Bomb","Sludge Wave"],
+                  ["Draco Meteor","Dragon Pulse"],
+                  ["Focus Blast","Hydro Pump"],
+                  ["Calm Mind"]
+              ],
+              "item": ["Life Orb"],
+              "nature": "Timid",
+              "evs": {"spa": 252, "spe": 252, "def": 4},
+              "teraType": ["Fairy", "Grass"],
+              "ability": ["Gooey","Poison Point"]
+          },
+          {
+              "species": "Glaugoon",
+              "weight": 20,
+              "moves": [
                   ["Drache Toxic","Sludge Wave"],
                   ["Focus Blast"],
                   ["Reflect","Light Screen"],
@@ -673,6 +688,101 @@
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Prankster"]
+        }
+      ]
+    },
+    "denkigan": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Denkigan",
+            "weight": 10,
+            "moves": [
+                ["Rising Voltage"],
+                ["Thunder","Thunderbolt","Thunderclap"],
+                ["Dazzling Gleam","Overheat"],
+                ["Volt Switch"]
+            ],
+            "item": ["Terrain Extender"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Electric Surge"]
+        },
+        {
+            "species": "Denkigan",
+            "weight": 10,
+            "moves": [
+                ["Rising Voltage"],
+                ["Thunder","Thunderbolt","Thunderclap"],
+                ["Dazzling Gleam","Overheat"],
+                ["Volt Switch"]
+            ],
+            "item": ["Terrain Extender"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Electric Surge"]
+        },
+        {
+            "species": "Denkigan",
+            "weight": 10,
+            "moves": [
+                ["Rising Voltage"],
+                ["Dazzling Gleam","Flash Cannon","Thunderbolt"],
+                ["Overheat"],
+                ["Volt Switch"]
+            ],
+            "item": ["Life Orb","Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Electric Surge"]
+        },
+        {
+            "species": "Denkigan",
+            "weight": 10,
+            "moves": [
+                ["Rising Voltage"],
+                ["Dazzling Gleam","Flash Cannon","Thunderbolt"],
+                ["Overheat"],
+                ["Volt Switch"]
+            ],
+            "item": ["Life Orb","Choice Specs"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Electric Surge"]
+        },
+        {
+            "species": "Denkigan",
+            "weight": 20,
+            "moves": [
+                ["Thunder Wave"],
+                ["Thunderbolt"],
+                ["Light Screen","Reflect"],
+                ["Volt Switch"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Flame Body","Volt Absorb"]
+        },
+        {
+            "species": "Denkigan",
+            "weight": 20,
+            "moves": [
+                ["Rising Voltage"],
+                ["Overheat"],
+                ["Taunt"],
+                ["Volt Switch"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Electric Surge"]
         }
       ]
     },

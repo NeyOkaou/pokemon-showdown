@@ -2292,7 +2292,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			iceshard: ["9M"],
 			icespinner: ["9M"],
 			iciclecrash: ["9M"],
-			tripleaxel: ["9M"],
 			iciclespear: ["9M"],
 			icywind: ["9M"],
 			sheercold: ["9M"],
@@ -4036,6 +4035,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			absorb: ["9M"],
 			leafage: ["9M"],
 			bulletseed: ["9M"],
+			trailblaze: ["9M"],
 			energyball: ["9M"],
 			gigadrain: ["9M"],
 			megadrain: ["9M"],
@@ -4832,7 +4832,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
                 icebeam: ["9M"],
                 icefang: ["9M"],
                 iciclecrash: ["9M"],
-                tripleaxel: ["9M"],
                 frostbreath: ["9M"],
                 sheercold: ["9M"],
                 engelure: ["9M"],
@@ -5174,6 +5173,8 @@ woopeel:{
 				icebeam: ["9M"],
 				icefang: ["9M"],
 				breaktheice: ["9M"],
+				//GRASS
+				trailblaze: ["9M"],
 				//GROUND
 				dig: ["9M"],
 				//POISON
@@ -5635,6 +5636,7 @@ woopeel:{
 				absorb: ["9M"],
 				megadrain: ["9M"],
 				gigadrain: ["9M"],
+				trailblaze: ["9M"],
 				
 				//GROUND
 				drillrun: ["9M"],
@@ -7458,6 +7460,7 @@ woopeel:{
 			bulletseed: ["9M"],
 			leafage: ["9M"],
 			leafstorm: ["9M"],
+			trailblaze: ["9M"],
 			iceball: ["9M"],
 			magicalleaf: ["9M"],
 			razorleaf: ["9M"],
@@ -7647,6 +7650,7 @@ woopeel:{
 			aurorabeam: ["9M"],
 			icepunch: ["9M"],
 			blizzard: ["9M"],
+			tripleaxel: ["9M"],
 			brainfreeze: ["9M"],
 			chillyreception: ["9M"],
 			snowscape: ["9M"],
@@ -8847,6 +8851,7 @@ woopeel:{
 			megadrain: ["9M"],
 			gigadrain: ["9M"],
 			sleeppowder: ["9M"],
+			trailblaze: ["9M"],
 			stunspore: ["9M"],
 			poisonpowder: ["9M"],
 			chloroblast: ["9M"],
@@ -9415,6 +9420,7 @@ woopeel:{
 			powdersnow: ["9M"],
 			snowscape: ["9M"],
 			sheercold: ["9M"],
+			tripleaxel
 			////steel
 			flashcannon: ["9M"],
 			mirrorshot: ["9M"],
