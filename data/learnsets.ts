@@ -966,6 +966,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				sludge: ["9M"],
 				venoshock: ["9M"],
 				sludgebomb: ["9M"],
+				calmmind: ["9M"],
 				acid: ["9M"],
 				whirlwind: ["9M"],
 				irontail: ["9M"],

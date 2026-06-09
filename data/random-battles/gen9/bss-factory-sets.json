@@ -2389,7 +2389,7 @@
               "species": "Horrifeel",
               "weight": 10,
               "moves": [
-                  ["Ice Fang","Crunch","Play Rough"],
+                  ["Ice Fang","Crunch"],
                   ["Fishious Rend"],
                   ["Thunder Fang","Volt Tackle"],
                   ["Aqua Jet","Flip Turn"]
@@ -2404,7 +2404,7 @@
               "species": "Horrifeel",
               "weight": 10,
               "moves": [
-                  ["Ice Fang","Crunch","Play Rough"],
+                  ["Ice Fang","Crunch"],
                   ["Liquidation"],
                   ["Thunder Fang","Volt Tackle"],
                   ["Aqua Jet","Flip Turn"]
