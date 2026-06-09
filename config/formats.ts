@@ -140,7 +140,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] MOOD Fun",
 		mod: 'gen9',
 		ruleset: ['Standard', '!Sleep Clause Mod', 'Terastal Clause'],
-		banlist: ['']
+
 	},
 	{
 		name: "[Gen 9] BSS Reg I",
