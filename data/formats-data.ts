@@ -6151,12 +6151,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	//MOODFUN
 	yhvh: {
-		tier: "MOOD Fun",
-    	natDexTier: "AG",
+		isNonstandard: "MOOD Fun",
 	},
-	beecrochet: {
-		tier: "MOOD Fun",
-    	natDexTier: "AG",
+	beebite: {
+		isNonstandard: "MOOD Fun",
 	},
 	syclar: {
 		isNonstandard: "CAP",

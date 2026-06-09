@@ -20778,10 +20778,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
         weightkg: 340,
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
+		isNonstandard: 'MOOD Fun',
 	},
-	beecrochet: {
+	beebite: {
 		num: -5068,
-		name: "Beecrochet",
+		name: "Beebite",
 		types: ["Bug", "Normal"],
 		gender: "M",
 		baseStats: { hp: 12, atk: 171, def: 25, spa: 55, spd: 38, spe: 114 },
@@ -20792,6 +20793,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Combee",
 		evoLevel: 21,
 		eggGroups: ["Bug"],
+		isNonstandard: 'MOOD Fun',
 	},
 	lilichen: {
 		num: -5069,
