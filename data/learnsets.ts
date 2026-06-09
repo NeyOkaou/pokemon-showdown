@@ -9420,7 +9420,7 @@ woopeel:{
 			powdersnow: ["9M"],
 			snowscape: ["9M"],
 			sheercold: ["9M"],
-			tripleaxel
+			tripleaxel: ["9M"],
 			////steel
 			flashcannon: ["9M"],
 			mirrorshot: ["9M"],
