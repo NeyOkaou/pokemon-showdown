@@ -6152,9 +6152,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	//MOODFUN
 	yhvh: {
 		isNonstandard: "MOOD Fun",
+		tier: "MOOD Fun",
 	},
 	beebite: {
 		isNonstandard: "MOOD Fun",
+		tier: "MOOD Fun",
 	},
 	syclar: {
 		isNonstandard: "CAP",
