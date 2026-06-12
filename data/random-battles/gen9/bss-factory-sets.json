@@ -759,7 +759,7 @@
             "weight": 20,
             "moves": [
                 ["Thunder Wave"],
-                ["Thunderbolt"],
+                ["Thunderbolt","Rising Voltage"],
                 ["Light Screen","Reflect"],
                 ["Volt Switch"]
             ],
@@ -767,7 +767,7 @@
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Flame Body","Volt Absorb"]
+            "ability": ["Electric Surge"]
         },
         {
             "species": "Denkigan",
