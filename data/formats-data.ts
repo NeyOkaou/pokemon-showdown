@@ -6161,7 +6161,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	pochita:{
 		isNonstandart:"MOOD Fun",
 		tier: "MOOD Fun",
-	}
+	},
 	syclar: {
 		isNonstandard: "CAP",
 		tier: "CAP LC",
