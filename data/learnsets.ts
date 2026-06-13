@@ -58749,6 +58749,11 @@ woopeel:{
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 	},
+	pochita:{
+		learnset:{
+			ceaselessedge: ["9M"],
+		},
+	},
 	beebite: {
 		learnset: {
 			acrobatics: ["9M", "8M", "7M", "6M", "5M"],
