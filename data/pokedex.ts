@@ -21525,6 +21525,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Ameliorator",
 		eggGroups: ["Mineral"],
 	},
+	pochita: {
+		num: -5122,
+		name:"Pochita",
+		types:["Dark", "Steel"],
+		gender: "M",
+		baseStats: { hp: 75, atk: 125, def: 76, spa: 90, spd: 30, spe: 97 },
+		abilities: { 0: "Mold Breaker", 1: "Sharpness", H: "Regenerator", S:"Dark Aura"},
+		heightm: 0.6,
+		weightkg: 35,
+		color: "Orange",
+		eggGroups: ["Monster","Mineral"],
+	},
 };
 
 
