@@ -728,7 +728,7 @@
             "species": "Denkigan",
             "weight": 10,
             "moves": [
-                ["Rising Voltage"],
+                ["Rising Voltage","Flash Bang"],
                 ["Dazzling Gleam","Flash Cannon","Thunderbolt"],
                 ["Overheat"],
                 ["Volt Switch"]
@@ -743,7 +743,7 @@
             "species": "Denkigan",
             "weight": 10,
             "moves": [
-                ["Rising Voltage"],
+                ["Rising Voltage","Flash Bang"],
                 ["Dazzling Gleam","Flash Cannon","Thunderbolt"],
                 ["Overheat"],
                 ["Volt Switch"]
@@ -759,7 +759,7 @@
             "weight": 20,
             "moves": [
                 ["Thunder Wave"],
-                ["Thunderbolt","Rising Voltage"],
+                ["Thunderbolt","Rising Voltage","Flash Bang"],
                 ["Light Screen","Reflect"],
                 ["Volt Switch"]
             ],
@@ -773,8 +773,8 @@
             "species": "Denkigan",
             "weight": 20,
             "moves": [
-                ["Rising Voltage"],
-                ["Overheat"],
+                ["Flash Bang"],
+                ["Thunder Wave"],
                 ["Taunt"],
                 ["Volt Switch"]
             ],
@@ -783,6 +783,56 @@
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Electric Surge"]
+        }
+      ]
+    },
+    "teslanten": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Teslanten",
+            "weight": 20,
+            "moves": [
+                ["Volt Tackle"],
+                ["High Jump Kick"],
+                ["Ice Punch","Knock Off"],
+                ["Volt Switch"]
+            ],
+            "item": ["Choice Band","Life Orb"],
+            "nature": "Adamant",
+            "evs": {"spd": 4, "spe": 252 , "atk": 252},
+            "teraType": ["Fairy"],
+            "ability": ["Sand Rush"]
+        },
+        {
+            "species": "Teslanten",
+            "weight": 20,
+            "moves": [
+                ["Fake Out"],
+                ["Nuzzle"],
+                ["Volt Tackle"],
+                ["Volt Switch","Knock Off","Encore"]
+            ],
+            "item": ["Focus Sash"],
+            "nature": "Jolly",
+            "evs": {"spd": 4, "spe": 252 , "atk": 252},
+            "teraType": ["Fairy"],
+            "ability": ["Static","Lighting Rod"]
+        },
+        {
+            "species": "Teslanten",
+            "weight": 20,
+            "moves": [
+                ["Volt Tackle"],
+                ["High Jump Kick","Knock Off","Ice Punch"],
+                ["Tidy Up"],
+                ["Volt Switch"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Jolly",
+            "evs": {"spd": 4, "spe": 252 , "atk": 252},
+            "teraType": ["Fairy"],
+            "ability": ["Static","Lighting Rod"]
         }
       ]
     },
