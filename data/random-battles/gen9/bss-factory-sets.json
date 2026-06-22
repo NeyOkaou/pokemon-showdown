@@ -794,7 +794,7 @@
             "weight": 20,
             "moves": [
                 ["Volt Tackle"],
-                ["High Jump Kick"],
+                ["High Jump Kick","Blaze Kick"],
                 ["Ice Punch","Knock Off"],
                 ["Volt Switch"]
             ],
