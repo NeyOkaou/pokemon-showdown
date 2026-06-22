@@ -4180,6 +4180,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		damage: "  ([POKEMON] cut its own HP to power up its move!)",
 	},
+	flashbang: {
+		name: "Flash Bang",
+		desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Primordial Sea.",
+		shortDesc: "User loses 50% max HP. Hits adjacent Pokemon.",
+
+		damage: "  ([POKEMON] cut its own HP to power up its move!)",
+	},
 	mindreader: {
 		name: "Mind Reader",
 		desc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
@@ -7679,8 +7686,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	dragonblade: {
 		name: "Dragon Blade",
-		desc: "This move's type effectiveness against Dragon is changed to be super effective no matter what this move's type is.",
+		desc: "Super effective on Dragon",
 		shortDesc: "Super effective on Dragon.",
+	},
+	freezedry: {
+		name: "Freeze-Dry",
+		desc: "10% chance to frostbite. Super effective on Water",
+		shortDesc: "10% chance to frostbite. Super effective on Water",
 	},
 	quickslice: {
 		name: "Quick Slice",
