@@ -22611,5 +22611,30 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { def: 1 } },
 		contestType: "Clever",
 	},
+	flashbang: {
+		num: -391,
+		accuracy: 100,
+		basePower: 150,
+		category: "Special",
+		
+		name: "Flash Bang",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		mindBlownRecoil: true,
+		onAfterMove(pokemon, target, move) {
+			if (move.mindBlownRecoil && !move.multihit) {
+				const hpBeforeRecoil = pokemon.hp;
+				this.damage(Math.round(pokemon.maxhp / 2), pokemon, pokemon, this.dex.conditions.get('Mind Blown'), true);
+				if (pokemon.hp <= pokemon.maxhp / 2 && hpBeforeRecoil > pokemon.maxhp / 2) {
+					this.runEvent('EmergencyExit', pokemon, pokemon);
+				}
+			}
+		},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Electric",
+		contestType: "Cool",
+	},
 };
 	
