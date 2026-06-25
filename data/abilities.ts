@@ -6042,7 +6042,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
     },
 	*/
 	},
-mach\u0031 : {
+mach1 : {
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.flags['sound']) return priority + 3;
 		},
