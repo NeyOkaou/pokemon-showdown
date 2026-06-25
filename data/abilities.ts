@@ -5956,49 +5956,47 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -389,
 	},
 	
-	epidemie: {
+	bluedeath: {
 		onSwitchIn(pokemon) {
 			for (const foe of pokemon.adjacentFoes()) {
 				if (foe.hasType('Ice') || foe.hasType('Poison')) continue;
-				if (foe.getVolatile('epidemie')) continue;
-				foe.addVolatile('epidemie');
+				if (foe.getVolatile('epidemy')) continue;
+				foe.addVolatile('epidemy');
 			}
 		},
 		onResidual(pokemon) {
 			for (const foe of pokemon.adjacentFoes()) {
 				if (foe.hasType('Ice') || foe.hasType('Poison')) continue;
-				if (foe.getVolatile('epidemie')) continue;
+				if (foe.getVolatile('epidemy')) continue;
 				if (this.randomChance(3, 10)) {
-					foe.addVolatile('epidemie');
+					foe.addVolatile('epidemy');
 				}
 			}
 		},
 		condition: {
 			onStart(pokemon) {
-				this.add('-start', pokemon, 'epidemie');
+				this.add('-start', pokemon, 'epidemy');
 			},
 			onEnd(pokemon) {
-				this.add('-end', pokemon, 'epidemie');
+				this.add('-end', pokemon, 'epidemy');
 			},
 			onModifyAtkPriority: 5,
 			onModifyAtk(atk, pokemon) {
-				this.debug('Epidemie atk debuff');
+				this.debug('Epidemy atk debuff');
 				return this.chainModify(0.5);
 			},
 			onModifySpAPriority: 5,
 			onModifySpA(spa, pokemon) {
-				this.debug('Epidemie spa debuff');
+				this.debug('Epidemy spa debuff');
 				return this.chainModify(0.5);
 			},
 		},
 		flags: {},
-		name: "Epidemie",
+		name: "Blue Death",
 		rating: 3,
 		num: -390,
-	},
-
 	/*
-	epidemie: {
+	epidemy: {
         onModifyAtkPriority: 5,
         onModifyAtk(atk, pokemon) {
             if (pokemon.hasType('Ice') || pokemon.hasType('Poison')){
@@ -6015,32 +6013,42 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
         },
 		onUpdate(pokemon){
 			for (const target of pokemon.foes()) {
-				if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie'))  continue;
-				const oldAbility = target.setAbility('epidemie');
+				if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemy'))  continue;
+				const oldAbility = target.setAbility('epidemy');
 				if (oldAbility) {
-					this.add('-ability', target, 'Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
+					this.add('-ability', target, 'Epidemy', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
 				}
 			}
 		},
 		onResidual(pokemon){
 			if (pokemon.hasType('Ice') && pokemon.hasType('Poison')){
 				for (const target of pokemon.foes()) {
-					if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemie')){
+					if (target.getAbility().flags['cantsuppress'] || target.fainted || target.hasType('Poison') || target.hasType('Ice') || target.hasAbility('epidemy')){
 						continue;
 					}
 					if (this.randomChance(3, 10)) {
-						const oldAbility = target.setAbility('epidemie');
+						const oldAbility = target.setAbility('epidemy');
 						if (oldAbility) {
-							this.add('-ability', target, 'Epidemie', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
+							this.add('-ability', target, 'Epidemy', this.dex.abilities.get(oldAbility).name, `[of] ${target}`);
 						}
 					}
 				}
 			}
 		},
         flags: {},
-        name: "Epidemie",
+        name: "Epidemy",
         rating: -1,
         num: -1000,
     },
 	*/
+	},
+mach\u0031 : {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.flags['sound']) return priority + 3;
+		},
+		flags: {},
+		name: "Mach 1",
+		rating: 3.5,
+		num: -391,
+	},
 };
