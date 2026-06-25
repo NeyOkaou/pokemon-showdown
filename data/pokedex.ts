@@ -21230,7 +21230,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Poison","Ice"],
 		gender: "N",
 		baseStats: { hp: 103, atk: 78, def: 111, spa: 93, spd: 135, spe: 70 },
-		abilities: { 0: "Epidemie"}, 
+		abilities: { 0: "Blue Death"}, 
 		heightm: 1.2,
 		weightkg: 32,
 		color: "Blue",
@@ -21536,6 +21536,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 35,
 		color: "Orange",
 		eggGroups: ["Monster","Mineral"],
+	},
+	jolibelle: {
+		num: -5123,
+		name:"Jolibelle",
+		types:["Ground", "Fairy"],
+		gender: "F",
+		baseStats: { hp: 84, atk: 105, def: 59, spa: 85, spd: 78, spe: 111 },
+		abilities: { 0: "Cute Charm", 1: "Queenly Majesty", H: "Adaptability"},
+		heightm: 2,
+		weightkg: 76,
+		color: "Brown",
+		eggGroups: ["Fairy","Mineral"],
 	},
 };
 

@@ -6149,6 +6149,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	jolibelle:{
+		isNonstandard: "CAP",
+		tier: "CAP"
+	},
 	//MOODFUN
 	yhvh: {
 		isNonstandard: "MOOD Fun",
@@ -6187,8 +6191,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	fidgit: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	rebble: {
 		isNonstandard: "CAP",
@@ -6231,8 +6234,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	dorsoil: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	colossoil: {
 		tier: "Illegal",
@@ -6357,12 +6359,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP LC",
 	},
 	smoguana: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	smokomodo: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	swirlpool: {
 		isNonstandard: "CAP",
@@ -6377,12 +6377,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	justyke: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	equilibra: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	solotl: {
 		isNonstandard: "CAP",
@@ -6410,12 +6408,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	saharascal: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	saharaja: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	ababo: {
 		tier: "Illegal",
