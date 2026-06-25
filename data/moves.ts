@@ -22637,7 +22637,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	snowspit: {
-		num: 905,
+		num: -392,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
