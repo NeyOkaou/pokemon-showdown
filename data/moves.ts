@@ -22670,5 +22670,40 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ice",
 	},
+	muddance: {
+		num: -393,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		
+		name: "Mud Dance",
+		pp: 15,
+		priority: 0,
+		flags: { nonsky: 1, metronome: 1, dance: 1 },
+		pseudoWeather: 'mudsport',
+		condition: {
+			duration: 5,
+			onFieldStart(field, source) {
+				this.add('-fieldstart', 'move: Mud Sport', `[of] ${source}`);
+			},
+			onBasePowerPriority: 1,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Electric') {
+					this.debug('mud sport weaken');
+					return this.chainModify([1352, 4096]);
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 4,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Mud Sport');
+			},
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Ground",
+		zMove: { boost: { spd: 1 } },
+		contestType: "Beautiful",
+	},
 };
 	
