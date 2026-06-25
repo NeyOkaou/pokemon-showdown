@@ -2281,6 +2281,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//ICE
 			freezedry: ["9M"],
 			blizzard: ["9M"],
+			snowspit: ["9M"],
 			freezyfrost: ["9M"],
 			engelure: ["9M"],
 			avalanche: ["9M"],
@@ -4833,6 +4834,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
                 freezedry: ["9M"],
                 icebeam: ["9M"],
                 icefang: ["9M"],
+				snowspit: ["9M"],
                 iciclecrash: ["9M"],
                 frostbreath: ["9M"],
                 sheercold: ["9M"],
@@ -6070,6 +6072,7 @@ woopeel:{
 				aurorabeam: ["9M"],
 				icepunch: ["9M"],
 				avalanche: ["9M"],
+				snowspit: ["9M"],
 				blizzard: ["9M"],
 				engelure: ["9M"],
 				breaktheice: ["9M"],

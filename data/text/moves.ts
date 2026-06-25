@@ -1761,6 +1761,13 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		prepare: "[POKEMON] absorbed electricity!",
 	},
+	snowspit: {
+		name: "Snow Spit",
+		desc: "This attack heals the user by 25% on the first turn and executes on the second. If the user is holding a Power Herb or the weather is Snow Scape, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Snow Scape, the move still requires a turn to charge.",
+		shortDesc: "Heals user by 25%, hits turn 2. Snow: no charge.",
+
+		prepare: "[POKEMON] absorbed snow !",
+	},
 	electroweb: {
 		name: "Electroweb",
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
