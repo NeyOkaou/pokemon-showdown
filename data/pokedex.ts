@@ -21230,7 +21230,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Poison","Ice"],
 		gender: "N",
 		baseStats: { hp: 103, atk: 78, def: 111, spa: 93, spd: 135, spe: 70 },
-		abilities: { 0: "Blue Death"}, 
+		abilities: { 0: "Epidemie"}, 
 		heightm: 1.2,
 		weightkg: 32,
 		color: "Blue",

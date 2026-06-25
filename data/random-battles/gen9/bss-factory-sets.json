@@ -2398,7 +2398,7 @@
               "nature": "Quiet",
               "evs": {"hp": 252, "spa": 252, "spd": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Blue Death"]
+              "ability": ["Epidemie"]
           },
           {
               "species": "Rhumaggro",
@@ -2413,7 +2413,7 @@
               "nature": "Calm",
               "evs": {"hp": 252, "spd": 252, "spa": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Blue Death"]
+              "ability": ["Epidemie"]
           }
       ]
     },
