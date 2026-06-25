@@ -22636,5 +22636,39 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	snowspit: {
+		num: 905,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Snow Spit",
+		pp: 10,
+		priority: 0,
+		flags: { charge: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.heal(this.modify(attacker.maxhp, 0.25));
+			if (['snowscape'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: {
+			chance: 30,
+			status: 'frz',
+		},
+		hasSheerForce: true,
+		target: "normal",
+		type: "Ice",
+	},
 };
 	
