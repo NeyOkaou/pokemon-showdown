@@ -58754,7 +58754,7 @@ woopeel:{
 			chainsawrush: ["9M"],
 		},
 	},
-	jolibell:{
+	jolibelle:{
 		learnset:{
 			muddance: ["9M"],
 
