@@ -134,7 +134,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: "The Create-A-Pok&eacute;mon project is a community dedicated to exploring and understanding the competitive Pok&eacute;mon metagame by designing, creating, and playtesting new Pok&eacute;mon concepts.",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] OU', '+CAP'],
-		banlist: ['Crucibellite', 'Rage Fist'],
+		banlist: ['Crucibellite', 'Rage Fist','!Cursed Seal', '!Fragrant Sachet', '!Haste Orb', '!Frost Orb', '!Hefty Armor'],
 	},
 	{
 		name: "[Gen 9] MOOD Fun",
