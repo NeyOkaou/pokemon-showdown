@@ -5996,7 +5996,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -390,
 	},
-mach1 : {
+	mach1: {
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.flags['sound']) return priority + 3;
 		},
@@ -6004,5 +6004,40 @@ mach1 : {
 		name: "Mach 1",
 		rating: 3.5,
 		num: -391,
+	},
+	heavyhitter: {
+		onBasePowerPriority: 30,
+		onBasePower(basePower, attacker, defender, move) {
+			const basePowerAfterMultiplier = this.modify(basePower, this.event.modifier);
+			this.debug(`Base Power: ${basePowerAfterMultiplier}`);
+			if (basePowerAfterMultiplier >= 100) {
+				this.boost({ spe: -1 }, attacker);
+				this.debug('Heavy Hitter boost');
+				return this.chainModify(1.2);
+			}
+		},
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			this.debug('heavyhitter - enhancing accuracy');
+			return this.chainModify([5325, 4096])
+		},
+		flags: {},
+		name: "Heavy Hitter",
+		rating: 3.5,
+		num: -392,
+	},
+	selfrepair: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 4,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				this.heal(pokemon.hp / 8)
+			}
+		},
+		flags: {},
+		name: "Self-Repair",
+		rating: 4,
+		num: -393,
 	},
 };

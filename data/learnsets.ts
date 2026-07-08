@@ -5452,7 +5452,7 @@ woopeel:{
 				//GROUND
 				dig: ["9M"],
 				sandattack: ["9M"],
-			
+				//NORMAL
 				yawn: ["9M"],
 				workup: ["9M"],
 				weatherball: ["9M"],
@@ -5460,7 +5460,6 @@ woopeel:{
 				growl: ["9M"],
 				roar: ["9M"],
 				tailwhip: ["9M"],
-
 				swift: ["9M"],
 				swagger: ["9M"],
 				superfang: ["9M"],
@@ -6203,7 +6202,6 @@ woopeel:{
 			endure: ["9M"],
 			bodyslam: ["9M"],
 			helpinghand: ["9M"],
-			followme: ["9M"],
 			batonpass: ["9M"],
 			weatherball: ["9M"],
 			growl: ["9M"],
@@ -8330,6 +8328,7 @@ woopeel:{
 			karatechop : ["9M"],
 			//bug 
 			pinmissile : ["9M"],
+			ragepowder : ["9M"],
 			//general
             protect: ["9M"],
             frustration: ["9M"],

@@ -7726,7 +7726,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyDefPriority: 1,
 		onModifyDef(def) {
-			return this.chainModify(1.5);
+			return this.chainModify(1.3);
 		},
 		onDisableMove(pokemon) {
 			if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
