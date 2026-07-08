@@ -8395,6 +8395,7 @@ woopeel:{
 			batonpass: ["9M"],
 			//ground
 			sandattack: ["9M"],
+			muddance: ["9M"],
 			mudshot: ["9M"],
 			mudslap: ["9M"],
 			magnitude: ["9M"],
@@ -8491,6 +8492,7 @@ woopeel:{
 			bodyslam: ["9M"],
 			batonpass: ["9M"],
 			//ground
+			muddance: ["9M"],
 			sandattack: ["9M"],
 			mudshot: ["9M"],
 			mudslap: ["9M"],
@@ -58749,6 +58751,13 @@ woopeel:{
 	pochita:{
 		learnset:{
 			ceaselessedge: ["9M"],
+			chainsawrush: ["9M"],
+		},
+	},
+	jolibell:{
+		learnset:{
+			muddance: ["9M"],
+
 		},
 	},
 	beebite: {

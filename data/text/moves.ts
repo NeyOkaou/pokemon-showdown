@@ -1405,6 +1405,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
 		shortDesc: "50% chance to sleep, poison, or paralyze target.",
 	},
+	chainsawrush:{
+		name:"Chainsaw Rush",
+		desc: "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
+		shortDesc: "For 4 turns, disables the target's last move used.",
+	},
 	disable: {
 		name: "Disable",
 		desc: "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
@@ -4409,6 +4414,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "While the user is active, all Electric-type attacks used by any active Pokemon have their power halved. Fails if this effect is already active for the user. Baton Pass can be used to transfer this effect to an ally.",
 			shortDesc: "Weakens Electric-type attacks to 1/2 their power.",
 		},
+	},
+	muddance: {
+		name: "Mud Dance",
+		desc: "For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
+		shortDesc: "For 5 turns, Electric-type attacks have 1/3 power.",
 	},
 	muddywater: {
 		name: "Muddy Water",
