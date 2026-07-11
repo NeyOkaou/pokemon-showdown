@@ -21516,7 +21516,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name:"0-Mecatyra",
 		types:["Electric", "Steel"],
 		baseStats: { hp: 80, atk: 70, def: 130, spa: 110, spd: 105, spe: 85 },
-		abilities: { 0: "Motor Drive", H: "Quark Drive" },
+		abilities: { 0: "Motor Drive", 1: "Self-Repair", H: "Quark Drive" },
 		heightm: 2.5,
 		weightkg: 350,
 		color: "Gray",

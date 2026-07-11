@@ -6020,7 +6020,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onSourceModifyAccuracy(accuracy) {
 			if (typeof accuracy !== 'number') return;
 			this.debug('heavyhitter - enhancing accuracy');
-			return this.chainModify([5325, 4096])
+			return this.chainModify([4096 , 3277])
 		},
 		flags: {},
 		name: "Heavy Hitter",
@@ -6032,7 +6032,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onResidualSubOrder: 4,
 		onResidual(pokemon) {
 			if (pokemon.activeTurns) {
-				this.heal(pokemon.hp / 8)
+				this.heal(pokemon.maxhp / 16)
 			}
 		},
 		flags: {},

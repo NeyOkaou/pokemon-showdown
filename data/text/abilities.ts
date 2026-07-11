@@ -2376,6 +2376,16 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	warhorn: {
 		name: "War Horn",
-		desc: "Taunts every other pokemon upon switching in",
+		desc: "Taunts every other pokemon upon switch-in.",
+	},
+	selfrepair: {
+		name: "Self-Repair",
+		desc: "This pokemon repairs its broken parts at the end of each turn, healing it 1/16th of its maximum health.",
+		shortDesc: "Heals 1/16th max hp at the end of each turn.",
+	},
+	heavyhitter: {
+		name: "Heavy Hitter",
+		desc: "Boosts the damage and accuracy of moves with 100 base power and more, but using one reduces this pokemon's speed by 1 stage.",
+		shortDesc: "This Pokemon's moves of 100 power or more have 1.2x power and accuracy but lower speed.",
 	},
 };
