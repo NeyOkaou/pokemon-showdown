@@ -12818,7 +12818,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	mountaingale: {
 		num: 836,
 		accuracy: 85,
-		basePower: 100,
+		basePower: 120,
 		category: "Physical",
 		name: "Mountain Gale",
 		pp: 10,
@@ -20867,7 +20867,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	tropkick: {
 		num: 688,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 85,
 		category: "Physical",
 		name: "Trop Kick",
 		pp: 15,

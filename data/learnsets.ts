@@ -58778,7 +58778,7 @@ woopeel:{
 			feintattack: ["9M"],
 			//STEEL
 			cut: ["9M"],
-			ironttail: ["9M"],
+			irontail: ["9M"],
 			metalclaw: ["9M"],
 			metalsound: ["9M"],
 			quicksiice: ["9M"],
