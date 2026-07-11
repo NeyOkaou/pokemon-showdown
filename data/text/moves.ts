@@ -4415,11 +4415,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Weakens Electric-type attacks to 1/2 their power.",
 		},
 	},
-	muddance: {
-		name: "Mud Dance",
-		desc: "For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
-		shortDesc: "For 5 turns, Electric-type attacks have 1/3 power.",
-	},
 	muddywater: {
 		name: "Muddy Water",
 		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
@@ -7756,5 +7751,15 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Starts Sunny Day. User switches out.",
 
 		prepare: "  [POKEMON] is calling for the sun!",
+	},
+	catastroffee: {
+		name: "Cat-astroffee",
+		desc: "Has a 20% chance to burn the target. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. The target thaws out if it is frozen.",
+		shortDesc: "20% burn. Recovers 50% dmg dealt. Thaws foe(s).",
+	},
+	muddance: {
+		name: "Mud Dance",
+		desc: "The user dances gracefully, spreading mud everywhere on the field. For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
+		shortDesc: "For 5 turns, Electric-type attacks have 1/3 power.",
 	},
 };

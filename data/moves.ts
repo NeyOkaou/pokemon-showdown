@@ -6390,7 +6390,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (type === 'Water') return 1;
 		},
 		secondary: {
-			chance: 10,
+			chance: 20,
 			status: 'frz',
 		},
 		target: "normal",
@@ -14185,7 +14185,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
-			chance: 10,
+			chance: 30,
 			status: 'frz',
 		},
 		target: "allAdjacentFoes",
@@ -22775,5 +22775,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Clever",
 	},
+	catastroffee: {
+		num: -395,
+		accuracy: 90,
+		basePower: 80,
+		category: "Special",
+		name: "Cat-astroffee",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, defrost: 1, heal: 1, metronome: 1 },
+		drain: [1, 2],
+		thawsTarget: true,
+		secondary: {
+			chance: 20,
+			status: 'brn',
+		},
+		target: "allAdjacentFoes",
+		type: "Fire",
+	},
 };
-	
