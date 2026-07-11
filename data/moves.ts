@@ -18047,8 +18047,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	sparklyswirl: {
 		num: 740,
-		accuracy: 85,
-		basePower: 120,
+		accuracy: 100,
+		basePower: 90,
 		category: "Special",
 		
 		name: "Sparkly Swirl",
