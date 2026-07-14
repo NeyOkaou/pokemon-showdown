@@ -7703,8 +7703,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	freezedry: {
 		name: "Freeze-Dry",
-		desc: "10% chance to frostbite. Super effective on Water",
-		shortDesc: "10% chance to frostbite. Super effective on Water",
+		desc: "20% chance to frostbite. Super effective on Water",
+		shortDesc: "20% chance to frostbite. Super effective on Water",
 	},
 	quickslice: {
 		name: "Quick Slice",

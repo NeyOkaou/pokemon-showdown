@@ -2482,18 +2482,33 @@
           },
           {
               "species": "Arctitane",
-              "weight": 20,
+              "weight": 10,
               "moves": [
                   ["Icicle Spear"],
-                  ["Body Press"],
+                  ["Curse"],
                   ["Spike Cannon"],
-                  ["Rapid Spin"]
+                  ["Earthquake"]
               ],
               "item": ["Loaded Dice"],
               "nature": "Adamant",
               "evs": {"hp": 252, "atk": 252, "def": 4},
               "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Hustle"]
+              "ability": ["Hustle","Ice Scales"]
+          },
+          {
+              "species": "Arctitane",
+              "weight": 10,
+              "moves": [
+                  ["Icicle Spear"],
+                  ["Curse"],
+                  ["Spike Cannon"],
+                  ["Earthquake"]
+              ],
+              "item": ["Loaded Dice"],
+              "nature": "Adamant",
+              "evs": {"hp": 252, "atk": 252, "def": 4},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Hustle","Ice Scales"]
           }
       ]
     },
