@@ -2388,4 +2388,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "Boosts the damage and accuracy of moves with 100 base power and more, but using one reduces this pokemon's speed by 1 stage.",
 		shortDesc: "This Pokemon's moves of 100 power or more have 1.2x power and accuracy but lower speed.",
 	},
+	lobotomy: {
+		name: "Lobotomy",
+		desc: "Finkfok has such little attention span that it won't spend more than 3 turns battling before coming back in its pokeball to doomscroll and watch more slop.",
+		shortDesc: "This pokemon will be forced to switch out after spending 3 turns on the field.",
+	},
 };
