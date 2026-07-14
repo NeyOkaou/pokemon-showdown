@@ -21554,7 +21554,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Finkfok",
 		types: ["Ghost", "Electric"],
 		gender: "N",
-		baseStats: { hp: 70, atk: 44, def: 65, spa: 75, spd: 80, spe: 125 },
+		baseStats: { hp: 67, atk: 44, def: 67, spa: 75, spd: 80, spe: 125 },
 		abilities: { 0: "Lobotomy" },
 		heightm: 1.3,
 		weightkg: 19,
