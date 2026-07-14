@@ -6149,9 +6149,17 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	jolibelle:{
+	jolibelle: {
 		isNonstandard: "CAP",
 		tier: "CAP"
+	},
+	finkfok: {
+		isNonstandard: "CAP",
+		tier: "CAP"
+	},
+	frostbelum: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	//MOODFUN
 	yhvh: {

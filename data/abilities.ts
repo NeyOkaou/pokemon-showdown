@@ -6040,4 +6040,34 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: -393,
 	},
+	lobotomy: {
+		onStart(pokemon) {
+			pokemon.addVolatile('lobotomy');
+		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['lobotomy'];
+			this.add('-end', pokemon, 'lobotomy', '[silent]');
+		},
+		condition: {
+			duration: 3,
+			onResidualOrder: 28,
+			onResidualSubOrder: 2,
+			onStart(target) {
+				this.add('-start', target, 'ability: lobotomy');
+			},
+			onResidual(pokemon) {
+				if (!pokemon.activeTurns) {
+					this.effectState.duration! += 1;
+				}
+			},
+			onEnd(target) {
+				this.add('-end', target, 'lobotomy');
+				return !!this.canSwitch(target.side);
+			},
+		},
+		flags: {},
+		name: "Lobotomy",
+		rating: -1,
+		num: -394,
+	},
 };
