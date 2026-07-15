@@ -6159,7 +6159,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	frostbelum: {
 		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	//MOODFUN
 	yhvh: {
@@ -6183,8 +6183,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	revenankh: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	embirch: {
 		tier: "Illegal",
@@ -6222,24 +6221,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	nohface: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	kitsunoh: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	monohm: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	duohm: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	cyclohm: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	dorsoil: {
 		tier: "Illegal",
@@ -6252,8 +6246,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP LC",
 	},
 	krilowatt: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	voodoll: {
 		tier: "Illegal",
@@ -6310,12 +6303,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	snugglow: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	plasmanta: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	floatoy: {
 		isNonstandard: "CAP",
@@ -6344,8 +6335,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	pajantom: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	mumbao: {
 		tier: "Illegal",
