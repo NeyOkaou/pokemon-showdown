@@ -21571,6 +21571,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.55,
 		weightkg: 60,
 		color: "Blue",
+		prevo: "Synapti",
+		evoType: "useItem",
+		evoItem: "Metal Coat",
 		eggGroups: ["Human-Like"],
 	},
 };
