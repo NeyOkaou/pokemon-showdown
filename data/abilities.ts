@@ -6062,7 +6062,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			},
 			onEnd(target) {
 				this.add('-end', target, 'lobotomy');
-				return !!this.canSwitch(target.side);
+				if (!this.canSwitch(target.side) || target.forceSwitchFlag || target.switchFlag) return;
+				this.add('-activate', target, 'ability: Emergency Exit');
+				target.switchFlag = true;
 			},
 		},
 		flags: {},
@@ -6071,3 +6073,4 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -394,
 	},
 };
+
