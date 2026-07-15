@@ -51,7 +51,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//DARK
 			taunt: ["9M"],
 			baddybad: ["9M"],
-			baddybad: ["9M"],
 			beatup: ["9M"],
 			embargo: ["9M"],
 			faketears: ["9M"],
@@ -68,7 +67,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			electroball: ["9M"],
 			flash: ["9M"],
 			magnetrise: ["9M"],
-			magnetflux: ["9M"],
 			shockwave: ["9M"],
 			thunder: ["9M"],
 			thunderbolt: ["9M"],
