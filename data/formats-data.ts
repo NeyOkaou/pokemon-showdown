@@ -6242,8 +6242,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	protowatt: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	krilowatt: {
 		tier: "Illegal",
