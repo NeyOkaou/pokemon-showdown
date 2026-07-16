@@ -364,8 +364,13 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Max PP",
 		moveNumCol: move => move.pp,
 	},
+	illegal: {
+    	name: "Illegal",
+    	speciesFilter: species => species.tier === 'Illegal',
+	},
 	moodfun: {
     	name: "MOOD Fun",
     	speciesFilter: species => species.isNonstandard === 'MOOD Fun',
 	},
+	
 };

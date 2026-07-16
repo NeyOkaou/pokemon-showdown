@@ -1,4 +1,4 @@
-// Note: This is the list of formats
+F// Note: This is the list of formats
 // The rules that formats use are stored in data/rulesets.ts
 /*
 If you want to add custom formats, create a file in this folder named: "custom-formats.ts"
@@ -74,7 +74,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] OU",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Evasion Abilities Clause', '!Sleep Clause Mod', 'Terastal Clause'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
+		banlist: ['pokemontag:illegal','Uber', 'AG', 'Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Cursed Seal', 'Fragrant Sachet', 'Haste Orb', 'Frost Orb', 'Hefty Armor'],
 	},
 	{
 		name: "[Gen 9] Ubers",
