@@ -1,4 +1,4 @@
-F// Note: This is the list of formats
+// Note: This is the list of formats
 // The rules that formats use are stored in data/rulesets.ts
 /*
 If you want to add custom formats, create a file in this folder named: "custom-formats.ts"
