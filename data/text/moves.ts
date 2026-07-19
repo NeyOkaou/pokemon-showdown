@@ -7547,8 +7547,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	wildcharge: {
 		name: "Wild Charge",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-		shortDesc: "Has 1/4 recoil.",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP. 20% chance to paralyze target.",
+		shortDesc: "Has 1/4 recoil. 20% chance to paralyze target.",
 	},
 	willowisp: {
 		name: "Will-O-Wisp",

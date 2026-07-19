@@ -21722,7 +21722,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		recoil: [1, 4],
-		secondary: null,
+		secondary: {
+			chance: 20,
+			status: 'par',
+		},
 		target: "normal",
 		type: "Electric",
 		contestType: "Tough",

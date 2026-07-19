@@ -2521,7 +2521,7 @@
               "moves": [
                   ["Fishious Rend","Water Fall","Liquidation"],
                   ["Dragon Dance","Coil"],
-                  ["Thunder Fang","Volt Tackle"],
+                  ["Thunder Fang","Wild Charge"],
                   ["Aqua Jet","Taunt"]
               ],
               "item": ["Life Orb"],
@@ -2566,7 +2566,7 @@
               "moves": [
                   ["Ice Fang","Crunch"],
                   ["Fishious Rend"],
-                  ["Thunder Fang","Volt Tackle"],
+                  ["Thunder Fang","Wild Charge"],
                   ["Aqua Jet","Flip Turn"]
               ],
               "item": ["Choice Scarf"],
@@ -2581,7 +2581,7 @@
               "moves": [
                   ["Ice Fang","Crunch"],
                   ["Liquidation"],
-                  ["Thunder Fang","Volt Tackle"],
+                  ["Thunder Fang","Wild Charge"],
                   ["Aqua Jet","Flip Turn"]
               ],
               "item": ["Choice Band"],
@@ -2695,7 +2695,7 @@
             "weight": 20,
             "moves": [
                 ["Flare Blitz"],
-                ["Volt Tackle"],
+                ["Wild Charge"],
                 ["Superpower","Knock Off","Crunch","Psychic Fangs","Play Rough"],
                 ["Volt Switch","Extreme Speed"]
             ],

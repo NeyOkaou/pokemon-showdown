@@ -5222,7 +5222,6 @@ woopeel:{
 				falsesurrender: ["9M"],
 				feintattack: ["9M"],
 				honeclaws: ["9M"],
-				knockoff: ["9M"],
 				nastyplot: ["9M"],
 				pursuit: ["9M"],
 				snarl: ["9M"],
@@ -5256,7 +5255,6 @@ woopeel:{
 				flash: ["9M"],
 				risingvoltage: ["9M"],
 				voltswitch: ["9M"],
-				volttackle: ["9M"],
 				wildcharge: ["9M"],
 				//GHOST
 				shadowsneak: ["9M"],
@@ -5611,7 +5609,6 @@ woopeel:{
 				thunderclap: ["9M"],
 				shockwave: ["9M"],
 				voltswitch: ["9M"],
-				volttackle: ["9M"],
 				wildcharge: ["9M"],
 				//FAIRY
 				charm: ["9M"],
@@ -5873,7 +5870,6 @@ woopeel:{
 				shockwave: ["9M"],
 				spark: ["9M"],
 				voltswitch: ["9M"],
-				volttackle: ["9M"],
 				wildcharge: ["9M"],
 				wildboltstorm: ["9M"],
 				zapcannon: ["9M"],
