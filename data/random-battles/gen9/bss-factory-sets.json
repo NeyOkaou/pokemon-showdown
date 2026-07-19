@@ -795,7 +795,7 @@
             "moves": [
                 ["Calm Mind"],
                 ["Blizzard"],
-                ["Thundebolt"],
+                ["Thunderbolt"],
                 ["Shadow Ball"]
             ],
             "item": ["Leftovers"],
@@ -810,7 +810,7 @@
             "moves": [
                 ["Nasty Plot"],
                 ["Trick Room"],
-                ["Thundebolt"],
+                ["Thunderbolt"],
                 ["Shadow Ball","Soul Blast"]
             ],
             "item": ["Sitrus Berry"],
