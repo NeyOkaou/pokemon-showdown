@@ -691,6 +691,151 @@
         }
       ]
     },
+    "compilex": {
+      "weight": 15,
+      "sets": [
+        {
+            "species": "Compilex",
+            "weight": 20,
+            "moves": [
+                ["Substitute"],
+                ["Bulk Up"],
+                ["Drain Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Impish",
+            "evs": {"atk": 252, "hp": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Magnet Pull"]
+        },
+        {
+            "species": "Compilex",
+            "weight": 20,
+            "moves": [
+                ["Substitute"],
+                ["Iron Defense"],
+                ["Body Press"],
+                ["Recover"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Calm",
+            "evs": {"atk": 252, "hp": 4 , "spd": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Magnet Pull"]
+        },
+        {
+            "species": "Compilex",
+            "weight": 20,
+            "moves": [
+                ["Shift Gear"],
+                ["Supercell Slam"],
+                ["Close Combat"],
+                ["Ice Punch","Knock Off","Meteor Mash","Poison Jab"]
+            ],
+            "item": ["Life Orb"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Magnet Pull"]
+        },
+        {
+            "species": "Compilex",
+            "weight": 20,
+            "moves": [
+                ["Knock Off","Meteor Mash","Poison Jab"],
+                ["Supercell Slam"],
+                ["Close Combat"],
+                ["Mach Punch"]
+            ],
+            "item": ["Life Orb","Choice Scarf","Choice Band"],
+            "nature": "Jolly",
+            "evs": {"atk": 252, "hp": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Magnet Pull"]
+        },
+        {
+            "species": "Compilex",
+            "weight": 20,
+            "moves": [
+                ["Volt Switch"],
+                ["Double Shock"],
+                ["Close Combat"],
+                ["Bullet Punch"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Analytic"]
+        },
+        {
+            "species": "Compilex",
+            "weight": 5,
+            "moves": [
+                ["Volt Switch"],
+                ["Double Shock"],
+                ["Close Combat"],
+                ["Bullet Punch"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 4 , "spe": 252 },
+            "teraType": ["Fairy"],
+            "ability": ["Analytic"]
+        }
+      ]
+    },
+    "omegama": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Omegama",
+            "weight": 20,
+            "moves": [
+                ["Calm Mind"],
+                ["Blizzard"],
+                ["Thundebolt"],
+                ["Shadow Ball"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Snow Warning"]
+        },
+        {
+            "species": "Omegama",
+            "weight": 20,
+            "moves": [
+                ["Nasty Plot"],
+                ["Trick Room"],
+                ["Thundebolt"],
+                ["Shadow Ball","Soul Blast"]
+            ],
+            "item": ["Sitrus Berry"],
+            "nature": "Quiet",
+            "evs": {"spa": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Cursed Body"]
+        },
+        {
+            "species": "Omegama",
+            "weight": 20,
+            "moves": [
+                ["Will-O-Wisp"],
+                ["Hex"],
+                ["Calm Mind"],
+                ["Thunder Cage"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Static"]
+        }
+      ]
+    },
     "denkigan": {
       "weight": 50,
       "sets": [
