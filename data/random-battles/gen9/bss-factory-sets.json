@@ -833,6 +833,21 @@
             "evs": {"spa": 252, "hp": 252 , "def": 4 },
             "teraType": ["Fairy"],
             "ability": ["Static"]
+        },
+        {
+            "species": "Omegama",
+            "weight": 20,
+            "moves": [
+                ["Parting Shot"],
+                ["Shadow Ball"],
+                ["Light Screen"],
+                ["Reflect"]
+            ],
+            "item": ["Light Clay"],
+            "nature": "Relaxed",
+            "evs": {"def": 252, "hp": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Static","Cursed Body"]
         }
       ]
     },
@@ -962,7 +977,7 @@
             "nature": "Jolly",
             "evs": {"spd": 4, "spe": 252 , "atk": 252},
             "teraType": ["Fairy"],
-            "ability": ["Static","Lighting Rod"]
+            "ability": ["Static","Lightning Rod"]
         },
         {
             "species": "Teslanten",
@@ -977,7 +992,7 @@
             "nature": "Jolly",
             "evs": {"spd": 4, "spe": 252 , "atk": 252},
             "teraType": ["Fairy"],
-            "ability": ["Static","Lighting Rod"]
+            "ability": ["Static","Lightning Rod"]
         }
       ]
     },
@@ -1042,7 +1057,7 @@
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "atk": 4 },
             "teraType": ["Fairy"],
-            "ability": ["Static","Lighting Rod"]
+            "ability": ["Static","Lightning Rod"]
         }
       ]
     },
