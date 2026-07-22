@@ -5916,7 +5916,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	gravityfalls: {
 		onStart(pokemon) {
 			let activated = false;
-			for (const target of pokemon.adjacentFoes()) {
+			for (const target of this.getAllActive()) {
 				if (!activated) {
 					this.add('-ability', pokemon, 'Gravity Falls', 'boost');
 					activated = true;
@@ -5932,7 +5932,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	warhorn: {
 		onStart(pokemon) {
-			for (const target of pokemon.adjacentFoes()) {
+			for (const target of this.getAllActive ()) {
 				target.addVolatile('taunt')
 			}
 		},
@@ -5955,7 +5955,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: -389,
 	},
-	
 	epidemie: {
 		onSwitchIn(pokemon) {
 			for (const foe of pokemon.adjacentFoes()) {
