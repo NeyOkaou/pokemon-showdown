@@ -15186,6 +15186,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'Tauros-Paldea-Aqua':
 				move.type = 'Water';
 				break;
+			case 'Bisorgue':
+				move.type = 'Rock';
 			}
 		},
 		secondary: null,
