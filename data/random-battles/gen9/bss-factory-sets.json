@@ -721,6 +721,136 @@
         }
       ]
     },
+    "lumini": {
+      "weight": 15,
+      "sets": [
+        {
+            "species": "Lumini",
+            "weight": 20,
+            "moves": [
+                ["Defog","Thunder Wave","Heal Bell"],
+                ["Wish"],
+                ["Protect"],
+                ["Flash Cannon"]
+            ],
+            "item": ["Eviolite"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Levitate"]
+        }
+      ]
+    },
+    "0mecatyra": {
+      "weight": 25,
+      "sets": [
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Blizzard"],
+                ["Steel Beam"],
+                ["Overheat"],
+                ["Thunder"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Ice Beam"],
+                ["Steel Beam"],
+                ["Protect"],
+                ["Thunderbolt"]
+            ],
+            "item": ["Leftovers"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Ice Beam"],
+                ["Flash Cannon"],
+                ["Flamethrower"],
+                ["Thunderbolt"]
+            ],
+            "item": ["Expert Belt"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Body Press"],
+                ["Iron Defense"],
+                ["Ice Beam"],
+                ["Thunderbolt"]
+            ],
+            "item": ["Weakness Policy"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Flash Cannon","Flamethrower","Aura Sphere"],
+                ["Thunderbolt"],
+                ["Ice Beam"],
+                ["Electro Shot"]
+            ],
+            "item": ["Power Herb"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair","Motor Drive"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Flash Cannon"],
+                ["Thunderbolt"],
+                ["Flamethrower","Aura Sphere","Ice Beam"],
+                ["Volt Switch"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Self-Repair"]
+        },
+        {
+            "species": "0-Mecatyra",
+            "weight": 20,
+            "moves": [
+                ["Flash Cannon"],
+                ["Thunderbolt"],
+                ["Flamethrower","Aura Sphere","Ice Beam"],
+                ["Autotomize"]
+            ],
+            "item": ["Booster Energy"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Quark Drive"]
+        }
+      ]
+    },
     "compilex": {
       "weight": 25,
       "sets": [
