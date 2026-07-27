@@ -725,7 +725,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 		onFieldEnd() {
 			this.add('-weather', 'none');
 		},
-	},
+    },
 
 	dynamax: {
 		name: 'Dynamax',

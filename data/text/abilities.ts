@@ -2376,7 +2376,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	warhorn: {
 		name: "War Horn",
-		desc: "Taunts every other pokemon upon switch-in.",
+		desc: "Taunts every other Pokemon upon switch-in.",
 	},
 	selfrepair: {
 		name: "Self-Repair",
