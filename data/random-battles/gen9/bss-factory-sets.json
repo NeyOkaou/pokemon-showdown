@@ -80,7 +80,7 @@
       ]
   },
   "gardilisk": {
-      "weight": 5,
+      "weight": 25,
       "sets": [
           {
               "species": "Gardilisk",
@@ -180,7 +180,7 @@
       ]
   },
   "puyotan": {
-      "weight": 5,
+      "weight": 25,
       "sets": [
           {
               "species": "Puyotan",
@@ -200,7 +200,7 @@
       ]
   },
   "terrakami": {
-      "weight": 35,
+      "weight": 25,
       "sets": [
           {
               "species": "Terrakami",
@@ -211,9 +211,39 @@
                   ["Earthquake","Land's Wrath"],
                   ["Dragon Tail","Rapid Spin"]
               ],
-              "item": ["Rocky Helmet","Leftovers"],
+              "item": ["Rocky Helmet","Leftovers","Yache Berry"],
               "nature": "Adamant",
               "evs": {"hp": 252, "spd": 4, "atk": 252},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
+          },
+           {
+              "species": "Terrakami",
+              "weight": 10,
+              "moves": [
+                  ["Recover"],
+                  ["U-Turn"],
+                  ["Earth Power"],
+                  ["Rapid Spin"]
+              ],
+              "item": ["Rocky Helmet","Leftovers","Yache Berry"],
+              "nature": "Bold",
+              "evs": {"hp": 252, "spd": 4, "def": 252},
+              "teraType": ["Grass", "Poison", "Water"],
+              "ability": ["Earth Eater"]
+          },
+          {
+              "species": "Terrakami",
+              "weight": 10,
+              "moves": [
+                  ["Recover"],
+                  ["U-Turn"],
+                  ["Earth Power"],
+                  ["Rapid Spin"]
+              ],
+              "item": ["Rocky Helmet","Leftovers","Yache Berry"],
+              "nature": "Calm",
+              "evs": {"hp": 252, "def": 4, "spd": 252},
               "teraType": ["Grass", "Poison", "Water"],
               "ability": ["Earth Eater"]
           },
@@ -381,7 +411,7 @@
       ]
   },
     "invocamon": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
         {
             "species": "Invocamon",
@@ -692,7 +722,7 @@
       ]
     },
     "compilex": {
-      "weight": 15,
+      "weight": 25,
       "sets": [
         {
             "species": "Compilex",
@@ -787,7 +817,7 @@
       ]
     },
     "omegama": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Omegama",
@@ -852,7 +882,7 @@
       ]
     },
     "denkigan": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Denkigan",
@@ -947,7 +977,7 @@
       ]
     },
     "teslanten": {
-      "weight": 50,
+      "weight": 45,
       "sets": [
         {
             "species": "Teslanten",
@@ -996,73 +1026,8 @@
         }
       ]
     },
-    "gerbuzz": {
-      "weight": 5,
-      "sets": [
-        {
-            "species": "Gerbuzz",
-            "weight": 20,
-            "moves": [
-                ["Volt Tackle"],
-                ["Thunderbolt"],
-                ["Ice Punch"],
-                ["Volt Switch"]
-            ],
-            "item": ["Light Ball"],
-            "nature": "Naive",
-            "evs": {"spa": 128, "spe": 252 , "atk": 128 },
-            "teraType": ["Fairy"],
-            "ability": ["Sand Rush"]
-        },
-        {
-            "species": "Gerbuzz",
-            "weight": 10,
-            "moves": [
-                ["Volt Tackle"],
-                ["Jump Kick"],
-                ["Ice Punch"],
-                ["Knock Off"]
-            ],
-            "item": ["Light Ball"],
-            "nature": "Adamant",
-            "evs": {"atk": 252, "def": 4 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["Sand Rush"]
-        },
-        {
-            "species": "Gerbuzz",
-            "weight": 10,
-            "moves": [
-                ["Volt Tackle"],
-                ["Jump Kick"],
-                ["Ice Punch"],
-                ["Knock Off"]
-            ],
-            "item": ["Light Ball"],
-            "nature": "Jolly",
-            "evs": {"atk": 252, "def": 4 , "spe": 252 },
-            "teraType": ["Fairy"],
-            "ability": ["Sand Rush"]
-        },
-        {
-            "species": "Gerbuzz",
-            "weight": 20,
-            "moves": [
-                ["Fake Out"],
-                ["Thunderbolt"],
-                ["Nuzzle"],
-                ["Volt Switch"]
-            ],
-            "item": ["Light Ball"],
-            "nature": "Timid",
-            "evs": {"spa": 252, "spe": 252 , "atk": 4 },
-            "teraType": ["Fairy"],
-            "ability": ["Static","Lightning Rod"]
-        }
-      ]
-    },
     "phantasm": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
         {
             "species": "Phantasm",
@@ -1291,28 +1256,8 @@
         }
       ]
     },
-    "stalibri": {
-      "weight": 15,
-      "sets": [
-          {
-              "species": "Stalibri",
-              "weight": 20,
-              "moves": [
-                  ["Stealth Rock"],
-                  ["Drill Run"],
-                  ["Taunt"],
-                  ["Thief"]
-              ],
-              "item": ["Focus Sash"],
-              "nature": "Jolly",
-              "evs": {"atk": 252, "spe": 252, "spd": 4},
-              "teraType": ["Grass", "Poison", "Water"],
-              "ability": ["Inner Focus"]
-          }
-      ]
-    },
     "aggrestik": {
-      "weight": 25,
+      "weight": 35,
       "sets": [
           {
               "species": "Aggrestik",
@@ -1682,7 +1627,7 @@
       ]
     },
     "rochiere": {
-      "weight": 35,
+      "weight": 45,
       "sets": [
         {
             "species": "Rochie\u0300re",
@@ -2282,7 +2227,7 @@
       ]
     },
     "glacynapse": {
-      "weight": 35,
+      "weight": 45,
       "sets": [
         {
             "species": "Glacynapse",
@@ -2673,7 +2618,7 @@
       ]
     },
     "horrifeel": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
           {
               "species": "Horrifeel",
@@ -2753,7 +2698,7 @@
       ]
     },
     "lampiposa": {
-      "weight": 50,
+      "weight": 35,
       "sets": [
           {
               "species": "Lampiposa",
@@ -2818,7 +2763,7 @@
       ]
     },
     "cheesetah": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Cheesetah",
@@ -2868,7 +2813,7 @@
       ]
     },
     "octorage": {
-      "weight": 50,
+      "weight": 25,
       "sets": [
         {
             "species": "Octorage",
