@@ -5918,8 +5918,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			let activated = false;
 			for (const target of pokemon.adjacentFoes()) {
 				if (!activated) {
+					
 					this.add('-ability', pokemon, 'Gravity Falls', 'boost');
 					activated = true;
+					for (const target of pokemon.allies()) {
+						this.add('-ability', pokemon, 'Gravity Falls', 'boost');
+					}
 				}
 				this.boost({ spe: -1 }, target, pokemon, null, true);
 			}
