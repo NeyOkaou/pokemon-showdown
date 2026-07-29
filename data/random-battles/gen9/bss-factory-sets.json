@@ -570,11 +570,11 @@
             "moves": [
                 ["Soul Blast"],
                 ["Aura Sphere","Focus Blast"],
-                ["Knock Off","Pursuit"],
+                ["Dark Pulse"],
                 ["Vacuum Wave"]
             ],
             "item": ["Choice Specs"],
-            "nature": "Hasty",
+            "nature": "Modest",
             "evs": {"spe": 252, "spa": 252 , "spd": 4 },
             "teraType": ["Fairy"],
             "ability": ["Levitate"]
@@ -783,7 +783,7 @@
                 ["Flamethrower"],
                 ["Thunderbolt"]
             ],
-            "item": ["Expert Belt"],
+            "item": ["Expert Belt","Life Orb"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "spd": 4 },
             "teraType": ["Fairy"],
