@@ -27,6 +27,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	figgon: {
 		tier: "LC",
 	},
+
 	saladrake: {
 		tier: "NFE",
 	},
@@ -6138,6 +6139,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	demonitrax: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
+	grounder: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},

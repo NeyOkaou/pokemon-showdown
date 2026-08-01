@@ -21576,6 +21576,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Metal Coat",
 		eggGroups: ["Human-Like"],
 	},
+	grounder: {
+		num: -5126,
+		name: "Grounder",
+		types: ["Ground"],
+		gender: "N",
+		baseStats: { hp: 90, atk: 93, def: 132, spa: 77, spd: 58, spe: 43 },
+		abilities: { 0: "Arena Trap", 1: "Shadow Tag", H: "Color Change", S: "Pickup"},
+		heightm: 1000,
+		weightkg: 1000,
+		color: "Black",
+		eggGroups: ["Field"],
+	},
 };
 
 

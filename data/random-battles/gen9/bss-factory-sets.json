@@ -2508,7 +2508,7 @@
             "species": "Gladiva",
             "weight": 20,
             "moves": [
-                ["Freezy Frost","Freez-Dry","Blizzard"],
+                ["Freezy Frost","Freeze-Dry","Blizzard"],
                 ["Moon Blast"],
                 ["Thunderbolt"],
                 ["Parting Shot","Trick"]
