@@ -6895,7 +6895,7 @@ woopeel:{
 			flamethrower: ["9M"],
 			firefang: ["9M"],
 			//PSYCHIC
-			psychicfang: ["9M"],
+			psychicfangs: ["9M"],
 			barrier: ["9M"],
 			reflect: ["9M"],
 			lightscreen: ["9M"],
