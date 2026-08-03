@@ -5819,7 +5819,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Marowak", "Marowak-Alola", "Marowak-Alola-Totem", "Cubone","Wufur","Fluffury"],
 		num: 258,
 		gen: 2,
-		isNonstandard: "Past",
 	},
 	throatspray: {
 		name: "Throat Spray",
