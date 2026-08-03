@@ -6146,6 +6146,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
+	wufur: {
+		isNonstandard: "CAP",
+		tier: "CAP LC",
+	},
+	fluffury: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	bulballon: {
 		isNonstandard: "CAP",
 		tier: "CAP",
