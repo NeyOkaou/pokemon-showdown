@@ -6226,12 +6226,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "CAP",
 	},
 	privatyke: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	arghonaut: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	nohface: {
 		tier: "Illegal",
