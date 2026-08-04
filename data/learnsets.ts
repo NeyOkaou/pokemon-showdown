@@ -6827,7 +6827,7 @@ woopeel:{
                 sleeptalk: ["9M"],
                 substitute: ["9M"],
                 confide: ["9M"],
-		}
+		},
 	},
 	grounder:{
 		learnset:{
@@ -6941,11 +6941,182 @@ woopeel:{
                 sleeptalk: ["9M"],
                 substitute: ["9M"],
                 confide: ["9M"],
+		},
+	},
+	wufur:{
+		learnset:{
+			//DARK
+			bite: ["9M"],
+			crunch: ["9M"],
+			darkpulse: ["9M"],
+			fling: ["9M"],
+			pursuit: ["9M"],
+			snarl: ["9M"],
+			taunt: ["9M"],
+			thief: ["9M"],
+			//ELECTRIC	
+			thunderfang: ["9M"],
+			//ICE
+			snowscape: ["9M"],
+			icefang: ["9M"],
+			//FIRE 
+			firefang: ["9M"],
+			//FIGHTING
+			doublekick: ["9M"],
+			irontail: ["9M"],
+			metalclaw: ["9M"],
+			//ROCK
+			rockclimb: ["9M"],
+			//NORMAL
+			scratch: ["9M"],
+			growl: ["9M"],
+			leer: ["9M"],
+			tailwhip: ["9M"],
+			hyperbeam: ["9M"],
+			batonpass: ["9M"],
+			endure: ["9M"],
+			focusenergy: ["9M"],
+			followme: ["9M"],
+			furyswipes: ["9M"],
+			painsplit: ["9M"],
+			helpinghand: ["9M"],
+			scaryface: ["9M"],
+			screech: ["9M"],
+			//PSYCHIC
+			agility: ["9M"],
+			//GHOST
+			astonish: ["9M"],
+			lick: ["9M"],
+			dig: ["9M"],
+			mudshot: ["9M"],
+			mudslap: ["9M"],
+
+			//FAIRY
+			disarmingvoice: ["9M"],
+			playrough: ["9M"],
+			//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
+		},
+	},
+	fluffury:{
+		learnset:{
+			//DARK
+			bite: ["9M"],
+			crunch: ["9M"],
+			suckerpunch: ["9M"],
+			jawlock: ["9M"],
+			darkpulse: ["9M"],
+			fling: ["9M"],
+			foulplay: ["9M"],
+			knockoff: ["9M"],
+			pursuit: ["9M"],
+			snarl: ["9M"],
+			taunt: ["9M"],
+			thief: ["9M"],
+			//ELECTRIC	
+			thunderfang: ["9M"],
+			thunderpunch: ["9M"],
+			//ICE
+			icepunch: ["9M"],
+			snowscape: ["9M"],
+			icefang: ["9M"],
+			//FIRE 
+			firepunch: ["9M"],
+			firefang: ["9M"],
+			//FIGHTING
+			brickbreak: ["9M"],
+			bulkup: ["9M"],
+			closecombat: ["9M"],
+			counter: ["9M"],
+			doublekick: ["9M"],
+			drainpunch: ["9M"],
+			focusblast: ["9M"],
+			lowkick: ["9M"],
+			lowsweep: ["9M"],
+			quickguard: ["9M"],
+			poweruppunch: ["9M"],
+			focuspunch: ["9M"],
+			rocksmash: ["9M"],
+			reversal: ["9M"],
+			seismictoss: ["9M"],
+			strength: ["9M"],
+			submission: ["9M"],
+			superpower: ["9M"],
+			wakeupslap: ["9M"],
+			//POISON 
+			poisonjab: ["9M"],
+			//iSTEEL
+			irontail: ["9M"],
+			metalclaw: ["9M"],
+			//ROCK
+			rocktomb: ["9M"],
+			rockslide: ["9M"],
+			rockclimb: ["9M"],
+			//NORMAL
+			scratch: ["9M"],
+			growl: ["9M"],
+			leer: ["9M"],
+			tailwhip: ["9M"],
+			hyperbeam: ["9M"],
+			batonpass: ["9M"],
+			bloodmoon: ["9M"],
+			bodyslam: ["9M"],
+			doubleedge: ["9M"],
+			encore: ["9M"],
+			endure: ["9M"],
+			fakeout: ["9M"],
+			focusenergy: ["9M"],
+			followme: ["9M"],
+			furyswipes: ["9M"],
+			painsplit: ["9M"],
+			helpinghand: ["9M"],
+			scaryface: ["9M"],
+			screech: ["9M"],
+			//PSYCHIC
+			agility: ["9M"],
+			calmmind: ["9M"],
+			//GHOST
+			astonish: ["9M"],
+			lick: ["9M"],
+			shadowball: ["9M"],
+			shadowbone: ["9M"],
+			shadowclaw: ["9M"],
+			soulblast: ["9M"],
+			//GROUND
+			bonerush: ["9M"],
+			boneclub: ["9M"],
+			dig: ["9M"],
+			mudshot: ["9M"],
+			mudslap: ["9M"],
+
+			//FAIRY
+			disarmingvoice: ["9M"],
+			moonblast: ["9M"],
+			moonlight: ["9M"],
+			playrough: ["9M"],
+			//GENERAL
+                protect: ["9M"],
+                frustration: ["9M"],
+                doubleteam: ["9M"],
+                facade: ["9M"],
+                rest: ["9M"],
+                attract: ["9M"],
+                sleeptalk: ["9M"],
+                substitute: ["9M"],
+                confide: ["9M"],
 		}
 	},
 	gerbuzz:{
 		learnset:{
-					//BUG
+				//BUG
 				pounce: ["9M"],
 				//DARK
 				bite: ["9M"],
