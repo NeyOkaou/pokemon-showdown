@@ -5489,7 +5489,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['wind']) {
-				return this.chainModify(1.2);
+				return this.chainModify(1.3);
 			}
 		},
 		onDamagingHitOrder: 1,
