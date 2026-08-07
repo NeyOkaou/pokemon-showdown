@@ -370,28 +370,73 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
+	boh : {
+		tier: "LC",
+	},
+	euark: {
+		tier: "NFE",
+	},
+	ohhaerk : {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
 	bermudine: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "OU",
 	},
 	blobuster: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "OU",
 	},
 	phlotoxico: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "OU",
+	},
+	hippo: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	chiropsy: {
+		tier: "LC",
+	},
+	psychobat: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	alcool: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	merachan: {
+		tier: "LC",
+	},
+	meragaz: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
+	},
+	putraven: {
+		tier: "LC",
+	},
+	necrovoris: {
+		tier: "AG",
+		doublesTier: "DUber",
+		natDexTier: "OU",
 	},
 	sheruran: {
-		tier: "AG",
+		tier: "LC",
 	},
 	sherucroc: {
 		tier: "AG",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "OU",
 	},
 	woopeel: {
 		tier: "LC",
