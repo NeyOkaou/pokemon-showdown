@@ -21619,7 +21619,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	boh: {
 		num: -5129,
-		name: "Chromon",
+		name: "Boh",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21631,7 +21631,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	euark: {
 		num: -5130,
-		name: "Chromon",
+		name: "Euark",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21643,7 +21643,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	ohhaerk: {
 		num: -5131,
-		name: "Chromon",
+		name: "Ohhaerk",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21655,7 +21655,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	hippo: {
 		num: -5132,
-		name: "Chromon",
+		name: "Hippo",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21667,7 +21667,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	alcool: {
 		num: -5133,
-		name: "Chromon",
+		name: "Alcool",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21679,7 +21679,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	merachan: {
 		num: -5134,
-		name: "Chromon",
+		name: "Merachan",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21691,7 +21691,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	meragaz: {
 		num: -5135,
-		name: "Chromon",
+		name: "Meragaz",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21703,7 +21703,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	putraven: {
 		num: -5136,
-		name: "Chromon",
+		name: "Putraven",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21715,7 +21715,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	necrovoris: {
 		num: -5137,
-		name: "Chromon",
+		name: "Necrovoris",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21727,7 +21727,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	chiropsy: {
 		num: -5138,
-		name: "Chromon",
+		name: "Chiropsy",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
@@ -21739,7 +21739,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	psychobat: {
 		num: -5139,
-		name: "Chromon",
+		name: "Psychobat",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
