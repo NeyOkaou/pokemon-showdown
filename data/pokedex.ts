@@ -2,7 +2,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
-		types: ["Grass", "Poison"],
+		types: ["Grass", "???"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 455, atk: 449, def: 449, spa: 665, spd: 665, spe: 445 },
 		abilities: { 0: "Overgrow", H: "Chlorophyll" },
@@ -21656,7 +21656,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	hippo: {
 		num: -5132,
 		name: "Hippo",
-		types: ["Poison"],
+		types: ["Ground","Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21680,7 +21680,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	merachan: {
 		num: -5134,
 		name: "Merachan",
-		types: ["Poison"],
+		types: ["Fire"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21692,7 +21692,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	meragaz: {
 		num: -5135,
 		name: "Meragaz",
-		types: ["Poison"],
+		types: ["Fire","Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21704,7 +21704,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	putraven: {
 		num: -5136,
 		name: "Putraven",
-		types: ["Poison"],
+		types: ["Flying","Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21716,7 +21716,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	necrovoris: {
 		num: -5137,
 		name: "Necrovoris",
-		types: ["Poison"],
+		types: ["Flying","Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21728,7 +21728,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	chiropsy: {
 		num: -5138,
 		name: "Chiropsy",
-		types: ["Poison"],
+		types: ["Poison","Psychic"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
@@ -21740,7 +21740,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	psychobat: {
 		num: -5139,
 		name: "Psychobat",
-		types: ["Poison"],
+		types: ["Poison","Psychic"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
 		abilities: { 0: "Normalize", H:"Protean"}, 
