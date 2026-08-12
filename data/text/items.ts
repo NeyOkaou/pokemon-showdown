@@ -1817,7 +1817,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 	},
 	thickclub: {
 		name: "Thick Club",
-		shortDesc: "If held by a Cubone or a Marowak, its Attack is doubled.",
+		shortDesc: "If held by a Cubone,Marowak,Wufur,Fluffury, its Attack is doubled.",
 	},
 	throatspray: {
 		name: "Throat Spray",
