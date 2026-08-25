@@ -1130,6 +1130,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				roost: ["9M"],
 				fly: ["9M"],
 				workup: ["9M"],
+				irontail: ["9M"],
 				skyattack: ["9M"],
 				snowscape: ["9M"],
 				raindance: ["9M"],
@@ -4463,6 +4464,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mirrorshot: ["9M"],
 			//ROCK
 			stoneedge: ["9M"],
+			meteorbeam: ["9M"],
 			accelerock: ["9M"],
 			rockslide: ["9M"],
 			rockthrow: ["9M"],

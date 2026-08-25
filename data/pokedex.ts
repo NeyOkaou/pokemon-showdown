@@ -21661,7 +21661,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	hippogre: {
 		num: -5132,
-		name: "Hippocorn",
+		name: "Hippogre",
 		types: ["Ground","Poison"],
 		genderRatio: { M: 0.75, F: 0.25 },
 		baseStats: { hp: 130, atk: 93, def: 82, spa: 64, spd: 85, spe: 42 },
@@ -21677,7 +21677,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 86, def: 47, spa: 77, spd: 136, spe: 61 },
-		abilities: { 0: "Tangled Feet", 1: "Klutz", H: "Moody" }, 
+		abilities: { 0: "Defeatist", 1: "Klutz", H: "Happy Hour" }, 
 		heightm: 1.3,
 		weightkg: 4,
 		color: "Red",

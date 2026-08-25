@@ -434,7 +434,7 @@
             "moves": [
                 ["Dragon Rush"],
                 ["Dual Wingbeat"],
-                ["Iron Head"],
+                ["Iron Tail"],
                 ["Earthquake"]
             ],
             "item": ["Life Orb","Expert Belt","Choice Scarf","Choice Band","Lum Berry"],
@@ -450,7 +450,7 @@
                 ["Dragon Rush","Draco Meteor"],
                 ["Aeroblast"],
                 ["Earthquake","Fire Blast"],
-                ["Iron Head"]
+                ["Iron Tail"]
             ],
             "item": ["Life Orb","Expert Belt"],
             "nature": "Timid",
@@ -464,7 +464,7 @@
             "moves": [
                 ["Dragon Rush"],
                 ["Dragon Dance"],
-                ["Iron Head"],
+                ["Iron Head","Iron Tail"],
                 ["Earthquake","Fire Blast"]
             ],
             "item": ["Life Orb","Expert Belt","Heavy-Duty Boots"],
@@ -1819,6 +1819,21 @@
                 ["Psychic Noise"]
             ],
             "item": ["Focus Sash"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Protean"]
+        },
+        {
+            "species": "Prismunter",
+            "weight": 20,
+            "moves": [
+                ["Meteor Beam"],
+                ["Power Gem","Thunderbolt","Focus Blast"],
+                ["Photon Geyser"],
+                ["Dazzling Gleam","Flash Cannon","Shadow Ball"]
+            ],
+            "item": ["Power Herb"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
