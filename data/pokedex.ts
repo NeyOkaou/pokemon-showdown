@@ -21665,9 +21665,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Ditto"],
 	},
-	alcool: {
+	alcolhic: {
 		num: -5133,
-		name: "Alcool",
+		name: "Alcolhic",
 		types: ["Poison"],
 		gender: "N",
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },

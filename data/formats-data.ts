@@ -396,7 +396,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
-	hippo: {
+	hippogre: {
 		tier: "AG",
 		doublesTier: "DUber",
 		natDexTier: "OU",
@@ -409,7 +409,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
-	alcool: {
+	alcolhic: {
 		tier: "AG",
 		doublesTier: "DUber",
 		natDexTier: "OU",
