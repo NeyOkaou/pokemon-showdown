@@ -21653,7 +21653,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Ditto"],
 	},
-	hippo: {
+	hippogre: {
 		num: -5132,
 		name: "Hippo",
 		types: ["Ground","Poison"],
