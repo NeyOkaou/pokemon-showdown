@@ -21659,7 +21659,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 25,
 		eggGroups: ["Amorphous"],
 	},
-	hippocorn: {
+	hippogre: {
 		num: -5132,
 		name: "Hippocorn",
 		types: ["Ground","Poison"],
