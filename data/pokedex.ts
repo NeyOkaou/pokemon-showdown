@@ -21627,7 +21627,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.1,
 		weightkg: 1,
 		color: "Gray",
-		evos: "Euark",
+		evos: ["Euark"],
 		eggGroups: ["Amorphous"],
 	},
 	euark: {
