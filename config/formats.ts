@@ -44,7 +44,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Free-For-All Random Battle",
 		mod: 'gen9',
-		team: 'random',
+		team: 'randomBSSFactory',
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
@@ -53,14 +53,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Random Battle (Blitz)",
 		mod: 'gen9',
-		team: 'random',
+		team: 'randomBSSFactory',
 		bestOfDefault: true,
 		ruleset: ['[Gen 9] Random Battle', 'Blitz'],
 	},
 	{
 		name: "[Gen 9] Multi Random Battle",
 		mod: 'gen9',
-		team: 'random',
+		team: 'randomBSSFactory',
 		gameType: 'multi',
 		searchShow: false,
 		tournamentShow: false,
