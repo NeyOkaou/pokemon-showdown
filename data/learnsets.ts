@@ -10044,6 +10044,7 @@ woopeel:{
 			steelroller: ["9M"],
 			metalburst: ["9M"],
 			//NORMAL
+			recover: ["9M"],
 			minimize: ["9M"],
 			bodyslam: ["9M"],
 			disable: ["9M"],
