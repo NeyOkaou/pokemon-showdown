@@ -998,8 +998,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	baddybad: {
 		num: 737,
-		accuracy: 95,
-		basePower: 80,
+		accuracy: 100,
+		basePower: 70,
 		category: "Special",
 		
 		name: "Baddy Bad",
@@ -6010,8 +6010,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	floatyfall: {
 		num: 731,
-		accuracy: 95,
-		basePower: 90,
+		accuracy: 100,
+		basePower: 85,
 		category: "Physical",
 		
 		name: "Floaty Fall",
@@ -6443,8 +6443,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	freezyfrost: {
 		num: 739,
-		accuracy: 90,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 70,
 		category: "Special",
 		
 		name: "Freezy Frost",
@@ -6935,8 +6935,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	glitzyglow: {
 		num: 736,
-		accuracy: 95,
-		basePower: 80,
+		accuracy: 100,
+		basePower: 70,
 		category: "Special",
 		name: "Glitzy Glow",
 		pp: 15,
@@ -16302,8 +16302,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	sappyseed: {
 		num: 738,
-		accuracy: 90,
-		basePower: 100,
+		accuracy: 100,
+		basePower: 70,
 		category: "Physical",
 		
 		name: "Sappy Seed",
@@ -18050,7 +18050,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	sparklyswirl: {
 		num: 740,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 85,
 		category: "Special",
 		
 		name: "Sparkly Swirl",
@@ -18407,7 +18407,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	splishysplash: {
 		num: 730,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 80,
 		category: "Special",
 		
 		name: "Splishy Splash",
@@ -22080,7 +22080,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	zippyzap: {
 		num: 729,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 40,
 		category: "Physical",
 		
 		name: "Zippy Zap",
