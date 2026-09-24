@@ -10101,7 +10101,7 @@ woopeel:{
 			gigadrain: ["9M"],
 			appleacid: ["9M"],
 			worryseed: ["9M"],
-			strenghtsap: ["9M"],
+			strengthsap: ["9M"],
 			//DARK
 			assurance: ["9M"],
 			payback: ["9M"],
