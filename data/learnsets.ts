@@ -10258,6 +10258,7 @@ woopeel:{
 		learnset: {
 			//WATER
 			sparklingaria: ["9M"],
+			flipturn: ["9M"],
 			mermaidsong: ["9M"],
 			surf: ["9M"],
 			bubble: ["9M"],
