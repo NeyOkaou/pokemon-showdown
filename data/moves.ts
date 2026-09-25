@@ -22573,7 +22573,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
 		secondary: {
-			chance: 100,
+			chance: 30,
 			self: {
 				boosts: {
 					spa: 1,

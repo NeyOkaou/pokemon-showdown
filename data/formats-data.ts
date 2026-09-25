@@ -382,18 +382,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	bermudine: {
-		tier: "AG",
-		doublesTier: "DUber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	blobuster: {
-		tier: "AG",
-		doublesTier: "DUber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	phlotoxico: {
-		tier: "AG",
-		doublesTier: "DUber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	hippogre: {
