@@ -3914,13 +3914,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 24,
 	},
 	runaway: {
-		onTrapPokemonPriority: -10,
-		onTrapPokemon(pokemon) {
-			pokemon.trapped = pokemon.maybeTrapped = false;
-		},
 		flags: {},
 		name: "Run Away",
-		rating: 2,
+		rating: 0,
 		num: 50,
 	},
 	sandforce: {
