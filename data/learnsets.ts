@@ -106,7 +106,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			teeterdance: ["9M"],
 			swordsdance: ["9M"],
 			swift: ["9M"],
-			swagger: ["9M"],
 			supersonic: ["9M"],
 			splash: ["9M"],
 			scaryface: ["9M"],

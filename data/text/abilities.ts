@@ -2398,4 +2398,9 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		desc: "This Pokemon is covered in a mud coat, protecting it from burn, halving the damage from opposing pokemon's fire type moves, and making it unaware of the harsh sunlight.",
 		shortDesc: "Takes 1/2 damage from fire, can't be burnt and ignores Sunny Day.",
 	},
+	scavenger: {
+		name: "Scavenger",
+		desc: "Rottenia consumes the corpses it finds, healing it at the end of each turn by a certain amount depending on the current number of fainted pokemon.",
+		shortDesc: "Heals this pokemon at the end of each turn depending on the number of fainted pokemon.",
+	},
 };
