@@ -2313,13 +2313,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	limber: {
 		onUpdate(pokemon) {
-			if (pokemon.status === 'par') {
+			if (pokemon.status === 'par', 'brn') {
 				this.add('-activate', pokemon, 'ability: Limber');
 				pokemon.cureStatus();
 			}
 		},
 		onSetStatus(status, target, source, effect) {
-			if (status.id !== 'par') return;
+			if (status.id !== 'par', 'brn') return;
 			if ((effect as Move)?.status) {
 				this.add('-immune', target, '[from] ability: Limber');
 			}
@@ -3914,9 +3914,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: 24,
 	},
 	runaway: {
+		onTrapPokemonPriority: -10,
+		onTrapPokemon(pokemon) {
+			pokemon.trapped = pokemon.maybeTrapped = false;
+		},
 		flags: {},
 		name: "Run Away",
-		rating: 0,
+		rating: 2,
 		num: 50,
 	},
 	sandforce: {

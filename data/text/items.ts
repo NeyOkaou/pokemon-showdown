@@ -2437,9 +2437,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Vile Vial",
 		shortDesc: "If held by a Venomicon, its Poison- and Flying-type attacks have 1.2x power.",
 	},
-	frostorb: {
-		name: "Frost Orb",
-		shortDesc: "At the end of every turn, this item attempts to apply frostbite to the holder.",
+	strangebottle: {
+		name: "Strange Bottle",
+		shortDesc: "At the end of every turn, this item attempts to confuse the holder.",
 	},
 	hasteorb: {
 		name: "Haste Orb",
@@ -2455,9 +2455,9 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Cursed Seal",
 		shortDesc: "Disables the first move that deals direct damage to the holder. Consumed on use.",
 	},
-	heftyarmor: {
-		name: "Hefty Armor",
-		shortDesc: "Holder's defense is 1.5x, but it can't use the same move twice in a row.",
+	heftyhelmet: {
+		name: "Hefty Helmet",
+		shortDesc: "Holder is immune to critical hits, but it can't use the same move twice in a row.",
 	},
 	mainputride: {
 		name: "Main Putride",

@@ -7652,17 +7652,17 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "CAP",
 	},
 	// MOOD ITEMS
-	frostorb: {
-		name: "Frost Orb",
+	strangebottle: {
+		name: "Strange Bottle",
 		spritenum: 7681,
 		fling: {
 			basePower: 30,
-			status: 'frz',
+			status: 'confusion',
 		},
 		onResidualOrder: 28,
 		onResidualSubOrder: 3,
 		onResidual(pokemon) {
-			pokemon.trySetStatus('frz', pokemon);
+			pokemon.trySetStatus('confusion', pokemon);
 		},
 		num: -423,
 		gen: 9,
@@ -7717,15 +7717,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: -130,
 		gen: 9,
 	},
-	heftyarmor: {
-		name: "Hefty Armor",
+	heftyhelmet: {
+		name: "Hefty Helmet",
 		spritenum: 2581,
 		fling: {
 			basePower: 80,
 		},
-		onModifyDefPriority: 1,
-		onModifyDef(def) {
-			return this.chainModify(1.3);
+		onCriticalHit: false,
 		},
 		onDisableMove(pokemon) {
 			if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
