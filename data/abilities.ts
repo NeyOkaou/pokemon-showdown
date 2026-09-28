@@ -6102,9 +6102,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
                 this.debug(`Scavenger Heal`);
 					if (pokemon.activeTurns) {
                         return this.heal(pokemon.maxhp / healMod),
-                },
-            },
-        },
+					}
+			}
+    	},
         flags: {},
         name: "Scavenger",
         rating: 4,
