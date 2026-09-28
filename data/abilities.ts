@@ -2313,13 +2313,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	limber: {
 		onUpdate(pokemon) {
-			if (pokemon.status === 'par', 'brn') {
+			if (pokemon.status === 'par') {
 				this.add('-activate', pokemon, 'ability: Limber');
 				pokemon.cureStatus();
 			}
 		},
 		onSetStatus(status, target, source, effect) {
-			if (status.id !== 'par', 'brn') return;
+			if (status.id !== 'par') return;
 			if ((effect as Move)?.status) {
 				this.add('-immune', target, '[from] ability: Limber');
 			}
