@@ -6099,8 +6099,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
     	onResidual(pokemon) {
         	if (this.effectState.fallen && pokemon.activeTurns) {
             	const healMod = [0, 48, 32, 16, 8, 6];
-            	this.debug(`Scavenger Heal`);
-            	this.heal(pokemon.maxhp / healMod[this.effectState.fallen]);
+            	this.debug(`Scavenger Heal: ${healMod[this.effectState.fallen]}/0`);
+            	this.heal(pokemon.maxhp / healMod[this.effectState.fallen], 0);
         	}
     },
     flags: {},
