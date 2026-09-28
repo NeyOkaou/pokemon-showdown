@@ -6068,7 +6068,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			onResidual(pokemon) {
 				if (!pokemon.activeTurns) {
 					this.effectState.duration! += 1;
-				},
+				}
 			},
 			onEnd(target) {
 				this.add('-end', target, 'lobotomy');
