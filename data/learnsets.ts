@@ -10383,9 +10383,6 @@ woopeel:{
 			firespin: ["9M"],
 			flameburst: ["9M"],
 			flamewheel: ["9M"],
-			incinerate: ["9M"],
-			inferno: ["9M"],
-			mysticalfire: ["9M"],
 			sunnyday: ["9M"],
 			beautemps: ["9M"],
 			//POISON
@@ -10394,7 +10391,6 @@ woopeel:{
 			smog: ["9M"],
 			corrosivegas: ["9M"],
 			poisontail: ["9M"],
-			purify: ["9M"],
 			sludge: ["9M"],
 			sludgebomb: ["9M"],
 			//DARK
@@ -10408,15 +10404,12 @@ woopeel:{
 			knockoff: ["9M"],
 			nastyplot: ["9M"],
 			//FAIRY
-			playrough: ["9M"],
 			babydolleyes: ["9M"],
 			dazzlinggleam: ["9M"],
 			strangesteam: ["9M"],
-			decorate: ["9M"],
 			fairywind: ["9M"],
 			//BUG
 			uturn: ["9M"],
-			signalbeam: ["9M"],
 			healorder: ["9M"],
 			defendorder: ["9M"],
 			//GHOST
@@ -10432,7 +10425,6 @@ woopeel:{
 			acrobatics: ["9M"],
 			defog: ["9M"],
 			//GRASS
-			solarbeam: ["9M"],
 			cottonguard: ["9M"],
 			//NORMAL
 			smokescreen: ["9M"],
@@ -10440,7 +10432,6 @@ woopeel:{
 			encore: ["9M"],
 			swift: ["9M"],
 			hyperbeam: ["9M"],
-			hypervoice: ["9M"],
 			helpinghand: ["9M"],
 			yawn: ["9M"],
 			wish: ["9M"],
@@ -10453,7 +10444,6 @@ woopeel:{
 			metronome: ["9M"],
 			safeguard: ["9M"],
 			tickle: ["9M"],
-			uproar: ["9M"],
 			//general moves
 			protect: ["9M"],
 			frustration: ["9M"],
