@@ -1723,6 +1723,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			minimize: ["9M"],
 			recycle: ["9M"],
 			slam: ["9M"],
+			painsplit: ["9M"],
 			//Poison
 			coil: ["9M"],
 			gastroacid: ["9M"],
