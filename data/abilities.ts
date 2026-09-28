@@ -6082,34 +6082,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: -1,
 		num: -394,
 	},
-	scavenger: {
-		onStart(pokemon) {
-            if (totalFainted) {
-                this.add('-activate', pokemon, 'ability: Scavenger');
-                const fallen = Math.min(totalFainted, 5);
-                this.add('-start', pokemon, `fallen${fallen}`, '[silent]');
-                this.effectState.fallen = fallen;
-            }
-        },
-        onEnd(pokemon) {
-            this.add('-end', pokemon, `fallen${this.effectState.fallen}`, '[silent]');
-        },
-        onResidualOrder: 5,
-        onResidualSubOrder: 4,
-        onResidual(pokemon) {
-            if (this.effectState.fallen) {
-                const healMod = [0, 48, 32, 16, 8, 6];
-                this.debug(`Scavenger Heal`);
-					if (pokemon.activeTurns) {
-                        return this.heal(pokemon.maxhp / healMod),
-					}
-			}
-    	},
-        flags: {},
-        name: "Scavenger",
-        rating: 4,
-        num: -395,
-    },
 //	mudcoat: {
 //		onSourceModifyAtkPriority: 5,
 //		onSourceModifyAtk(atk, attacker, defender, move) {
