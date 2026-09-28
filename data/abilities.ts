@@ -6097,10 +6097,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
         onResidualOrder: 5,
         onResidualSubOrder: 4,
         onResidual(pokemon) {
-            if (pokemon.activeTurns) {
-                if (this.effectState.fallen) {
-                    const healMod = [0, 48, 32, 16, 8, 6]
-                    this.debug(`Scavenger Heal`)
+            if (this.effectState.fallen) {
+                const healMod = [0, 48, 32, 16, 8, 6];
+                this.debug(`Scavenger Heal`);
+					if (pokemon.activeTurns) {
                         return this.heal(pokemon.maxhp / healMod),
                 },
             },
