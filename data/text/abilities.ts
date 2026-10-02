@@ -20,7 +20,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	epidemie:{
 		name:"Epidemie",
 		desc: "Causes the target to become Epidemie. At the end of each turn, there is a 30% chance to spread Epidemic to the opponent",
-		shortDesc: "Apply Epidemie to the target. A Pokémon affected by Epidemie has its Attack and Special Attack halved. At the end of each turn, there is a 30% chance to spread Epidemie to the opponent."
+		shortDesc: "Apply Epidemie to the target. A Pokémon affected by Epidemie has its Attack and Special Attack reduces by two stages.",
 	},
 	aftermath: {
 		name: "Aftermath",
