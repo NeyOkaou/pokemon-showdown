@@ -721,6 +721,41 @@
         }
       ]
     },
+    "phlotoxico": {
+      "weight": 15,
+      "sets": [
+        {
+            "species": "Phlotoxico",
+            "weight": 50,
+            "moves": [
+                ["Protect","Flip Turn","Haze"],
+                ["Recover"],
+                ["Scald","Bouncy Bubble"],
+                ["Toxic"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Water Absorb"]
+        },
+        {
+            "species": "Phlotoxico",
+            "weight": 50,
+            "moves": [
+                ["Protect","Flip Turn","Haze"],
+                ["Recover"],
+                ["Scald","Bouncy Bubble"],
+                ["Toxic"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Calm",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Water Absorb"]
+        }
+      ]
+    },
     "serucroc": {
       "weight": 50,
       "sets": [
@@ -753,6 +788,36 @@
             "evs": {"hp": 252, "spd": 252 , "atk": 4 },
             "teraType": ["Fairy"],
             "ability": ["Corrosion"]
+        },
+        {
+            "species": "Sherucroc",
+            "weight": 10,
+            "moves": [
+                ["Poison Jab"],
+                ["Body Press"],
+                ["Iron Head"],
+                ["Knock Off"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sticky Hold"]
+        },
+        {
+            "species": "Sherucroc",
+            "weight": 10,
+            "moves": [
+                ["Poison Jab"],
+                ["Seismic Toss"],
+                ["Iron Head"],
+                ["Knock Off"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Sticky Hold"]
         },
         {
             "species": "Sherucroc",

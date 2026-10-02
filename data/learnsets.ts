@@ -10241,7 +10241,6 @@ woopeel:{
 			bubblebeam: ["9M"],
 			muddywater: ["9M"],
 			hydropump: ["9M"],
-			waterfall: ["9M"],
 			watersport: ["9M"],
 			lifedew: ["9M"],
 			aquaring: ["9M"],
@@ -10251,7 +10250,6 @@ woopeel:{
 			scald: ["9M"],
 			//POISON
 			sludgewave: ["9M"],
-			sludgebomb: ["9M"],
 			acidarmor: ["9M"],
 			clearsmog: ["9M"],
 			toxic: ["9M"],
