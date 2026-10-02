@@ -721,6 +721,56 @@
         }
       ]
     },
+    "serucroc": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Sherucroc",
+            "weight": 20,
+            "moves": [
+                ["Poison Jab","Substitute"],
+                ["Body Press"],
+                ["Recover"],
+                ["Toxic"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Corrosion"]
+        },
+        {
+            "species": "Sherucroc",
+            "weight": 20,
+            "moves": [
+                ["Poison Jab","Substitute","Shelter"],
+                ["Body Press"],
+                ["Recover"],
+                ["Toxic"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Impish",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Corrosion"]
+        },
+        {
+            "species": "Sherucroc",
+            "weight": 20,
+            "moves": [
+                ["Iron Head"],
+                ["Gunk Shot"],
+                ["Brick Break"],
+                ["Shell Smash"]
+            ],
+            "item": ["White Herb"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Weak Armor"]
+        }
+      ]
+    },
     "lumini": {
       "weight": 15,
       "sets": [
