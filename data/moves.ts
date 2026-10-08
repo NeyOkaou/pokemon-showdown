@@ -22562,7 +22562,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	mermaidsong: {
 		num: -1004,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 70,
 		category: "Special",
 		name: "Mermaid Song",
 		pp: 10,
@@ -22570,15 +22570,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1 },
 		onHit(target, source) {
 			if (source.illusion && target) target.addVolatile('attract')
-			this.singleEvent('End', this.dex.abilities.get('Illusion'), source.abilityState, source);
 		},
-		secondary: {
-			chance: 30,
-			self: {
-				boosts: {
-					spa: 1,
-				},
-			},
+		onBasePower(basePower, source, target, move) {
+			//const item = target.getItem();
+			//if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
+			if (source.illusion) {
+				return this.chainModify(2);
+			}
 		},
 		target: "normal",
 		type: "Water",

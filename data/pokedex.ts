@@ -21677,7 +21677,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Alcolhic",
 		types: ["Poison"],
 		gender: "N",
-		baseStats: { hp: 100, atk: 86, def: 47, spa: 77, spd: 136, spe: 61 },
+		baseStats: { hp: 99, atk: 86, def: 47, spa: 126, spd: 77, spe: 61 },
 		abilities: { 0: "Defeatist", 1: "Klutz", H: "Happy Hour" }, 
 		heightm: 1.3,
 		weightkg: 4,
