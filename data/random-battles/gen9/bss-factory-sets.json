@@ -721,6 +721,41 @@
         }
       ]
     },
+    "bermudine": {
+      "weight": 15,
+      "sets": [
+        {
+            "species": "Bermudine",
+            "weight": 20,
+            "moves": [
+                ["Mermaid Song"],
+                ["Sludge Bomb","Sludge Wave"],
+                ["Ice Beam","Alluring Voice"],
+                ["Flip Turn"]
+            ],
+            "item": ["Choice Scarf","Choice Specs"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Illusion"]
+        },
+        {
+            "species": "Bermudine",
+            "weight": 20,
+            "moves": [
+                ["Mermaid Song"],
+                ["Sludge Bomb","Sludge Wave"],
+                ["Ice Beam","Alluring Voice","Hydro Pump"],
+                ["Nasty Plot"]
+            ],
+            "item": ["Life Orb","Heavy-Duty Boots"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Illusion"]
+        }
+      ]
+    },
     "phlotoxico": {
       "weight": 15,
       "sets": [
@@ -731,7 +766,7 @@
                 ["Protect","Flip Turn","Haze"],
                 ["Recover"],
                 ["Scald","Bouncy Bubble"],
-                ["Toxic"]
+                ["Toxic","Drache Toxic"]
             ],
             "item": ["Black Sludge"],
             "nature": "Bold",
@@ -746,7 +781,7 @@
                 ["Protect","Flip Turn","Haze"],
                 ["Recover"],
                 ["Scald","Bouncy Bubble"],
-                ["Toxic"]
+                ["Toxic","Drache Toxic"]
             ],
             "item": ["Black Sludge"],
             "nature": "Calm",
@@ -756,7 +791,72 @@
         }
       ]
     },
-    "serucroc": {
+    "blobuster": {
+      "weight": 15,
+      "sets": [
+        {
+            "species": "Blobuster",
+            "weight": 20,
+            "moves": [
+                ["Jam Punch"],
+                ["Toxic"],
+                ["Leech Seed"],
+                ["Recycle"]
+            ],
+            "item": ["Sitrus Berry"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Regenerator"]
+        },
+        {
+            "species": "Blobuster",
+            "weight": 20,
+            "moves": [
+                ["Stuff Cheeks"],
+                ["Fire Punch"],
+                ["Gunk Shot"],
+                ["Recycle"]
+            ],
+            "item": ["Liechi Berry"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Regenerator","Natural Cure"]
+        },
+        {
+            "species": "Blobuster",
+            "weight": 20,
+            "moves": [
+                ["Curse"],
+                ["Fire Punch"],
+                ["Jam Punch"],
+                ["Recycle"]
+            ],
+            "item": ["Custap Berry"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Regenerator","Natural Cure"]
+        },
+        {
+            "species": "Blobuster",
+            "weight": 20,
+            "moves": [
+                ["Recycle"],
+                ["Leech Seed"],
+                ["Gunk Shot"],
+                ["Toxic"]
+            ],
+            "item": ["Eject Button"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Regenerator"]
+        }
+      ]
+    },
+    "sherucroc": {
       "weight": 50,
       "sets": [
         {
