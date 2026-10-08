@@ -22572,8 +22572,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (source.illusion && target) target.addVolatile('attract')
 		},
 		onBasePower(basePower, source, target, move) {
-			//const item = target.getItem();
-			//if (!this.singleEvent('TakeItem', item, target.itemState, target, target, move, item)) return;
 			if (source.illusion) {
 				return this.chainModify(2);
 			}

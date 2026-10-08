@@ -7082,8 +7082,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	mermaidsong: {
 		name: "Mermaid Song",
-		desc: "If the user is under Illusion the opponent will become infatuated if it is of the opposite gender. Has a 100% chance to raise the user's Special Attack by 1 stage.",
-		shortDesc: "Infatuate an opponent If the user is under Illusion. Raises the user's Sp. Atk by 1.",
+		desc: "2x damage and causes the target to become infatuated if under Illusion.",
+		shortDesc: "2x damage and causes the target to become infatuated if under Illusion.",
 	},
 	torment: {
 		name: "Torment",
