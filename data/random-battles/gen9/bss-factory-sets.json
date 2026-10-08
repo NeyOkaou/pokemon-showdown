@@ -722,7 +722,7 @@
       ]
     },
     "bermudine": {
-      "weight": 15,
+      "weight": 50,
       "sets": [
         {
             "species": "Bermudine",
@@ -757,7 +757,7 @@
       ]
     },
     "phlotoxico": {
-      "weight": 15,
+      "weight": 50,
       "sets": [
         {
             "species": "Phlotoxico",
@@ -792,7 +792,7 @@
       ]
     },
     "blobuster": {
-      "weight": 15,
+      "weight": 50,
       "sets": [
         {
             "species": "Blobuster",
