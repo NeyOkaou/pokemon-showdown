@@ -743,12 +743,42 @@
             "species": "Bermudine",
             "weight": 20,
             "moves": [
-                ["Mermaid Song"],
+                ["Echoed Voice"],
                 ["Sludge Bomb","Sludge Wave"],
-                ["Ice Beam","Alluring Voice","Hydro Pump"],
+                ["Hyper Voice"],
+                ["Flip Turn"]
+            ],
+            "item": ["Choice Specs"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Liquid Voice"]
+        },
+        {
+            "species": "Bermudine",
+            "weight": 20,
+            "moves": [
+                ["Echoed Voice","Ice Beam"],
+                ["Sludge Bomb","Sludge Wave"],
+                ["Hyper Voice"],
+                ["Flip Turn"]
+            ],
+            "item": ["Throat Spray"],
+            "nature": "Timid",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Liquid Voice"]
+        },
+        {
+            "species": "Bermudine",
+            "weight": 20,
+            "moves": [
+                ["Mermaid Song"],
+                ["Sludge Bomb","Sludge Wave","Substitute"],
+                ["Ice Beam","Alluring Voice"],
                 ["Nasty Plot"]
             ],
-            "item": ["Life Orb","Heavy-Duty Boots"],
+            "item": ["Mystic Water","Heavy-Duty Boots"],
             "nature": "Timid",
             "evs": {"spa": 252, "spe": 252 , "def": 4 },
             "teraType": ["Fairy"],
@@ -833,7 +863,7 @@
                 ["Jam Punch"],
                 ["Recycle"]
             ],
-            "item": ["Custap Berry"],
+            "item": ["Liechi Berry","Sitrus Berry"],
             "nature": "Adamant",
             "evs": {"hp": 252, "atk": 252 , "spd": 4 },
             "teraType": ["Fairy"],

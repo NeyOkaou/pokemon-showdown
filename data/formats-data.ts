@@ -377,7 +377,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "NFE",
 	},
 	ohhaerk : {
-		tier: "AG",
+		tier: "OU",
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
@@ -385,6 +385,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "OU",
 		doublesTier: "DOU",
 		natDexTier: "OU",
+	},
+	metalopod:{
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	blobuster: {
 		tier: "OU",
@@ -418,7 +422,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	meragaz: {
-		tier: "OU",
+		tier: "AG",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
