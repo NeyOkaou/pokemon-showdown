@@ -87,7 +87,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["9M"],
 			waterpulse: ["9M"],
 			watergun: ["9M"],
-			facade: ["9M"],
 			bodyslam: ["9M"],
 			liquidation: ["9M"],
 			chillingwater: ["9M"],
@@ -97,7 +96,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			helpinghand: ["9M"],
 			gigaimpact: ["9M"],
 			endure: ["9M"],
-			waetherball: ["9M"],
+			weatherball: ["9M"],
 			recover: ["9M"],
 			harden: ["9M"],
 			//general moves
