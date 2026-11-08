@@ -405,7 +405,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bubble: ["9M"],
 			storedpower: ["9M"],
 			superpower: ["9M"],
-			braindamage: ["9M"],
 			pound: ["9M"],
 			amnesia: ["9M"],
 			metronome: ["9M"],
@@ -1794,10 +1793,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//Fire
 			firelash: ["9M"],
 			firepunch: ["9M"],  
-
-			//Psychic
-			braindamage: ["9M"], 
-
 			//Grass
 			powerwhip: ["9M"],
 			vinewhip: ["9M"],
@@ -2359,7 +2354,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			spikyshield: ["9M"],
 			//PSYCHIC
 			allyswitch: ["9M"],
-			braindamage: ["9M"],
 			psyshock: ["9M"],
 			psychic: ["9M"],
 			psychicnoise: ["9M"],
@@ -2988,7 +2982,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lightscreen: ["9M"],
 			agility: ["9M"],
 			amnesia: ["9M"],
-			braindamage: ["9M"],
 			//Rock
 			//Ghost
 			shadowball: ["9M"],
@@ -3465,7 +3458,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headsmash: ["9M"],
 			//PSYCHIC
 			zenheadbutt: ["9M"],
-			braindamage: ["9M"],
 			//STEEL
 			heavyslam: ["9M"],
 			gyroball: ["9M"],
@@ -3695,7 +3687,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//PSYCHIC
 			lightscreen: ["9M"], 
 			reflect: ["9M"], 
-			braindamage: ["9M"], 
 			//ROCK
 			meteorbeam: ["9M"], 
 			powergem: ["9M"], 
@@ -4184,7 +4175,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			belch: ["9M"],
 			//PSYCHIC
 			amnesia: ["9M"],
-			braindamage: ["9M"],
 			//STEEL
 			irondefense: ["9M"],
 			cut: ["9M"],
@@ -4428,7 +4418,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			//POISON
 			coil: ["9M"],
 			//PSYCHIC
-			braindamage: ["9M"],
 			zenheadbutt: ["9M"],
 			trickroom: ["9M"],
 			trick: ["9M"],
@@ -4806,7 +4795,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				mudslap: ["9M"],
 				sandattack: ["9M"],
 				//Grass
-				braindamage: ["9M"],
 				hornleech: ["9M"],
 				//steel
 				ironhead: ["9M"],
@@ -4947,7 +4935,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 				guardsplit: ["9M"],
 				guardswap: ["9M"],
 				psychicfangs: ["9M"],
-				braindamage: ["9M"],
 				//ROCK
 				rockclimb: ["9M"],
 				rockslide: ["9M"],
@@ -5990,7 +5977,6 @@ woopeel:{
 
 				// psychic
 				amnesia: ["9M"],
-				braindamage: ["9M"],
 
 				// steel
 				cut: ["9M"],
@@ -6174,7 +6160,7 @@ woopeel:{
 
 				// psychic
 				amnesia: ["9M"],
-				braindamage: ["9M"],
+
 
 				// rock
 				rocksmash: ["9M"],
@@ -7199,7 +7185,6 @@ woopeel:{
 				weatherball: ["9M"],
 				//PSYCHIC
 				agility: ["9M"],
-				braindamage: ["9M"],
 				//ROCK
 				rockclimb: ["9M"],
 				sandstorm: ["9M"],
@@ -7314,7 +7299,6 @@ woopeel:{
 				weatherball: ["9M"],
 				//PSYCHIC
 				agility: ["9M"],
-				braindamage: ["9M"],
 				//ROCK
 				rockclimb: ["9M"],
 				sandstorm: ["9M"],
@@ -7872,7 +7856,6 @@ woopeel:{
 			dig: ["9M"],
 
 			//psychic
-			braindamage: ["9M"],
 			//rock
 			rockslide: ["9M"],
 			rocktomb: ["9M"],
@@ -10494,7 +10477,7 @@ woopeel:{
 			poisontail: ["9M"],
 			belch: ["9M"],
 			sludgewave: ["9M"],
-			gastroacide: ["9M"],
+			gastroacid: ["9M"],
 			poisonsting: ["9M"],
 			gunkshot: ["9M"],
 			poisonjab: ["9M"],
