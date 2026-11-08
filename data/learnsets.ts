@@ -42,6 +42,79 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["9M"],
 		},
 	},
+	metalopod:{
+		learnset:{
+			//BUG
+			skittersmack: ["9M"],
+			infestation: ["9M"],
+			//FIGHTING
+			counter: ["9M"],
+			bodypress: ["9M"],
+			//GHOST
+			curse: ["9M"],
+			confuseray: ["9M"],
+			//STEEL
+			flashcannon: ["9M"],
+			irondefense: ["9M"],
+			heavyslam: ["9M"],
+			metalsound: ["9M"],
+			steelbeam: ["9M"],
+			shelter: ["9M"],
+			//ICE
+			blizzard: ["9M"],
+			icywind: ["9M"],
+			icebeam: ["9M"],
+			snowscape: ["9M"],
+			mist: ["9M"],
+			//POISON
+			toxic: ["9M"],
+			sludge: ["9M"],
+			sludgewave: ["9M"],
+			sludgebomb: ["9M"],
+			clearsmog: ["9M"],
+			//ROCK
+			ancientpower: ["9M"],
+			stealthrock: ["9M"],
+			rocktomb: ["9M"],
+			rockblast: ["9M"],
+			//PSYCHIC
+			mirrorcoat: ["9M"],
+			amnesia: ["9M"],
+			//WATER
+			lifedew: ["9M"],
+			hydropump: ["9M"],
+			surf: ["9M"],
+			whirlpool: ["9M"],
+			waterpulse: ["9M"],
+			watergun: ["9M"],
+			facade: ["9M"],
+			bodyslam: ["9M"],
+			liquidation: ["9M"],
+			chillingwater: ["9M"],
+			//NORMAL
+			yawn: ["9M"],
+			hyperbeam: ["9M"],
+			helpinghand: ["9M"],
+			gigaimpact: ["9M"],
+			endure: ["9M"],
+			waetherball: ["9M"],
+			recover: ["9M"],
+			harden: ["9M"],
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+			batonpass: ["9M"], 
+		},
+	},
 	finkfok:{
 		learnset:{
 			//BUG
