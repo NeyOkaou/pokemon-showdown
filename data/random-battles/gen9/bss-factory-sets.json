@@ -786,12 +786,92 @@
         }
       ]
     },
+    "hippogre": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Hippogre",
+            "weight": 10,
+            "moves": [
+                ["Earthquake","High Horsepower"],
+                ["Gunk Shot","Poison Jab"],
+                ["Curse"],
+                ["Slack Off"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "spd": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        },
+        {
+            "species": "Hippogre",
+            "weight": 10,
+            "moves": [
+                ["Earthquake","High Horsepower"],
+                ["Gunk Shot","Poison Jab"],
+                ["Curse"],
+                ["Slack Off"]
+            ],
+            "item": ["Black Sludge"],
+            "nature": "Careful",
+            "evs": {"hp": 252, "def": 252 , "atk": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        },
+        {
+            "species": "Hippogre",
+            "weight": 20,
+            "moves": [
+                ["Headlong Rush","Earthquake"],
+                ["Gunk Shot","Poison Jab"],
+                ["Super Power","Playrough"],
+                ["Wave Crash","Wild Charge","Crunch"]
+            ],
+            "item": ["Choice Band"],
+            "nature": "Adamant",
+            "evs": {"hp": 252, "atk": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        },
+        {
+            "species": "Hippogre",
+            "weight": 5,
+            "moves": [
+                ["Earthquake"],
+                ["Gunk Shot"],
+                ["Super Power","Playrough"],
+                ["Crunch"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "spd": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        },
+        {
+            "species": "Hippogre",
+            "weight": 5,
+            "moves": [
+                ["Earthquake"],
+                ["Gunk Shot"],
+                ["Super Power","Playrough"],
+                ["Crunch"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Bold",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Thick Fat"]
+        }
+      ]
+    },
     "phlotoxico": {
       "weight": 50,
       "sets": [
         {
             "species": "Phlotoxico",
-            "weight": 50,
+            "weight": 20,
             "moves": [
                 ["Protect","Flip Turn","Haze"],
                 ["Recover"],
@@ -806,7 +886,7 @@
         },
         {
             "species": "Phlotoxico",
-            "weight": 50,
+            "weight": 20,
             "moves": [
                 ["Protect","Flip Turn","Haze"],
                 ["Recover"],

@@ -10498,6 +10498,7 @@ woopeel:{
 			horndrill: ["9M"],
 			bide: ["9M"],
 			block: ["9M"],
+			focusenergy: ["9M"],
 			defensecurl: ["9M"],
 			yawn: ["9M"],
 			snore: ["9M"],

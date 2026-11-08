@@ -6354,12 +6354,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	volkritter: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	volkraken: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	snugglow: {
 		tier: "Illegal",
@@ -6368,16 +6366,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	floatoy: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	caimanoe: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	naviathan: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	crucibelle: {
 		isNonstandard: "CAP",
@@ -6422,16 +6417,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	swirlpool: {
-		isNonstandard: "CAP",
-		tier: "CAP LC",
+		tier: "Illegal",
 	},
 	coribalis: {
-		isNonstandard: "CAP",
-		tier: "CAP NFE",
+		tier: "Illegal",
 	},
 	snaelstrom: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	justyke: {
 		tier: "Illegal",
@@ -6498,11 +6490,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	ramnarok: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "Illegal",
 	},
 	ramnarokradiant: {
-		isNonstandard: "CAP",
 		tier: "Illegal",
 	},
 	pokestarsmeargle: {
