@@ -10433,6 +10433,50 @@ woopeel:{
 			batonpass: ["9M"],
 		},
 	},
+	hippogre: {
+		learnset: {
+			//NORMAL
+			hornattack: ["9M"],
+			slackoff: ["9M"],
+			gigaimpact: ["9M"],
+			horndrill: ["9M"],
+			//BUG
+			megahorn: ["9M"],
+			//GROUND
+			muddance: ["9M"],
+			mudbomb: ["9M"],
+			mudshot: ["9M"],
+			mudslap: ["9M"],
+			earthquake: ["9M"],
+			mudsport: ["9M"],
+			dig: ["9M"],
+			//POISON
+			poisonfang: ["9M"],
+			poisontail: ["9M"],
+			//STEEL
+			heavyslam: ["9M"],
+			//WATER
+			muddywater: ["9M"],
+			//DARK
+			bite: ["9M"],
+			crunch: ["9M"],
+			//FIRE
+			firefang: ["9M"],
+			//general moves
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			facade: ["9M"],
+			rest: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			swagger: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+			batonpass: ["9M"],
+		}
+	},
 	meragaz: {
 		learnset: {
 			//FIRE
