@@ -10547,6 +10547,7 @@ woopeel:{
 			zenheadbutt: ["9M"],
 			//POISON
 			poisonfang: ["9M"],
+			poisongas: ["9M"],
 			poisontail: ["9M"],
 			belch: ["9M"],
 			sludgewave: ["9M"],
