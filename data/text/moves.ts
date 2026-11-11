@@ -4156,6 +4156,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "The user restores 1/2 of its maximum HP, rounded down.",
 		},
 	},
+	winedrink: {
+		name: "Wine Drink",
+		desc: "The user restores all of its HP. Confuses the user afterwards.",
+		shortDesc: "Restores all of user's HP. Confuses the user afterwards.",
+	},
 	mimic: {
 		name: "Mimic",
 		desc: "While the user remains active, this move is replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, if the user already knows the move, or if the move is Assist, Behemoth Bash, Behemoth Blade, Belch, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Tera Starstorm, Transform, or Wicked Torque.",

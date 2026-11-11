@@ -22812,7 +22812,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Normal",
+		type: "Poison",
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Cute",
 	},

@@ -17,6 +17,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			shortDesc: "This Pokemon's Normal-type moves become Flying type and have 1.3x power.",
 		},
 	},
+	happyhour:{
+		name: "Happy Hour",
+		desc: "On switch-in, this Pokemon's Evasion is raised by 1 stage. Confuse the user.",
+		shortDesc: "On switch-in, this Pokemon's Evasion is raised by 1 stage. Confuse the user.",
+	},
 	epidemie:{
 		name:"Epidemie",
 		desc: "Causes the target to become Epidemie. At the end of each turn, there is a 30% chance to spread Epidemic to the opponent",
