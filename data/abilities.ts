@@ -6108,6 +6108,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
     rating: 4,
     num: -395,
 	},
+	happyhour: {
+		onStart(pokemon) {
+			this.boost({ evasion: 1  }, pokemon);
+			pokemon.addVolatile('confusion');
+		},
+    flags: {},
+    name: "Happy Hour",
+    rating: 4,
+    num: -396,
+	},
+
+
+
 //	mudcoat: {
 //		onSourceModifyAtkPriority: 5,
 //		onSourceModifyAtk(atk, attacker, defender, move) {

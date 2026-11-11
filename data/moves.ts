@@ -22794,4 +22794,26 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Fire",
 	},
+	winedrink: {
+		num: -396,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Wine Drink",
+		pp: 5,
+		priority: 0,
+		flags: { snatch: 1, heal: 1, metronome: 1 },
+		onTry(source) {
+			if (source.volatiles['confusion'] ) return false;
+		},
+		onHit(source) {
+			source.addVolatile('confusion');
+			this.heal(source.maxhp);
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: { effect: 'clearnegativeboost' },
+		contestType: "Cute",
+	},
 };
