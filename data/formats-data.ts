@@ -414,7 +414,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	alcolhic: {
-		tier: "AG",
+		tier: "OU",
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},

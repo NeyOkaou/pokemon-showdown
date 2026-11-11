@@ -8140,6 +8140,25 @@ woopeel:{
 			confide: ["9M"],
 		}
 	},
+	alcolhic:{
+		learnset:{
+			//POISON
+			winedrink: ["9M"],
+			sludgebomb: ["9M"],
+			// general
+			protect: ["9M"],
+			frustration: ["9M"],
+			doubleteam: ["9M"],
+			rest: ["9M"],
+			facade: ["9M"],
+			attract: ["9M"],
+			round: ["9M"],
+			sleeptalk: ["9M"],
+			substitute: ["9M"],
+			confide: ["9M"],
+
+		}
+	},
 	bulballon: {
 		learnset: {
 			//ELECTRIC
