@@ -8186,6 +8186,7 @@ woopeel:{
 			healingwish: ["9M"],
 			//POISON
 			winedrink: ["9M"],
+			toxic: ["9M"],
 			poisonjab: ["9M"],
 			sludge: ["9M"],
 			toxicspikes: ["9M"],
