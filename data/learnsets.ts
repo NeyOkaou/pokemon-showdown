@@ -8142,10 +8142,67 @@ woopeel:{
 	},
 	alcolhic:{
 		learnset:{
+			//DARK
+			assurance: ["9M"],
+			darkpulse: ["9M"],
+			embargo: ["9M"],
+			taunt: ["9M"],
+			flatter: ["9M"],
+			nastyplot: ["9M"],
+			thief: ["9M"],
+			torment: ["9M"],
+			knockoff: ["9M"],
+			suckerpunch: ["9M"],
+			//Fighting
+			seismictoss: ["9M"],
+			//GHOST
+			destinybond: ["9M"],
+			shadowball: ["9M"],
+			//GROUND
+			spikes: ["9M"],
+			//ROC
+			stealthrock: ["9M"],
+			//ICE
+			blizzard: ["9M"],
+			chillyreception: ["9M"],
+			icepunch: ["9M"],
+			iceshard: ["9M"],
+			mist: ["9M"],
+			powdersnow: ["9M"],
+			breaktheice: ["9M"],
+			//STEE
+			cut: ["9M"],
+			//WATER
+			watersport: ["9M"],
+			lifedew: ["9M"],
+			waterpulse: ["9M"],
+			//PSYCHIC
+			allyswitch: ["9M"],
+			confusion: ["9M"],
+			psychic: ["9M"],
+			healblock: ["9M"],
+			mirrorcoat: ["9M"],
+			trick: ["9M"],
+			healingwish: ["9M"],
 			//POISON
 			winedrink: ["9M"],
+			poisonjab: ["9M"],
+			sludge: ["9M"],
+			toxicspikes: ["9M"],
 			sludgebomb: ["9M"],
-			// general
+			//NORMAL
+			teeterdance: ["9M"],
+			teatime: ["9M"],
+			happyhour: ["9M"],
+			swagger: ["9M"],
+			painsplit: ["9M"],
+			minimize: ["9M"],
+			followme: ["9M"],
+			encore: ["9M"],
+			thrash: ["9M"],
+			hyperbeam: ["9M"],
+			selfdestruct: ["9M"],
+			// geeral
 			protect: ["9M"],
 			frustration: ["9M"],
 			doubleteam: ["9M"],
