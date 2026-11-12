@@ -7652,103 +7652,103 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		isNonstandard: "CAP",
 	},
 	// MOOD ITEMS
-	frostorb: {
-		name: "Frost Orb",
-		spritenum: 7681,
-		fling: {
-			basePower: 30,
-			status: 'frz',
-		},
-		onResidualOrder: 28,
-		onResidualSubOrder: 3,
-		onResidual(pokemon) {
-			pokemon.trySetStatus('frz', pokemon);
-		},
-		num: -423,
-		gen: 9,
-	},
-	hasteorb: {
-		name: "Haste Orb",
-		spritenum: 1476,
-		fling: {
-			basePower: 30,
-		},
-		onResidualOrder: 28,
-		onResidualSubOrder: 3,
-		onResidual(pokemon) {
-			this.damage(pokemon.baseMaxhp / 10)},
-		onModifySpe(spe, pokemon) {
-			if (pokemon.volatiles['dynamax']) return;
-			return this.chainModify(1.3)},
-		num: -288,
-		gen: 9,
-	},
-	fragrantsachet: {
-		name: "Fragrant Sachet",
-		spritenum: 2130,
-		fling: {
-			basePower: 40,
-		},
-		onModifyAtkPriority: 2,
-		onModifyAtk(atk, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpAPriority: 2,
-		onModifySpA(spa, pokemon) {
-			if (pokemon.baseSpecies.nfe) {
-				return this.chainModify(1.5);
-			}
-		},
-		num: -538,
-		gen: 9,
-	},
-	cursedseal: {
-		name: "Cursed Seal",
-		spritenum: 3001,
-		onDamagingHit(damage, target, source, move) {
-			if (source.volatiles['disable']) return;
-			if (!move.isMax && !move.flags['futuremove'] && move.id !== 'struggle')
-				{source.addVolatile('disable', this.effectState.target);
-				} {target.useItem();
-			}
-		},
-		num: -130,
-		gen: 9,
-	},
-	heftyarmor: {
-		name: "Hefty Armor",
-		spritenum: 2581,
-		fling: {
-			basePower: 80,
-		},
-		onModifyDefPriority: 1,
-		onModifyDef(def) {
-			return this.chainModify(1.3);
-		},
-		onDisableMove(pokemon) {
-			if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
-		},
-		num: -893,
-		gen: 9,
-	},
-	mainputride: {
-		name: "Main Putride",
-		spritenum: 2582,
-		fling: {
-			basePower: 30,
-		},
-		num: -484,
-		gen: 9,
-	},
-	somehazards: {
-		name: "Some Hazards",
-		spritenum: 2583,
-		fling: {
-			basePower: 100,
-		},
-		num: -485,
-		gen: 9,
-	},
+	// frostorb: {
+	// 	name: "Frost Orb",
+	// 	spritenum: 7681,
+	// 	fling: {
+	// 		basePower: 30,
+	// 		status: 'frz',
+	// 	},
+	// 	onResidualOrder: 28,
+	// 	onResidualSubOrder: 3,
+	// 	onResidual(pokemon) {
+	// 		pokemon.trySetStatus('frz', pokemon);
+	// 	},
+	// 	num: -423,
+	// 	gen: 9,
+	// },
+	// hasteorb: {
+	// 	name: "Haste Orb",
+	// 	spritenum: 1476,
+	// 	fling: {
+	// 		basePower: 30,
+	// 	},
+	// 	onResidualOrder: 28,
+	// 	onResidualSubOrder: 3,
+	// 	onResidual(pokemon) {
+	// 		this.damage(pokemon.baseMaxhp / 10)},
+	// 	onModifySpe(spe, pokemon) {
+	// 		if (pokemon.volatiles['dynamax']) return;
+	// 		return this.chainModify(1.3)},
+	// 	num: -288,
+	// 	gen: 9,
+	// },
+	// fragrantsachet: {
+	// 	name: "Fragrant Sachet",
+	// 	spritenum: 2130,
+	// 	fling: {
+	// 		basePower: 40,
+	// 	},
+	// 	onModifyAtkPriority: 2,
+	// 	onModifyAtk(atk, pokemon) {
+	// 		if (pokemon.baseSpecies.nfe) {
+	// 			return this.chainModify(1.5);
+	// 		}
+	// 	},
+	// 	onModifySpAPriority: 2,
+	// 	onModifySpA(spa, pokemon) {
+	// 		if (pokemon.baseSpecies.nfe) {
+	// 			return this.chainModify(1.5);
+	// 		}
+	// 	},
+	// 	num: -538,
+	// 	gen: 9,
+	// },
+	// cursedseal: {
+	// 	name: "Cursed Seal",
+	// 	spritenum: 3001,
+	// 	onDamagingHit(damage, target, source, move) {
+	// 		if (source.volatiles['disable']) return;
+	// 		if (!move.isMax && !move.flags['futuremove'] && move.id !== 'struggle')
+	// 			{source.addVolatile('disable', this.effectState.target);
+	// 			} {target.useItem();
+	// 		}
+	// 	},
+	// 	num: -130,
+	// 	gen: 9,
+	// },
+	// heftyarmor: {
+	// 	name: "Hefty Armor",
+	// 	spritenum: 2581,
+	// 	fling: {
+	// 		basePower: 80,
+	// 	},
+	// 	onModifyDefPriority: 1,
+	// 	onModifyDef(def) {
+	// 		return this.chainModify(1.3);
+	// 	},
+	// 	onDisableMove(pokemon) {
+	// 		if (pokemon.lastMove && pokemon.lastMove.id !== 'struggle') pokemon.disableMove(pokemon.lastMove.id);
+	// 	},
+	// 	num: -893,
+	// 	gen: 9,
+	// },
+	// mainputride: {
+	// 	name: "Main Putride",
+	// 	spritenum: 2582,
+	// 	fling: {
+	// 		basePower: 30,
+	// 	},
+	// 	num: -484,
+	// 	gen: 9,
+	// },
+	// somehazards: {
+	// 	name: "Some Hazards",
+	// 	spritenum: 2583,
+	// 	fling: {
+	// 		basePower: 100,
+	// 	},
+	// 	num: -485,
+	// 	gen: 9,
+	// },
 };
