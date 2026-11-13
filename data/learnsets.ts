@@ -123,6 +123,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			crosspoison: ["9M"],
 			gunkshot: ["9M"],
 			sludgebomb: ["9M"],
+			toxic: ["9M"],
 			//NORMAL
 			whirlwind: ["9M"],
 			supersonic: ["9M"],
@@ -130,7 +131,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psychup: ["9M"],
 			mindreader: ["9M"],
 			meanlook: ["9M"],
-			glare: ["9M"],
 			leer: ["9M"],
 			foresight: ["9M"],
 			disable: ["9M"],
