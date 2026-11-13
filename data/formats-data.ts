@@ -402,20 +402,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	hippogre: {
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	chiropsy: {
 		tier: "LC",
 	},
 	psychobat: {
-		tier: "AG",
-		doublesTier: "DUber",
+		tier: "OU",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	alcolhic: {
 		tier: "OU",
-		doublesTier: "DUber",
+		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
 	merachan: {

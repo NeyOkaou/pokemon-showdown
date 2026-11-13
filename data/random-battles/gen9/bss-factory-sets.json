@@ -731,7 +731,7 @@
                 ["Shadow Ball","Dark Pulse","Psychic"],
                 ["Sludge Bomb"],
                 ["Nasty Plot"],
-                ["Protect"]
+                ["Wine Drink","Substitute","Protect"]
             ],
             "item": ["Lum Berry","Black Sludge"],
             "nature": "Modest",
@@ -821,7 +821,7 @@
                 ["Wine Drink"],
                 ["Sludge Bomb"],
                 ["Toxic","Teeter Dance","Stealth Rock"],
-                ["Healing Wish"]
+                ["Healing Wish","Chilly Reception"]
             ],
             "item": ["Shuca Berry"],
             "nature": "Calm",
