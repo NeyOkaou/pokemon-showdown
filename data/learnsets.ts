@@ -110,7 +110,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psybeam: ["9M"],
 			miracleeye: ["9M"],
 			magicroom: ["9M"],
-			futursight: ["9M"],
+			futuresight: ["9M"],
 			freezingglare: ["9M"],
 			extrasensory: ["9M"],
 			dreameater: ["9M"],
