@@ -67,6 +67,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			babydolleyes: ["9M"],
 			//FIGHTING
 			drainpunch: ["9M"],
+			brickbreak: ["9M"],
 			//FIRE
 			firefang: ["9M"],
 			//FLYING
