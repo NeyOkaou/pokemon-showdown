@@ -70,6 +70,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			brickbreak: ["9M"],
 			//FIRE
 			firefang: ["9M"],
+			heatwave: ["9M"],
 			//FLYING
 			acrobatics: ["9M"],
 			fly: ["9M"],
@@ -110,6 +111,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psybeam: ["9M"],
 			miracleeye: ["9M"],
 			magicroom: ["9M"],
+			expandingforce: ["9M"],
 			futuresight: ["9M"],
 			freezingglare: ["9M"],
 			extrasensory: ["9M"],
