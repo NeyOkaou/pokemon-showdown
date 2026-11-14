@@ -721,6 +721,161 @@
         }
       ]
     },
+    "psychobat": {
+      "weight": 50,
+      "sets": [
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Expanding Force"],
+                ["Sludge Bomb"],
+                ["Heat Wave"],
+                ["Night Daze","Dark Pulse"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Naive",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Psychic Surge"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Freezing Glare","Psychic"],
+                ["Sludge Bomb"],
+                ["Heat Wave","Night Daze"],
+                ["Think Fast"]
+            ],
+            "item": ["Choice Specs","Life Orb"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Trace"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 10,
+            "moves": [
+                ["Freezing Glare","Psychic"],
+                ["Hyper Voice"],
+                ["Heat Wave"],
+                ["Think Fast"]
+            ],
+            "item": ["Throat Spray"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Trace"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 10,
+            "moves": [
+                ["Expanding Force"],
+                ["Hyper Voice"],
+                ["Heat Wave"],
+                ["Sludge Bomb"]
+            ],
+            "item": ["Throat Spray"],
+            "nature": "Modest",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Psychic Surge"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Psychic Fangs"],
+                ["Gunk Shot","Cross Poison"],
+                ["Drain Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Naive",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Psychic Surge","Vampire"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Psychic Fangs"],
+                ["Gunk Shot"],
+                ["Hone Claws"],
+                ["Strength Sap"]
+            ],
+            "item": ["Psychic Seed"],
+            "nature": "Adamant",
+            "evs": {"atk": 252, "hp": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Psychic Surge"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Freezing Glare"],
+                ["Sludge Bomb"],
+                ["Drain Punch"],
+                ["Knock Off","Think Fast"]
+            ],
+            "item": ["Assault Vest"],
+            "nature": "Quiet",
+            "evs": {"hp": 252, "spa": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 10,
+            "moves": [
+                ["Expanding Force"],
+                ["Sludge Bomb","Gunk Shot"],
+                ["Heat Wave","Drain Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Naive",
+            "evs": {"spa": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Psychic Surge"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 10,
+            "moves": [
+                ["Freezing Glare","Psychic"],
+                ["Sludge Bomb"],
+                ["Drain Punch"],
+                ["Knock Off"]
+            ],
+            "item": ["Choice Scarf"],
+            "nature": "Naive",
+            "evs": {"atk": 252, "spe": 252 , "def": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        },
+        {
+            "species": "Psychobat",
+            "weight": 20,
+            "moves": [
+                ["Psychic Noise"],
+                ["Strength Sap"],
+                ["Toxik","Defog"],
+                ["Knock Off"]
+            ],
+            "item": ["Heavy-Duty Boots"],
+            "nature": "Relaxed",
+            "evs": {"hp": 252, "def": 252 , "spd": 4 },
+            "teraType": ["Fairy"],
+            "ability": ["Vampire"]
+        }
+      ]
+    },
     "alcolhic": {
       "weight": 50,
       "sets": [
